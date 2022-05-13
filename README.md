@@ -8,4 +8,4 @@ It turns out if you create a self named repo with a readme you can leave a messa
 # Connect With Me!
 
 [<img align="left" alt="arran4.github.io" width="22px" src="https://raw.githubusercontent.com/iconic/open-iconic/master/svg/globe.svg" />](https://arran4.github.io)
-[<img align="left" alt="arran.ubels | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />](https://linkedin.com/in/arran.ubels)
+[<img align="left" alt="arranubels | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />](https://linkedin.com/in/arranubels)

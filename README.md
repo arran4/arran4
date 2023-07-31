@@ -10,7 +10,6 @@ It turns out if you create a self named repo with a readme you can leave a messa
 ![](http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=arran4&theme=default)
 ![](http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=arran4&theme=default)
 
-# Connect With Me!
 
 [<img align="left" alt="arran4.github.io" width="22px" src="https://raw.githubusercontent.com/iconic/open-iconic/master/svg/globe.svg" />](https://arran4.github.io)
 [<img align="left" alt="arranubels | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />](https://linkedin.com/in/arranubels)

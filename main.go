@@ -11,8 +11,8 @@ func main() {
     fmt.Println("Path:", os.Getenv("Path"))
     fmt.Println("PathExt:", os.Getenv("PathExt"))
 
-	pathExt = strings.Split(os.Getenv("PathExt"), string(";"))
-	paths = strings.Split(os.Getenv("Path"), string(";"))
+	pathExt := strings.Split(os.Getenv("PathExt"), string(";"))
+	paths := strings.Split(os.Getenv("Path"), string(";"))
 
 	fmt.Println("Path:", paths)
     fmt.Println("PathExt:", pathExt)

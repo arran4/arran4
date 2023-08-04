@@ -1,0 +1,15 @@
+name: main
+on:
+  push:
+
+jobs:
+  test-windows:
+    needs: changes
+    if: github.event_name == 'push' || needs.changes.outputs.code == 'true'
+    runs-on: windows-2019
+    steps:
+    - uses: actions/checkout@v3
+    - uses: actions/setup-go@v4
+    - name: build
+      run: |
+        go run .

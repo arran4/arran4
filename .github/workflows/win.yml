@@ -11,4 +11,4 @@ jobs:
     - uses: actions/setup-go@v4
     - name: build
       run: |
-        go run .
+        go run main.go

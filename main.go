@@ -3,7 +3,8 @@ package main
 import (
 	"fmt"
 	"strings"
-	"os"
+    "io/ioutil"
+    "os"
 )
 
 func main() {

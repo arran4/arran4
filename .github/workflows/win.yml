@@ -4,7 +4,6 @@ on:
 
 jobs:
   test-windows:
-    needs: changes
     if: github.event_name == 'push' || needs.changes.outputs.code == 'true'
     runs-on: windows-2019
     steps:

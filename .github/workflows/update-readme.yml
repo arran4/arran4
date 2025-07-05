@@ -1,0 +1,25 @@
+name: Update README repo table
+on:
+  workflow_dispatch:
+  #schedule:
+  #  - cron: '0 0 * * 1'
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Install dependencies
+        run: sudo apt-get update && sudo apt-get install -y jq
+      - name: Update table
+        run: bash scripts/update_repo_table.sh
+      - name: Commit changes
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add README.md
+          if git diff --cached --quiet; then
+            echo "No changes"
+          else
+            git commit -m "Update repo table" && git push
+          fi

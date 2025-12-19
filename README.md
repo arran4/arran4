@@ -26,6 +26,8 @@ Have questions or feedback? [Open an issue](https://github.com/arran4/arran4/iss
 | Repository | Description | Tags |
 |---|---|---|
 | [git-tag-inc](https://github.com/arran4/git-tag-inc) | Yet another semantic version incrementor and tagger for git  | cli, git, git-tag, git-tags, go, golang, semantic, semantic-versioning, util |
+| [go-subcommand](https://github.com/arran4/go-subcommand) | Generates dependencyless go command line argument subcommand system | cli, cli-subcommands, flags, geneated-flags, go, go-generate, subcommands |
+| [mdsplit](https://github.com/arran4/mdsplit) | Splits markdown files into chunks suitable for processing with other tools or making into slides | cli, go, markdown |
 | [mostcomm](https://github.com/arran4/mostcomm) | A cli utility for finding the most common and sorting by length, lines-sets in a text file | cli, common, common-lines, diff, go, golang, merge, multiple |
 | [move-dups-script](https://github.com/arran4/move-dups-script) | Simple program to move dups nothing really interesting - Once off go project which could have been a shell script | cli, go, golang, golang-cli, shell-script-as-go |
 | [mvcommon](https://github.com/arran4/mvcommon) | Tool for moving files into a folder where they have a common prefix | cli, mv, smart-tools |
@@ -53,6 +55,7 @@ Have questions or feedback? [Open an issue](https://github.com/arran4/arran4/iss
 | Repository | Description | Tags |
 |---|---|---|
 | [arrans_overlay](https://github.com/arran4/arrans_overlay) | Arrans Gentoo Overlay | gentoo, gentoo-overlay, gentoo-portage-overlay, overlay, portage-overlay |
+| [arrans_overlay_workflow_builder](https://github.com/arran4/arrans_overlay_workflow_builder) | A gentoo overlay ebuild workflow builder generator for -bin with a special purpose handler for .appimage binary files | gentoo, builder, ebuild, generator, gentoo-overlay, github-workflow |
 | [g2](https://github.com/arran4/g2) | g2 Gentoo Tools | gentoo, gentoo-utils, golang |
 
 ### golang-library
@@ -93,7 +96,11 @@ Have questions or feedback? [Open an issue](https://github.com/arran4/arran4/iss
 ### rss
 | Repository | Description | Tags |
 |---|---|---|
-| [discord-rss-cron](https://github.com/arran4/discord-rss-cron) | Very basic cron job discord bot for publishing the latest entry in an rss feed. | rss, bot, discord, golang, webhook |
+| [abc-justin-rss](https://github.com/arran4/abc-justin-rss) | ABC news just-in to rss converter - generated | rss, abc, abc-news, rss-generator |
+| [abc-kohler-report-rss](https://github.com/arran4/abc-kohler-report-rss) | RSS generator for ABC's Kohler Report | rss, abc, abc-news, rss-generator |
+| [abc-mediawatch-rss](https://github.com/arran4/abc-mediawatch-rss) | RSS generator for ABC's Media Watch | rss, abc, abc-media-watch, rss-generator |
+| [phpbb2-rss](https://github.com/arran4/phpbb2-rss) | RSS generator for any phpbb2 forum | rss, golang, phpbb, phpbb2, rss-generator |
+| [whirlpool-forum-rss](https://github.com/arran4/whirlpool-forum-rss) | An RSS Generator for the Whirlpool.net.au forums | rss, rss-gen, rss-generator, whirlpool, whirlpool-forums |
 
 ### web
 | Repository | Description | Tags |
@@ -104,11 +111,8 @@ Have questions or feedback? [Open an issue](https://github.com/arran4/arran4/iss
 ### Unmatched
 | Repository | Description | Tags |
 |---|---|---|
-| [abc-justin-rss](https://github.com/arran4/abc-justin-rss) | ABC news just-in to rss converter - generated |  |
-| [abc-kohler-report-rss](https://github.com/arran4/abc-kohler-report-rss) | RSS generator for ABC's Kohler Report |  |
-| [abc-mediawatch-rss](https://github.com/arran4/abc-mediawatch-rss) |  |  |
 | [arran4](https://github.com/arran4/arran4) | Github Profile landing page github repo | github, github-profile, github-profile-readme |
-| [arrans_overlay_workflow_builder](https://github.com/arran4/arrans_overlay_workflow_builder) |  |  |
+| [chat-barcodes](https://github.com/arran4/chat-barcodes) | Chat barcode cheatsheet | barcodes, chat, chat-barcodes, chat-cheatsheet, chat-shortcuts, cheetsheet |
 | [datastoreutils](https://github.com/arran4/datastoreutils) | Basic google cloud datastore helpers | datastore, go, go-google-app-engine, golang, google-app-engine, google-datastore |
 | [dotfiles](https://github.com/arran4/dotfiles) | Just a collection of dotfiles managed by Chezmoi | chezmoi, dotfiles |
 | [dsquery](https://github.com/arran4/dsquery) | A google datastore query aggregator and compiler with some minor enhancements | datastore, golang, google-appengine |
@@ -116,22 +120,24 @@ Have questions or feedback? [Open an issue](https://github.com/arran4/arran4/iss
 | [flutter_google_datastore](https://github.com/arran4/flutter_google_datastore) | Google Datastore and Datastore emulator client for "easy" modification of values | dart, datastore, flutter, google |
 | [flutter_nodelistview](https://github.com/arran4/flutter_nodelistview) | A flutter widget which uses an infinite list of double linked nodes |  |
 | [gaelogger](https://github.com/arran4/gaelogger) | Another google apps engine go logger this one is for the new go111+ world.. | go, golang, google-app-engine, google-app-engine-logger, logger-abstraction |
-| [go-evaluator](https://github.com/arran4/go-evaluator) |  |  |
+| [git-barcode-sheet](https://github.com/arran4/git-barcode-sheet) | Git barcode based cheat sheet | barcode-cheatsheet, barcodes, cheetsheet, git, git-barcodes, git-cheatsheet |
+| [go-evaluator](https://github.com/arran4/go-evaluator) | A simple evaluation markup with a simple parser too.  | eval, evaluation-language, go, golang, golib, simple |
 | [go-template-functional-operations](https://github.com/arran4/go-template-functional-operations) | These functions enable a more functional programming style within template rendering, allowing you to easily perform operations like mapping, filtering, and finding indices directly within your templates. | functional-go-template, go, go-template, go-template-functions, golang |
-| [goa4web](https://github.com/arran4/goa4web) |  |  |
+| [goa4web](https://github.com/arran4/goa4web) | My everything website (server) from 2005 ported from C to GO. Ready for news, forums, link sharing, image sharing and more | cms, forum, image-sharing, link-sharing, news, webserver |
+| [gorillas-react](https://github.com/arran4/gorillas-react) | Generated gorillas in react |  |
+| [interactions](https://github.com/arran4/interactions) | How things interact |  |
 | [lemmy_notify](https://github.com/arran4/lemmy_notify) | Lemmy Notification app - for desktop atm | desktop, flutter, lemmy |
 | [lookup](https://github.com/arran4/lookup) | A golang structure based element lookup library | go, golang, jsonpath, lookup |
 | [matchStickProblem](https://github.com/arran4/matchStickProblem) | Generates an image of solving the "match stick problem" (move a match stick) for amusement | amusement, fun, match-stick |
 | [md2png](https://github.com/arran4/md2png) | Very basic generated md2png  | converter, markdown, png |
-| [phpbb2-rss](https://github.com/arran4/phpbb2-rss) |  |  |
 | [resume](https://github.com/arran4/resume) | Arrans Resume | cv, resume, typst |
-| [rntocase](https://github.com/arran4/rntocase) | Some utilities to rename files, to upper, lower, title, camel, kebab, darwin case and many more |  |
+| [rntocase](https://github.com/arran4/rntocase) | Some utilities to rename files, to upper, lower, title, camel, kebab, darwin case and many more | case-changer, commandline-tool, filename, filename-case-changer, go, golibrary |
 | [send_to_linkwarden](https://github.com/arran4/send_to_linkwarden) | Mobile version of Linkwarden | android, archiving, flutter, link, linkwarden, mobile, tool |
 | [shineyshot](https://github.com/arran4/shineyshot) | A simple screenshotting tool with several user modes | linux, screencap, screenshot, tool, wayland, x11 |
 | [test](https://github.com/arran4/test) | test repo for another project | go, golang, test, test-repo |
-| [tex_recipes_template](https://github.com/arran4/tex_recipes_template) |  |  |
+| [tex_recipes_template](https://github.com/arran4/tex_recipes_template) | A very simple tex engine for recipes helpful for an AI world | recipes, template, tex |
+| [vim-barcode-sheet](https://github.com/arran4/vim-barcode-sheet) | Vim Barcodes Cheat Sheet to help with vim  | cheatsheet, vim, vim-cheatsheet, vimcheatsheet |
 | [vlc-xattr-plugin](https://github.com/arran4/vlc-xattr-plugin) | A plugin for VLC to add "seen" to the `xdg.tags` list automatically when ever you watch anything | c, cmake, fs-attr, plugins, vlc, vlc-plugin, xattr |
-| [whirlpool-forum-rss](https://github.com/arran4/whirlpool-forum-rss) | Whirlpool Forum RSS converter |  |
 
 <!--repos-end-->
 

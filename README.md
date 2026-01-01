@@ -20,7 +20,9 @@ Have questions or feedback? [Open an issue](https://github.com/arran4/arran4/iss
 | Repository | Description | Tags |
 |---|---|---|
 | [awesome-fodmap-resources](https://github.com/arran4/awesome-fodmap-resources) | Compilation of Low Fodmap resources | awesome-list, awesome, fodmap, fodmaps, low-fodmap |
+| [awesome-postserver](https://github.com/arran4/awesome-postserver) | Awesome Post-Cloud Post-NAS (True Serverless) Syncing | awesome-list, awesome, list, postnas, postserver, serverless, true-serverless |
 | [awesome-terminal-multiplexers](https://github.com/arran4/awesome-terminal-multiplexers) | Simple awesome list of terminal multiplexers | awesome-list, awesome, terminal, terminal-multiplexers |
+| [ux](https://github.com/arran4/ux) | Some design links I refer to  | awesome-list, design, docs, links, list, references, ui, ui-design, ux, ux-design |
 
 ### cli
 | Repository | Description | Tags |
@@ -113,15 +115,19 @@ Have questions or feedback? [Open an issue](https://github.com/arran4/arran4/iss
 |---|---|---|
 | [arran4](https://github.com/arran4/arran4) | Github Profile landing page github repo | github, github-profile, github-profile-readme |
 | [chat-barcodes](https://github.com/arran4/chat-barcodes) | Chat barcode cheatsheet | barcodes, chat, chat-barcodes, chat-cheatsheet, chat-shortcuts, cheetsheet |
+| [dartobjectutils](https://github.com/arran4/dartobjectutils) | Dart Constructor Type Enforcement / Conversion | dart, object-construction-utils, object-verification |
 | [datastoreutils](https://github.com/arran4/datastoreutils) | Basic google cloud datastore helpers | datastore, go, go-google-app-engine, golang, google-app-engine, google-datastore |
 | [dotfiles](https://github.com/arran4/dotfiles) | Just a collection of dotfiles managed by Chezmoi | chezmoi, dotfiles |
 | [dsquery](https://github.com/arran4/dsquery) | A google datastore query aggregator and compiler with some minor enhancements | datastore, golang, google-appengine |
 | [editorconfig-guesser](https://github.com/arran4/editorconfig-guesser) | Generates reasonable .editorconfig files for source files. | editorconfig, generator |
 | [flutter_google_datastore](https://github.com/arran4/flutter_google_datastore) | Google Datastore and Datastore emulator client for "easy" modification of values | dart, datastore, flutter, google |
+| [flutter_jules](https://github.com/arran4/flutter_jules) |  |  |
 | [flutter_nodelistview](https://github.com/arran4/flutter_nodelistview) | A flutter widget which uses an infinite list of double linked nodes |  |
 | [gaelogger](https://github.com/arran4/gaelogger) | Another google apps engine go logger this one is for the new go111+ world.. | go, golang, google-app-engine, google-app-engine-logger, logger-abstraction |
 | [git-barcode-sheet](https://github.com/arran4/git-barcode-sheet) | Git barcode based cheat sheet | barcode-cheatsheet, barcodes, cheetsheet, git, git-barcodes, git-cheatsheet |
 | [go-evaluator](https://github.com/arran4/go-evaluator) | A simple evaluation markup with a simple parser too.  | eval, evaluation-language, go, golang, golib, simple |
+| [go-objectutils](https://github.com/arran4/go-objectutils) | Go objectutils for go.  | go, go-library, type-converstion |
+| [go-pattern](https://github.com/arran4/go-pattern) | image.Image patterns |  |
 | [go-template-functional-operations](https://github.com/arran4/go-template-functional-operations) | These functions enable a more functional programming style within template rendering, allowing you to easily perform operations like mapping, filtering, and finding indices directly within your templates. | functional-go-template, go, go-template, go-template-functions, golang |
 | [goa4web](https://github.com/arran4/goa4web) | My everything website (server) from 2005 ported from C to GO. Ready for news, forums, link sharing, image sharing and more | cms, forum, image-sharing, link-sharing, news, webserver |
 | [gorillas-react](https://github.com/arran4/gorillas-react) | Generated gorillas in react |  |

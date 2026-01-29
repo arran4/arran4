@@ -117,6 +117,8 @@ Have questions or feedback? [Open an issue](https://github.com/arran4/arran4/iss
 | [chat-barcodes](https://github.com/arran4/chat-barcodes) | Chat barcode cheatsheet | barcodes, chat, chat-barcodes, chat-cheatsheet, chat-shortcuts, cheetsheet |
 | [dartobjectutils](https://github.com/arran4/dartobjectutils) | Dart Constructor Type Enforcement / Conversion | dart, object-construction-utils, object-verification |
 | [datastoreutils](https://github.com/arran4/datastoreutils) | Basic google cloud datastore helpers | datastore, go, go-google-app-engine, golang, google-app-engine, google-datastore |
+| [directoryGrouperBySize](https://github.com/arran4/directoryGrouperBySize) | Tools that help you group directories to a paricular size range. (ie getting things to fit on dvds.) | directory-tools, go, helpers, tools |
+| [dirtools](https://github.com/arran4/dirtools) |  |  |
 | [dotfiles](https://github.com/arran4/dotfiles) | Just a collection of dotfiles managed by Chezmoi | chezmoi, dotfiles |
 | [dsquery](https://github.com/arran4/dsquery) | A google datastore query aggregator and compiler with some minor enhancements | datastore, golang, google-appengine |
 | [editorconfig-guesser](https://github.com/arran4/editorconfig-guesser) | Generates reasonable .editorconfig files for source files. | editorconfig, generator |
@@ -126,11 +128,13 @@ Have questions or feedback? [Open an issue](https://github.com/arran4/arran4/iss
 | [gaelogger](https://github.com/arran4/gaelogger) | Another google apps engine go logger this one is for the new go111+ world.. | go, golang, google-app-engine, google-app-engine-logger, logger-abstraction |
 | [git-barcode-sheet](https://github.com/arran4/git-barcode-sheet) | Git barcode based cheat sheet | barcode-cheatsheet, barcodes, cheetsheet, git, git-barcodes, git-cheatsheet |
 | [go-evaluator](https://github.com/arran4/go-evaluator) | A simple evaluation markup with a simple parser too.  | eval, evaluation-language, go, golang, golib, simple |
+| [go-lojban-password-gen](https://github.com/arran4/go-lojban-password-gen) | Lojban password generator - Generate passwords that use lojban | binary, go, lojban, password, password-generator |
 | [go-objectutils](https://github.com/arran4/go-objectutils) | Go objectutils for go.  | go, go-library, type-converstion |
 | [go-pattern](https://github.com/arran4/go-pattern) | image.Image patterns |  |
 | [go-template-functional-operations](https://github.com/arran4/go-template-functional-operations) | These functions enable a more functional programming style within template rendering, allowing you to easily perform operations like mapping, filtering, and finding indices directly within your templates. | functional-go-template, go, go-template, go-template-functions, golang |
 | [goa4web](https://github.com/arran4/goa4web) | My everything website (server) from 2005 ported from C to GO. Ready for news, forums, link sharing, image sharing and more | cms, forum, image-sharing, link-sharing, news, webserver |
 | [gorillas-react](https://github.com/arran4/gorillas-react) | Generated gorillas in react |  |
+| [heatplot](https://github.com/arran4/heatplot) | This program takes a formula and plots the "heat" for any particular location | golang, graph, heatplot, maths, plot |
 | [interactions](https://github.com/arran4/interactions) | How things interact |  |
 | [lemmy_notify](https://github.com/arran4/lemmy_notify) | Lemmy Notification app - for desktop atm | desktop, flutter, lemmy |
 | [lookup](https://github.com/arran4/lookup) | A golang structure based element lookup library | go, golang, jsonpath, lookup |
@@ -138,8 +142,10 @@ Have questions or feedback? [Open an issue](https://github.com/arran4/arran4/iss
 | [md2png](https://github.com/arran4/md2png) | Very basic generated md2png  | converter, markdown, png |
 | [resume](https://github.com/arran4/resume) | Arrans Resume | cv, resume, typst |
 | [rntocase](https://github.com/arran4/rntocase) | Some utilities to rename files, to upper, lower, title, camel, kebab, darwin case and many more | case-changer, commandline-tool, filename, filename-case-changer, go, golibrary |
+| [rotatingcircles](https://github.com/arran4/rotatingcircles) | Generates an optical illusion: Rotating circles | generator, golang, optical-illusion |
 | [send_to_linkwarden](https://github.com/arran4/send_to_linkwarden) | Mobile version of Linkwarden | android, archiving, flutter, link, linkwarden, mobile, tool |
 | [shineyshot](https://github.com/arran4/shineyshot) | A simple screenshotting tool with several user modes | linux, screencap, screenshot, tool, wayland, x11 |
+| [skillsmatrixkmeans](https://github.com/arran4/skillsmatrixkmeans) |  |  |
 | [test](https://github.com/arran4/test) | test repo for another project | go, golang, test, test-repo |
 | [tex_recipes_template](https://github.com/arran4/tex_recipes_template) | A very simple tex engine for recipes helpful for an AI world | recipes, template, tex |
 | [vim-barcode-sheet](https://github.com/arran4/vim-barcode-sheet) | Vim Barcodes Cheat Sheet to help with vim  | cheatsheet, vim, vim-cheatsheet, vimcheatsheet |

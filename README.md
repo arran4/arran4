@@ -122,6 +122,7 @@ Have questions or feedback? [Open an issue](https://github.com/arran4/arran4/iss
 | [dotfiles](https://github.com/arran4/dotfiles) | Just a collection of dotfiles managed by Chezmoi | chezmoi, dotfiles |
 | [dsquery](https://github.com/arran4/dsquery) | A google datastore query aggregator and compiler with some minor enhancements | datastore, golang, google-appengine |
 | [editorconfig-guesser](https://github.com/arran4/editorconfig-guesser) | Generates reasonable .editorconfig files for source files. | editorconfig, generator |
+| [eightbyeight](https://github.com/arran4/eightbyeight) | golang based dithering experiments | dithering, golang, graphics |
 | [flutter_google_datastore](https://github.com/arran4/flutter_google_datastore) | Google Datastore and Datastore emulator client for "easy" modification of values | dart, datastore, flutter, google |
 | [flutter_jules](https://github.com/arran4/flutter_jules) |  |  |
 | [flutter_nodelistview](https://github.com/arran4/flutter_nodelistview) | A flutter widget which uses an infinite list of double linked nodes |  |

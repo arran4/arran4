@@ -128,6 +128,7 @@ Have questions or feedback? [Open an issue](https://github.com/arran4/arran4/iss
 | [flutter_nodelistview](https://github.com/arran4/flutter_nodelistview) | A flutter widget which uses an infinite list of double linked nodes |  |
 | [gaelogger](https://github.com/arran4/gaelogger) | Another google apps engine go logger this one is for the new go111+ world.. | go, golang, google-app-engine, google-app-engine-logger, logger-abstraction |
 | [git-barcode-sheet](https://github.com/arran4/git-barcode-sheet) | Git barcode based cheat sheet | barcode-cheatsheet, barcodes, cheetsheet, git, git-barcodes, git-cheatsheet |
+| [go-be-lazy](https://github.com/arran4/go-be-lazy) | Varidct based behavoural lazy evaluation |  |
 | [go-evaluator](https://github.com/arran4/go-evaluator) | A simple evaluation markup with a simple parser too.  | eval, evaluation-language, go, golang, golib, simple |
 | [go-lojban-password-gen](https://github.com/arran4/go-lojban-password-gen) | Lojban password generator - Generate passwords that use lojban | binary, go, lojban, password, password-generator |
 | [go-objectutils](https://github.com/arran4/go-objectutils) | Go objectutils for go.  | go, go-library, type-converstion |

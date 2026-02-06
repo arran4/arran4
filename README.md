@@ -122,9 +122,9 @@ Have questions or feedback? [Open an issue](https://github.com/arran4/arran4/iss
 | [dotfiles](https://github.com/arran4/dotfiles) | Just a collection of dotfiles managed by Chezmoi | chezmoi, dotfiles |
 | [dsquery](https://github.com/arran4/dsquery) | A google datastore query aggregator and compiler with some minor enhancements | datastore, golang, google-appengine |
 | [editorconfig-guesser](https://github.com/arran4/editorconfig-guesser) | Generates reasonable .editorconfig files for source files. | editorconfig, generator |
-| [eightbyeight](https://github.com/arran4/eightbyeight) | golang based dithering experiments | dithering, golang, graphics |
+| [eightbyeight](https://github.com/arran4/eightbyeight) | golang based dithering experiments | dithering, experiment, golang, graphics |
 | [flutter_google_datastore](https://github.com/arran4/flutter_google_datastore) | Google Datastore and Datastore emulator client for "easy" modification of values | dart, datastore, flutter, google |
-| [flutter_jules](https://github.com/arran4/flutter_jules) |  |  |
+| [flutter_jules](https://github.com/arran4/flutter_jules) | My flutter based google jules client  | app, flutter, jules, linux, mac, windows |
 | [flutter_nodelistview](https://github.com/arran4/flutter_nodelistview) | A flutter widget which uses an infinite list of double linked nodes |  |
 | [gaelogger](https://github.com/arran4/gaelogger) | Another google apps engine go logger this one is for the new go111+ world.. | go, golang, google-app-engine, google-app-engine-logger, logger-abstraction |
 | [git-barcode-sheet](https://github.com/arran4/git-barcode-sheet) | Git barcode based cheat sheet | barcode-cheatsheet, barcodes, cheetsheet, git, git-barcodes, git-cheatsheet |
@@ -137,6 +137,7 @@ Have questions or feedback? [Open an issue](https://github.com/arran4/arran4/iss
 | [goa4web](https://github.com/arran4/goa4web) | My everything website (server) from 2005 ported from C to GO. Ready for news, forums, link sharing, image sharing and more | cms, forum, image-sharing, link-sharing, news, webserver |
 | [gorillas-react](https://github.com/arran4/gorillas-react) | Generated gorillas in react |  |
 | [heatplot](https://github.com/arran4/heatplot) | This program takes a formula and plots the "heat" for any particular location | golang, graph, heatplot, maths, plot |
+| [image-formula-find](https://github.com/arran4/image-formula-find) | Experimenting with genetic algorithms | experiment, experimentation, genetic-algorithms, go, golang |
 | [interactions](https://github.com/arran4/interactions) | How things interact |  |
 | [lemmy_notify](https://github.com/arran4/lemmy_notify) | Lemmy Notification app - for desktop atm | desktop, flutter, lemmy |
 | [lookup](https://github.com/arran4/lookup) | A golang structure based element lookup library | go, golang, jsonpath, lookup |
@@ -148,6 +149,7 @@ Have questions or feedback? [Open an issue](https://github.com/arran4/arran4/iss
 | [send_to_linkwarden](https://github.com/arran4/send_to_linkwarden) | Mobile version of Linkwarden | android, archiving, flutter, link, linkwarden, mobile, tool |
 | [shineyshot](https://github.com/arran4/shineyshot) | A simple screenshotting tool with several user modes | linux, screencap, screenshot, tool, wayland, x11 |
 | [skillsmatrixkmeans](https://github.com/arran4/skillsmatrixkmeans) |  |  |
+| [strings2](https://github.com/arran4/strings2) | Some golang string helper functions focused around case transformation but other things in the future. | case, golang, string-case, strings |
 | [test](https://github.com/arran4/test) | test repo for another project | go, golang, test, test-repo |
 | [tex_recipes_template](https://github.com/arran4/tex_recipes_template) | A very simple tex engine for recipes helpful for an AI world | recipes, template, tex |
 | [vim-barcode-sheet](https://github.com/arran4/vim-barcode-sheet) | Vim Barcodes Cheat Sheet to help with vim  | cheatsheet, vim, vim-cheatsheet, vimcheatsheet |

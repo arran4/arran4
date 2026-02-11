@@ -87,6 +87,7 @@ Have questions or feedback? [Open an issue](https://github.com/arran4/arran4/iss
 ### library
 | Repository | Description | Tags |
 |---|---|---|
+| [go-consume](https://github.com/arran4/go-consume) | String and slice consumption librareis | library, go, parser, parsing, string, tokenizer |
 | [go-rfc5849-hmac](https://github.com/arran4/go-rfc5849-hmac) | Implementation of rfc5849 hmac wrapper | library, go, golang, rfc5849, rfc5849-hmac |
 | [golang-ical](https://github.com/arran4/golang-ical) | A  ICS / ICal parser and serialiser for Golang. | library, golang, ical, ics |
 
@@ -129,7 +130,6 @@ Have questions or feedback? [Open an issue](https://github.com/arran4/arran4/iss
 | [gaelogger](https://github.com/arran4/gaelogger) | Another google apps engine go logger this one is for the new go111+ world.. | go, golang, google-app-engine, google-app-engine-logger, logger-abstraction |
 | [git-barcode-sheet](https://github.com/arran4/git-barcode-sheet) | Git barcode based cheat sheet | barcode-cheatsheet, barcodes, cheetsheet, git, git-barcodes, git-cheatsheet |
 | [go-be-lazy](https://github.com/arran4/go-be-lazy) | Varidct based behavoural lazy evaluation |  |
-| [go-consume](https://github.com/arran4/go-consume) | String and slice consumption librareis |  |
 | [go-evaluator](https://github.com/arran4/go-evaluator) | A simple evaluation markup with a simple parser too.  | eval, evaluation-language, go, golang, golib, simple |
 | [go-lojban-password-gen](https://github.com/arran4/go-lojban-password-gen) | Lojban password generator - Generate passwords that use lojban | binary, go, lojban, password, password-generator |
 | [go-objectutils](https://github.com/arran4/go-objectutils) | Go objectutils for go.  | go, go-library, type-converstion |

@@ -63,7 +63,7 @@ Have questions or feedback? [Open an issue](https://github.com/arran4/arran4/iss
 ### golang-library
 | Repository | Description | Tags |
 |---|---|---|
-| [golang-rcs](https://github.com/arran4/golang-rcs) | golang rcs parser / generator | golang-library, rcs, vcs |
+| [golang-rcs](https://github.com/arran4/golang-rcs) | golang rcs parser / generator, and utilities | golang-library, rcs, vcs |
 | [spacemap](https://github.com/arran4/spacemap) | 2d space mapper, using a couple different algorithms with an interchangable interface | golang-library, go, golang, image-mapper, location, location-lookup, space-mapping |
 
 ### golang-library + image

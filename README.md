@@ -136,6 +136,7 @@ Have questions or feedback? [Open an issue](https://github.com/arran4/arran4/iss
 | [go-pattern](https://github.com/arran4/go-pattern) | image.Image patterns |  |
 | [go-template-functional-operations](https://github.com/arran4/go-template-functional-operations) | These functions enable a more functional programming style within template rendering, allowing you to easily perform operations like mapping, filtering, and finding indices directly within your templates. | functional-go-template, go, go-template, go-template-functions, golang |
 | [goa4web](https://github.com/arran4/goa4web) | My everything website (server) from 2005 ported from C to GO. Ready for news, forums, link sharing, image sharing and more | cms, forum, image-sharing, link-sharing, news, webserver |
+| [golang-diff](https://github.com/arran4/golang-diff) | A multiline string comparsion library (and tool.) |  |
 | [gorillas-react](https://github.com/arran4/gorillas-react) | Generated gorillas in react |  |
 | [heatplot](https://github.com/arran4/heatplot) | This program takes a formula and plots the "heat" for any particular location | golang, graph, heatplot, maths, plot |
 | [image-formula-find](https://github.com/arran4/image-formula-find) | Experimenting with genetic algorithms | experiment, experimentation, genetic-algorithms, go, golang |

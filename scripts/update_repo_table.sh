@@ -106,20 +106,17 @@ jq -r --arg user "$USER" "$COMMON_JQ"'
       + ($repos | map(repo_row_license(.)) | join("\n"))
       + "\n"
     end;
-  [.[] | {label: tag_label(.topics), name: .name, description: .description, topics: .topics, homepage: .homepage, license: .license}] as $items
+  def license_group($license):
+    if ($license == null or ($license.spdx_id == null and $license.name == null)) then "No License"
+    else ($license.spdx_id // $license.name)
+    end;
+  [.[] | {label: license_group(.license), name: .name, description: .description, topics: .topics, homepage: .homepage, license: .license}] as $items
   | (
       $items
-      | map(select(.label != null))
       | group_by(.label)
       | sort_by(.[0].label)
       | map(table_for_license(.[0].label; .))
-    ) as $group_tables
-  | (
-      $items
-      | map(select(.label == null))
-      | table_for_license("Unmatched"; .)
-    ) as $unmatched_table
-  | ($group_tables + [$unmatched_table])
+    )
   | map(select(. != null and . != ""))
   | join("\n")
 ' "$SORTED" > "$LICENSES_TABLE"

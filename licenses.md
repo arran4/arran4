@@ -31,9 +31,12 @@ List of repositories and their licenses.
 | [go-objectutils](https://github.com/arran4/go-objectutils) [🔗](https://pkg.go.dev/github.com/arran4/go-objectutils) | Go objectutils for go.  | BSD-3-Clause | go, go-library, type-converstion |
 | [go-pattern](https://github.com/arran4/go-pattern) [🔗](https://pkg.go.dev/github.com/arran4/go-pattern) | image.Image patterns | BSD-3-Clause | cli + image + library, designer, games, generator, go, golang, image-interface, pattern, patterns, prebuilt, showcase, util |
 | [go-subcommand](https://github.com/arran4/go-subcommand) | Generates dependencyless go command line argument subcommand system | BSD-3-Clause | cli, cli-subcommands, flags, geneated-flags, go, go-generate, subcommands |
+| [idea-txtar-support-plugin](https://github.com/arran4/idea-txtar-support-plugin) [🔗](https://plugins.jetbrains.com/plugin/30286-txtar-file-support) | Jetbrains Idea txtar support plugin | BSD-3-Clause | idea, java, jetbrains, plugin, txtar |
+| [kgithub-notify](https://github.com/arran4/kgithub-notify) | Github notifier for KDE | BSD-3-Clause | api, github, kde, notifier, qt, ui |
 | [lookup](https://github.com/arran4/lookup) [🔗](https://pkg.go.dev/github.com/arran4/lookup) | A golang structure based element lookup library | BSD-3-Clause | cli + library, go, golang, jsonpath, lookup, utility |
 | [skillsmatrixkmeans](https://github.com/arran4/skillsmatrixkmeans) | k-means clustering of skills of people to identify weaknesses | BSD-3-Clause | cli, employment, go, golang, graphs, jobs, k-means, teams, utility |
 | [strings2](https://github.com/arran4/strings2) [🔗](https://pkg.go.dev/github.com/arran4/strings2) | Some golang string helper functions focused around case transformation but other things in the future. | BSD-3-Clause | cli + library, camel-case, case, command-line, converter, flexible, go, golang, kebab-case, snake-case, string-case, string-converter, strings, utility |
+| [txtar](https://github.com/arran4/txtar) [🔗](https://pkg.go.dev/github.com/arran4/txtar) | txtar enhanced and with a cli tool | BSD-3-Clause | cli + library, archive, cli-application, cli-tool, go, golang, tool, txtar |
 
 ### GPL-3.0
 | Repository | Description | License | Tags |

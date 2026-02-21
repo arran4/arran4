@@ -63,6 +63,7 @@ Have questions or feedback? [Open an issue](https://github.com/arran4/arran4/iss
 | [lookup](https://github.com/arran4/lookup) [🔗](https://pkg.go.dev/github.com/arran4/lookup) | A golang structure based element lookup library | cli + library, go, golang, jsonpath, lookup, utility |
 | [md2png](https://github.com/arran4/md2png) [🔗](https://pkg.go.dev/github.com/arran4/md2png) | Very basic generated md2png  | cli + library, converter, dependency-free, experiment, go, golang, markdown, md2png, png |
 | [strings2](https://github.com/arran4/strings2) [🔗](https://pkg.go.dev/github.com/arran4/strings2) | Some golang string helper functions focused around case transformation but other things in the future. | cli + library, camel-case, case, command-line, converter, flexible, go, golang, kebab-case, snake-case, string-case, string-converter, strings, utility |
+| [txtar](https://github.com/arran4/txtar) [🔗](https://pkg.go.dev/github.com/arran4/txtar) | txtar enhanced and with a cli tool | cli + library, archive, cli-application, cli-tool, go, golang, tool, txtar |
 
 ### dart-library + library
 | Repository | Description | Tags |
@@ -154,7 +155,9 @@ Have questions or feedback? [Open an issue](https://github.com/arran4/arran4/iss
 | [goa4web](https://github.com/arran4/goa4web) | My everything website (server) from 2005 ported from C to GO. Ready for news, forums, link sharing, image sharing and more | cms, forum, go, golang, image-sharing, link-sharing, news, personal, server, sql, webserver, website |
 | [gorillas-react](https://github.com/arran4/gorillas-react) [🔗](https://ai.studio/apps/drive/1BOLZ6UAK9YYH8kl5eU8Ihn6J-fxugrk0) | Generated gorillas in react | ai, game, generated, react, test |
 | [heatplot](https://github.com/arran4/heatplot) | This program takes a formula and plots the "heat" for any particular location | experiment, golang, graph, heatplot, maths, plot, testing |
+| [idea-txtar-support-plugin](https://github.com/arran4/idea-txtar-support-plugin) [🔗](https://plugins.jetbrains.com/plugin/30286-txtar-file-support) | Jetbrains Idea txtar support plugin | idea, java, jetbrains, plugin, txtar |
 | [image-formula-find](https://github.com/arran4/image-formula-find) | Experimenting with genetic algorithms | experiment, experimentation, genetic-algorithms, go, golang, test |
+| [kgithub-notify](https://github.com/arran4/kgithub-notify) | Github notifier for KDE | api, github, kde, notifier, qt, ui |
 | [lemmy_notify](https://github.com/arran4/lemmy_notify) | Lemmy Notification app - for desktop atm | desktop, flutter, lemmy |
 | [matchStickProblem](https://github.com/arran4/matchStickProblem) | Generates an image of solving the "match stick problem" (move a match stick) for amusement | amusement, experiment, fun, generated, generator, go, golang, match-stick, test |
 | [resume](https://github.com/arran4/resume) | Arrans Resume | cv, resume, typst |

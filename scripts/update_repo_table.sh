@@ -150,4 +150,77 @@ $0==end{skip=0;print;next}
 !skip{print}
 ' "$LICENSES_TABLE" "$LICENSES_MD" > "$LICENSES_MD.tmp" && mv "$LICENSES_MD.tmp" "$LICENSES_MD"
 
+PAGE=1
+ALL_STARRED="$TMP_DIR/all_starred.json"
+: > "$ALL_STARRED"
+
+while true; do
+  PAGE_FILE="$TMP_DIR/page_starred_${PAGE}.json"
+  curl -fsSL \
+    -H "Accept: application/vnd.github.v3+json" \
+    "https://api.github.com/users/${USER}/starred?per_page=100&page=${PAGE}" > "$PAGE_FILE"
+  COUNT=$(jq 'length' "$PAGE_FILE")
+  jq -s 'add' "$ALL_STARRED" "$PAGE_FILE" > "$ALL_STARRED.tmp"
+  mv "$ALL_STARRED.tmp" "$ALL_STARRED"
+  if [ "$COUNT" -lt 100 ]; then
+    break
+  fi
+  PAGE=$((PAGE+1))
+  sleep 1
+done
+
+SORTED_STARRED="$TMP_DIR/sorted_starred.json"
+jq 'sort_by(.full_name // .name)' "$ALL_STARRED" > "$SORTED_STARRED"
+
+STARRED_TABLE="$TMP_DIR/starred_table.md"
+jq -r "$COMMON_JQ"'
+  def repo_row_starred($repo):
+    "| [" + ($repo.full_name // $repo.name) + "](" + $repo.html_url + ")"
+    + (if $repo.homepage != null and $repo.homepage != "" then " [🔗](" + $repo.homepage + ")" else "" end) + " | "
+    + ($repo.description // "") + " | "
+    + (grouped_tags($repo.topics) | join(", ")) + " |";
+  def table_for_starred($heading; $repos):
+    if ($repos | length) == 0 then null
+    else
+      "### " + $heading + "\n"
+      + "| Repository | Description | Tags |\n"
+      + "|---|---|---|\n"
+      + ($repos | map(repo_row_starred(.)) | join("\n"))
+      + "\n"
+    end;
+  [.[] | {label: tag_label(.topics), name: .name, full_name: .full_name, description: .description, topics: .topics, homepage: .homepage, html_url: .html_url}] as $items
+  | (
+      $items
+      | map(select(.label != null))
+      | group_by(.label)
+      | sort_by(.[0].label)
+      | map(table_for_starred(.[0].label; .))
+    ) as $group_tables
+  | (
+      $items
+      | map(select(.label == null))
+      | table_for_starred("Unmatched"; .)
+    ) as $unmatched_table
+  | ($group_tables + [$unmatched_table])
+  | map(select(. != null and . != ""))
+  | join("\n")
+' "$SORTED_STARRED" > "$STARRED_TABLE"
+
+STARRED_MD="starred.md"
+if [ ! -f "$STARRED_MD" ]; then
+  echo "# Starred Repositories" > "$STARRED_MD"
+  echo "" >> "$STARRED_MD"
+  echo "List of starred repositories." >> "$STARRED_MD"
+  echo "" >> "$STARRED_MD"
+  echo "$START" >> "$STARRED_MD"
+  echo "$END" >> "$STARRED_MD"
+fi
+
+awk -v start="$START" -v end="$END" -v table_file="$STARRED_TABLE" '
+FNR==NR{lines[NR]=$0;next}
+$0==start{print;for(i=1;i<=length(lines);i++)print lines[i];skip=1;next}
+$0==end{skip=0;print;next}
+!skip{print}
+' "$STARRED_TABLE" "$STARRED_MD" > "$STARRED_MD.tmp" && mv "$STARRED_MD.tmp" "$STARRED_MD"
+
 rm -rf "$TMP_DIR"

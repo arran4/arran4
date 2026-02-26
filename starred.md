@@ -173,6 +173,7 @@ List of starred repositories.
 | [solworktech/md2pdf](https://github.com/solworktech/md2pdf) | A CLI utility that generates PDFs from Markdown. Features:  syntax highlighting (for code blocks), dark, light and custom themes, TOC autogeneration, tables, pagination control (using horizontal lines - especially useful for presentations), page Footer (consisting of author, title and page number), support of non-Latin charsets and multiple fonts | cli, convert, footer, golang, markdown, md2pdf, mdtopdf, pagination, pdf-generation, syntax-highlighting, themes, toc-generator, utility |
 | [sxyazi/yazi](https://github.com/sxyazi/yazi) [🔗](https://yazi-rs.github.io) | 💥 Blazing fast terminal file manager written in Rust, based on async I/O. | cli, android, asyncio, command-line, concurrency, cross-platform, developer-tools, file-explorer, file-manager, filesystem, linux, macos, neovim, productivity, rust, terminal, tui, vim, windows |
 | [thehowl/claws](https://github.com/thehowl/claws) | Awesome WebSocket CLient - an interactive command line client for testing websocket servers | cli, command-line-app, debugging, gocui, websocket, websocket-client, websockets |
+| [tvrzna/emptty](https://github.com/tvrzna/emptty) | Dead simple CLI Display Manager on TTY | cli, display-manager |
 | [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) [🔗](https://docs.ultralytics.com) | Ultralytics YOLO 🚀 | cli, computer-vision, deep-learning, hub, image-classification, instance-segmentation, machine-learning, object-detection, pose-estimation, python, pytorch, rotated-object-detection, segment-anything, tracking, ultralytics, yolo, yolo-world, yolo11, yolo26, yolov8 |
 | [wader/fq](https://github.com/wader/fq) | jq for binary formats - tool, language and decoders for working with binary and text formats | cli, binary, decode, go, golang, hexdump, jq, json, pcap, query, repl, tls, xml |
 | [wallix/awless](https://github.com/wallix/awless) [🔗](http://awless.io/) | A Mighty CLI for AWS | cli, awless, aws, aws-cli, cloud, cloud-management, devops, devops-tools, golang |
@@ -288,6 +289,7 @@ List of starred repositories.
 | Repository | Description | Tags |
 |---|---|---|
 | [alecthomas/chroma](https://github.com/alecthomas/chroma) | A general purpose syntax highlighter in pure Go  | library, console, go, golang, highlighter, highlighting, html, syntax, tool |
+| [arran4/dart-libayatana-appindicator-glib](https://github.com/arran4/dart-libayatana-appindicator-glib) | Ayatana Application Indicators Library (Dart port) | library, c-to-dart, dart, dbus, port, system-tray-icons |
 | [arran4/dartobjectutils](https://github.com/arran4/dartobjectutils) [🔗](https://pub.dev/packages/dartobjectutils) | Dart Constructor Type Enforcement / Conversion | library, dart, object-construction-utils, object-verification |
 | [arran4/datastoreutils](https://github.com/arran4/datastoreutils) [🔗](https://pkg.go.dev/github.com/arran4/datastoreutils) | Basic google cloud datastore helpers | library, datastore, go, go-google-app-engine, golang, google-app-engine, google-datastore |
 | [arran4/dsquery](https://github.com/arran4/dsquery) [🔗](https://pkg.go.dev/github.com/arran4/dsquery) | A google datastore query aggregator and compiler with some minor enhancements | library, datastore, golang, google-appengine |
@@ -867,7 +869,7 @@ List of starred repositories.
 | [amlweems/xzbot](https://github.com/amlweems/xzbot) | notes, honeypot, and exploit demo for the xz backdoor (CVE-2024-3094) |  |
 | [anandundavia/thanos-js](https://github.com/anandundavia/thanos-js) | A casual (but dangerous) package that will let Thanos snap fingers and delete random files inside a directory | avengers, marvel, nsfw, thanos, thanosjs |
 | [anansi-project/comicinfo](https://github.com/anansi-project/comicinfo) [🔗](https://anansi-project.github.io/docs/category/comicinfo) | ComicInfo.xml's new home |  |
-| [ancsemi/Haven](https://github.com/ancsemi/Haven) | Self-hosted private chat — No cloud, no telemetry, no Big Tech. Discord alternative that runs on your own machine. | android-application, browser, chat, discord, discord-alternative, docker, encryption, messaging, migration, nodejs, picture-in-picture, privacy, self-hosted, selfhosted, selfhosted-apps, soundcloud, streaming, voice-chat, websocket, youtube |
+| [ancsemi/Haven](https://github.com/ancsemi/Haven) | Self-hosted private chat — No cloud, no telemetry, no Big Tech. Discord alternative that runs on your own machine. | android-application, browser, chat, discord, discord-alternative, docker, encryption, linux, messaging, migration, nodejs, picture-in-picture, privacy, self-hosted, selfhosted, server, soundcloud, streaming, voice-chat, youtube |
 | [anderspitman/awesome-tunneling](https://github.com/anderspitman/awesome-tunneling) | List of ngrok, Cloudflare Tunnel, Tailscale, and ZeroTier alternatives and other tunneling software and services. Focus on self-hosting. | nebula, ngrok, ngrok-alternative, self-hosted, ssh, tailscale, tailscale-alternative, tunnel-proxy, tunneling, zerotier |
 | [andre-brandao/gpui-shell](https://github.com/andre-brandao/gpui-shell) [🔗](https://andre-brandao.github.io/gpui-shell/) |  | hyprland, niri, nixos, rust, wayland |
 | [andrii-kryvoviaz/slink](https://github.com/andrii-kryvoviaz/slink) [🔗](https://docs.slinkapp.io) | Self-hosted image sharing service | gallery, hosting, images, self-hosted, share-image |
@@ -880,6 +882,7 @@ List of starred repositories.
 | [anthon38/gmailfeed](https://github.com/anthon38/gmailfeed) | Plasma 6 plasmoid showing your Gmail feed |  |
 | [anthwri/GeoJson-Data](https://github.com/anthwri/GeoJson-Data) | GeoJson Data for Australia |  |
 | [antlafarge/jdownloader](https://github.com/antlafarge/jdownloader) [🔗](https://hub.docker.com/r/antlafarge/jdownloader) | Docker JDownloader 2 headless image (multi-arch) with automatic update. | alpine, bash, docker, docker-container, java, jdownloader, jre, myjdownloader, openjdk, shell, ubuntu |
+| [antler119/system_tray](https://github.com/antler119/system_tray) | A Flutter package that makes it easy to customize and work with your Flutter desktop app's system tray. | flutter, linux, macos, windows |
 | [antoniandre/vue-cal-v4](https://github.com/antoniandre/vue-cal-v4) [🔗](https://antoniandre.github.io/vue-cal-v4/) | A Vue.js full calendar, no dependency, no BS. :metal: | vue, vue3 |
 | [antony-jr/spirit](https://github.com/antony-jr/spirit) [🔗](https://antonyjr.in/spirit) | The Twenty First Century Window Sitter. |  |
 | [anuraghazra/github-readme-stats](https://github.com/anuraghazra/github-readme-stats) [🔗](https://github-readme-stats.vercel.app) | :zap: Dynamically generated stats for your github readmes | dynamic, profile-readme, readme-generator, readme-stats, serverless |
@@ -894,6 +897,7 @@ List of starred repositories.
 | [apache/paimon](https://github.com/apache/paimon) [🔗](https://paimon.apache.org/) | Apache Paimon is a lake format that enables building a Realtime Lakehouse Architecture with Flink and Spark for both streaming and batch operations. | big-data, data-ingestion, flink, paimon, real-time-analytics, spark, streaming-datalake, table-store |
 | [apex/gateway](https://github.com/apex/gateway) | Drop-in replacement for Go net/http when running in AWS Lambda & API Gateway  | aws-lambda, golang, serverless |
 | [aphyr/distsys-class](https://github.com/aphyr/distsys-class) | Class materials for a distributed systems lecture series |  |
+| [apognu/tuigreet](https://github.com/apognu/tuigreet) | Graphical console greeter for greetd | greetd, linux, login, tui, wayland, xorg |
 | [apple/container](https://github.com/apple/container) [🔗](https://apple.github.io/container/documentation/) | A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon.  |  |
 | [apple/password-manager-resources](https://github.com/apple/password-manager-resources) | A place for creators and users of password managers to collaborate on resources to make password management better. |  |
 | [appleboy/gorush](https://github.com/appleboy/gorush) | A push notification server written in Go (Golang). | android, apns, gcm, golang, gorush-server, ios, ios-alert-payload, ios-notification, notification-server |
@@ -1766,7 +1770,7 @@ List of starred repositories.
 | [kazhuravlev/git-tools](https://github.com/kazhuravlev/git-tools) | Useful set of tools which helps to manage git tags | automation, git, git-tags, go, golang, tool |
 | [kbinani/screenshot](https://github.com/kbinani/screenshot) | Go library to capture desktop to image | golang, screen-capture, screenshot |
 | [kcl-lang/kcl](https://github.com/kcl-lang/kcl) [🔗](https://kcl-lang.io) | KCL Programming Language Core and API (CNCF Sandbox Project). https://kcl-lang.io | cloud-native, compiler, configuration, configuration-language, configuration-management, devops, functional, infrastructure-as-code, kubernetes, language, platform-engineering, policy, programming-language, record, rust, schema, shift-left, validation |
-| [kdave/btrfs-progs](https://github.com/kdave/btrfs-progs) | Development of userspace BTRFS tools | btrfs |
+| [kdave/btrfs-progs](https://github.com/kdave/btrfs-progs) [🔗](https://btrfs.rtfd.io) | Development of userspace BTRFS tools | btrfs |
 | [kddnewton/mathlang](https://github.com/kddnewton/mathlang) [🔗](https://kddnewton.com/mathlang) | A small language for doing math |  |
 | [kdomanski/iso9660](https://github.com/kdomanski/iso9660) | A go library for reading and creating ISO9660 images | cdrom, iso, iso9660 |
 | [keendreams/keen](https://github.com/keendreams/keen) [🔗](http://steamcommunity.com/sharedfiles/filedetails/?id=315040793) | Keen Dreams on Greenlight! |  |
@@ -1846,6 +1850,7 @@ List of starred repositories.
 | [lhartikk/ArnoldC](https://github.com/lhartikk/ArnoldC) [🔗](lhartikk.github.io/ArnoldC/) | Arnold Schwarzenegger based programming language |  |
 | [liamg/darktile](https://github.com/liamg/darktile) | :waning_crescent_moon: Darktile is an experimental/abandoned GPU rendered terminal emulator designed for tiling window managers.  | golang, opengl, terminal, terminal-emulator, terminal-emulators, vt100, xterm, xterm-256color |
 | [libimobiledevice/ifuse](https://github.com/libimobiledevice/ifuse) [🔗](https://libimobiledevice.org) | A fuse filesystem to access the contents of iOS devices | afc, c, fuse, fuse-filesystem, ifuse, ios, mount |
+| [libnativeapi/nativeapi-flutter](https://github.com/libnativeapi/nativeapi-flutter) [🔗](https://pub.dev/packages/nativeapi) | Flutter bindings for nativeapi - providing seamless, unified access to native system APIs. | nativeapi, tray-icon, window-manager |
 | [libp2p/go-libp2p](https://github.com/libp2p/go-libp2p) | libp2p implementation in Go | libp2p, networking-stack, p2p |
 | [liftoff-app/liftoff](https://github.com/liftoff-app/liftoff) | 🐒  A mobile client for lemmy |  |
 | [ligi/SurvivalManual](https://github.com/ligi/SurvivalManual) [🔗](https://survivalmanual.github.io/) | Libre Survival Manual for Android with offline in mind | android, android-application, kotlin, kotlin-android, survival, survival-manual |
@@ -2260,7 +2265,7 @@ List of starred repositories.
 | [pinokiocomputer/pinokio](https://github.com/pinokiocomputer/pinokio) [🔗](https://pinokio.co) | AI Browser |  |
 | [pipecat-ai/pipecat](https://github.com/pipecat-ai/pipecat) [🔗](https://pipecat.ai) | Open Source framework for voice and multimodal conversational AI | ai, chatbot-framework, chatbots, real-time, voice, voice-assistant |
 | [pizlonator/fil-c](https://github.com/pizlonator/fil-c) [🔗](https://fil-c.org) | Fil-C: completely compatible memory safety for C and C++ |  |
-| [pkgforge/soar](https://github.com/pkgforge/soar) [🔗](https://soar.qaidvoid.dev) | A fast, modern package manager for Static Binaries, Portable Formats (AppImage|AppBundle|FlatImage|Runimage) & More [maintainer=@QaidVoid] | appimage, appimage-repository, appimagehub, appimages, apps, download-manager, linux, linux-app, linux-apps-managment, package, package-manager, packages, portable, portable-apps, portableapps, risc, risc-v, riscv, rust, static-binary |
+| [pkgforge/soar](https://github.com/pkgforge/soar) [🔗](https://soar.qaidvoid.dev) | A fast, modern package manager for Static Binaries, Portable Formats (AppImage|AppBundle|FlatImage|Runimage) & More [maintainer=@QaidVoid] | appimage, appimage-repository, appimagehub, appimages, apps, download-manager, linux, linux-app, linux-apps-managment, package, package-manager, packages, portable, portable-apps, portableapps, rust, static-binary |
 | [playmean/fap-list](https://github.com/playmean/fap-list) [🔗](https://flipc.org) | Collection of Flipper Zero applications with .fap files | app-store, catalog, fbt, flipper-app, flipper-plugin, flipper-zero, flipperzero |
 | [pnelson/when](https://github.com/pnelson/when) | Package when implements a natural language date/time arithmetic parser. |  |
 | [pnpm/pnpm](https://github.com/pnpm/pnpm) [🔗](https://pnpm.io) | Fast, disk space efficient package manager | dependency-manager, install, javascript, modules, node, nodejs, npm, package-manager |

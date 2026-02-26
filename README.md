@@ -172,7 +172,7 @@ Have questions or feedback? [Open an issue](https://github.com/arran4/arran4/iss
 
 ## License
 
-This repository is released under the MIT License.
+This repository is released under the BSD 3-Clause License.
 
 ## Acknowledgments
 

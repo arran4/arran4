@@ -1102,6 +1102,7 @@ List of starred repositories.
 | [cline/cline](https://github.com/cline/cline) [🔗](https://marketplace.visualstudio.com/items?itemName=saoudrizwan.claude-dev) | Autonomous coding agent right in your IDE, capable of creating/editing files, executing commands, using the browser, and more with your permission every step of the way. |  |
 | [cloudandthings/terraform-aws-clickops-notifier](https://github.com/cloudandthings/terraform-aws-clickops-notifier) [🔗](https://registry.terraform.io/modules/cloudandthings/clickops-notifier/aws/latest) | Get notified when actions are taken in the AWS Console. | aws, clickops, terraform, terraform-modules |
 | [cloudevents/spec](https://github.com/cloudevents/spec) [🔗](https://cloudevents.io) | CloudEvents Specification | serverless, specification |
+| [cloudflare/vinext](https://github.com/cloudflare/vinext) | Vite plugin that reimplements the Next.js API surface — deploy anywhere |  |
 | [cloudflare/workers-chat-demo](https://github.com/cloudflare/workers-chat-demo) |  |  |
 | [cloudquery/cloudquery](https://github.com/cloudquery/cloudquery) [🔗](https://cloudquery.io) | Data pipelines for cloud config and security data. Build cloud asset inventory, CSPM, FinOps, and vulnerability management solutions. Extract from AWS, Azure, GCP, and 70+ cloud and SaaS sources. | airbyte, attack-surface-management, aws, azure, bigquery, cspm, data, data-analysis, data-collection, data-engineering, data-integration, elt, etl, etl-framework, gcp, github-api, go, google, kubernetes, sql |
 | [cloudreve/cloudreve](https://github.com/cloudreve/cloudreve) [🔗](https://cloudreve.org) | 🌩 Self-hosted file management and sharing system, supports multiple storage providers | cloud, cloud-storage, cloudreve, file, file-manager, file-sharing, golang |
@@ -1454,7 +1455,7 @@ List of starred repositories.
 | [getlantern/systray](https://github.com/getlantern/systray) | a cross platfrom Go library to place an icon and menu in the notification area |  |
 | [getmango/Mango](https://github.com/getmango/Mango) [🔗](https://getmango.app) | Mango is a self-hosted manga server and web reader | crystal, crystal-lang, manga, manga-reader, manga-server, mangadex, self-hosted, web-application |
 | [getmango/mango-plugins](https://github.com/getmango/mango-plugins) |  |  |
-| [getmaxun/maxun](https://github.com/getmaxun/maxun) [🔗](https://www.maxun.dev) | ✨ The open-source no-code platform for web scraping, crawling, search and AI data extraction • Turn websites into structured APIs in minutes ✨  | agents, api, automation, browser-automation, crawler, crawling, data-extraction, no-code, nocode, playwright, robotic-process-automation, rpa, scraper, self-hosted, web-scraper, web-scraping, web-search, webscraping |
+| [getmaxun/maxun](https://github.com/getmaxun/maxun) [🔗](https://www.maxun.dev) | 🔥 The open-source no-code platform for web scraping, crawling, search and AI data extraction • Turn websites into structured APIs in minutes 🔥  | agents, api, automation, browser-automation, crawler, crawling, data-extraction, no-code, nocode, playwright, robotic-process-automation, rpa, scraper, self-hosted, web-scraper, web-scraping, web-search, webscraping |
 | [getsops/sops](https://github.com/getsops/sops) [🔗](https://getsops.io) | Simple and flexible tool for managing secrets | aws, azure, devops, gcp, pgp, secret-distribution, secret-management, security, sops |
 | [getumbrel/llama-gpt](https://github.com/getumbrel/llama-gpt) [🔗](https://apps.umbrel.com/app/llama-gpt) | A self-hosted, offline, ChatGPT-like chatbot. Powered by Llama 2. 100% private, with no data leaving your device. New: Code Llama support! | ai, chatgpt, code-llama, codellama, gpt, gpt-4, gpt4all, llama, llama-2, llama-cpp, llama2, llamacpp, llm, localai, openai, self-hosted |
 | [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | LLM inference in C/C++ | ggml |
@@ -2061,7 +2062,7 @@ List of starred repositories.
 | [moderato-app/approf](https://github.com/moderato-app/approf) | Play with pprof on macOS | composable-architecture, go, golang, gui, mac, macos, pprof, swift, swiftui, tca, ui |
 | [moderncv/moderncv](https://github.com/moderncv/moderncv) | A modern curriculum vitae class for LaTeX | hacktoberfest, latex, latex-class, latex-package, moderncv |
 | [modfin/bellman](https://github.com/modfin/bellman) | Golang lib for LLM APIs, ChatGPT, Gemini and Anthropic | anthropic, chatgpt, claude, gemini, llm, llm-api, ollama, ollama-client, openai |
-| [moeru-ai/airi](https://github.com/moeru-ai/airi) [🔗](https://airi.moeru.ai/docs/) | 💖🧸 Self hosted, you owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported. | ai-companion, ai-vtuber, clawdbot, digital-life, grok-companion, live2d, moltbot, neuro-sama, neurosama, vrm, vtuber |
+| [moeru-ai/airi](https://github.com/moeru-ai/airi) [🔗](https://airi.moeru.ai/docs/) | 💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported. | ai-companion, ai-vtuber, clawdbot, digital-life, grok-companion, live2d, moltbot, neuro-sama, neurosama, vrm, vtuber |
 | [mojbro/gocoa](https://github.com/mojbro/gocoa) | Go bindings for the Cocoa framework to build macOS applications |  |
 | [monicahq/monica](https://github.com/monicahq/monica) [🔗](https://beta.monicahq.com) | Personal CRM. Remember everything about your friends, family and business relationships. | crm, family, friends, hacktoberfest, laravel, php, prm, social |
 | [monkey/monkey](https://github.com/monkey/monkey) [🔗](https://monkeywebserver.com) | Monkey HTTP Server | arm-webserver, embedded, embedded-webserver, http, http-server, webservices, yocto |
@@ -2156,7 +2157,7 @@ List of starred repositories.
 | [nostr-protocol/nostr](https://github.com/nostr-protocol/nostr) | a truly censorship-resistant alternative to Twitter that has a chance of working | nostr |
 | [notclickable-jordan/podcastdn](https://github.com/notclickable-jordan/podcastdn) | A self-hosted YouTube video/playlist to podcast generator that uploads to S3 and CloudFront |  |
 | [novitalabs/AnimateAnyone](https://github.com/novitalabs/AnimateAnyone) [🔗](https://novita.ai) | Unofficial Implementation of Animate Anyone by Novita AI | animateanyone, videogeneration |
-| [novuhq/novu](https://github.com/novuhq/novu) [🔗](https://novu.co) | The open-source notification Inbox infrastructure. E-mail, SMS, Push and Slack Integrations. | alternative, communication, email, hacktoberfest, inbox, javascript, nodejs, notification-center, notifications, novu, push-notifications, react, reactjs, sms, transactional, typescript |
+| [novuhq/novu](https://github.com/novuhq/novu) [🔗](https://go.novu.co/github) | The open-source notification Inbox infrastructure. E-mail, SMS, Push and Slack Integrations. | alternative, communication, email, hacktoberfest, inbox, javascript, nodejs, notification-center, notifications, novu, push-notifications, react, reactjs, sms, transactional, typescript |
 | [npcnixel/genanki-go](https://github.com/npcnixel/genanki-go) | Go library for generating Anki notes, decks, packages (genanki port) |  |
 | [numediart/MBROLA](https://github.com/numediart/MBROLA) | MBROLA is a speech synthesizer based on the concatenation of diphones | numediart-speech, numediart-tools |
 | [numman-ali/codex-wrapped](https://github.com/numman-ali/codex-wrapped) | Generate a personalized Spotify Wrapped-style summary of your Codex usage |  |
@@ -2463,6 +2464,7 @@ List of starred repositories.
 | [skip2/go-qrcode](https://github.com/skip2/go-qrcode) | :sparkles: QR Code encoder (Go) |  |
 | [slackhq/nebula](https://github.com/slackhq/nebula) | A scalable overlay networking tool with a focus on performance, simplicity and security |  |
 | [slint-ui/slint](https://github.com/slint-ui/slint) [🔗](https://slint.dev) | Slint is an open-source declarative GUI toolkit to build native user interfaces for Rust, C++, JavaScript, or Python apps. | cpp, declarative-ui, desktop, embedded-devices, gui, javascript, language, lsp-server, native, rust, rust-lang, toolkit, ui, user-interface, wasm, webassembly, widgets |
+| [slyrz/warc](https://github.com/slyrz/warc) | Read and write WARC files in Go |  |
 | [smhanov/qb.js](https://github.com/smhanov/qb.js) | Mostly incomplete QBASIC implementation in JavaScript |  |
 | [smol-ai/GodMode](https://github.com/smol-ai/GodMode) [🔗](https://smol.ai) | AI Chat Browser: Fast, Full webapp access to ChatGPT / Claude / Bard / Bing / Llama2! I use this 20 times a day. | bard, chatgpt, electron, google, menubar |
 | [smy20011/dreambooth-docker](https://github.com/smy20011/dreambooth-docker) |  |  |
@@ -2606,6 +2608,7 @@ List of starred repositories.
 | [toml-lang/toml](https://github.com/toml-lang/toml) [🔗](https://toml.io) | Tom's Obvious, Minimal Language |  |
 | [tonihele/OpenKeeper](https://github.com/tonihele/OpenKeeper) | Dungeon Keeper II remake | dk2, dungeon-keeper, game, java, jme, jmonkeyengine |
 | [tonsky/FiraCode](https://github.com/tonsky/FiraCode) | Free monospaced font with programming ligatures | font, ligatures, programming-ligatures |
+| [tonymajestro/reddit-tui](https://github.com/tonymajestro/reddit-tui) | Terminal UI for reddit |  |
 | [toreanderson/clatd](https://github.com/toreanderson/clatd) | A 464XLAT CLAT implementation for Linux |  |
 | [torvalds/linux](https://github.com/torvalds/linux) | Linux kernel source tree |  |
 | [toshiaki-h/split_view](https://github.com/toshiaki-h/split_view) | SplitView for Flutter |  |

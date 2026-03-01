@@ -303,6 +303,7 @@ List of starred repositories.
 | [faiface/pixel](https://github.com/faiface/pixel) | A hand-crafted 2D game library in Go | library, game-engine, gamedev, gamedev-library, go, golang, graphics, window |
 | [ocornut/imgui](https://github.com/ocornut/imgui) | Dear ImGui: Bloat-free Graphical User interface for C++ with minimal dependencies | library, api, cplusplus, framework, game-development, game-engine, gamedev, gui, imgui, immediate-gui, multi-platform, native, toolkit, tools, ui |
 | [open-source-labs/Svelvet](https://github.com/open-source-labs/Svelvet) [🔗](https://svelvet.io) | 🎛 A Svelte library for building dynamic, infinitely customizable node-based user interfaces and flowcharts | library, devtool, diagrams, flowcharts, npm, opensource, svelte, sveltekit, typescript |
+| [pseidemann/finish](https://github.com/pseidemann/finish) [🔗](https://pkg.go.dev/github.com/pseidemann/finish) | A non-intrusive, zero dependency library adding a graceful shutdown to Go HTTP servers. | library, finish, go, golang, graceful, server, shutdown, stop |
 | [sbstjn/timesheet.js](https://github.com/sbstjn/timesheet.js) [🔗](https://sbstjn.github.io/timesheet.js) | JavaScript library for HTML5 & CSS3 time sheets | library, chart, charting-library, css, html, javascript, timesheet, visualization |
 | [zitadel/oidc](https://github.com/zitadel/oidc) [🔗](https://zitadel.com) | Easy to use OpenID Connect client and server library written for Go and certified by the OpenID Foundation | library, certified, client, code-flow, code-flow-pkce, discovery, go, golang, jwt, oauth, oauth2, oidc, openid-connect, openidconnect, pkce, refresh-token, relying-party, server, standard |
 
@@ -918,10 +919,13 @@ List of starred repositories.
 | [arran4/StartHere](https://github.com/arran4/StartHere) |  |  |
 | [arran4/arransaitbs](https://github.com/arran4/arransaitbs) | A TBS for AIs |  |
 | [arran4/chat-barcodes](https://github.com/arran4/chat-barcodes) [🔗](https://arran4.github.io/barcode-cheatsheets) | Chat barcode cheatsheet | barcodes, chat, chat-barcodes, chat-cheatsheet, chat-shortcuts, cheetsheet |
+| [arran4/comic-mono-font](https://github.com/arran4/comic-mono-font) [🔗](https://dtinth.github.io/comic-mono-font/) | A legible monospace font... the very typeface you’ve been trained to recognize since childhood |  |
 | [arran4/dotfiles](https://github.com/arran4/dotfiles) | Just a collection of dotfiles managed by Chezmoi | chezmoi, dotfiles |
 | [arran4/flutter_google_datastore](https://github.com/arran4/flutter_google_datastore) | Google Datastore and Datastore emulator client for "easy" modification of values | dart, datastore, flutter, google, utility |
 | [arran4/flutter_jules](https://github.com/arran4/flutter_jules) | My flutter based google jules client  | ai, app, flutter, google-jules, jules, linux, mac, utility, windows |
 | [arran4/git-barcode-sheet](https://github.com/arran4/git-barcode-sheet) [🔗](https://arran4.github.io/barcode-cheatsheets) | Git barcode based cheat sheet | barcode-cheatsheet, barcodes, cheetsheet, git, git-barcodes, git-cheatsheet |
+| [arran4/github-level](https://github.com/arran4/github-level) |  |  |
+| [arran4/githubprojectbulkaddremove](https://github.com/arran4/githubprojectbulkaddremove) | Simple script to bulk add and remove people |  |
 | [arran4/go-fontstash](https://github.com/arran4/go-fontstash) | Light-weight online font texture atlas builder | experiment, font, fontlib, go, go-port |
 | [arran4/go-gcm](https://github.com/arran4/go-gcm) | Go for GCM(Google Cloud Messaging) to push message to android device. |  |
 | [arran4/go-objectutils](https://github.com/arran4/go-objectutils) [🔗](https://pkg.go.dev/github.com/arran4/go-objectutils) | Go objectutils for go.  | go, go-library, type-converstion |
@@ -933,6 +937,7 @@ List of starred repositories.
 | [arran4/heatplot](https://github.com/arran4/heatplot) | This program takes a formula and plots the "heat" for any particular location | experiment, golang, graph, heatplot, maths, plot, testing |
 | [arran4/idea-txtar-support-plugin](https://github.com/arran4/idea-txtar-support-plugin) [🔗](https://plugins.jetbrains.com/plugin/30286-txtar-file-support) | Jetbrains Idea txtar support plugin | idea, java, jetbrains, plugin, txtar |
 | [arran4/image-formula-find](https://github.com/arran4/image-formula-find) | Experimenting with genetic algorithms | experiment, experimentation, genetic-algorithms, go, golang, test |
+| [arran4/kagura-original](https://github.com/arran4/kagura-original) | Kagurabi a simple java based reporting / marshalling framework | java, reports, simple, yaml-based-config |
 | [arran4/kde-keyboard-shortcuts](https://github.com/arran4/kde-keyboard-shortcuts) | A quick and simple installer for my kde keyboard bindings in system, as a deb/rpm file | deb, kde, kde-keyboard-shortcuts, keyboard-bindings, keyboard-shortcuts, package-manager, rpm |
 | [arran4/kgithub-notify](https://github.com/arran4/kgithub-notify) | Github notifier for KDE | api, github, kde, notifier, qt, ui |
 | [arran4/lemmy_notify](https://github.com/arran4/lemmy_notify) | Lemmy Notification app - for desktop atm | desktop, flutter, lemmy |
@@ -959,7 +964,13 @@ List of starred repositories.
 | [astral-sh/uv](https://github.com/astral-sh/uv) [🔗](https://docs.astral.sh/uv) | An extremely fast Python package and project manager, written in Rust. | packaging, python, resolver, uv |
 | [attic-labs/noms](https://github.com/attic-labs/noms) | The versioned, forkable, syncable database |  |
 | [atuinsh/atuin](https://github.com/atuinsh/atuin) [🔗](https://atuin.sh) | ✨ Magical shell history | bash, fish, history, rust, shell, zsh |
+| [aubelsb2/arran4](https://github.com/aubelsb2/arran4) |  |  |
+| [aubelsb2/aubelsb2](https://github.com/aubelsb2/aubelsb2) |  |  |
+| [aubelsb2/aws-dynamodb-to-aws-sam-template-converter](https://github.com/aubelsb2/aws-dynamodb-to-aws-sam-template-converter) |  |  |
 | [aubelsb2/aws-samcli-packages](https://github.com/aubelsb2/aws-samcli-packages) |  |  |
+| [aubelsb2/cronrange](https://github.com/aubelsb2/cronrange) | time range expression in cron style |  |
+| [aubelsb2/dotfiles](https://github.com/aubelsb2/dotfiles) | Just a collection of dotfiles managed by Chezmoi |  |
+| [aubelsb2/tsobjectutils](https://github.com/aubelsb2/tsobjectutils) | Some typescript objects I use in a couple repos |  |
 | [aubelsgenesit/dotfiles](https://github.com/aubelsgenesit/dotfiles) | Just a collection of dotfiles managed by Chezmoi |  |
 | [aubelstu/dotfiles](https://github.com/aubelstu/dotfiles) | Just a collection of dotfiles managed by Chezmoi |  |
 | [audacious-media-player/audacious-plugins](https://github.com/audacious-media-player/audacious-plugins) | Plugins for Audacious music player |  |
@@ -1874,6 +1885,7 @@ List of starred repositories.
 | [linuxserver/docker-webtop](https://github.com/linuxserver/docker-webtop) | Ubuntu, Alpine, Arch, and Fedora based Webtop images, Linux in a web browser supporting popular desktop environments. | alpine, arch, docker, fedora, rdp, ubuntu, webtop |
 | [ljvmiranda921/sprites-as-a-service](https://github.com/ljvmiranda921/sprites-as-a-service) [🔗](https://ljvmiranda921.github.io/sprites-as-a-service) | Generate your personal 8-bit avatars using Cellular Automata, a mathematical model that simulates life, survival, and extinction | avatar-generator, cellular-automata, fastapi, nuxtjs, pixel-art, python, sprites, vuejs |
 | [lkhq/laniakea](https://github.com/lkhq/laniakea) [🔗](https://laniakea-hq.rtfd.io) | Debian derivative operating system repository management suite |  |
+| [llgcode/draw2d](https://github.com/llgcode/draw2d) | 2D rendering for different output (raster, pdf, svg) | 2d, draw2d, freetype, go, graphics, postscript |
 | [lllyasviel/Fooocus](https://github.com/lllyasviel/Fooocus) | Focus on prompting and generating |  |
 | [lllyasviel/Paints-UNDO](https://github.com/lllyasviel/Paints-UNDO) | Understand Human Behavior to Align True Needs |  |
 | [lm-sys/FastChat](https://github.com/lm-sys/FastChat) | An open platform for training, serving, and evaluating large language models. Release repo for Vicuna and Chatbot Arena. |  |
@@ -2057,7 +2069,7 @@ List of starred repositories.
 | [mmastrac/automedia](https://github.com/mmastrac/automedia) | A set of tools for automatically managing bitrot and format in large quantities of media | ffmpeg, flac, media, mp3, mp4, par2, python, python3 |
 | [mmcloughlin/avo](https://github.com/mmcloughlin/avo) | Generate x86 Assembly with Go | assembly, code-generation, go, golang, x86-64 |
 | [mmk2410/intellij-idea-community](https://github.com/mmk2410/intellij-idea-community) [🔗](https://gitlab.com/mmk2410/intellij-idea-community) | Unofficial .deb packages of IntelliJ IDEA Community Edition. This is a mirror of | deb-packages, debian, debian-packages, intellij, packages, ubuntu, ubuntu-packages |
-| [mnfst/manifest](https://github.com/mnfst/manifest) [🔗](https://manifest.build) | Take Control of Your OpenClaw Costs. | agent-skills, ai-observability, clawdbot, cost-tracking, llm-observability, llm-router, moltbot, observability, open, openclaw, openclaw-extension, openclaw-plugin, opentelemetry, otlp, skills, telemetry, token-tracking |
+| [mnfst/manifest](https://github.com/mnfst/manifest) [🔗](https://manifest.build) | Smart LLM routing for OpenClaw. Cut Costs up to 70% | agent-skills, ai-observability, clawdbot, cost-tracking, llm-observability, llm-router, moltbot, observability, open, openclaw, openclaw-extension, openclaw-plugin, opentelemetry, otlp, skills, telemetry, token-tracking |
 | [mobile-dev-inc/Maestro](https://github.com/mobile-dev-inc/Maestro) [🔗](https://maestro.dev) | Painless E2E Automation for Mobile and Web | android, blackbox-testing, ios, ui-automation |
 | [mobile-shell/mosh](https://github.com/mobile-shell/mosh) [🔗](https://mosh.org) | Mobile Shell |  |
 | [modelscope/FunASR](https://github.com/modelscope/FunASR) [🔗](https://www.funasr.com) | A Fundamental End-to-End Speech Recognition Toolkit and Open Source SOTA Pretrained Models, Supporting Speech Recognition, Voice Activity Detection, Text Post-processing etc. | audio-visual-speech-recognition, conformer, dfsmn, paraformer, pretrained-model, punctuation, pytorch, rnnt, speaker-diarization, speech-recognition, speechgpt, speechllm, vad, voice-activity-detection, whisper |
@@ -2175,6 +2187,7 @@ List of starred repositories.
 | [obra/Youtube2Webpage](https://github.com/obra/Youtube2Webpage) | I learn much better from text than from videos |  |
 | [obsidianmd/obsidian-releases](https://github.com/obsidianmd/obsidian-releases) [🔗](https://obsidian.md/) | Community plugins list, theme list, and releases of Obsidian. | obsidian, obsidian-md |
 | [obsproject/obs-studio](https://github.com/obsproject/obs-studio) [🔗](https://obsproject.com) | OBS Studio - Free and open source software for live streaming and screen recording | c, c-plus-plus, directshow, facebook-live, ffmpeg, game-capture, live-streaming, screen-capture, twitch-tv, video-recording, youtube-live |
+| [odvcencio/gotreesitter](https://github.com/odvcencio/gotreesitter) | Pure Go tree-sitter runtime |  |
 | [offensive-security/exploitdb](https://github.com/offensive-security/exploitdb) [🔗](https://gitlab.com/exploit-database/exploitdb) | The legacy Exploit Database repository - New repo located at https://gitlab.com/exploit-database/exploitdb |  |
 | [ogham/exa](https://github.com/ogham/exa) [🔗](https://the.exa.website/) | A modern replacement for ‘ls’. | command-line, files, ls, rust |
 | [ohare93/immich-cat](https://github.com/ohare93/immich-cat) | Immich Cat[egoriser]. Quickly assign your assets to albums. |  |
@@ -2398,7 +2411,7 @@ List of starred repositories.
 | [s-gv/orangeforum](https://github.com/s-gv/orangeforum) [🔗](http://www.goodoldweb.com) | A light-weight forum |  |
 | [s9xie/hed](https://github.com/s9xie/hed) | code for Holistically-Nested Edge Detection |  |
 | [sad0p/go-readelf](https://github.com/sad0p/go-readelf) | Elf binary parsing utility written in Go. | elf-binaries, elf-parser, golang-tools, reverse-enginnering |
-| [saghul/txiki.js](https://github.com/saghul/txiki.js) [🔗](https://txikijs.org/) | A tiny JavaScript runtime | javascript, libuv, quickjs, wasm |
+| [saghul/txiki.js](https://github.com/saghul/txiki.js) [🔗](https://txikijs.org) | A tiny JavaScript runtime | javascript, libuv, quickjs, wasm |
 | [saintfish/chardet](https://github.com/saintfish/chardet) | Charset detector library for golang derived from ICU |  |
 | [sakofchit/system.css](https://github.com/sakofchit/system.css) [🔗](https://sakofchit.github.io/system.css/) | A design system for building retro Apple interfaces | classic-macos, css, design-system, hacktoberfest, hacktoberfest2022, macos |
 | [salvadordf/CEF4Delphi](https://github.com/salvadordf/CEF4Delphi) [🔗](https://www.briskbard.com/forum/) | CEF4Delphi is an open source project to embed Chromium-based browsers in applications made with Delphi or Lazarus/FPC for Windows, Linux and MacOS. | blink, browser, cef, chromium, delphi, delphinuspackage, embarcadero, firemonkey, fmx, fpc, freepascal, lazarus, linux, macos, macosx, pascal, radstudio, v8, vcl, windows |
@@ -2776,7 +2789,7 @@ List of starred repositories.
 | [zellij-org/zellij](https://github.com/zellij-org/zellij) [🔗](https://zellij.dev) | A terminal workspace with batteries included | multiplexer, terminal, workspace |
 | [zeozeozeo/microui-go](https://github.com/zeozeozeo/microui-go) [🔗](https://zeozeozeo.github.io/ebitengine-microui-go/demo) | A tiny, portable, immediate-mode UI library ported to idiomatic Go | golang, golang-gui, golang-ui, gui, immediate-gui, immediate-mode, immediate-mode-ui, immediate-ui, microui, no-cgo, port, pure-go, ui |
 | [zephyrproject-rtos/zephyr](https://github.com/zephyrproject-rtos/zephyr) [🔗](https://docs.zephyrproject.org) | Primary Git Repository for the Zephyr Project. Zephyr is a new generation, scalable, optimized, secure RTOS for multiple hardware architectures. | bluetooth, bluetooth-le, embedded, embedded-c, iot, mcu, microcontroller, real-time, rtos, zephyr, zephyr-rtos, zephyros |
-| [zeroclaw-labs/zeroclaw](https://github.com/zeroclaw-labs/zeroclaw) [🔗](https://www.zeroclawlabs.ai/) | Fast, small, and fully autonomous AI assistant infrastructure — deploy anywhere, swap anything 🦀 | official, official-website |
+| [zeroclaw-labs/zeroclaw](https://github.com/zeroclaw-labs/zeroclaw) [🔗](https://www.zeroclawlabs.ai/) | Fast, small, and fully autonomous AI assistant Operating System — deploy anywhere, swap anything 🦀 | official, official-website |
 | [ziglang/zig](https://github.com/ziglang/zig) [🔗](https://ziglang.org/news/migrating-from-github-to-codeberg/) | Moved to Codeberg | compiler, language, zig |
 | [zincsearch/zincsearch](https://github.com/zincsearch/zincsearch) [🔗](https://zincsearch-docs.zinc.dev) | ZincSearch . A lightweight alternative to elasticsearch that requires minimal resources, written in Go. | elasticsearch, go, golang, modern, opensearch, search, searchengine, vuejs |
 | [zitadel/zitadel](https://github.com/zitadel/zitadel) [🔗](https://zitadel.com) | ZITADEL - Identity infrastructure, simplified for you. | 2fa, authentication, authorization, fido2, identity, login, mfa, multitenancy, oauth2, oidc, openid-connect, passkeys, saml, scim, sso, user |

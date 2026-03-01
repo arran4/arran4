@@ -144,6 +144,7 @@ Have questions or feedback? [Open an issue](https://github.com/arran4/arran4/iss
 ### Unmatched
 | Repository | Description | Tags |
 |---|---|---|
+| [Dimension](https://github.com/arran4/Dimension) [🔗](http://www.intoanotherdimension.com) | (Beta) Peer-to-peer group chat and file transfer. |  |
 | [arran4](https://github.com/arran4/arran4) [🔗](https://arran4.github.io/ ) | Github Profile landing page github repo | github, github-profile, github-profile-readme |
 | [chat-barcodes](https://github.com/arran4/chat-barcodes) [🔗](https://arran4.github.io/barcode-cheatsheets) | Chat barcode cheatsheet | barcodes, chat, chat-barcodes, chat-cheatsheet, chat-shortcuts, cheetsheet |
 | [dotfiles](https://github.com/arran4/dotfiles) | Just a collection of dotfiles managed by Chezmoi | chezmoi, dotfiles |

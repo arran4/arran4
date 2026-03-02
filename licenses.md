@@ -78,7 +78,7 @@ List of repositories and their licenses.
 ### MIT
 | Repository | Description | License | Tags |
 |---|---|---|---|
-| [Dimension](https://github.com/arran4/Dimension) [🔗](http://www.intoanotherdimension.com) | (Beta) Peer-to-peer group chat and file transfer. | MIT |  |
+| [Dimension](https://github.com/arran4/Dimension) [🔗](http://www.intoanotherdimension.com) | (Beta) Peer-to-peer group chat and file transfer. | MIT | web, android, chat, desktop, fileshare, flutter, ios, linux, mac, mobile, peer-to-peer, peer2peer, windows |
 | [abc-mediawatch-rss](https://github.com/arran4/abc-mediawatch-rss) | RSS generator for ABC's Media Watch | MIT | rss, abc, abc-media-watch, rss-generator |
 | [arrans_overlay](https://github.com/arran4/arrans_overlay) [🔗](https://wiki.gentoo.org/wiki/User:Arran4) | Arrans Gentoo Overlay | MIT | gentoo, gentoo-overlay, gentoo-portage-overlay, overlay, portage-overlay |
 | [awesome-fodmap-resources](https://github.com/arran4/awesome-fodmap-resources) [🔗](https://arran4.github.io/awesome-fodmap-resources/) | Compilation of Low Fodmap resources | MIT | awesome-list, awesome, fodmap, fodmaps, low-fodmap |

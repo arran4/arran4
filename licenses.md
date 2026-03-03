@@ -28,6 +28,7 @@ List of repositories and their licenses.
 | Repository | Description | License | Tags |
 |---|---|---|---|
 | [arran4](https://github.com/arran4/arran4) [🔗](https://arran4.github.io/ ) | Github Profile landing page github repo | BSD-3-Clause | github, github-profile, github-profile-readme |
+| [dart-udt](https://github.com/arran4/dart-udt) [🔗](https://pub.dev/packages/dart_udt) | AI port of UDT library from source forge to Dart | BSD-3-Clause | dart, udt |
 | [dartobjectutils](https://github.com/arran4/dartobjectutils) [🔗](https://pub.dev/packages/dartobjectutils) | Dart Constructor Type Enforcement / Conversion | BSD-3-Clause | library, dart, object-construction-utils, object-verification |
 | [datastoreutils](https://github.com/arran4/datastoreutils) [🔗](https://pkg.go.dev/github.com/arran4/datastoreutils) | Basic google cloud datastore helpers | BSD-3-Clause | library, datastore, go, go-google-app-engine, golang, google-app-engine, google-datastore |
 | [eightbyeight](https://github.com/arran4/eightbyeight) | golang based dithering experiments | BSD-3-Clause | cli, dithering, experiment, golang, graphics, util |
@@ -78,7 +79,7 @@ List of repositories and their licenses.
 ### MIT
 | Repository | Description | License | Tags |
 |---|---|---|---|
-| [Dimension](https://github.com/arran4/Dimension) [🔗](http://www.intoanotherdimension.com) | (Beta) Peer-to-peer group chat and file transfer. | MIT | web, android, chat, desktop, fileshare, flutter, ios, linux, mac, mobile, peer-to-peer, peer2peer, windows |
+| [Dimension](https://github.com/arran4/Dimension) [🔗](https://arran4.github.io/Dimension/) | (Beta) Peer-to-peer group chat and file transfer. | MIT | web, android, chat, desktop, fileshare, flutter, ios, linux, mac, mobile, peer-to-peer, peer2peer, windows |
 | [abc-mediawatch-rss](https://github.com/arran4/abc-mediawatch-rss) | RSS generator for ABC's Media Watch | MIT | rss, abc, abc-media-watch, rss-generator |
 | [arrans_overlay](https://github.com/arran4/arrans_overlay) [🔗](https://wiki.gentoo.org/wiki/User:Arran4) | Arrans Gentoo Overlay | MIT | gentoo, gentoo-overlay, gentoo-portage-overlay, overlay, portage-overlay |
 | [awesome-fodmap-resources](https://github.com/arran4/awesome-fodmap-resources) [🔗](https://arran4.github.io/awesome-fodmap-resources/) | Compilation of Low Fodmap resources | MIT | awesome-list, awesome, fodmap, fodmaps, low-fodmap |

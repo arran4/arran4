@@ -126,6 +126,7 @@ List of repositories and their licenses.
 |---|---|---|---|
 | [arrans_overlay_workflow_builder](https://github.com/arran4/arrans_overlay_workflow_builder) | A gentoo overlay ebuild workflow builder generator for -bin with a special purpose handler for .appimage binary files |  | gentoo, builder, ebuild, generator, gentoo-overlay, github-workflow |
 | [flutter_jules](https://github.com/arran4/flutter_jules) | My flutter based google jules client  |  | ai, app, flutter, google-jules, jules, linux, mac, utility, windows |
+| [homebrew-tap](https://github.com/arran4/homebrew-tap) |  |  |  |
 | [sentencestats](https://github.com/arran4/sentencestats) | Tools to plot character usage in sentences |  | cli + for-fun, amusement, character-counter, chart, go, golang, joke, meme, plotter |
 | [tex_recipes_template](https://github.com/arran4/tex_recipes_template) | A very simple tex engine for recipes helpful for an AI world |  | recipes, template, tex |
 

@@ -157,6 +157,7 @@ Have questions or feedback? [Open an issue](https://github.com/arran4/arran4/iss
 | [goa4web](https://github.com/arran4/goa4web) | My everything website (server) from 2005 ported from C to GO. Ready for news, forums, link sharing, image sharing and more | cms, forum, go, golang, image-sharing, link-sharing, news, personal, server, sql, webserver, website |
 | [gorillas-react](https://github.com/arran4/gorillas-react) [🔗](https://ai.studio/apps/drive/1BOLZ6UAK9YYH8kl5eU8Ihn6J-fxugrk0) | Generated gorillas in react | ai, game, generated, react, test |
 | [heatplot](https://github.com/arran4/heatplot) | This program takes a formula and plots the "heat" for any particular location | experiment, golang, graph, heatplot, maths, plot, testing |
+| [homebrew-tap](https://github.com/arran4/homebrew-tap) |  |  |
 | [idea-txtar-support-plugin](https://github.com/arran4/idea-txtar-support-plugin) [🔗](https://plugins.jetbrains.com/plugin/30286-txtar-file-support) | Jetbrains Idea txtar support plugin | idea, java, jetbrains, plugin, txtar |
 | [image-formula-find](https://github.com/arran4/image-formula-find) | Experimenting with genetic algorithms | experiment, experimentation, genetic-algorithms, go, golang, test |
 | [kgithub-notify](https://github.com/arran4/kgithub-notify) | Github notifier for KDE | api, github, kde, notifier, qt, ui |

@@ -107,6 +107,7 @@ List of repositories and their licenses.
 | [mostcomm](https://github.com/arran4/mostcomm) | A cli utility for finding the most common and sorting by length, lines-sets in a text file | MIT | cli, common, common-lines, diff, go, golang, merge, multiple |
 | [podcast-cdr-manager](https://github.com/arran4/podcast-cdr-manager) | CLI tool to help manage podcast subscriptions for burning to CDROMs / CDR / CDRW | MIT | cli, golang, iso, iso9660, podcasts, utility |
 | [rotatingcircles](https://github.com/arran4/rotatingcircles) | Generates an optical illusion: Rotating circles | MIT | cli, amesuement, animated, fun, generated, generator, gif, go, golang, optical-illusion |
+| [sentencestats](https://github.com/arran4/sentencestats) | Tools to plot character usage in sentences | MIT | cli + for-fun, amusement, character-counter, chart, go, golang, joke, meme, plotter |
 | [spacemap](https://github.com/arran4/spacemap) [🔗](https://pkg.go.dev/github.com/arran4/spacemap) | 2d space mapper, using a couple different algorithms with an interchangable interface | MIT | golang-library, go, golang, image-mapper, location, location-lookup, space-mapping |
 | [trace-redirects](https://github.com/arran4/trace-redirects) | Very simple cli tool for tracing redirects on a site - nothing you couldn't do with curl | MIT | cli, curl, curl-like, debug, go, golang, http-redirect, http-redirect-tracing, redirect, single-purpose-cli-app, tracing |
 | [vim-barcode-sheet](https://github.com/arran4/vim-barcode-sheet) [🔗](https://arran4.github.io/barcode-cheatsheets) | Vim Barcodes Cheat Sheet to help with vim  | MIT | cheatsheet, vim, vim-cheatsheet, vimcheatsheet |
@@ -126,8 +127,7 @@ List of repositories and their licenses.
 |---|---|---|---|
 | [arrans_overlay_workflow_builder](https://github.com/arran4/arrans_overlay_workflow_builder) | A gentoo overlay ebuild workflow builder generator for -bin with a special purpose handler for .appimage binary files |  | gentoo, builder, ebuild, generator, gentoo-overlay, github-workflow |
 | [flutter_jules](https://github.com/arran4/flutter_jules) | My flutter based google jules client  |  | ai, app, flutter, google-jules, jules, linux, mac, utility, windows |
-| [homebrew-tap](https://github.com/arran4/homebrew-tap) |  |  |  |
-| [sentencestats](https://github.com/arran4/sentencestats) | Tools to plot character usage in sentences |  | cli + for-fun, amusement, character-counter, chart, go, golang, joke, meme, plotter |
+| [homebrew-tap](https://github.com/arran4/homebrew-tap) | My homebrew tap semiautomated.. maybe? |  | homebrew, homebrew-tap, tap |
 | [tex_recipes_template](https://github.com/arran4/tex_recipes_template) | A very simple tex engine for recipes helpful for an AI world |  | recipes, template, tex |
 
 <!--repos-end-->

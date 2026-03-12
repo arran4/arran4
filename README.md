@@ -163,6 +163,7 @@ Have questions or feedback? [Open an issue](https://github.com/arran4/arran4/iss
 | [kgithub-notify](https://github.com/arran4/kgithub-notify) | Github notifier for KDE | api, github, kde, notifier, qt, ui |
 | [lemmy_notify](https://github.com/arran4/lemmy_notify) | Lemmy Notification app - for desktop atm | desktop, flutter, lemmy |
 | [matchStickProblem](https://github.com/arran4/matchStickProblem) | Generates an image of solving the "match stick problem" (move a match stick) for amusement | amusement, experiment, fun, generated, generator, go, golang, match-stick, test |
+| [mlocate_explorer](https://github.com/arran4/mlocate_explorer) [🔗](https://arran4.github.io/mlocate_explorer/) | A basic mlocate db file explorer | db, explorer, flutter, gui, mlocate |
 | [resume](https://github.com/arran4/resume) | Arrans Resume | cv, resume, typst |
 | [rntocase](https://github.com/arran4/rntocase) | Some utilities to rename files, to upper, lower, title, camel, kebab, darwin case and many more | case-changer, commandline-tool, filename, filename-case-changer, go, golibrary |
 | [send_to_linkwarden](https://github.com/arran4/send_to_linkwarden) [🔗](https://arran4.github.io/send_to_linkwarden/) | Mobile version of Linkwarden | android, archiving, flutter, link, linkwarden, mobile, tool |

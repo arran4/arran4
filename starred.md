@@ -902,7 +902,7 @@ List of starred repositories.
 | [anycable/anycable](https://github.com/anycable/anycable) [🔗](https://anycable.io) | Realtime server for reliable two-way communication to power-up any backend | realtime, sse, websockets |
 | [anyproto/any-store](https://github.com/anyproto/any-store) |  |  |
 | [anyproto/any-sync](https://github.com/anyproto/any-sync) [🔗](https://anytype.io/) | An open-source protocol enabling high-performance, local-first, peer-to-peer, end-to-end encrypted collaborative apps. | anytype, e2ee, local-first, p2p, performance, privacy, protocol |
-| [anyproto/any-sync-dockercompose](https://github.com/anyproto/any-sync-dockercompose) | docker-compose for testing any-sync |  |
+| [anyproto/any-sync-dockercompose](https://github.com/anyproto/any-sync-dockercompose) [🔗](https://doc.anytype.io/) | Deploy your own any-sync network with Docker Compose - self-host Anytype backend | any-sync, anytype, p2p, self-hosted |
 | [anyproto/anytype-heart](https://github.com/anyproto/anytype-heart) [🔗](https://anytype.io) | Shared library for Anytype clients | anytype, e2ee, local-first, offline-first, p2p, privacy |
 | [anyproto/anytype-ts](https://github.com/anyproto/anytype-ts) [🔗](https://anytype.io) | Official Anytype client for MacOS, Linux, and Windows | anytype, e2ee, local-first, offline-first, p2p, privacy |
 | [apache/airflow](https://github.com/apache/airflow) [🔗](https://airflow.apache.org/) | Apache Airflow - A platform to programmatically author, schedule, and monitor workflows | airflow, apache, apache-airflow, automation, dag, data-engineering, data-integration, data-orchestrator, data-pipelines, data-science, elt, etl, machine-learning, mlops, orchestration, python, scheduler, workflow, workflow-engine, workflow-orchestration |
@@ -976,7 +976,7 @@ List of starred repositories.
 | [asticode/go-astiav](https://github.com/asticode/go-astiav) | Golang ffmpeg and libav C bindings |  |
 | [astral-sh/uv](https://github.com/astral-sh/uv) [🔗](https://docs.astral.sh/uv) | An extremely fast Python package and project manager, written in Rust. | packaging, python, resolver, uv |
 | [attic-labs/noms](https://github.com/attic-labs/noms) | The versioned, forkable, syncable database |  |
-| [atuinsh/atuin](https://github.com/atuinsh/atuin) [🔗](https://atuin.sh) | ✨ Magical shell history | bash, fish, history, rust, shell, zsh |
+| [atuinsh/atuin](https://github.com/atuinsh/atuin) [🔗](https://atuin.sh) | ✨ Making your shell magical | bash, fish, history, rust, shell, zsh |
 | [aubelsb2/arran4](https://github.com/aubelsb2/arran4) |  |  |
 | [aubelsb2/aubelsb2](https://github.com/aubelsb2/aubelsb2) |  |  |
 | [aubelsb2/aws-dynamodb-to-aws-sam-template-converter](https://github.com/aubelsb2/aws-dynamodb-to-aws-sam-template-converter) |  |  |
@@ -1353,7 +1353,7 @@ List of starred repositories.
 | [eosphoros-ai/DB-GPT](https://github.com/eosphoros-ai/DB-GPT) [🔗](http://docs.dbgpt.cn) | AI Native Data App Development framework with AWEL(Agentic Workflow Expression Language) and Agents | agents, bgi, database, deepseek, gpt, gpt-4, hacktoberfest, llm, private, rag, security, vicuna |
 | [epoch/gistlord](https://github.com/epoch/gistlord) | fast github gist searcher viewer editor manager note taker built with React & Redux | immutablejs, react, redux |
 | [epwr/git-credential-with-kwallet](https://github.com/epwr/git-credential-with-kwallet) | The easiest (encrypted) way to store your git credentials on KDE. Requires KDE Wallet for Plasma 5. | git, git-credential-helper, kubuntu, kwallet, ruby |
-| [ergo-services/ergo](https://github.com/ergo-services/ergo) [🔗](https://docs.ergo.services) | An actor-based Framework with network transparency for creating event-driven architecture in Golang. Inspired by Erlang. Zero dependencies.  | actor-model, actors, distributed, distributed-systems, elixir, ergo-framework, erlang, event-driven, event-driven-microservices, framework, go, golang, microservice, microservices-architecture, network-transparency, otp, otp-applications, supervisor, workflow, workflow-engine |
+| [ergo-services/ergo](https://github.com/ergo-services/ergo) [🔗](https://ergo.services) | An actor-based Framework with network transparency for creating event-driven architecture in Golang. Inspired by Erlang. Zero dependencies.  | actor-model, actors, distributed, distributed-systems, elixir, ergo-framework, erlang, event-driven, event-driven-microservices, framework, go, golang, microservice, microservices-architecture, network-transparency, otp, otp-applications, supervisor, workflow, workflow-engine |
 | [ergochat/ergo](https://github.com/ergochat/ergo) [🔗](https://ergo.chat/) | A modern IRC server (daemon/ircd) written in Go. | daemon, irc, irc-daemon, irc-server, ircd, ircv3, ircv3-support, sasl, server |
 | [erikras/react-redux-universal-hot-example](https://github.com/erikras/react-redux-universal-hot-example) | A starter boilerplate for a universal webapp using express, react, redux, webpack, and react-transform |  |
 | [esimov/pigo](https://github.com/esimov/pigo) | Fast face detection, pupil/eyes localization and facial landmark points detection library in pure Go. | computer-vision, eye-detection, face-detection, facial-landmarks, golang, machine-learning, opencv, pixel-intensity-comparison, pupil-detection, wasm, webassembly |
@@ -1554,6 +1554,7 @@ List of starred repositories.
 | [google-github-actions/run-gemini-cli](https://github.com/google-github-actions/run-gemini-cli) [🔗](https://github.com/google-gemini/gemini-cli) | A GitHub Action invoking the Gemini CLI. | actions, ai, gcp, gemini, gemini-cli, github-actions, google-cloud, google-cloud-platform |
 | [google-labs-code/jules-action](https://github.com/google-labs-code/jules-action) [🔗](https://jules.google) | Add a powerful cloud coding agent to your GitHub workflows | agent, ai, ai-agents, coding-agents, jules |
 | [google-labs-code/jules-awesome-list](https://github.com/google-labs-code/jules-awesome-list) | Some awesome prompts for Jules Agent |  |
+| [google-labs-code/jules-skills](https://github.com/google-labs-code/jules-skills) |  |  |
 | [google/capslock](https://github.com/google/capslock) |  |  |
 | [google/clojure-turtle](https://github.com/google/clojure-turtle) | A Clojure library that implements the Logo programming language in a Clojure context |  |
 | [google/comprehensive-rust](https://github.com/google/comprehensive-rust) [🔗](https://google.github.io/comprehensive-rust/) | This is the Rust course used by the Android team at Google. It provides you the material to quickly teach Rust. | android, classroom, course, google, guide, rust, training, training-materials |
@@ -2697,7 +2698,7 @@ List of starred repositories.
 | [usbarmory/tamago](https://github.com/usbarmory/tamago) | TamaGo - bare metal Go |  |
 | [usbpc/AudiblePodcastFeed](https://github.com/usbpc/AudiblePodcastFeed) | A tool to download audiobooks from audible and generate RSS feeds for podcast apps |  |
 | [usebruno/bruno](https://github.com/usebruno/bruno) [🔗](https://www.usebruno.com/) | Opensource IDE For Exploring and Testing API's (lightweight alternative to Postman/Insomnia) | api-client, api-testing, automation, developer-tools, git, graphql-client, http-client, javascript, openapi, openapi3, opensource, rest-api, testing, testing-tools |
-| [usememos/memos](https://github.com/usememos/memos) [🔗](https://usememos.com) | An open-source, self-hosted note-taking tool. Capture thoughts instantly, own them completely — no tracking, no ads, no subscription fees. | docker, foss, go, markdown, memo, microblog, note-taking, notecard, react, self-hosted, social-network, sqlite |
+| [usememos/memos](https://github.com/usememos/memos) [🔗](https://usememos.com) | Open-source, self-hosted note-taking tool built for quick capture. Markdown-native, lightweight, and fully yours. | docker, foss, go, markdown, memo, microblog, note-taking, notecard, own-your-data, react, self-hosted, social-network, sqlite |
 | [utterance/utterances](https://github.com/utterance/utterances) [🔗](https://utteranc.es) | :crystal_ball: A lightweight comments widget built on GitHub issues | blog, comments, comments-widget, github, utterances |
 | [v-byte-cpu/sx](https://github.com/v-byte-cpu/sx) | :vulcan_salute: Fast, modern, easy-to-use network scanner | arp, docker, go, icmp, infosec, ipv4, lan, network, pentest, proxy, recon, scan, scanner, security, socks, socks5, syn, tcp, udp, wan |
 | [valyala/fasthttp](https://github.com/valyala/fasthttp) | Fast HTTP package for Go. Tuned for high performance. Zero memory allocations in hot paths. Up to 10x faster than net/http |  |
@@ -2753,7 +2754,7 @@ List of starred repositories.
 | [watabou/CompassOS](https://github.com/watabou/CompassOS) [🔗](https://watabou.itch.io/compass-rose-generator) | Random compass rose generator. | cartography, haxe, openfl, procedural-generation |
 | [watabou/RuneGeneratorOS](https://github.com/watabou/RuneGeneratorOS) | Simple rune generator |  |
 | [watabou/TownGeneratorOS](https://github.com/watabou/TownGeneratorOS) | The source code of the Medieval Fantasy City Generator |  |
-| [wavetermdev/waveterm](https://github.com/wavetermdev/waveterm) [🔗](https://www.waveterm.dev) | An open-source, cross-platform terminal for seamless workflows | command-line, developer-tools, linux, macos, productivity, terminal, terminal-emulators, windows |
+| [wavetermdev/waveterm](https://github.com/wavetermdev/waveterm) [🔗](https://www.waveterm.dev) | An open-source, AI-integrated, cross-platform terminal for seamless workflows | command-line, developer-tools, linux, macos, productivity, terminal, terminal-emulators, windows |
 | [wawandco/fako](https://github.com/wawandco/fako) [🔗](http://wawand.co) | Struct Faker for Go | faker, go, struct, stub, testing |
 | [waydroid/waydroid](https://github.com/waydroid/waydroid) [🔗](https://waydro.id) | Waydroid uses a container-based approach to boot a full Android system on a regular GNU/Linux system like Ubuntu. | android, linux |
 | [wayneclub/Subtitle-Downloader](https://github.com/wayneclub/Subtitle-Downloader) | Auto download subtitles from streaming services, such as Apple TV+, CatchPlay, Crunchyroll, Disney+, FridayVideo, HBO GO Asia, iQIYI, iTunes, KKTV, LINE TV, meWATCH, MyVideo, NowE, NowPlayer, Viki, Viu, WeTV, YouTube, and etc. | appletvplus, catchplay, crunchyroll, disneyplus, friday-video, hbo, iqiyi, kktv, linetv, mewatch, myvideo, nowe, nowplayer, streaming-services, subtitle-downloader, subtitles, viki, viu, wetv, youtube |

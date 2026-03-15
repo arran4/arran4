@@ -832,6 +832,7 @@ List of starred repositories.
 | [aadya940/autoresume](https://github.com/aadya940/autoresume) | The open-source career agent that helps write your resume professionally and finds your next job | ai, fastapi, latex, latex-editor, reactjs, resume-builder, resume-creator |
 | [aaronjanse/3mux](https://github.com/aaronjanse/3mux) | Terminal multiplexer inspired by i3 | hacktoberfest, i3, i3wm, tmux, tui |
 | [aarzilli/nucular](https://github.com/aarzilli/nucular) | GUI toolkit for go | go, golang, gui |
+| [abema/go-mp4](https://github.com/abema/go-mp4) [🔗](https://dev.to/sunfishshogi/go-mp4-golang-library-and-cli-tool-for-mp4-52o1) | Go library for reading and writing MP4 file | fmp4, go, golang, mp4, mp4box |
 | [achreffaidi/FlutterGUI](https://github.com/achreffaidi/FlutterGUI) |  |  |
 | [achreffaidi/flutter_app_mdi](https://github.com/achreffaidi/flutter_app_mdi) |  |  |
 | [actions/actions-runner-controller](https://github.com/actions/actions-runner-controller) | Kubernetes controller for GitHub Actions self-hosted runners | github-actions, kubernetes, operator |
@@ -1109,6 +1110,7 @@ List of starred repositories.
 | [centerforaisafety/HarmBench](https://github.com/centerforaisafety/HarmBench) [🔗](https://harmbench.org) | HarmBench: A Standardized Evaluation Framework for Automated Red Teaming and Robust Refusal |  |
 | [cert-manager/cert-manager](https://github.com/cert-manager/cert-manager) [🔗](https://cert-manager.io) | Automatically provision and manage TLS certificates in Kubernetes | certificate, crd, hacktoberfest, kubernetes, letsencrypt, tls |
 | [cezarykluczynski/simone](https://github.com/cezarykluczynski/simone) | Simone is a JavaScript window manager consisting of two widgets: taskbar and window, providing a desktop-like experience. It's especially useful for single-page applications. It's built on top of the jQuery and jQuery UI. |  |
+| [chardet/chardet](https://github.com/chardet/chardet) | Python character encoding detector |  |
 | [charmbracelet/fang](https://github.com/charmbracelet/fang) | The CLI starter kit |  |
 | [charmbracelet/freeze](https://github.com/charmbracelet/freeze) | Generate images of code and terminal output 📸 |  |
 | [charmbracelet/gum](https://github.com/charmbracelet/gum) | A tool for glamorous shell scripts 🎀 | bash, shell |
@@ -1619,7 +1621,7 @@ List of starred repositories.
 | [h2oai/h2o-llmstudio](https://github.com/h2oai/h2o-llmstudio) [🔗](https://h2o.ai) | H2O LLM Studio - a framework and no-code GUI for fine-tuning LLMs. Documentation: https://docs.h2o.ai/h2o-llmstudio/ | ai, chatbot, chatgpt, fedramp, fine-tuning, finetuning, generative, generative-ai, gpt, llama, llama2, llm, llm-training |
 | [hacdias/webdav](https://github.com/hacdias/webdav) | A simple and standalone WebDAV server. | filesystem, go, http, server, webdav |
 | [hack-pad/hackpadfs](https://github.com/hack-pad/hackpadfs) | An extensible file system abstraction for Go. File systems, composable interfaces, and test suites. | filesystem, go, golang, iofs, storage |
-| [hackthedev/dcts-shipping](https://github.com/hackthedev/dcts-shipping) | A Chat Platform like Discord but self-hostable like TeamSpeak | chat, decentralized, decentralized-application, discord, early-access, fosscord, guilded, revolt, self-hosted, spacebar, teamspeak, web-chat |
+| [hackthedev/dcts-shipping](https://github.com/hackthedev/dcts-shipping) | A Chat Platform like Discord but self-hostable like TeamSpeak | chat, decentralized, decentralized-application, discord, early-access, fluxer, fosscord, guilded, revolt, root, self-hosted, spacebar, stoat, teamspeak, web-chat |
 | [haileys/doslinux](https://github.com/haileys/doslinux) | Run Linux programs on DOS | dos, linux, wsl |
 | [hajimehoshi/go-inovation](https://github.com/hajimehoshi/go-inovation) [🔗](http://hajimehoshi.github.io/go-inovation/) | Go port of Inovation 2007 by Omega | game, go, golang |
 | [hajimehoshi/go-mp3](https://github.com/hajimehoshi/go-mp3) | An MP3 decoder in pure Go | go, golang, mp3, mp3-decoder |
@@ -2120,12 +2122,13 @@ List of starred repositories.
 | [mrmn2/PdfDing](https://github.com/mrmn2/PdfDing) [🔗](https://www.pdfding.com) | Selfhosted PDF manager, viewer and editor offering a seamless user experience on multiple devices. | document-management, lightweight, pdf, pdf-cloud, pdf-editor, pdf-management, pdf-viewer, self-hosted |
 | [mshumer/gpt-author](https://github.com/mshumer/gpt-author) |  |  |
 | [mtdvio/every-programmer-should-know](https://github.com/mtdvio/every-programmer-should-know) | A collection of (mostly) technical things every software developer should know about | cc-by, collection, computer-science, educational, novice |
-| [mudler/LocalAI](https://github.com/mudler/LocalAI) [🔗](https://localai.io) | :robot: The free, Open Source alternative to OpenAI, Claude and others. Self-hosted and local-first. Drop-in replacement,  running on consumer-grade hardware. No GPU required. Runs gguf, transformers, diffusers and many more. Features: Generate Text, MCP, Audio, Video, Images, Voice Cloning, Distributed, P2P and decentralized inference | ai, api, audio-generation, decentralized, distributed, gemma, image-generation, libp2p, llama, llm, mamba, mcp, mistral, musicgen, object-detection, rerank, rwkv, stable-diffusion, text-generation, tts |
+| [mudler/LocalAI](https://github.com/mudler/LocalAI) [🔗](https://localai.io) | :robot: The free, Open Source alternative to OpenAI, Claude and others. Self-hosted and local-first. Drop-in replacement,  running on consumer-grade hardware. No GPU required. Runs gguf, transformers, diffusers and many more. Features: Generate Text, MCP, Audio, Video, Images, Voice Cloning, Distributed, P2P and decentralized inference | agents, ai, api, audio-generation, decentralized, distributed, image-generation, libp2p, llama, llm, mamba, mcp, musicgen, object-detection, rerank, stable-diffusion, text-generation, tts |
 | [muesli/beehive](https://github.com/muesli/beehive) | A flexible event/agent & automation system with lots of bees 🐝 | automation, event-driven, hacktoberfest, ifttt, workflow |
 | [muety/anchr](https://github.com/muety/anchr) [🔗](https://anchr.io) | ⚓️ Anchr provides you with a toolbox for tiny tasks on the internet, especially bookmark collections | angularjs, bookmark-manager, devtools, nodejs, self-hosted |
 | [mui/material-ui](https://github.com/mui/material-ui) [🔗](https://mui.com/material-ui/) | Material UI: Comprehensive React component library that implements Google's Material Design. Free forever. | design-system, material-design, material-ui, react, react-components |
 | [mulaRahul/keyviz](https://github.com/mulaRahul/keyviz) [🔗](https://keyviz.org) | Keyviz is a free and open-source tool to visualize your keystrokes ⌨️ and 🖱️ mouse actions in real-time. | keypress, keystroke, tauri-rust |
 | [munificent/craftinginterpreters](https://github.com/munificent/craftinginterpreters) [🔗](http://www.craftinginterpreters.com/) | Repository for the book "Crafting Interpreters" | book, bytecode, c, compiler, interpreter, java, language, lox, markdown, parser, scripting-language |
+| [mvdan/sh](https://github.com/mvdan/sh) [🔗](https://pkg.go.dev/mvdan.cc/sh/v3) | A shell parser, formatter, and interpreter with bash and zsh support; includes shfmt | bash, beautify, formatter, go, interpreter, mksh, parser, posix, shell, shfmt, zsh |
 | [mvfc/backvault](https://github.com/mvfc/backvault) | Docker container to backup Bitwarden/Vaultwarden vaults to password protected json files |  |
 | [mxgmn/ConvChain](https://github.com/mxgmn/ConvChain) | Bitmap generation from a single example with convolutions and MCMC | algorithm, convchain, csharp, gamedev, machine-learning, mcmc, procedural-generation, texture-synthesis |
 | [mxssl/sre-interview-prep-guide](https://github.com/mxssl/sre-interview-prep-guide) | Site Reliability Engineer Interview Preparation Guide | interview-preparation, preparation, site-reliability-engineer, sre, sre-interview, study |
@@ -2644,6 +2647,7 @@ List of starred repositories.
 | [tloen/alpaca-lora](https://github.com/tloen/alpaca-lora) | Instruct-tune LLaMA on consumer hardware |  |
 | [tmc/langchaingo](https://github.com/tmc/langchaingo) [🔗](https://tmc.github.io/langchaingo/) | LangChain for Go, the easiest way to write LLM-based programs in Go | ai, go, golang, langchain |
 | [tmrts/go-patterns](https://github.com/tmrts/go-patterns) [🔗](http://tmrts.com/go-patterns) | Curated list of Go design patterns, recipes and idioms | awesome, design-patterns, design-patterns-for-humans, go, golang, idioms, patterns |
+| [tobi/qmd](https://github.com/tobi/qmd) | mini cli search engine for your docs, knowledge bases, meeting notes, whatever. Tracking current sota approaches while being all local |  |
 | [tobiassjosten/go-simpex](https://github.com/tobiassjosten/go-simpex) | A simpler and faster alternative to regexp |  |
 | [tobischo/gokeepasslib](https://github.com/tobischo/gokeepasslib) | A library to read and write keepass 2 files written in go |  |
 | [toddmotto/public-apis](https://github.com/toddmotto/public-apis) [🔗](http://public-apis.org) | A collective list of free APIs |  |

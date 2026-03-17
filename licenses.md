@@ -20,7 +20,6 @@ List of repositories and their licenses.
 | [githubpages](https://github.com/arran4/githubpages) | Example hugo and github pages with github actions page | Apache-2.0 | hugo, github-actions, github-pages |
 | [golang-ical](https://github.com/arran4/golang-ical) | A  ICS / ICal parser and serialiser for Golang. | Apache-2.0 | library, golang, ical, ics |
 | [golang-wordwrap](https://github.com/arran4/golang-wordwrap) [🔗](https://pkg.go.dev/github.com/arran4/golang-wordwrap) | Wordwrap library for golang images. | Apache-2.0 | image, golang, wordwrap |
-| [test](https://github.com/arran4/test) | test repo for another project | Apache-2.0 | go, golang, test, test-repo |
 | [tsobjectutils](https://github.com/arran4/tsobjectutils) [🔗](https://www.npmjs.com/package/@arran4/tsobjectutils) | Some typescript objects I use in a couple repos | Apache-2.0 | library + npm-package, json-deserialization, npm, ts-library, ts-objects, tslang, tslibrary, typescript |
 | [ux](https://github.com/arran4/ux) [🔗](https://arran4.github.io/ux/) | Some design links I refer to  | Apache-2.0 | awesome-list, design, docs, links, list, references, ui, ui-design, ux, ux-design |
 

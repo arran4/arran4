@@ -167,7 +167,6 @@ Have questions or feedback? [Open an issue](https://github.com/arran4/arran4/iss
 | [resume](https://github.com/arran4/resume) | Arrans Resume | cv, resume, typst |
 | [rntocase](https://github.com/arran4/rntocase) | Some utilities to rename files, to upper, lower, title, camel, kebab, darwin case and many more | case-changer, commandline-tool, filename, filename-case-changer, go, golibrary |
 | [send_to_linkwarden](https://github.com/arran4/send_to_linkwarden) [🔗](https://arran4.github.io/send_to_linkwarden/) | Mobile version of Linkwarden | android, archiving, flutter, link, linkwarden, mobile, tool |
-| [test](https://github.com/arran4/test) | test repo for another project | go, golang, test, test-repo |
 | [tex_recipes_template](https://github.com/arran4/tex_recipes_template) | A very simple tex engine for recipes helpful for an AI world | recipes, template, tex |
 | [vim-barcode-sheet](https://github.com/arran4/vim-barcode-sheet) [🔗](https://arran4.github.io/barcode-cheatsheets) | Vim Barcodes Cheat Sheet to help with vim  | cheatsheet, vim, vim-cheatsheet, vimcheatsheet |
 | [vlc-xattr-plugin](https://github.com/arran4/vlc-xattr-plugin) | A plugin for VLC to add "seen" to the `xdg.tags` list automatically when ever you watch anything | c, cmake, fs-attr, plugins, vlc, vlc-plugin, xattr |

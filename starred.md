@@ -2644,7 +2644,7 @@ List of starred repositories.
 | [tikikun/f5-tts-mlx-quantized](https://github.com/tikikun/f5-tts-mlx-quantized) | Implementation of F5-TTS in MLX |  |
 | [tikv/tikv](https://github.com/tikv/tikv) [🔗](https://tikv.org) | Distributed transactional key-value database, originally created to complement TiDB | cncf, consensus, distributed-transactions, hacktoberfest, key-value, raft, rocksdb, rust, tidb, tikv |
 | [timelinize/timelinize](https://github.com/timelinize/timelinize) [🔗](https://timelinize.com) | Store your data from all your accounts and devices in a single cohesive timeline on your own computer | archival, data-archiving, data-import, family-history, self-hosted, timeline |
-| [timothepoznanski/poznote](https://github.com/timothepoznanski/poznote) [🔗](https://poznote.com) | Poznote is a personal note-taking and documentation platform. | documentation, note-taking, self-hosted, webapp |
+| [timothepoznanski/poznote](https://github.com/timothepoznanski/poznote) [🔗](https://poznote.com) | Poznote is a personal note-taking and documentation platform. | documentation, free, note-taking, personal-wiki, self-hosted, todolist, webapp |
 | [timzaak/notir](https://github.com/timzaak/notir) | Notir: simple pubsub via http and websocket, provide web console to handle the message | pubsub, tool |
 | [tine-groupware/tine](https://github.com/tine-groupware/tine) [🔗](https://www.tine-groupware.de) | tine groupware main repository | activesync, caldav, calendar, carddav, collaboration, contacts, groupware, javascript, php, sync, webdav |
 | [tine20/tine20](https://github.com/tine20/tine20) | Tine 2.0 main repository | activesync, agplv3, caldav, calendar, carddav, email, filemanager, groupware, synchronization, webdav |

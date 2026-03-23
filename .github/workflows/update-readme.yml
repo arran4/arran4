@@ -27,10 +27,10 @@ jobs:
             echo
             echo "## What changed"
             echo
-            if git diff --quiet -- README.md; then
-              echo "- No README changes detected."
+            if git diff --quiet; then
+              echo "- No changes detected."
             else
-              echo "- Regenerated the README repo table."
+              echo "- Regenerated the repo table."
               echo
               echo "## Files changed"
               echo

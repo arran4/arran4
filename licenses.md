@@ -100,6 +100,7 @@ List of repositories and their licenses.
 | [golang-rpg-textbox](https://github.com/arran4/golang-rpg-textbox) [🔗](https://pkg.go.dev/github.com/arran4/golang-rpg-textbox#section-readme) | Golang image library to Renders a RPG style text box with word wrapped text of your choosing | MIT | image, game, golang, rpg, rpg-game |
 | [gorillamuxlogic](https://github.com/arran4/gorillamuxlogic) | Some very simple gorilla mux logic for `mux.MatcherFunc` | MIT | web, go, golang, gorilla, gorilla-mux, http |
 | [gorillas-react](https://github.com/arran4/gorillas-react) [🔗](https://ai.studio/apps/drive/1BOLZ6UAK9YYH8kl5eU8Ihn6J-fxugrk0) | Generated gorillas in react | MIT | ai, game, generated, react, test |
+| [goxresources](https://github.com/arran4/goxresources) | go parser for xresource files  | MIT | dotfiles, go, golang, xresources |
 | [interactions](https://github.com/arran4/interactions) | How things interact | MIT | image, experiment, fun, generated-infographic, generator, statistics, test |
 | [matchStickProblem](https://github.com/arran4/matchStickProblem) | Generates an image of solving the "match stick problem" (move a match stick) for amusement | MIT | amusement, experiment, fun, generated, generator, go, golang, match-stick, test |
 | [md2png](https://github.com/arran4/md2png) [🔗](https://pkg.go.dev/github.com/arran4/md2png) | Very basic generated md2png  | MIT | cli + library, converter, dependency-free, experiment, go, golang, markdown, md2png, png |

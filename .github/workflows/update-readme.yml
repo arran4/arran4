@@ -41,6 +41,14 @@ jobs:
               echo '```text'
               git diff --stat
               echo '```'
+              echo
+              echo '<details><summary>Detailed Diff</summary>'
+              echo
+              echo '```diff'
+              git diff
+              echo '```'
+              echo
+              echo '</details>'
             fi
             echo
             echo "## Notes"

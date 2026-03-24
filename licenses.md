@@ -81,7 +81,7 @@ List of repositories and their licenses.
 |---|---|---|---|
 | [Dimension](https://github.com/arran4/Dimension) [🔗](https://arran4.github.io/Dimension/) | (Beta) Peer-to-peer group chat and file transfer. | MIT | web, android, chat, desktop, fileshare, flutter, ios, linux, mac, mobile, peer-to-peer, peer2peer, windows |
 | [abc-mediawatch-rss](https://github.com/arran4/abc-mediawatch-rss) | RSS generator for ABC's Media Watch | MIT | rss, abc, abc-media-watch, rss-generator |
-| [arrans_overlay](https://github.com/arran4/arrans_overlay) [🔗](https://wiki.gentoo.org/wiki/User:Arran4) | Arrans Gentoo Overlay | MIT | gentoo, gentoo-overlay, gentoo-portage-overlay, overlay, portage-overlay |
+| [arrans_overlay](https://github.com/arran4/arrans_overlay) [🔗](https://arran4.github.io/arrans_overlay/) | Arrans Gentoo Overlay | MIT | gentoo, gentoo-overlay, gentoo-portage-overlay, overlay, portage-overlay |
 | [awesome-fodmap-resources](https://github.com/arran4/awesome-fodmap-resources) [🔗](https://arran4.github.io/awesome-fodmap-resources/) | Compilation of Low Fodmap resources | MIT | awesome-list, awesome, fodmap, fodmaps, low-fodmap |
 | [chat-barcodes](https://github.com/arran4/chat-barcodes) [🔗](https://arran4.github.io/barcode-cheatsheets) | Chat barcode cheatsheet | MIT | barcodes, chat, chat-barcodes, chat-cheatsheet, chat-shortcuts, cheetsheet |
 | [dart_unix_single_instance](https://github.com/arran4/dart_unix_single_instance) [🔗](https://pub.dev/packages/unix_single_instance) | A library which uses unix sockets to ensure a single instance | MIT | dart-library + library, dart, dartlang, flutter, flutter-library, single-instance, unix |

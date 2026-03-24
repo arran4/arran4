@@ -227,7 +227,7 @@ List of starred repositories.
 |---|---|---|
 | [BenjaminGuzman/gentoo-utils](https://github.com/BenjaminGuzman/gentoo-utils) | Utilities and notes for my gentoo installation | gentoo, bash, golang, linux |
 | [SpiderX/portage-overlay](https://github.com/SpiderX/portage-overlay) | Gentoo portage overlay | gentoo, ebuilds, overlay, portage |
-| [arran4/arrans_overlay](https://github.com/arran4/arrans_overlay) [🔗](https://wiki.gentoo.org/wiki/User:Arran4) | Arrans Gentoo Overlay | gentoo, gentoo-overlay, gentoo-portage-overlay, overlay, portage-overlay |
+| [arran4/arrans_overlay](https://github.com/arran4/arrans_overlay) [🔗](https://arran4.github.io/arrans_overlay/) | Arrans Gentoo Overlay | gentoo, gentoo-overlay, gentoo-portage-overlay, overlay, portage-overlay |
 | [arran4/arrans_overlay_workflow_builder](https://github.com/arran4/arrans_overlay_workflow_builder) | A gentoo overlay ebuild workflow builder generator for -bin with a special purpose handler for .appimage binary files | gentoo, builder, ebuild, generator, gentoo-overlay, github-workflow |
 | [arran4/g2](https://github.com/arran4/g2) [🔗](https://wiki.gentoo.org/wiki/User:Arran4) | g2 Gentoo Tools | gentoo, gentoo-utils, golang |
 | [chramb/go-gentoo](https://github.com/chramb/go-gentoo) | varoius modules meant to help developing for Gentoo in Go | gentoo, go, golang, portage |

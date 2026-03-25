@@ -1201,6 +1201,7 @@ List of starred repositories.
 | [cue-lang/cue](https://github.com/cue-lang/cue) [🔗](https://cuelang.org) | The home of the CUE language! Validate and define text-based and dynamic configuration | configuration, data, kubernetes, validation |
 | [curl/wcurl](https://github.com/curl/wcurl) [🔗](https://curl.se/wcurl) | a simple wrapper around curl to easily download files | command-line, curl, download, url |
 | [cutiepi-io/pi-gen_stage4.5-cutiepi](https://github.com/cutiepi-io/pi-gen_stage4.5-cutiepi) | Stage folder for building CutiePi image with pi-gen |  |
+| [cvilsmeier/go-sqlite-bench](https://github.com/cvilsmeier/go-sqlite-bench) | Benchmarks for Golang SQLite Drivers | golang, sqlite |
 | [cxong/cdogs-sdl](https://github.com/cxong/cdogs-sdl) [🔗](https://cxong.github.io/cdogs-sdl/) | Classic overhead run-and-gun game | 2d, 2d-game, c, game, games, hacktoberfest, open-source, pixel-art, retro, retrogaming, sdl2, shoot-em-up |
 | [cznic/ql](https://github.com/cznic/ql) [🔗](https://godoc.org/modernc.org/ql) | github.com/cznic/ql has moved to modernc.org/ql |  |
 | [d07RiV/diabloweb](https://github.com/d07RiV/diabloweb) | Diablo 1 for web browsers |  |
@@ -1489,6 +1490,7 @@ List of starred repositories.
 | [geerlingguy/raspberry-pi-pcie-devices](https://github.com/geerlingguy/raspberry-pi-pcie-devices) [🔗](http://pipci.jeffgeerling.com) | Raspberry Pi PCI Express device compatibility database | aarch64, arm, arm64, cm4, compute-module, pcie, raspberry-pi |
 | [gemini-cli-extensions/jules](https://github.com/gemini-cli-extensions/jules) | A Gemini CLI extension that allows you to use the Gemini CLI to orchestrate the Jules asynchronous agent to perform coding tasks like bug fixing, refactoring, and dependency updates. | gemini, gemini-cli, gemini-cli-extensions, google, jules |
 | [genchilu/golang-vim-docker](https://github.com/genchilu/golang-vim-docker) | goland dev with ide vim |  |
+| [gentoo-mirror/gentoo](https://github.com/gentoo-mirror/gentoo) [🔗](https://gentoo.org/) | Official Gentoo ebuild repository |  |
 | [gentoo/api-gentoo-org](https://github.com/gentoo/api-gentoo-org) [🔗](https://gitweb.gentoo.org/data/api.git) | [MIRROR] Seed data for api.gentoo.org | hacktoberfest |
 | [gentoo/guru](https://github.com/gentoo/guru) [🔗](https://gitweb.gentoo.org/repo/proj/guru.git) | [MIRROR] GURU: repository of new packages maintained collaboratively by users | hacktoberfest |
 | [gentoo/java-ebuilder](https://github.com/gentoo/java-ebuilder) [🔗](https://gitweb.gentoo.org/proj/java-ebuilder.git) | [MIRROR] Java team tool for semi-automatic creation of ebuilds from pom.xml | hacktoberfest |
@@ -2572,7 +2574,7 @@ List of starred repositories.
 | [steveiliop56/tinyauth](https://github.com/steveiliop56/tinyauth) [🔗](https://tinyauth.app) | The tiniest authentication and authorization server you have ever seen. | 2fa, authentication, caddy, golang, middleware, nginx, oidc, selfhosted, sso, tinyauth, totp, typescipt |
 | [stoatchat/for-desktop](https://github.com/stoatchat/for-desktop) [🔗](https://stoat.chat) | Stoat for Desktop – application for Windows, macOS, and Linux |  |
 | [stoatchat/for-web](https://github.com/stoatchat/for-web) [🔗](https://stoat.chat/app) | Stoat for Web – browser app for Stoat | stoat, stoat-chat, stoat-client, stoatchat |
-| [stoatchat/stoatchat](https://github.com/stoatchat/stoatchat) [🔗](https://developers.stoat.chat/api-reference) | The software powering Stoat | api, mongodb, redis, revolt, revolt-chat, revoltchat, rust, stoat, stoat-chat, stoatchat |
+| [stoatchat/stoatchat](https://github.com/stoatchat/stoatchat) [🔗](https://developers.revolt.chat/api/) | The software powering Stoat | api, mongodb, redis, revolt, revolt-chat, revoltchat, rust, stoat, stoat-chat, stoatchat |
 | [stoewer/go-strcase](https://github.com/stoewer/go-strcase) | Convert snake case, camel case and kebap case strings | camel-case, go, golang, kebab-case, snake-case, string-formatter |
 | [stolowski/QComicBook](https://github.com/stolowski/QComicBook) [🔗](https://github.com/stolowski/QComicBook) | Viewer for comic book archives that aims at convenience and simplicity |  |
 | [storj/storj](https://github.com/storj/storj) [🔗](https://storj.io) | Ongoing Storj v3 development. Decentralized cloud object storage that is affordable, easy to use, private, and secure. | distributed, distributed-storage, distributed-systems, golang, object-storage, open-source, storage |

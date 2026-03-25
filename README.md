@@ -163,6 +163,7 @@ Have questions or feedback? [Open an issue](https://github.com/arran4/arran4/iss
 | [image-formula-find](https://github.com/arran4/image-formula-find) | Experimenting with genetic algorithms | experiment, experimentation, genetic-algorithms, go, golang, test |
 | [kgithub-notify](https://github.com/arran4/kgithub-notify) | A sleek GitHub notification system tray application written natively in C++ using Qt6 and KDE Frameworks 6 (KF6). It quietly monitors your GitHub account, notifying you when there are new notifications, and provides a rich desktop interface to manage themGithub notifier for KDE | api, github, kde, notifier, qt, ui |
 | [lemmy_notify](https://github.com/arran4/lemmy_notify) | Lemmy Notification app - for desktop atm | desktop, flutter, lemmy |
+| [lxa](https://github.com/arran4/lxa) | ls with extended attributes | fs-attr, linux, ls, xattr, xdp |
 | [matchStickProblem](https://github.com/arran4/matchStickProblem) | Generates an image of solving the "match stick problem" (move a match stick) for amusement | amusement, experiment, fun, generated, generator, go, golang, match-stick, test |
 | [mlocate_explorer](https://github.com/arran4/mlocate_explorer) [🔗](https://arran4.github.io/mlocate_explorer/) | A basic mlocate db file explorer | db, explorer, flutter, gui, mlocate |
 | [resume](https://github.com/arran4/resume) | Arrans Resume | cv, resume, typst |

@@ -82,6 +82,7 @@ Have questions or feedback? [Open an issue](https://github.com/arran4/arran4/iss
 | [arrans_overlay](https://github.com/arran4/arrans_overlay) [🔗](https://arran4.github.io/arrans_overlay/) | Arrans Gentoo Overlay | gentoo, gentoo-overlay, gentoo-portage-overlay, overlay, portage-overlay |
 | [arrans_overlay_workflow_builder](https://github.com/arran4/arrans_overlay_workflow_builder) | A gentoo overlay ebuild workflow builder generator for -bin with a special purpose handler for .appimage binary files | gentoo, builder, ebuild, generator, gentoo-overlay, github-workflow |
 | [g2](https://github.com/arran4/g2) [🔗](https://wiki.gentoo.org/wiki/User:Arran4) | g2 Gentoo Tools | gentoo, gentoo-utils, golang |
+| [g2-action](https://github.com/arran4/g2-action) | g2 github workflow action | gentoo, ci, g2, github-action, workflows |
 
 ### golang-library
 | Repository | Description | Tags |
@@ -152,6 +153,7 @@ Have questions or feedback? [Open an issue](https://github.com/arran4/arran4/iss
 | [flutter_google_datastore](https://github.com/arran4/flutter_google_datastore) | Google Datastore and Datastore emulator client for "easy" modification of values | dart, datastore, flutter, google, utility |
 | [flutter_jules](https://github.com/arran4/flutter_jules) | My flutter based google jules client  | ai, app, flutter, google-jules, jules, linux, mac, utility, windows |
 | [git-barcode-sheet](https://github.com/arran4/git-barcode-sheet) [🔗](https://arran4.github.io/barcode-cheatsheets) | Git barcode based cheat sheet | barcode-cheatsheet, barcodes, cheetsheet, git, git-barcodes, git-cheatsheet |
+| [git-tag-inc-action](https://github.com/arran4/git-tag-inc-action) [🔗](https://github.com/arran4/git-tag-inc) | An action for incrementing semantic git tags | git-tag-inc, github-action, github-workflow, semantic-tagging, semantic-versions, tag-manager |
 | [go-objectutils](https://github.com/arran4/go-objectutils) [🔗](https://pkg.go.dev/github.com/arran4/go-objectutils) | Go objectutils for go.  | go, go-library, type-converstion |
 | [go-template-functional-operations](https://github.com/arran4/go-template-functional-operations) | These functions enable a more functional programming style within template rendering, allowing you to easily perform operations like mapping, filtering, and finding indices directly within your templates. | functional-go-template, go, go-template, go-template-functions, golang |
 | [goa4web](https://github.com/arran4/goa4web) | My everything website (server) from 2005 ported from C to GO. Ready for news, forums, link sharing, image sharing and more | cms, forum, go, golang, image-sharing, link-sharing, news, personal, server, sql, webserver, website |

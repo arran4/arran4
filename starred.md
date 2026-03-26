@@ -230,6 +230,7 @@ List of starred repositories.
 | [arran4/arrans_overlay](https://github.com/arran4/arrans_overlay) [🔗](https://arran4.github.io/arrans_overlay/) | Arrans Gentoo Overlay | gentoo, gentoo-overlay, gentoo-portage-overlay, overlay, portage-overlay |
 | [arran4/arrans_overlay_workflow_builder](https://github.com/arran4/arrans_overlay_workflow_builder) | A gentoo overlay ebuild workflow builder generator for -bin with a special purpose handler for .appimage binary files | gentoo, builder, ebuild, generator, gentoo-overlay, github-workflow |
 | [arran4/g2](https://github.com/arran4/g2) [🔗](https://wiki.gentoo.org/wiki/User:Arran4) | g2 Gentoo Tools | gentoo, gentoo-utils, golang |
+| [arran4/g2-action](https://github.com/arran4/g2-action) | g2 github workflow action | gentoo, ci, g2, github-action, workflows |
 | [chramb/go-gentoo](https://github.com/chramb/go-gentoo) | varoius modules meant to help developing for Gentoo in Go | gentoo, go, golang, portage |
 | [gentoo/gentoo](https://github.com/gentoo/gentoo) [🔗](https://gitweb.gentoo.org/repo/gentoo.git) | [MIRROR] Official Gentoo ebuild repository | gentoo, ebuild, ebuild-repository, hacktoberfest, linux, portage |
 | [gentoo/portage](https://github.com/gentoo/portage) [🔗](https://gitweb.gentoo.org/proj/portage.git) | [MIRROR] Package management system | gentoo, hacktoberfest, package, package-manager, portage, python |
@@ -946,6 +947,7 @@ List of starred repositories.
 | [arran4/flutter_jules](https://github.com/arran4/flutter_jules) | My flutter based google jules client  | ai, app, flutter, google-jules, jules, linux, mac, utility, windows |
 | [arran4/fork-kweather](https://github.com/arran4/fork-kweather) [🔗](https://invent.kde.org/utilities/kweather) | Weather application for Plasma Mobile |  |
 | [arran4/git-barcode-sheet](https://github.com/arran4/git-barcode-sheet) [🔗](https://arran4.github.io/barcode-cheatsheets) | Git barcode based cheat sheet | barcode-cheatsheet, barcodes, cheetsheet, git, git-barcodes, git-cheatsheet |
+| [arran4/git-tag-inc-action](https://github.com/arran4/git-tag-inc-action) [🔗](https://github.com/arran4/git-tag-inc) | An action for incrementing semantic git tags | git-tag-inc, github-action, github-workflow, semantic-tagging, semantic-versions, tag-manager |
 | [arran4/github-level](https://github.com/arran4/github-level) |  |  |
 | [arran4/githubprojectbulkaddremove](https://github.com/arran4/githubprojectbulkaddremove) | Simple script to bulk add and remove people |  |
 | [arran4/go-fontstash](https://github.com/arran4/go-fontstash) | Light-weight online font texture atlas builder | experiment, font, fontlib, go, go-port |
@@ -965,6 +967,7 @@ List of starred repositories.
 | [arran4/kde-keyboard-shortcuts](https://github.com/arran4/kde-keyboard-shortcuts) | A quick and simple installer for my kde keyboard bindings in system, as a deb/rpm file | deb, kde, kde-keyboard-shortcuts, keyboard-bindings, keyboard-shortcuts, package-manager, rpm |
 | [arran4/kgithub-notify](https://github.com/arran4/kgithub-notify) | A sleek GitHub notification system tray application written natively in C++ using Qt6 and KDE Frameworks 6 (KF6). It quietly monitors your GitHub account, notifying you when there are new notifications, and provides a rich desktop interface to manage themGithub notifier for KDE | api, github, kde, notifier, qt, ui |
 | [arran4/lemmy_notify](https://github.com/arran4/lemmy_notify) | Lemmy Notification app - for desktop atm | desktop, flutter, lemmy |
+| [arran4/lxa](https://github.com/arran4/lxa) | ls with extended attributes | fs-attr, linux, ls, xattr, xdp |
 | [arran4/matchStickProblem](https://github.com/arran4/matchStickProblem) | Generates an image of solving the "match stick problem" (move a match stick) for amusement | amusement, experiment, fun, generated, generator, go, golang, match-stick, test |
 | [arran4/merge_chat_example](https://github.com/arran4/merge_chat_example) | How chat should work. By merging. | chat, poc |
 | [arran4/mlocate_explorer](https://github.com/arran4/mlocate_explorer) [🔗](https://arran4.github.io/mlocate_explorer/) | A basic mlocate db file explorer | db, explorer, flutter, gui, mlocate |
@@ -1355,7 +1358,6 @@ List of starred repositories.
 | [emersion/go-mbox](https://github.com/emersion/go-mbox) | Package mbox parses the mbox file format into messages and formats messages into mbox files |  |
 | [emersion/go-message](https://github.com/emersion/go-message) | ✉️ A streaming Go library for the Internet Message Format and mail messages | mail, mime |
 | [emersion/go-smtp](https://github.com/emersion/go-smtp) | 📤 An SMTP library for Go clients and servers | client, esmtp, lmtp, mail, server, smtp |
-| [emin-ozata/lazycut](https://github.com/emin-ozata/lazycut) | A simple terminal UI for video trimming |  |
 | [emirpasic/gods](https://github.com/emirpasic/gods) | GoDS (Go Data Structures) - Sets, Lists, Stacks, Maps, Trees, Queues, and much more | avl-tree, b-tree, binary-heap, data-structure, enumerable, go, golang, iterator, list, map, queue, red-black-tree, set, sort, stack, tree |
 | [en-wl/wordlist](https://github.com/en-wl/wordlist) [🔗](https://wordlist.aspell.net) | English Speller Database |  |
 | [encharm/libsystemtray](https://github.com/encharm/libsystemtray) | Library for creating system tray icons in Plasma5, other backends are welcome as pull requests |  |
@@ -1364,7 +1366,7 @@ List of starred repositories.
 | [endojs/Jessie](https://github.com/endojs/Jessie) | Tiny subset of JavaScript for ocap-safe universal mobile code |  |
 | [eneam/mboxviewer](https://github.com/eneam/mboxviewer) | A small but powerfull app for viewing MBOX files |  |
 | [enjector/microgpt-c](https://github.com/enjector/microgpt-c) | Zero-dependency C99 GPT-2 engine for edge AI. Sub-1M parameter models train on-device in seconds. Organelle Pipeline Architecture (OPA) coordinates specialised micro-models — 91% win rates on 11 logic games with 30K–160K parameters. Composition beats capacity. |  |
-| [ente-io/ente](https://github.com/ente-io/ente) [🔗](https://ente.io) | 💚 End-to-end encrypted cloud for everything. | 2fa, android, authy, e2ee, encryption, end-to-end-encryption, flutter, golang, google-photos, google-photos-alternative, ios, opensource, photos, privacy, privacy-tools, typescript, zero-knowledge |
+| [ente-io/ente](https://github.com/ente-io/ente) [🔗](https://ente.com) | 💚 End-to-end encrypted cloud for everything. | 2fa, android, authy, e2ee, encryption, end-to-end-encryption, flutter, golang, google-photos, google-photos-alternative, ios, opensource, photos, privacy, privacy-tools, typescript, zero-knowledge |
 | [envoyproxy/envoy](https://github.com/envoyproxy/envoy) [🔗](https://www.envoyproxy.io) | Cloud-native high-performance edge/middle/service proxy | cars, cats, cats-over-dogs, cncf, corgis, more-cats, nanoservices, rocket-ships |
 | [eosphoros-ai/DB-GPT](https://github.com/eosphoros-ai/DB-GPT) [🔗](http://docs.dbgpt.cn) | open-source agentic AI data assistant for the next generation of AI + Data products. | agents, bgi, database, deepseek, gpt, gpt-4, hacktoberfest, llm, private, rag, security, vicuna |
 | [epoch/gistlord](https://github.com/epoch/gistlord) | fast github gist searcher viewer editor manager note taker built with React & Redux | immutablejs, react, redux |
@@ -2169,7 +2171,7 @@ List of starred repositories.
 | [navidrome/navidrome](https://github.com/navidrome/navidrome) [🔗](https://www.navidrome.org) | 🎧 Your Personal Streaming Service  | airsonic, madsonic, media-server, music, music-server, navidrome, opensubsonic, raspberry-pi, self-hosted, streamer, streaming-api, streaming-audio, subsonic, subsonic-server |
 | [nbr23/youtube-dl-server](https://github.com/nbr23/youtube-dl-server) | Web / REST interface for downloading youtube videos onto a server. | docker, self-hosted, youtube-dl |
 | [nccgroup/ScoutSuite](https://github.com/nccgroup/ScoutSuite) | Multi-Cloud Security Auditing Tool | auditing, aws, azure, cloud, gcp, security |
-| [ncruces/go-sqlite3](https://github.com/ncruces/go-sqlite3) [🔗](https://pkg.go.dev/github.com/ncruces/go-sqlite3) | Go bindings to SQLite using wasm2go | no-cgo, sqlite3, wasm, wazero |
+| [ncruces/go-sqlite3](https://github.com/ncruces/go-sqlite3) [🔗](https://pkg.go.dev/github.com/ncruces/go-sqlite3) | Go bindings to SQLite using wasm2go | no-cgo, sqlite3, wasm, wasm2go |
 | [ncruces/wasm2go](https://github.com/ncruces/wasm2go) | A Wasm to Go translator |  |
 | [ndsrf/wine-tasting-game](https://github.com/ndsrf/wine-tasting-game) [🔗](https://vino.ndsrf.com/) | The Ultimate Multiplayer Wine Tasting Experience |  |
 | [nebomuk/nobleNoteAndroid](https://github.com/nebomuk/nobleNoteAndroid) | Simple Android app to make and manage notes | android, kotlin, notebook |
@@ -2291,6 +2293,7 @@ List of starred repositories.
 | [owenthereal/godzilla](https://github.com/owenthereal/godzilla) [🔗](https://github.com/jingweno/godzilla) | Godzilla is a ES2015 to Go source code transpiler and runtime | compiler, es2015, golang, javascript, transpiler |
 | [owlistic-notes/owlistic](https://github.com/owlistic-notes/owlistic) [🔗](https://owlistic-notes.github.io/owlistic/) | 🦉 Free open-source notetaking app with real-time sync 🔄⚡️🚀 | dart, event-driven, evernote-alternative, flutter, go, golang, joplin-alternative, knowledge-base, markdown, note-taking, notes, productivity, real-time, self-hosted, task-manager, tasks, todo, todo-list, wysiwyg-editor |
 | [owncast/owncast](https://github.com/owncast/owncast) [🔗](https://owncast.online) | Take control over your live stream video by running it yourself.  Streaming + chat out of the box. | activitypub, broadcasting, chat, decentralized, federation, fediverse, golang, hacktoberfest, hls, live, livestream, owncast, rtmp, self-hosted, streaming-video, video |
+| [ozemin/lazycut](https://github.com/ozemin/lazycut) | A simple terminal UI for video trimming |  |
 | [pablo-chacon/dede-protocol](https://github.com/pablo-chacon/dede-protocol) | DeDe Protocol, Neutral, Trustless Settlement Rails for P2P Crowdshipping | cefi, crowdshipping, decentralized, defi, escrow, etherum, foundry, infrastructure, last-mile-delivery, last-mile-trnsprt-mng, logistics, nft, p2p, privacy, smart-contracts, solidity, web2, web3 |
 | [packaged/ttlmap](https://github.com/packaged/ttlmap) | Go TTL Cache |  |
 | [padloc/padloc](https://github.com/padloc/padloc) [🔗](https://padloc.app) | A modern, open source password manager for individuals and teams. | cryptography, end-to-end-encryption, javascript, lit-element, lit-html, password-generator, password-manager, progressive-web-app, pwa, tauri, typescript |

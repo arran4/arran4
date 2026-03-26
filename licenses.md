@@ -62,6 +62,8 @@ List of repositories and their licenses.
 | Repository | Description | License | Tags |
 |---|---|---|---|
 | [g2](https://github.com/arran4/g2) [🔗](https://wiki.gentoo.org/wiki/User:Arran4) | g2 Gentoo Tools | GPL-2.0 | gentoo, gentoo-utils, golang |
+| [g2-action](https://github.com/arran4/g2-action) | g2 github workflow action | GPL-2.0 | gentoo, ci, g2, github-action, workflows |
+| [git-tag-inc-action](https://github.com/arran4/git-tag-inc-action) [🔗](https://github.com/arran4/git-tag-inc) | An action for incrementing semantic git tags | GPL-2.0 | git-tag-inc, github-action, github-workflow, semantic-tagging, semantic-versions, tag-manager |
 
 ### GPL-3.0
 | Repository | Description | License | Tags |

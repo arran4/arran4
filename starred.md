@@ -658,6 +658,7 @@ List of starred repositories.
 | [NVIDIA/Megatron-LM](https://github.com/NVIDIA/Megatron-LM) [🔗](https://docs.nvidia.com/megatron-core/developer-guide/latest/get-started/quickstart.html) | Ongoing research training transformer models at scale | large-language-models, model-para, transformers |
 | [NVIDIA/open-gpu-kernel-modules](https://github.com/NVIDIA/open-gpu-kernel-modules) | NVIDIA Linux open GPU kernel module source |  |
 | [NVIDIA/tacotron2](https://github.com/NVIDIA/tacotron2) | Tacotron 2 - PyTorch implementation with faster-than-realtime inference |  |
+| [Nahuel990/ministack](https://github.com/Nahuel990/ministack) [🔗](https://ministack.org) | Ministack: the free LocalStack replacement | aws, aws-emulation, aws-local, boto, docker, dynamodb, emulator, lambda, localstack, ministack, moto, pip, python, s3, testing |
 | [NangoHQ/nango](https://github.com/NangoHQ/nango) [🔗](https://www.nango.dev) | Build product integrations with AI. | access-token, api, api-client, api-integration, api-integrations, integrations, oauth, oauth1, oauth2, product-integration, refresh-token, unified-api |
 | [Nano-Collective/nanocoder](https://github.com/Nano-Collective/nanocoder) [🔗](https://docs.nanocollective.org/nanocoder) | A beautiful local-first coding agent running in your terminal - built by the community for the community ⚒ | ai, ai-agents, ai-coding, coding-agents, llm, llm-inference, ollama, openai, openrouter |
 | [NativeScript/NativeScript](https://github.com/NativeScript/NativeScript) [🔗](https://nativescript.org) | ⚡ Write Native with TypeScript ✨ Best of all worlds (TypeScript, Swift, Objective C, Kotlin, Java, Dart). Use what you love ❤️ Angular, React, Solid, Svelte, Vue with: iOS (UIKit, SwiftUI), Android (View, Jetpack Compose), Flutter and you name it compatible. | android, angular, capacitor, cross-platform, flutter, ios, java, javascript, kotlin, nativescript, objective-c, react, solidjs, svelte, swift, swiftui, typescript, visionos, visionpro, vue |
@@ -715,6 +716,7 @@ List of starred repositories.
 | [Receipt-Wrangler/receipt-wrangler](https://github.com/Receipt-Wrangler/receipt-wrangler) | Receipt Wrangler application |  |
 | [Receipt-Wrangler/receipt-wrangler-desktop](https://github.com/Receipt-Wrangler/receipt-wrangler-desktop) | Desktop client for Receipt Wrangler |  |
 | [Receipt-Wrangler/receipt-wrangler-mobile](https://github.com/Receipt-Wrangler/receipt-wrangler-mobile) | Mobile client for Receipt Wrangler |  |
+| [RecoLabs/gnata](https://github.com/RecoLabs/gnata) | Pure-Go implementation of JSONata 2.x for high-throughput streaming evaluation |  |
 | [RentFreeMedia/rentfreemedia](https://github.com/RentFreeMedia/rentfreemedia) [🔗](https://rentfreemedia.readthedocs.io) | Media distribution without the platform markup. Home of the free/open source Rent Free Media distribution of Django + Wagtail. |  |
 | [Rezivure/Grid-Mobile](https://github.com/Rezivure/Grid-Mobile) [🔗](https://mygrid.app) | Grid: Private Location Sharing mobile app for iOS/Android. E2EE with Matrix. | gps, grid, groups, location, maps, navigation, privacy, sharing, track, tracking |
 | [RikudouSage/LemmyAutoTldrBot](https://github.com/RikudouSage/LemmyAutoTldrBot) |  |  |
@@ -859,6 +861,7 @@ List of starred repositories.
 | [advplyr/audiobookshelf](https://github.com/advplyr/audiobookshelf) [🔗](https://audiobookshelf.org) | Self-hosted audiobook and podcast server | audiobook-manager, audiobooks, audiobookshelf, podcasts, self-hosted |
 | [aeharding/voyager](https://github.com/aeharding/voyager) [🔗](https://getvoyager.app) | Voyager — a beautiful app for Lemmy | activitypub, android-app, capacitor, fediverse, ionic, ios-app, lemmy, link-aggregator, piefed, pwa, reactjs, universal-app |
 | [aeron-io/simple-binary-encoding](https://github.com/aeron-io/simple-binary-encoding) | Simple Binary Encoding (SBE) - High Performance Message Codec | c-plus-plus, codec, encoder-decoder, golang, java |
+| [afairgiant/MediKeep](https://github.com/afairgiant/MediKeep) | A lightweight, self-hosted application for managing your personal medical information. Keep your health records organized and accessible while maintaining complete control over your data privacy. |  |
 | [afonsocraposo/buttons_tabbar](https://github.com/afonsocraposo/buttons_tabbar) [🔗](https://pub.dev/documentation/buttons_tabbar/latest/) | A Flutter package that implements a TabBar where each label is a toggle button. | android, button, dart, flutter, flutter-package, flutter-ui, flutter-widget, ios, mobile, package, tab, tabbar, ui, ui-components, ui-design |
 | [agavrel/42_CheatSheet](https://github.com/agavrel/42_CheatSheet) | A comprehensive guide to 50 years of evolution of strict C programming, a tribute to Dennis Ritchie's language | 42, 42born2code, 42fremont, 42madrid, 42paris, 42school, 42seoul, 42tokyo, bitwise, learning, school, sdl2, simd |
 | [ahmedakef/gotutor](https://github.com/ahmedakef/gotutor) [🔗](https://gotutor.dev/) | Online Go Debugger & Visualizer | go, golang, visualizer |
@@ -1092,6 +1095,7 @@ List of starred repositories.
 | [bufbuild/protoc-gen-validate](https://github.com/bufbuild/protoc-gen-validate) [🔗](https://github.com/bufbuild/protovalidate) | Protocol Buffer Validation - replaced by https://github.com/bufbuild/protovalidate | constraints, protoc, protoc-plugin, protocol-buffers, validation |
 | [buildkite/terminal-to-html](https://github.com/buildkite/terminal-to-html) [🔗](http://buildkite.github.io/terminal-to-html) | Converts arbitrary shell output (with ANSI) into beautifully rendered HTML |  |
 | [bullno1/cosmo-sokol](https://github.com/bullno1/cosmo-sokol) | sokol imgui demo built with cosmopolitan libc |  |
+| [bulwarkmail/webmail](https://github.com/bulwarkmail/webmail) [🔗](https://bulwarkmail.org) | Webmail built for the 21st Century. A modern, self-hosted email client for Stalwart Mail Server powered by the JMAP protocol. Email, calendar, contacts and files. Fast, private, and open source. | calendar, contacts, email, email-client, jmap, mail, nextjs, self-hosted, typescript, webmail |
 | [bunkeriot/BunkerM](https://github.com/bunkeriot/BunkerM) [🔗](https://www.bunkerai.dev) | 🚀 BunkerM: All-in-one Mosquitto MQTT management platform, featuring dynamic security, MQTT ACL management, monitoring,and AI integrations | ai-agents, automation, docker, industry40, iot-platform, mosquitto, mosquitto-authentication, mosquitto-clients, mosquitto-dynamic-security, mosquitto-monitoring, mqtt, mqtt-broker, mqtt-security, slack, telegram |
 | [burrowers/garble](https://github.com/burrowers/garble) | Obfuscate Go builds | binary, build, code-obfuscator, golang, obfuscation |
 | [bytedance/Dolphin](https://github.com/bytedance/Dolphin) | The official repo for “Dolphin: Document Image Parsing via Heterogeneous Anchor Prompting”, ACL, 2025. | document-analysis, layout-analysis, ocr, parser, pdf, pdf-converter, pdf-parser, python, vlm-ocr |
@@ -1671,7 +1675,7 @@ List of starred repositories.
 | [heliocastro/qt1](https://github.com/heliocastro/qt1) | Qt1 port for modern systems | cmake, porting, qt, qt1 |
 | [helix-editor/helix](https://github.com/helix-editor/helix) [🔗](https://helix-editor.com) | A post-modern modal text editor. | kakoune, rust, text-editor, vim |
 | [henk717/KoboldAI](https://github.com/henk717/KoboldAI) [🔗](http://koboldai.com) | KoboldAI is generative AI software optimized for fictional use, but capable of much more! | generativeai, story-generation, text-generation, text-generation-webui |
-| [henrygd/beszel](https://github.com/henrygd/beszel) [🔗](https://beszel.dev) | Lightweight server monitoring hub with historical data, docker stats, and alerts. | homelab, monitoring, self-hosted |
+| [henrygd/beszel](https://github.com/henrygd/beszel) [🔗](https://beszel.dev) | Lightweight server monitoring with historical data, docker stats, and alerts. | homelab, monitoring, self-hosted |
 | [herol3oy/austen](https://github.com/herol3oy/austen) [🔗](https://austenapp.xyz) | 📚 discover story relationships | nextjs, react, shadcn-ui, tailwindcss |
 | [hertzz/canopy](https://github.com/hertzz/canopy) | Amazon Web Services IAM key manager |  |
 | [hexgrad/kokoro](https://github.com/hexgrad/kokoro) | https://hf.co/hexgrad/Kokoro-82M |  |
@@ -1765,8 +1769,8 @@ List of starred repositories.
 | [jdx/mise](https://github.com/jdx/mise) [🔗](https://mise.jdx.dev) | dev tools, env vars, task runner |  |
 | [jeanslack/FFcuesplitter](https://github.com/jeanslack/FFcuesplitter) | FFmpeg based audio splitter for CDDA images associated with .cue files | audio, cue, cuesheet, ffcuesplitter, ffmpeg, python |
 | [jehna/this-website-does-not-exist](https://github.com/jehna/this-website-does-not-exist) [🔗](https://thiswebsitedoesnotexist.net) |  |  |
+| [jellyfin-archive/jellyfin-desktop-qt](https://github.com/jellyfin-archive/jellyfin-desktop-qt) | Jellyfin Desktop Client | jellyfin, jellyfin-client |
 | [jellyfin/jellyfin](https://github.com/jellyfin/jellyfin) [🔗](https://jellyfin.org) | The Free Software Media System - Server Backend & API | csharp, dotnet, hacktoberfest, jellyfin |
-| [jellyfin/jellyfin-desktop](https://github.com/jellyfin/jellyfin-desktop) | Jellyfin Desktop Client | jellyfin, jellyfin-client |
 | [jellyfin/jellyfin-webos](https://github.com/jellyfin/jellyfin-webos) [🔗](https://jellyfin.org) | WebOS Client for Jellyfin | jellyfin, jellyfin-client, webos |
 | [jesseduffield/lazydocker](https://github.com/jesseduffield/lazydocker) | The lazier way to manage everything docker |  |
 | [jftuga/TtlMap](https://github.com/jftuga/TtlMap) | A golang map in which entries expire after given a time period | go, golang, map, package, ttl |
@@ -2013,6 +2017,7 @@ List of starred repositories.
 | [mattogodoy/nametag](https://github.com/mattogodoy/nametag) | A simple, yet effective Personal Relationship Manager |  |
 | [mattpocock/evalite](https://github.com/mattpocock/evalite) [🔗](https://www.evalite.dev/) | Evaluate your LLM-powered apps with TypeScript | ai, evals, typescript |
 | [matzehuels/stacktower](https://github.com/matzehuels/stacktower) [🔗](https://stacktower.io/) | Visualize package dependencies as XKCD-style tower diagrams. Supports Python, Rust, JavaScript, Ruby, PHP, Java, and Go. | dependencies, golang, graphs |
+| [mauriceboe/TREK](https://github.com/mauriceboe/TREK) [🔗](https://demo-nomad.pakulat.org) | A self-hosted travel/trip planner with real-time collaboration, interactive maps, PWA support, SSO, budgets, packing lists, and more. | budget-tracker, collaborative, open-source, opensource, packing-list, poi, real-time, routes, self-hosted, travel, travel-app, travel-planner, traveling, trip, trip-planner, wanderlog, wanderlust, webapplication |
 | [maurom/qbasic-reversing-notes](https://github.com/maurom/qbasic-reversing-notes) | Some useful notes to reverse engineer and decompile QBasic executables. |  |
 | [mausimus/scummvm-speech](https://github.com/mausimus/scummvm-speech) | Proof-of-concept of playing ScummVM with Speech Recognition |  |
 | [mautrix/go](https://github.com/mautrix/go) [🔗](https://maunium.net/go/mautrix) | A Golang Matrix framework. | go, golang, matrix, matrix-org |
@@ -2149,6 +2154,7 @@ List of starred repositories.
 | [mui/material-ui](https://github.com/mui/material-ui) [🔗](https://mui.com/material-ui/) | Material UI: Comprehensive React component library that implements Google's Material Design. Free forever. | design-system, material-design, material-ui, react, react-components |
 | [mulaRahul/keyviz](https://github.com/mulaRahul/keyviz) [🔗](https://keyviz.org) | Keyviz is a free and open-source tool to visualize your keystrokes ⌨️ and 🖱️ mouse actions in real-time. | keypress, keystroke, tauri-rust |
 | [munificent/craftinginterpreters](https://github.com/munificent/craftinginterpreters) [🔗](http://www.craftinginterpreters.com/) | Repository for the book "Crafting Interpreters" | book, bytecode, c, compiler, interpreter, java, language, lox, markdown, parser, scripting-language |
+| [music-assistant/server](https://github.com/music-assistant/server) [🔗](https://music-assistant.io) | Music Assistant is a free, opensource Media library manager that connects to your streaming services and a wide range of connected speakers. The server is the beating heart, the core of Music Assistant and must run on an always-on device like a Raspberry Pi, a NAS or an Intel NUC or alike. |  |
 | [mvdan/sh](https://github.com/mvdan/sh) [🔗](https://pkg.go.dev/mvdan.cc/sh/v3) | A shell parser, formatter, and interpreter with bash and zsh support; includes shfmt | bash, beautify, formatter, go, interpreter, mksh, parser, posix, shell, shfmt, zsh |
 | [mvfc/backvault](https://github.com/mvfc/backvault) | Docker container to backup Bitwarden/Vaultwarden vaults to password protected json files |  |
 | [mxgmn/ConvChain](https://github.com/mxgmn/ConvChain) | Bitmap generation from a single example with convolutions and MCMC | algorithm, convchain, csharp, gamedev, machine-learning, mcmc, procedural-generation, texture-synthesis |
@@ -2242,6 +2248,7 @@ List of starred repositories.
 | [ohare93/immich-cat](https://github.com/ohare93/immich-cat) | Immich Cat[egoriser]. Quickly assign your assets to albums. |  |
 | [oi-narendra/multiselect-dropdown](https://github.com/oi-narendra/multiselect-dropdown) [🔗](https://pub.dev/packages/multi_dropdown) | Streamlined Flutter widget for versatile multi-selection with extensive customization. | android, flutter, flutter-package, ios, multiselectdropdown, widget |
 | [oils-for-unix/oils](https://github.com/oils-for-unix/oils) [🔗](https://oils.pub/) | Oils is our upgrade path from bash to a better language and runtime.  It's also for Python and JavaScript users who avoid shell! |  |
+| [oldany/dropmind](https://github.com/oldany/dropmind) | Self-hosted capture layer to save anything from anywhere. | bookmark-manager, capture, docker, fastapi, knowledge-management, link-management, minimal, notes, productivity, pwa, second-brain, self-hosted, sqlite |
 | [olebedev/go-starter-kit](https://github.com/olebedev/go-starter-kit) | [abandoned] Golang isomorphic react/hot reloadable/redux/css-modules/SSR  starter kit | browser, components, golang, isomorphic, react, redux, server-side-rendering, universal |
 | [olebedev/when](https://github.com/olebedev/when) | A natural language date/time parser with pluggable rules | date, datetime, golang, natural-language, parser, time |
 | [ollama/ollama](https://github.com/ollama/ollama) [🔗](https://ollama.com) | Get up and running with Kimi-K2.5, GLM-5, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models. | deepseek, gemma, gemma3, glm, go, golang, gpt-oss, llama, llama3, llm, llms, minimax, mistral, ollama, qwen |
@@ -2391,6 +2398,7 @@ List of starred repositories.
 | [raspi/screenjournal](https://github.com/raspi/screenjournal) [🔗](https://raspi.github.io/projects/screenjournal/) | Generate screenshots to be used as a journal to track work day. Interval is user defined. |  |
 | [rclone/rclone](https://github.com/rclone/rclone) [🔗](https://rclone.org) | "rsync for cloud storage" - Google Drive, S3, Dropbox, Backblaze B2, One Drive, Swift, Hubic, Wasabi, Google Cloud Storage, Azure Blob, Azure Files, Yandex Files | azure-blob, azure-blob-storage, azure-files, backblaze-b2, cloud-storage, dropbox, encryption, ftp, fuse-filesystem, go, golang, google-cloud-storage, google-drive, onedrive, openstack-swift, rclone, s3, sftp, sync, webdav |
 | [react-bootstrap/react-router-bootstrap](https://github.com/react-bootstrap/react-router-bootstrap) | Integration between React Router and React-Bootstrap |  |
+| [readtedium/easy-transcriber](https://github.com/readtedium/easy-transcriber) | A tool for uploading and transcribing text from video & audio sources. Built around Deepgram. |  |
 | [redis/rueidis](https://github.com/redis/rueidis) | A fast Golang Redis client that supports Client Side Caching, Auto Pipelining, RDMA, etc. | cache, client-side-caching, distributed, generics, go, golang, lock, rdma, redis, redis-client, resp3, resp3-client |
 | [redneckbeard/thanos](https://github.com/redneckbeard/thanos) | Ruby -> Go at the snap of your fingers |  |
 | [reduxjs/redux](https://github.com/reduxjs/redux) [🔗](https://redux.js.org) | A JS library for predictable global state management | redux |
@@ -2476,6 +2484,7 @@ List of starred repositories.
 | [sanzoghenzo/markdownr](https://github.com/sanzoghenzo/markdownr) | Android app that converts an URL to markdown, and lets you share it to your favorite notes app. |  |
 | [sarah-walker-pcem/pcem](https://github.com/sarah-walker-pcem/pcem) [🔗](http://pcem-emulator.co.uk) | PCem |  |
 | [saraoswald/lettering-tutorials](https://github.com/saraoswald/lettering-tutorials) | Manga Lettering Tutorials | comics, lettering, tutorials |
+| [sarogamedev/CyberDeck](https://github.com/sarogamedev/CyberDeck) [🔗](https://cyberdeck.co.in/) | Portable offline knowledge, AI, and mesh communication platform. Run local LLMs, Wikipedia, and decentralized networking without internet. |  |
 | [sashabaranov/go-openai](https://github.com/sashabaranov/go-openai) | OpenAI ChatGPT, GPT-5, GPT-Image-1, Whisper API clients for Go | chatgpt, chatgpt-api, dall-e, go, golang, gpt-4, gpt-5, gpt-5-api, openai, openai-whisper, streaming-api |
 | [savedra1/clipse](https://github.com/savedra1/clipse) | Configurable TUI clipboard manager for Unix |  |
 | [scallyw4g/bonsai](https://github.com/scallyw4g/bonsai) | The procedural generation voxel engine | engine, game, game-engine, gameengi, gameengine, gles3, graphics, multithreading, opengl, opengl-es, procedural-generation, voxel, voxel-editor, voxel-engine, voxel-game, voxel-game-engine, voxel-terrain, webgl |
@@ -2848,6 +2857,7 @@ List of starred repositories.
 | [zed-industries/zed](https://github.com/zed-industries/zed) [🔗](https://zed.dev) | Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter. | gpui, rust-lang, text-editor, zed |
 | [zeichensatz/SynologyPhotosAPI](https://github.com/zeichensatz/SynologyPhotosAPI) | Unofficial documentation of Synology Photos API |  |
 | [zellij-org/zellij](https://github.com/zellij-org/zellij) [🔗](https://zellij.dev) | A terminal workspace with batteries included | multiplexer, terminal, workspace |
+| [zellux/paperwise](https://github.com/zellux/paperwise) [🔗](https://paperwise.dev) | Open-source document intelligence platform with OCR, extraction, grounded Q&A, and task-specific AI configuration |  |
 | [zen-logic/file-hunter](https://github.com/zen-logic/file-hunter) | File Hunter — catalog, deduplicate, and consolidate your archive storage | deduplication, duplicate-finder, file-catalog, file-manager, homelab, python, self-hosted, sqlite, storage, web-ui |
 | [zeozeozeo/microui-go](https://github.com/zeozeozeo/microui-go) [🔗](https://zeozeozeo.github.io/ebitengine-microui-go/demo) | A tiny, portable, immediate-mode UI library ported to idiomatic Go | golang, golang-gui, golang-ui, gui, immediate-gui, immediate-mode, immediate-mode-ui, immediate-ui, microui, no-cgo, port, pure-go, ui |
 | [zephyrproject-rtos/zephyr](https://github.com/zephyrproject-rtos/zephyr) [🔗](https://docs.zephyrproject.org) | Primary Git Repository for the Zephyr Project. Zephyr is a new generation, scalable, optimized, secure RTOS for multiple hardware architectures. | bluetooth, bluetooth-le, embedded, embedded-c, iot, mcu, microcontroller, real-time, rtos, zephyr, zephyr-rtos, zephyros |
@@ -2858,6 +2868,7 @@ List of starred repositories.
 | [zizmorcore/zizmor](https://github.com/zizmorcore/zizmor) [🔗](http://docs.zizmor.sh/) | Static analysis for GitHub Actions | github-actions, security, security-tools, static-analysis |
 | [zkcrypto/bulletproofs](https://github.com/zkcrypto/bulletproofs) |  A pure-Rust implementation of Bulletproofs using Ristretto. |  |
 | [zlin/wgetpaste](https://github.com/zlin/wgetpaste) |  |  |
+| [znkr/diff](https://github.com/znkr/diff) | A difference algorithm module for Go |  |
 | [zonination/perceptions](https://github.com/zonination/perceptions) | Perceptions of Probability and Numbers |  |
 | [ztrue/tracerr](https://github.com/ztrue/tracerr) | Golang errors with stack trace and source fragments. | debug, error-handling, errors, errors-log, go, golang, source-map, stacktrace |
 | [zulip/zulip](https://github.com/zulip/zulip) [🔗](https://zulip.com) | Zulip server and web application. Open-source team chat that helps teams stay productive and focused. | apache, chat, collaboration, electron, foss, free, javascript, python, python3, react-native, slack, zulip |

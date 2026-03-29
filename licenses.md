@@ -3,6 +3,12 @@
 List of repositories and their licenses.
 
 <!--repos-start-->
+### AFL-3.0
+| Repository | Description | License | Tags |
+|---|---|---|---|
+| [heatplot](https://github.com/arran4/heatplot) | This program takes a formula and plots the "heat" for any particular location | AFL-3.0 | experiment, golang, graph, heatplot, maths, plot, testing |
+| [image-formula-find](https://github.com/arran4/image-formula-find) | Experimenting with genetic algorithms | AFL-3.0 | experiment, experimentation, genetic-algorithms, go, golang, test |
+
 ### AGPL-3.0
 | Repository | Description | License | Tags |
 |---|---|---|---|
@@ -61,6 +67,7 @@ List of repositories and their licenses.
 ### GPL-2.0
 | Repository | Description | License | Tags |
 |---|---|---|---|
+| [arrans_overlay_workflow_builder](https://github.com/arran4/arrans_overlay_workflow_builder) | A gentoo overlay ebuild workflow builder generator for -bin with a special purpose handler for .appimage binary files | GPL-2.0 | gentoo, builder, ebuild, generator, gentoo-overlay, github-workflow |
 | [g2](https://github.com/arran4/g2) [🔗](https://wiki.gentoo.org/wiki/User:Arran4) | g2 Gentoo Tools | GPL-2.0 | gentoo, gentoo-utils, golang |
 | [g2-action](https://github.com/arran4/g2-action) | g2 github workflow action | GPL-2.0 | gentoo, ci, g2, github-action, workflows |
 | [git-tag-inc-action](https://github.com/arran4/git-tag-inc-action) [🔗](https://github.com/arran4/git-tag-inc) | An action for incrementing semantic git tags | GPL-2.0 | git-tag-inc, github-action, github-workflow, semantic-tagging, semantic-versions, tag-manager |
@@ -93,6 +100,7 @@ List of repositories and their licenses.
 | [editorconfig-guesser](https://github.com/arran4/editorconfig-guesser) | Generates reasonable .editorconfig files for source files. | MIT | cli, detector, devtool, editorconfig, generator, generators, golang |
 | [flutter_nodelistview](https://github.com/arran4/flutter_nodelistview) | A flutter widget which uses an infinite list of double linked nodes | MIT | library, dart, flutter, listview |
 | [gaelogger](https://github.com/arran4/gaelogger) [🔗](https://pkg.go.dev/github.com/arran4/gaelogger) | Another google apps engine go logger this one is for the new go111+ world.. | MIT | library, go, golang, google-app-engine, google-app-engine-logger, logger-abstraction |
+| [gentoo-packages](https://github.com/arran4/gentoo-packages) [🔗](https://arran4.github.io/gentoo-packages/) | Gentoo packages | MIT | gentoo, generated-sites, gentoo-packages |
 | [git-barcode-sheet](https://github.com/arran4/git-barcode-sheet) [🔗](https://arran4.github.io/barcode-cheatsheets) | Git barcode based cheat sheet | MIT | barcode-cheatsheet, barcodes, cheetsheet, git, git-barcodes, git-cheatsheet |
 | [go-evaluator](https://github.com/arran4/go-evaluator) [🔗](https://pkg.go.dev/github.com/arran4/go-evaluator) | A simple evaluation markup with a simple parser too.  | MIT | cli + library, eval, evaluation-language, go, golang, golib, simple, util, utility |
 | [go-rfc5849-hmac](https://github.com/arran4/go-rfc5849-hmac) | Implementation of rfc5849 hmac wrapper | MIT | library, go, golang, rfc5849, rfc5849-hmac |
@@ -103,7 +111,9 @@ List of repositories and their licenses.
 | [gorillamuxlogic](https://github.com/arran4/gorillamuxlogic) | Some very simple gorilla mux logic for `mux.MatcherFunc` | MIT | web, go, golang, gorilla, gorilla-mux, http |
 | [gorillas-react](https://github.com/arran4/gorillas-react) [🔗](https://ai.studio/apps/drive/1BOLZ6UAK9YYH8kl5eU8Ihn6J-fxugrk0) | Generated gorillas in react | MIT | ai, game, generated, react, test |
 | [goxresources](https://github.com/arran4/goxresources) | go parser for xresource files  | MIT | dotfiles, go, golang, xresources |
+| [homebrew-tap](https://github.com/arran4/homebrew-tap) | My homebrew tap semiautomated.. maybe? | MIT | homebrew, homebrew-tap, tap |
 | [interactions](https://github.com/arran4/interactions) | How things interact | MIT | image, experiment, fun, generated-infographic, generator, statistics, test |
+| [lxa](https://github.com/arran4/lxa) | ls with extended attributes | MIT | fs-attr, linux, ls, xattr, xdp |
 | [matchStickProblem](https://github.com/arran4/matchStickProblem) | Generates an image of solving the "match stick problem" (move a match stick) for amusement | MIT | amusement, experiment, fun, generated, generator, go, golang, match-stick, test |
 | [md2png](https://github.com/arran4/md2png) [🔗](https://pkg.go.dev/github.com/arran4/md2png) | Very basic generated md2png  | MIT | cli + library, converter, dependency-free, experiment, go, golang, markdown, md2png, png |
 | [mdsplit](https://github.com/arran4/mdsplit) | Splits markdown files into chunks suitable for processing with other tools or making into slides | MIT | cli, go, markdown |
@@ -120,19 +130,17 @@ List of repositories and their licenses.
 | Repository | Description | License | Tags |
 |---|---|---|---|
 | [blog](https://github.com/arran4/blog) [🔗](https://arran4.github.io/blog/) | Github pages blog | NOASSERTION | hugo, blog |
-| [heatplot](https://github.com/arran4/heatplot) | This program takes a formula and plots the "heat" for any particular location | NOASSERTION | experiment, golang, graph, heatplot, maths, plot, testing |
-| [image-formula-find](https://github.com/arran4/image-formula-find) | Experimenting with genetic algorithms | NOASSERTION | experiment, experimentation, genetic-algorithms, go, golang, test |
 | [pimtrace](https://github.com/arran4/pimtrace) | A CLI tool for preforming queries on ical, maildir, mbox and csv files | NOASSERTION | cli, csv, ical, query, tool |
 | [resume](https://github.com/arran4/resume) | Arrans Resume | NOASSERTION | cv, resume, typst |
 
 ### No License
 | Repository | Description | License | Tags |
 |---|---|---|---|
-| [arrans_overlay_workflow_builder](https://github.com/arran4/arrans_overlay_workflow_builder) | A gentoo overlay ebuild workflow builder generator for -bin with a special purpose handler for .appimage binary files |  | gentoo, builder, ebuild, generator, gentoo-overlay, github-workflow |
 | [flutter_jules](https://github.com/arran4/flutter_jules) | My flutter based google jules client  |  | ai, app, flutter, google-jules, jules, linux, mac, utility, windows |
-| [gentoo-packages](https://github.com/arran4/gentoo-packages) [🔗](https://arran4.github.io/gentoo-packages/) | Gentoo packages |  | gentoo, generated-sites, gentoo-packages |
-| [homebrew-tap](https://github.com/arran4/homebrew-tap) | My homebrew tap semiautomated.. maybe? |  | homebrew, homebrew-tap, tap |
-| [lxa](https://github.com/arran4/lxa) | ls with extended attributes |  | fs-attr, linux, ls, xattr, xdp |
-| [tex_recipes_template](https://github.com/arran4/tex_recipes_template) | A very simple tex engine for recipes helpful for an AI world |  | recipes, template, tex |
+
+### Unlicense
+| Repository | Description | License | Tags |
+|---|---|---|---|
+| [tex_recipes_template](https://github.com/arran4/tex_recipes_template) | A very simple tex engine for recipes helpful for an AI world | Unlicense | recipes, template, tex |
 
 <!--repos-end-->

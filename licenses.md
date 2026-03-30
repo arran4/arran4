@@ -68,7 +68,7 @@ List of repositories and their licenses.
 | Repository | Description | License | Tags |
 |---|---|---|---|
 | [arrans_overlay_workflow_builder](https://github.com/arran4/arrans_overlay_workflow_builder) | A gentoo overlay ebuild workflow builder generator for -bin with a special purpose handler for .appimage binary files | GPL-2.0 | gentoo, builder, ebuild, generator, gentoo-overlay, github-workflow |
-| [g2](https://github.com/arran4/g2) [🔗](https://wiki.gentoo.org/wiki/User:Arran4) | g2 Gentoo Tools | GPL-2.0 | gentoo, gentoo-utils, golang |
+| [g2](https://github.com/arran4/g2) [🔗](https://pkg.go.dev/github.com/arran4/g2) | g2 Gentoo Tools | GPL-2.0 | gentoo, gentoo-utils, golang |
 | [g2-action](https://github.com/arran4/g2-action) | g2 github workflow action | GPL-2.0 | gentoo, ci, g2, github-action, workflows |
 | [git-tag-inc-action](https://github.com/arran4/git-tag-inc-action) [🔗](https://github.com/arran4/git-tag-inc) | An action for incrementing semantic git tags | GPL-2.0 | git-tag-inc, github-action, github-workflow, semantic-tagging, semantic-versions, tag-manager |
 

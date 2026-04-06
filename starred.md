@@ -181,7 +181,7 @@ List of starred repositories.
 | [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) [🔗](https://docs.ultralytics.com) | Ultralytics YOLO 🚀 | cli, computer-vision, deep-learning, hub, image-classification, instance-segmentation, machine-learning, object-detection, pose-estimation, python, pytorch, rotated-object-detection, segment-anything, tracking, ultralytics, yolo, yolo-world, yolo11, yolo26, yolov8 |
 | [wader/fq](https://github.com/wader/fq) | jq for binary formats - tool, language and decoders for working with binary and text formats | cli, binary, decode, go, golang, hexdump, jq, json, pcap, query, repl, tls, xml |
 | [wallix/awless](https://github.com/wallix/awless) [🔗](http://awless.io/) | A Mighty CLI for AWS | cli, awless, aws, aws-cli, cloud, cloud-management, devops, devops-tools, golang |
-| [x-cmd/x-cmd](https://github.com/x-cmd/x-cmd) [🔗](https://x-cmd.com) | Best Buddy for AI Agents. Bootstrap 1000+ command line tools in seconds. | cli, agent, ai, bash, cloud, shell, zsh |
+| [x-cmd/x-cmd](https://github.com/x-cmd/x-cmd) [🔗](https://x-cmd.com) | Shell Superpowers for AI Agents. | cli, agent, ai, bash, cloud, shell, zsh |
 | [yorukot/superfile](https://github.com/yorukot/superfile) [🔗](https://superfile.dev) | Pretty fancy and modern terminal file manager | cli, bubbletea, file-manager, filemanager, filesystem, golang, hacktoberfest, linux-app, terminal-app, terminal-based, tui |
 | [yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp) [🔗](https://discord.gg/H5MNcFW63r) | A feature-rich command-line audio/video downloader | cli, downloader, python, sponsorblock, youtube-dl, youtube-downloader, yt-dlp |
 
@@ -381,6 +381,7 @@ List of starred repositories.
 | Repository | Description | Tags |
 |---|---|---|
 | [0x4447/0x4447_product_s3_email](https://github.com/0x4447/0x4447_product_s3_email) [🔗](https://0x4447.com) | 📫 A serverless email server on AWS using S3 and SES | 0x4447, 0x4447-product-s3-email, 0x4447-products, aws, aws-lambda, aws-s3, aws-ses, codepipeline, email, email-sender, free, free-email, s3, s3-bucket, s3-email |
+| [0xSero/turboquant](https://github.com/0xSero/turboquant) | TurboQuant: Near-optimal KV cache quantization for LLM inference (3-bit keys, 2-bit values) with Triton kernels + vLLM integration |  |
 | [1dustindavis/gorilla](https://github.com/1dustindavis/gorilla) | Munki-like Windows App Management | endpoint-management, golang, macadmins, windows |
 | [1pkg/varint](https://github.com/1pkg/varint) | VarInt: fast & memory efficient arbitrary bit width integers in Go. | arithmetic, array, bigint, bits, bitwise, go, golang, memory |
 | [1set/cronrange](https://github.com/1set/cronrange) | time range expression in cron style | cron, cron-definitions, cron-expression, cron-parser, cron-style, duration, go-package, range, range-expression, time-zone |
@@ -2382,6 +2383,7 @@ List of starred repositories.
 | [qmuntal/stateless](https://github.com/qmuntal/stateless) [🔗](https://wikipedia.org/wiki/Finite-state_machine) | Go library for creating finite state machines | dot-graph, fsm, go, golang, state-diagram, state-machine, statechart |
 | [qpliu/qrencode-go](https://github.com/qpliu/qrencode-go) | QR encoder in Go | go, qr-code, qr-generator |
 | [quackduck/devzat](https://github.com/quackduck/devzat) | The devs are over here at devzat, chat over SSH! | chat, devchat, developer-chat, devzat, slack, social, ssh, ssh-chat, unicorns |
+| [quantumaikr/quant.cpp](https://github.com/quantumaikr/quant.cpp) | LLM inference with 7x longer context. Pure C, zero dependencies. Lossless KV cache compression + single-header library. | delta-compression, embeddable, gguf, kv-cache, llm, llm-inference, pure-c, quantization, transformer, turboquant |
 | [quexten/goldwarden](https://github.com/quexten/goldwarden) | A feature-packed Bitwarden compatible desktop client | autotype, bitwarden, git-signing, linux, linux-desktop, macos, password-manager, ssh-agent, windows, windows-desktop |
 | [quic-go/quic-go](https://github.com/quic-go/quic-go) [🔗](https://quic-go.net) | A production-ready QUIC implementation in pure Go | go, golang, http3, protocol, qlog, quic, quic-client, quic-server |
 | [quickshell-mirror/quickshell](https://github.com/quickshell-mirror/quickshell) [🔗](https://quickshell.org) | Flexible toolkit for making desktop shells with QtQuick, for Wayland and X11 | audio-mixer, bar, desktop-widgets, linux, mixer, pipewire, qml, qt, qtquick, status-bar, statusbar, statusnotifieritem, system-tray, wayland, wayland-bar, wayland-compatibility, widget, widgets, x11, xorg |

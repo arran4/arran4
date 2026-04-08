@@ -41,6 +41,7 @@ List of repositories and their licenses.
 | [git-tag-inc](https://github.com/arran4/git-tag-inc) | Yet another semantic version incrementor and tagger for git  | BSD-3-Clause | cli, git, git-tag, git-tags, go, golang, semantic, semantic-versioning, util |
 | [go-be-lazy](https://github.com/arran4/go-be-lazy) [🔗](https://pkg.go.dev/github.com/arran4/go-be-lazy) | Varidct based behavoural lazy evaluation | BSD-3-Clause | library, go, golang, lazy, lazy-eval, lazy-evaluation |
 | [go-consume](https://github.com/arran4/go-consume) | String and slice consumption librareis | BSD-3-Clause | library, go, parser, parsing, string, tokenizer |
+| [go-dynamic-content](https://github.com/arran4/go-dynamic-content) | Lazy or weak file content | BSD-3-Clause | file-mapped-content, go, go-library, weak-pointer |
 | [go-objectutils](https://github.com/arran4/go-objectutils) [🔗](https://pkg.go.dev/github.com/arran4/go-objectutils) | Go objectutils for go.  | BSD-3-Clause | go, go-library, type-converstion |
 | [go-pattern](https://github.com/arran4/go-pattern) [🔗](https://pkg.go.dev/github.com/arran4/go-pattern) | image.Image patterns | BSD-3-Clause | cli + image + library, designer, games, generator, go, golang, image-interface, pattern, patterns, prebuilt, showcase, util |
 | [go-subcommand](https://github.com/arran4/go-subcommand) | Generates dependencyless go command line argument subcommand system | BSD-3-Clause | cli, cli-subcommands, flags, geneated-flags, go, go-generate, subcommands |

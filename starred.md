@@ -436,7 +436,7 @@ List of starred repositories.
 | [BirjuVachhani/adaptive_theme](https://github.com/BirjuVachhani/adaptive_theme) [🔗](https://pub.dev/packages/adaptive_theme) | Easiest way to add support for light and dark theme in your flutter app. | adaptive, flutter, flutter-package, flutter-ui, flutter-widget, hacktoberfest, hacktoberfest2023, hactoberfest, hactoberfest-accepted, theme |
 | [BlinkID/blinkid-android](https://github.com/BlinkID/blinkid-android) [🔗](https://microblink.com/identity/identity-document-scanning/ ) | Everything you need to add AI-driven ID scanning into your native Android app. | ai, android, id-card-camera, id-scanning, identity-document, identity-documents, java, kotlin, kyc, machine-learning, mrtd, mrz, onboarding, pdf417, scanning-id-cards |
 | [BobdaProgrammer/doWM](https://github.com/BobdaProgrammer/doWM) [🔗](https://dowm.softwarespot.top) | A beautiful window manager for x11 | beautiful, desktop, go, golang, linux, ricing, simple, window-manager, window-managers, wm, x11, x11-wm |
-| [Boeing/config-file-validator](https://github.com/Boeing/config-file-validator) [🔗](https://boeing.github.io/config-file-validator/) | Cross-platform CLI tool to validate configuration files (JSON, YAML, TOML, XML, INI, HCL, ENV, Properties, CSV, and more). Catch errors in syntax and/or schema before deployment. Written in Go. | ci-cd, cli-tool, config-validation, configuration, csv-validator, devops, hcl-validator, ini-validator, json-validator, linter, toml-validator, validation, xml-validator, yaml-validator |
+| [Boeing/config-file-validator](https://github.com/Boeing/config-file-validator) [🔗](https://boeing.github.io/config-file-validator/) | Cross-platform CLI tool to validate configuration files (JSON, YAML, TOML, XML, INI, HCL, ENV, Properties, CSV, and more). Catch errors in syntax and schema before deployment. Written in Go. | ci-cd, cli-tool, config-validation, configuration, csv-validator, devops, hcl-validator, ini-validator, json-validator, linter, toml-validator, validation, xml-validator, yaml-validator |
 | [BookStackApp/BookStack](https://github.com/BookStackApp/BookStack) [🔗](https://www.bookstackapp.com/) | A platform to create documentation/wiki content built with PHP & Laravel | bookstack, documentation, laravel, php, selfhosted, wiki |
 | [Brabados/BridgeTeachingAid](https://github.com/Brabados/BridgeTeachingAid) |  |  |
 | [Brabados/Creepy-Crawly-Criminals](https://github.com/Brabados/Creepy-Crawly-Criminals) |  |  |
@@ -592,6 +592,7 @@ List of starred repositories.
 | [KDE/kget](https://github.com/KDE/kget) [🔗](https://invent.kde.org/network/kget) | Download Manager |  |
 | [KDE/kmail](https://github.com/KDE/kmail) [🔗](https://invent.kde.org/pim/kmail) | State-of-the-art feature-rich email client that supports many protocols |  |
 | [KDE/kweather](https://github.com/KDE/kweather) [🔗](https://invent.kde.org/utilities/kweather) | Weather application for Plasma Mobile |  |
+| [KDE/marknote](https://github.com/KDE/marknote) [🔗](https://invent.kde.org/office/marknote) | A simple markdown note management app |  |
 | [KDE/qt1](https://github.com/KDE/qt1) | Historical copy of Qt 1, adapted to compile on modern systems (circa. 2016) |  |
 | [KDE/rust-qt-binding-generator](https://github.com/KDE/rust-qt-binding-generator) [🔗](https://invent.kde.org/sdk/rust-qt-binding-generator) | Generate bindings to use Rust code in Qt and QML |  |
 | [KDE/tokodon](https://github.com/KDE/tokodon) [🔗](https://invent.kde.org/network/tokodon) | Tokodon is a Mastodon client for Plasma and Plasma Mobile |  |
@@ -939,6 +940,7 @@ List of starred repositories.
 | [aretext/aretext](https://github.com/aretext/aretext) [🔗](https://aretext.org) | Minimalist text editor with vim-compatible key bindings. | code-editor, minimalist, modal-editing, syntax-highlighting, terminal-based, text-editor, tui, vim |
 | [areweguiyet/areweguiyet](https://github.com/areweguiyet/areweguiyet) [🔗](http://areweguiyet.com) | A website built for the Rust community |  |
 | [argoproj/argo-cd](https://github.com/argoproj/argo-cd) [🔗](https://argo-cd.readthedocs.io) | Declarative Continuous Deployment for Kubernetes | argo, argo-cd, cd, ci-cd, cicd, continuous-delivery, continuous-deployment, devops, docker, gitops, hacktoberfest, helm, jsonnet, kubernetes, kustomize, pipeline |
+| [aria2/aria2](https://github.com/aria2/aria2) [🔗](https://aria2.github.io/) | aria2 is a lightweight multi-protocol & multi-source, cross platform download utility operated in command-line. It supports HTTP/HTTPS, FTP, SFTP, BitTorrent and Metalink. | bittorrent, cpp11, download, ftp, http, metalink, rpc, sftp |
 | [ariga/atlas](https://github.com/ariga/atlas) [🔗](https://atlasgo.io) | Declarative schema migrations with schema-as-code workflows |  |
 | [aristocratos/btop](https://github.com/aristocratos/btop) | A monitor of resources |  |
 | [arp242/goatcounter](https://github.com/arp242/goatcounter) [🔗](https://www.goatcounter.com) | Easy web analytics. No tracking of personal data. | analytics, go, golang |
@@ -1256,6 +1258,7 @@ List of starred repositories.
 | [dendianugerah/velld](https://github.com/dendianugerah/velld) [🔗](https://velld.vercel.app) | a database backup management and automation tool |  |
 | [denoland/deno](https://github.com/denoland/deno) [🔗](https://deno.com) | A modern runtime for JavaScript and TypeScript. | deno, javascript, rust, typescript |
 | [denysdovhan/wtfjs](https://github.com/denysdovhan/wtfjs) [🔗](http://bit.ly/wtfjavascript) | 🤪 A list of funny and tricky JavaScript examples | book, handbook, javascript, js, learning, notes, specification, wtf |
+| [deskflow/deskflow](https://github.com/deskflow/deskflow) [🔗](https://deskflow.org) | Share a single keyboard and mouse between multiple computers. | keyboard, keyboard-emulation, mouse, mouse-emulation, network |
 | [dessalines/thumb-key](https://github.com/dessalines/thumb-key) | A privacy-conscious Android keyboard made for your thumbs | android, android-app, android-keyboard, keyboard |
 | [desultory/genTree](https://github.com/desultory/genTree) | Generates a filesystem tree in a namespace using portage | containerization, gentoo-portage, namespace, oci-images, tar |
 | [devicons/devicon](https://github.com/devicons/devicon) [🔗](https://devicon.dev) | Set of icons representing programming languages, designing & development tools | brands, devicon, font, hacktoberfest, icons, logos, stylesheet, svg |
@@ -2103,6 +2106,7 @@ List of starred repositories.
 | [mifunetoshiro/kanjium](https://github.com/mifunetoshiro/kanjium) | The ultimate kanji resource |  |
 | [mihaip/infinite-mac](https://github.com/mihaip/infinite-mac) [🔗](https://infinitemac.org) | A classic Mac loaded with everything you'd want | classic-mac-os, emulation, retrocomputing, webassembly |
 | [mijorus/gearlever](https://github.com/mijorus/gearlever) [🔗](https://gearlever.mijorus.it) | Manage AppImages with ease 📦 |  |
+| [milla-jovovich/mempalace](https://github.com/milla-jovovich/mempalace) | The highest-scoring AI memory system ever benchmarked. And it's free. | ai, chromadb, llm, mcp, memory, python |
 | [millermedeiros/esformatter](https://github.com/millermedeiros/esformatter) | ECMAScript code beautifier/formatter |  |
 | [milvus-io/milvus](https://github.com/milvus-io/milvus) [🔗](https://milvus.io) | Milvus is a high-performance, cloud-native vector database built for scalable vector ANN search | anns, cloud-native, diskann, distributed, embedding-database, embedding-similarity, embedding-store, faiss, golang, hnsw, image-search, llm, nearest-neighbor-search, rag, vector-database, vector-search, vector-similarity, vector-store |
 | [mingrammer/commonregex](https://github.com/mingrammer/commonregex) | 🍫 A collection of common regular expressions for Go | commonregex, pattern, regex, regexp, regular-expression, validation |
@@ -2830,7 +2834,6 @@ List of starred repositories.
 | [xM4ddy/OFGB](https://github.com/xM4ddy/OFGB) | GUI Tool To Remove Ads From Various Places Around Windows 11 |  |
 | [xai-org/grok-prompts](https://github.com/xai-org/grok-prompts) | Prompts for our Grok chat assistant and the `@grok` bot on X. |  |
 | [xaitax/CVE-2024-21413-Microsoft-Outlook-Remote-Code-Execution-Vulnerability](https://github.com/xaitax/CVE-2024-21413-Microsoft-Outlook-Remote-Code-Execution-Vulnerability) | Microsoft-Outlook-Remote-Code-Execution-Vulnerability |  |
-| [xaitax/TotalRecall](https://github.com/xaitax/TotalRecall) | This tool extracts and displays data from the Recall feature in Windows 11, providing an easy way to access information about your PC's activity snapshots. |  |
 | [xapian/xapian](https://github.com/xapian/xapian) [🔗](https://xapian.org/) | Mirror of the Xapian repository.  You're welcome to open pull requests on github (they'll just get merged indirectly). |  |
 | [xcapt0/gpt2_chatbot](https://github.com/xcapt0/gpt2_chatbot) | ☕ GPT-2 chatbot for daily conversation | chatbot, gpt-2, nlp |
 | [xdan/datetimepicker](https://github.com/xdan/datetimepicker) [🔗](https://xdsoft.net/jqplugins/datetimepicker/) | jQuery Plugin Date and Time Picker | datepicker, datetimepicker, javascript, jquery, jquery-plugin, picker, timepicker |

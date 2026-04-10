@@ -147,6 +147,7 @@ Have questions or feedback? [Open an issue](https://github.com/arran4/arran4/iss
 ### Unmatched
 | Repository | Description | Tags |
 |---|---|---|
+| [KMagMux](https://github.com/arran4/KMagMux) | Torrent and Magent file and protocol handler for routing to programs / services | handler, intent, kde, link, magnent, mux, torrent |
 | [arran4](https://github.com/arran4/arran4) [🔗](https://arran4.github.io/ ) | Github Profile landing page github repo | github, github-profile, github-profile-readme |
 | [chat-barcodes](https://github.com/arran4/chat-barcodes) [🔗](https://arran4.github.io/barcode-cheatsheets) | Chat barcode cheatsheet | barcodes, chat, chat-barcodes, chat-cheatsheet, chat-shortcuts, cheetsheet |
 | [dart-udt](https://github.com/arran4/dart-udt) [🔗](https://pub.dev/packages/dart_udt) | AI port of UDT library from source forge to Dart | dart, udt |
@@ -166,6 +167,7 @@ Have questions or feedback? [Open an issue](https://github.com/arran4/arran4/iss
 | [idea-txtar-support-plugin](https://github.com/arran4/idea-txtar-support-plugin) [🔗](https://plugins.jetbrains.com/plugin/30286-txtar-file-support) | Jetbrains Idea txtar support plugin | idea, java, jetbrains, plugin, txtar |
 | [image-formula-find](https://github.com/arran4/image-formula-find) | Experimenting with genetic algorithms | experiment, experimentation, genetic-algorithms, go, golang, test |
 | [kgithub-notify](https://github.com/arran4/kgithub-notify) | A sleek GitHub notification system tray application written natively in C++ using Qt6 and KDE Frameworks 6 (KF6). It quietly monitors your GitHub account, notifying you when there are new notifications, and provides a rich desktop interface to manage themGithub notifier for KDE | api, github, kde, notifier, qt, ui |
+| [kjules](https://github.com/arran4/kjules) | A C++ application built with KDE Frameworks that provides a desktop interface for interacting with the Google Jules API | ai, desktop-app, google-jules, jules, kde |
 | [lemmy_notify](https://github.com/arran4/lemmy_notify) | Lemmy Notification app - for desktop atm | desktop, flutter, lemmy |
 | [lxa](https://github.com/arran4/lxa) | ls with extended attributes | fs-attr, linux, ls, xattr, xdp |
 | [matchStickProblem](https://github.com/arran4/matchStickProblem) | Generates an image of solving the "match stick problem" (move a match stick) for amusement | amusement, experiment, fun, generated, generator, go, golang, match-stick, test |

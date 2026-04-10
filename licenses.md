@@ -48,6 +48,7 @@ List of repositories and their licenses.
 | [golang-diff](https://github.com/arran4/golang-diff) | A multiline string comparsion library (and tool.) | BSD-3-Clause | cli + library, cli-app, comparison, diff, go, golang, testing |
 | [idea-txtar-support-plugin](https://github.com/arran4/idea-txtar-support-plugin) [🔗](https://plugins.jetbrains.com/plugin/30286-txtar-file-support) | Jetbrains Idea txtar support plugin | BSD-3-Clause | idea, java, jetbrains, plugin, txtar |
 | [kgithub-notify](https://github.com/arran4/kgithub-notify) | A sleek GitHub notification system tray application written natively in C++ using Qt6 and KDE Frameworks 6 (KF6). It quietly monitors your GitHub account, notifying you when there are new notifications, and provides a rich desktop interface to manage themGithub notifier for KDE | BSD-3-Clause | api, github, kde, notifier, qt, ui |
+| [kjules](https://github.com/arran4/kjules) | A C++ application built with KDE Frameworks that provides a desktop interface for interacting with the Google Jules API | BSD-3-Clause | ai, desktop-app, google-jules, jules, kde |
 | [lookup](https://github.com/arran4/lookup) [🔗](https://pkg.go.dev/github.com/arran4/lookup) | A golang structure based element lookup library | BSD-3-Clause | cli + library, go, golang, jsonpath, lookup, utility |
 | [mlocate_explorer](https://github.com/arran4/mlocate_explorer) [🔗](https://arran4.github.io/mlocate_explorer/) | A basic mlocate db file explorer | BSD-3-Clause | db, explorer, flutter, gui, mlocate |
 | [move-dups-script](https://github.com/arran4/move-dups-script) | Simple program to move dups nothing really interesting - Once off go project which could have been a shell script | BSD-3-Clause | cli, go, golang, golang-cli, shell-script-as-go |
@@ -76,6 +77,7 @@ List of repositories and their licenses.
 ### GPL-3.0
 | Repository | Description | License | Tags |
 |---|---|---|---|
+| [KMagMux](https://github.com/arran4/KMagMux) | Torrent and Magent file and protocol handler for routing to programs / services | GPL-3.0 | handler, intent, kde, link, magnent, mux, torrent |
 | [abc-justin-rss](https://github.com/arran4/abc-justin-rss) | ABC news just-in to rss converter - generated | GPL-3.0 | rss, abc, abc-news, rss-generator |
 | [dirtools](https://github.com/arran4/dirtools) [🔗](https://pkg.go.dev/github.com/arran4/dirtools) | Some directory tools, such as separating out all of a file extension into mirror directories | GPL-3.0 | cli, directory, golang, organization, tool, utility |
 | [go-lojban-password-gen](https://github.com/arran4/go-lojban-password-gen) | Lojban password generator - Generate passwords that use lojban | GPL-3.0 | cli, binary, generator, go, lojban, password, password-generator, utility |

@@ -484,6 +484,7 @@ List of starred repositories.
 | [Dacid99/Eonvelope](https://github.com/Dacid99/Eonvelope) [🔗](https://eonvelope.readthedocs.io/latest/) | Preserve your emails with this open-source self-hostable email archive! This repository is a read-only mirror, please go to the gitlab repo at https://gitlab.com/Dacid99/eonvelope to contribute code. | archiving, container, data-hoarding, email, mirrored-repository |
 | [David-Crty/databasement](https://github.com/David-Crty/databasement) [🔗](https://david-crty.github.io/databasement/) | Self-hosted database backup manager with a web UI. Schedule, backup, and restore MySQL, PostgreSQL, MariaDB, MongoDB, SQLite & Redis to S3, SFTP, or local storage. SSH Tunnel support. | backup, backup-restore, database, database-backup, database-management, laravel, mariadb, mysql, postgres, postgressql, s3, self-hosted, sqlite, ssh, ssh-tunnel, webui |
 | [DavidBrightSparc/Tenets-of-IT](https://github.com/DavidBrightSparc/Tenets-of-IT) | The Tenets of IT: an accumulation of IT advice, wisdom, and humour. |  |
+| [Debian/debiman](https://github.com/Debian/debiman) | debiman generates a static manpage HTML repository out of a Debian archive | debian, manpages |
 | [Debian/dh-make-golang](https://github.com/Debian/dh-make-golang) [🔗](https://tracker.debian.org/pkg/dh-make-golang) | Automatically creates Debian packaging for Go packages | debian, debian-packaging |
 | [DefinitelyTyped/DefinitelyTyped](https://github.com/DefinitelyTyped/DefinitelyTyped) | The repository for high quality TypeScript type definitions. | definition, dts, hacktoberfest, types, typescript, typescript-definitions, typings |
 | [DenverCoder1/doxygen-github-pages-action](https://github.com/DenverCoder1/doxygen-github-pages-action) | GitHub Action for deploying Doxygen documentation to a GitHub pages branch | actions, actionshackathon21, deployment-automation, doxygen, github-workflows, hacktoberfest |
@@ -648,6 +649,7 @@ List of starred repositories.
 | [Maxteabag/sqlit](https://github.com/Maxteabag/sqlit) | A user friendly TUI for SQL databases. Written in python. Supports SQL server, Mysql, PostreSQL, SQLite, Turso and more. | cockroachdb, command-line-tool, duckdb, mariadb, mysql, oracle, postgresql, python, sql, sqlite, ssh, tui, turso |
 | [MbBrainz/ttslab](https://github.com/MbBrainz/ttslab) [🔗](https://ttslab.dev) | TTSLab is THE place to easily test ANY text to text to speech model on your own pc with 0 cost | ai, developer-tools, text-to-speech, tts, voice-assistant, voice-cloning, voice-generation |
 | [MbinOrg/mbin](https://github.com/MbinOrg/mbin) [🔗](https://joinmbin.org) | Mbin: a federated content aggregator, voting, discussion and microblogging platform | activitypub, content-ratings, federated, fork, kbin, lemmy, link-aggregator, mbin, micro-blogging, microblogging, php8, reddit, social-network, symfony, threadiverse |
+| [MemPalace/mempalace](https://github.com/MemPalace/mempalace) | The highest-scoring AI memory system ever benchmarked. And it's free. | ai, chromadb, llm, mcp, memory, python |
 | [MertJSX/folderhost](https://github.com/MertJSX/folderhost) [🔗](https://folderhost.org) | Your own private cloud in one executable. Share files, collaborate on code, and manage users without complex setup. | cloud, collaborative-editing, file-manager, go, linux, open-source, portable, react, self-hosted, windows |
 | [MiSTer-devel/VT52_MiSTer](https://github.com/MiSTer-devel/VT52_MiSTer) |  |  |
 | [MichiganTypeScript/typescript-types-only-wasm-runtime](https://github.com/MichiganTypeScript/typescript-types-only-wasm-runtime) | A WebAssembly runtime implemented in TypeScript types |  |
@@ -776,6 +778,7 @@ List of starred repositories.
 | [SynologyOpenSource/minimalPkg](https://github.com/SynologyOpenSource/minimalPkg) | Example package for synology toolkit framework - MIT License (MIT) |  |
 | [SynologyOpenSource/pkgscripts-ng](https://github.com/SynologyOpenSource/pkgscripts-ng) | Synology DSM6.0 package toolkit framework |  |
 | [SynologyOpenSource/tmux](https://github.com/SynologyOpenSource/tmux) | Synology example tmux package |  |
+| [TM9657/flow-like](https://github.com/TM9657/flow-like) [🔗](https://flow-like.com) | Flow-Like: Strongly Typed Enterprise Scale Workflows. Built for scalability, speed, seamless AI integration and rich customization. | agents, ai, apis, automation, data-flow, development, llm, low-code, mcp, mcp-client, mcp-server, no-code, rust, self-hosted, typed, typescript, visual-scripting, workflow, workflow-automation |
 | [TTimo/doom3.gpl](https://github.com/TTimo/doom3.gpl) | Doom 3 GPL source release |  |
 | [TabbyML/tabby](https://github.com/TabbyML/tabby) [🔗](https://tabbyml.com) | Self-hosted AI coding assistant | ai, codegen, coding-assistant, coding-language, developer-experience, developer-tools, gen-ai, ide, llms |
 | [TannerMidd/minimal-chat](https://github.com/TannerMidd/minimal-chat) [🔗](https://minimalchat.app) | MinimalChat is a lightweight, open-source chat application that allows you to interact with various large language models. | artificial-intelligence, chat, chat-application, chatbot, chatgpt, chatgpt-api, claude-3, gpt, gpt-vision, javascript, llama, llm, meta-llama, self-hosted, selfhosted, vue, vue3, vuejs, webapplication |
@@ -2109,7 +2112,6 @@ List of starred repositories.
 | [mifunetoshiro/kanjium](https://github.com/mifunetoshiro/kanjium) | The ultimate kanji resource |  |
 | [mihaip/infinite-mac](https://github.com/mihaip/infinite-mac) [🔗](https://infinitemac.org) | A classic Mac loaded with everything you'd want | classic-mac-os, emulation, retrocomputing, webassembly |
 | [mijorus/gearlever](https://github.com/mijorus/gearlever) [🔗](https://gearlever.mijorus.it) | Manage AppImages with ease 📦 |  |
-| [milla-jovovich/mempalace](https://github.com/milla-jovovich/mempalace) | The highest-scoring AI memory system ever benchmarked. And it's free. | ai, chromadb, llm, mcp, memory, python |
 | [millermedeiros/esformatter](https://github.com/millermedeiros/esformatter) | ECMAScript code beautifier/formatter |  |
 | [milvus-io/milvus](https://github.com/milvus-io/milvus) [🔗](https://milvus.io) | Milvus is a high-performance, cloud-native vector database built for scalable vector ANN search | anns, cloud-native, diskann, distributed, embedding-database, embedding-similarity, embedding-store, faiss, golang, hnsw, image-search, llm, nearest-neighbor-search, rag, vector-database, vector-search, vector-similarity, vector-store |
 | [mingrammer/commonregex](https://github.com/mingrammer/commonregex) | 🍫 A collection of common regular expressions for Go | commonregex, pattern, regex, regexp, regular-expression, validation |
@@ -2163,6 +2165,7 @@ List of starred repositories.
 | [mpdn/sqlite-digest](https://github.com/mpdn/sqlite-digest) | Digest implementation for SQLite |  |
 | [mrmn2/PdfDing](https://github.com/mrmn2/PdfDing) [🔗](https://www.pdfding.com) | Selfhosted PDF manager, viewer and editor offering a seamless user experience on multiple devices. | document-management, lightweight, pdf, pdf-cloud, pdf-editor, pdf-management, pdf-viewer, self-hosted |
 | [mshumer/gpt-author](https://github.com/mshumer/gpt-author) |  |  |
+| [msteinert/pam](https://github.com/msteinert/pam) [🔗](http://godoc.org/github.com/msteinert/pam) | Go wrapper module for the Pluggable Authentication Modules (PAM) API | authentication, golang, pam |
 | [mtdvio/every-programmer-should-know](https://github.com/mtdvio/every-programmer-should-know) | A collection of (mostly) technical things every software developer should know about | cc-by, collection, computer-science, educational, novice |
 | [mudler/LocalAI](https://github.com/mudler/LocalAI) [🔗](https://localai.io) | LocalAI is the open-source AI engine. Run any model - LLMs, vision, voice, image, video - on any hardware. No GPU required. | agents, ai, api, audio-generation, decentralized, distributed, image-generation, libp2p, llama, llm, mamba, mcp, musicgen, object-detection, rerank, stable-diffusion, text-generation, tts |
 | [muesli/beehive](https://github.com/muesli/beehive) | A flexible event/agent & automation system with lots of bees 🐝 | automation, event-driven, hacktoberfest, ifttt, workflow |
@@ -2544,6 +2547,7 @@ List of starred repositories.
 | [sigstore/model-transparency](https://github.com/sigstore/model-transparency) | Supply chain security for ML | machine-learning, security, sigstore, supply-chain |
 | [silexlabs/Silex](https://github.com/silexlabs/Silex) [🔗](https://www.silex.me) | Silex is an online tool for visually creating static sites with dynamic data. With the free/libre spirit of internet, together. | composable, design, grapesjs, jamstack, javascript, no-code, nocode, nodejs, saas, silex, visual, visual-programming, webdesign, website-builder |
 | [silverbulletmd/silverbullet](https://github.com/silverbulletmd/silverbullet) [🔗](https://silverbullet.md) | An open source personal productivity platform built on Markdown, turbo charged with the scripting power of Lua | end-user-programming, knowledge-management, lua, markdown, note-taking, personal-knowledge-management |
+| [sim186/AmicoScript](https://github.com/sim186/AmicoScript) | Local Audio Transcription Tool |  |
 | [simolus3/drift](https://github.com/simolus3/drift) [🔗](https://drift.simonbinder.eu/) | Drift is an easy to use, reactive, typesafe persistence library for Dart & Flutter. | dart, dart-build-system, flutter, persistence, reactive, sqlite |
 | [simonnilsson/ask](https://github.com/simonnilsson/ask) | A Go package that provides a simple way of accessing nested properties in maps and slices. |  |
 | [simonw/google-drive-to-sqlite](https://github.com/simonw/google-drive-to-sqlite) [🔗](https://datasette.io/tools/google-drive-to-sqlite) | Create a SQLite database containing metadata from Google Drive |  |
@@ -2570,6 +2574,7 @@ List of starred repositories.
 | [social4git/social4git](https://github.com/social4git/social4git) | A decentralized social protocol based on git |  |
 | [soheil-zz/ssh2](https://github.com/soheil-zz/ssh2) | SSH for EC2 |  |
 | [solidtime-io/solidtime](https://github.com/solidtime-io/solidtime) [🔗](https://www.solidtime.io) | Modern open-source time-tracking app | laravel, self-hosted, time-tracker, time-tracking, timetracker, timetracking, timetrackingapp, vue |
+| [solod-dev/solod](https://github.com/solod-dev/solod) [🔗](https://solod.dev) | A subset of Go that translates to C | c, go, language, transpiler |
 | [sonic-pi-net/sonic-pi](https://github.com/sonic-pi-net/sonic-pi) [🔗](https://sonic-pi.net) | Code. Music. Live. | art, audio, education, instrument, live-coding, livecoding, music, schools, synthesis, synthesizer |
 | [sophiekoonin/1999stylewebsite](https://github.com/sophiekoonin/1999stylewebsite) | Demo repo for State of the Browser 2022 |  |
 | [sosedoff/pgweb](https://github.com/sosedoff/pgweb) [🔗](https://sosedoff.github.io/pgweb) | Cross-platform client for PostgreSQL databases | cross-platform, golang, pgweb, postgresql |

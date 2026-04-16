@@ -649,7 +649,7 @@ List of starred repositories.
 | [Maxteabag/sqlit](https://github.com/Maxteabag/sqlit) | A user friendly TUI for SQL databases. Written in python. Supports SQL server, Mysql, PostreSQL, SQLite, Turso and more. | cockroachdb, command-line-tool, duckdb, mariadb, mysql, oracle, postgresql, python, sql, sqlite, ssh, tui, turso |
 | [MbBrainz/ttslab](https://github.com/MbBrainz/ttslab) [🔗](https://ttslab.dev) | TTSLab is THE place to easily test ANY text to text to speech model on your own pc with 0 cost | ai, developer-tools, text-to-speech, tts, voice-assistant, voice-cloning, voice-generation |
 | [MbinOrg/mbin](https://github.com/MbinOrg/mbin) [🔗](https://joinmbin.org) | Mbin: a federated content aggregator, voting, discussion and microblogging platform | activitypub, content-ratings, federated, fork, kbin, lemmy, link-aggregator, mbin, micro-blogging, microblogging, php8, reddit, social-network, symfony, threadiverse |
-| [MemPalace/mempalace](https://github.com/MemPalace/mempalace) [🔗](http://mempalaceofficial.com/) | The highest-scoring AI memory system ever benchmarked. And it's free. | ai, chromadb, llm, mcp, memory, python |
+| [MemPalace/mempalace](https://github.com/MemPalace/mempalace) [🔗](http://mempalaceofficial.com/) | The best-benchmarked open-source AI memory system. And it's free. | ai, chromadb, llm, mcp, memory, python |
 | [MertJSX/folderhost](https://github.com/MertJSX/folderhost) [🔗](https://folderhost.org) | Your own private cloud in one executable. Share files, collaborate on code, and manage users without complex setup. | cloud, collaborative-editing, file-manager, go, linux, open-source, portable, react, self-hosted, windows |
 | [MiSTer-devel/VT52_MiSTer](https://github.com/MiSTer-devel/VT52_MiSTer) |  |  |
 | [MichiganTypeScript/typescript-types-only-wasm-runtime](https://github.com/MichiganTypeScript/typescript-types-only-wasm-runtime) | A WebAssembly runtime implemented in TypeScript types |  |
@@ -990,9 +990,12 @@ List of starred repositories.
 | [arran4/rntocase](https://github.com/arran4/rntocase) | Some utilities to rename files, to upper, lower, title, camel, kebab, darwin case and many more | case-changer, commandline-tool, filename, filename-case-changer, go, golibrary |
 | [arran4/send-to-google-photos](https://github.com/arran4/send-to-google-photos) | A desktop utility to help easily upload files to google photos from what ever shell | app, cross-platform, desktop, desktop-util, go, goey, goey-ui, golang, google-photos, linux, mac, windows |
 | [arran4/send_to_linkwarden](https://github.com/arran4/send_to_linkwarden) [🔗](https://arran4.github.io/send_to_linkwarden/) | Mobile version of Linkwarden | android, archiving, flutter, link, linkwarden, mobile, tool |
+| [arran4/teelogger](https://github.com/arran4/teelogger) | Log rotation and tee built into one app |  |
 | [arran4/tex_recipes_template](https://github.com/arran4/tex_recipes_template) | A very simple tex engine for recipes helpful for an AI world | recipes, template, tex |
 | [arran4/vim-barcode-sheet](https://github.com/arran4/vim-barcode-sheet) [🔗](https://arran4.github.io/barcode-cheatsheets) | Vim Barcodes Cheat Sheet to help with vim  | cheatsheet, vim, vim-cheatsheet, vimcheatsheet |
 | [arran4/vlc-xattr-plugin](https://github.com/arran4/vlc-xattr-plugin) | A plugin for VLC to add "seen" to the `xdg.tags` list automatically when ever you watch anything | c, cmake, fs-attr, plugins, vlc, vlc-plugin, xattr |
+| [arranubels/startAutoscale](https://github.com/arranubels/startAutoscale) |  |  |
+| [arranubels/teelogger](https://github.com/arranubels/teelogger) | Log rotation and tee built into one app |  |
 | [arskang/acornmail](https://github.com/arskang/acornmail) | Componentes para utilizar acorn email framework con golang | acorn-email-framework, email-template, go, go-email-template, golang, golang-email-template, material-design-color-palette |
 | [artemsen/swayimg](https://github.com/artemsen/swayimg) | Image viewer for Wayland |  |
 | [arthurfiorette/proposal-try-operator](https://github.com/arthurfiorette/proposal-try-operator) [🔗](https://arthur.run/proposal-try-operator/) | A proposal to bring ergonomic, inline error handling to JavaScript through a new try operator that always returns a Result. | catch, effect, error, proposal, result, safe, symbol, tc39, try, tuple |
@@ -1044,6 +1047,7 @@ List of starred repositories.
 | [bayandin/awesome-awesomeness](https://github.com/bayandin/awesome-awesomeness) | A curated list of awesome awesomeness |  |
 | [bazel-contrib/rules_go](https://github.com/bazel-contrib/rules_go) | Go rules for Bazel | bazel, bazel-rules, cgo, go, golang |
 | [bbidulock/blackboxwm](https://github.com/bbidulock/blackboxwm) | A window manager for X11 | ewmh, floating, minimalistic, window-manager |
+| [bboynton97/mob](https://github.com/bboynton97/mob) | i wanted a terminal buddy again 🐸 |  |
 | [bcicen/ctop](https://github.com/bcicen/ctop) [🔗](https://ctop.sh) | Top-like interface for container metrics | command-line, commandline, containers, docker, monitoring, runc, top |
 | [bddicken/languages](https://github.com/bddicken/languages) [🔗](https://benjdd.com/languages2) | Compare languages |  |
 | [bebraw/jswiki](https://github.com/bebraw/jswiki) [🔗](jswiki.org) | JavaScript wiki. Focuses mainly on JS/HTML5/WebGL related tech. |  |
@@ -1121,7 +1125,7 @@ List of starred repositories.
 | [caelestia-dots/shell](https://github.com/caelestia-dots/shell) | ‼️ No waybar here ‼️ | caelestia, dotfiles, hyprland, hyprland-rice, linux, qt6, quickshell, rice, wayland |
 | [cagataygurturk/lambadaframework](https://github.com/cagataygurturk/lambadaframework) | Build serverless REST API's with JAVA. It implements the JAX-RS API and deploys your application easily to AWS Lambda and API Gateway |  |
 | [cage-kiosk/cage](https://github.com/cage-kiosk/cage) [🔗](https://www.hjdskes.nl/projects/cage) | A Wayland kiosk | compositor, kiosk, wayland |
-| [calcom/cal.com](https://github.com/calcom/cal.com) [🔗](https://cal.com) | Scheduling infrastructure for absolutely everyone. | next-auth, nextjs, open-source, postgresql, prisma, t3-stack, tailwindcss, trpc, turborepo, typescript, zod |
+| [calcom/cal.diy](https://github.com/calcom/cal.diy) [🔗](https://cal.diy) | Scheduling infrastructure for absolutely everyone. | next-auth, nextjs, open-source, postgresql, prisma, t3-stack, tailwindcss, trpc, turborepo, typescript, zod |
 | [callmenoodles/lutris-coverup](https://github.com/callmenoodles/lutris-coverup) | Download missing cover art, banners, and icons for Lutris. | cover-art, games, linux-gaming, lutris, lutris-scripts |
 | [campwill/hal-voice-assistant](https://github.com/campwill/hal-voice-assistant) | A voice-activated AI assistant modeled after HAL 9000, built with Raspberry Pi and self-hosted services for speech-to-text, language generation, and text-to-speech. | ai, hal-9000, ollama, piper, porcupine, raspberry-pi, respeaker-2mics-array, voice-assistant, vosk |
 | [candybox2/candybox2.github.io](https://github.com/candybox2/candybox2.github.io) [🔗](https://candybox2.github.io) | Candy Box 2 | candybox, game |
@@ -1720,6 +1724,7 @@ List of starred repositories.
 | [hyperspaceai/agi](https://github.com/hyperspaceai/agi) [🔗](https://agents.hyper.space/) | The first distributed AGI system. Thousands of autonomous AI agents collaboratively train models, share experiments via P2P gossip, and push breakthroughs here. Fully peer-to-peer. Join from your browser or CLI. | agi, ai-agents, ai-research, artificial-general-intelligence, autonomous-agents, autonomous-agents-, autoresearch, collaborative-ai, decentralized, distributed-ai, llm, p2p |
 | [hyprwm/Hyprland](https://github.com/hyprwm/Hyprland) [🔗](https://hypr.land) | Hyprland is an independent, highly customizable, dynamic tiling Wayland compositor that doesn't sacrifice on its looks. | compositor, cpp26, wayland, wayland-compositor |
 | [hyprwm/contrib](https://github.com/hyprwm/contrib) | Community scripts and utilities for Hypr projects |  |
+| [i12bp8/TagTinker](https://github.com/i12bp8/TagTinker) | Flipper Zero app for ESL research using IR. All based on https://www.furrtek.org/?a=esl |  |
 | [iDescriptor/iDescriptor](https://github.com/iDescriptor/iDescriptor) [🔗](https://idescriptor.github.io) | A free, open-source, and cross-platform iDevice management tool | apple, cpp, idevice, iphone, rust |
 | [iaddis/metalnes](https://github.com/iaddis/metalnes) | Transistor level NES simulation  |  |
 | [iandees/aws-billing-to-slack](https://github.com/iandees/aws-billing-to-slack) | Send a daily AWS cost report to a Slack channel of your choice. |  |
@@ -2225,7 +2230,7 @@ List of starred repositories.
 | [nickwph/apple-provisioning-profile-action](https://github.com/nickwph/apple-provisioning-profile-action) | Installing an provisioning profiles on macOS runners for Xcode development |  |
 | [nicm/fdm](https://github.com/nicm/fdm) | fdm source code |  |
 | [nicotakuya/multiway-pad-converter](https://github.com/nicotakuya/multiway-pad-converter) |  |  |
-| [nicotsx/zerobyte](https://github.com/nicotsx/zerobyte) | Backup automation for self-hosters. Built on top of restic |  |
+| [nicotsx/zerobyte](https://github.com/nicotsx/zerobyte) [🔗](https://zerobyte.app) | Backup automation for self-hosters. Built on top of restic |  |
 | [nikita36078/J2ME-Loader](https://github.com/nikita36078/J2ME-Loader) | A J2ME emulator for Android. | android, emulator, j2me, javame |
 | [nikoladimitroff/Game-Engine-Architecture](https://github.com/nikoladimitroff/Game-Engine-Architecture) | A repo contaning the learning materials for the course 'Game Engine architecture' |  |
 | [nikolas/evilwm](https://github.com/nikolas/evilwm) [🔗](http://ada.evergreen.edu/~tc_nik/evilwm/) | A simple window manager |  |
@@ -2320,6 +2325,7 @@ List of starred repositories.
 | [owlistic-notes/owlistic](https://github.com/owlistic-notes/owlistic) [🔗](https://owlistic-notes.github.io/owlistic/) | 🦉 Free open-source notetaking app with real-time sync 🔄⚡️🚀 | dart, event-driven, evernote-alternative, flutter, go, golang, joplin-alternative, knowledge-base, markdown, note-taking, notes, productivity, real-time, self-hosted, task-manager, tasks, todo, todo-list, wysiwyg-editor |
 | [owncast/owncast](https://github.com/owncast/owncast) [🔗](https://owncast.online) | Take control over your live stream video by running it yourself.  Streaming + chat out of the box. | activitypub, broadcasting, chat, decentralized, federation, fediverse, golang, hacktoberfest, hls, live, livestream, owncast, rtmp, self-hosted, streaming-video, video |
 | [ozemin/lazycut](https://github.com/ozemin/lazycut) | A simple terminal UI for video trimming |  |
+| [ozmalabs/codeclub](https://github.com/ozmalabs/codeclub) | Token compression, dev loops, and hardware routing for LLM coding agents on constrained hardware. |  |
 | [pablo-chacon/dede-protocol](https://github.com/pablo-chacon/dede-protocol) | DeDe Protocol, Neutral, Trustless Settlement Rails for P2P Crowdshipping | cefi, crowdshipping, decentralized, defi, escrow, etherum, foundry, infrastructure, last-mile-delivery, last-mile-trnsprt-mng, logistics, nft, p2p, privacy, smart-contracts, solidity, web2, web3 |
 | [packaged/ttlmap](https://github.com/packaged/ttlmap) | Go TTL Cache |  |
 | [padloc/padloc](https://github.com/padloc/padloc) [🔗](https://padloc.app) | A modern, open source password manager for individuals and teams. | cryptography, end-to-end-encryption, javascript, lit-element, lit-html, password-generator, password-manager, progressive-web-app, pwa, tauri, typescript |
@@ -2882,7 +2888,7 @@ List of starred repositories.
 | [zeichensatz/SynologyPhotosAPI](https://github.com/zeichensatz/SynologyPhotosAPI) | Unofficial documentation of Synology Photos API |  |
 | [zellij-org/zellij](https://github.com/zellij-org/zellij) [🔗](https://zellij.dev) | A terminal workspace with batteries included | multiplexer, terminal, workspace |
 | [zellux/paperwise](https://github.com/zellux/paperwise) [🔗](https://paperwise.dev) | Open-source document intelligence platform with OCR, extraction, grounded Q&A, and task-specific AI configuration |  |
-| [zen-logic/file-hunter](https://github.com/zen-logic/file-hunter) | File Hunter — catalog, deduplicate, and consolidate your archive storage | deduplication, duplicate-finder, file-catalog, file-manager, homelab, python, self-hosted, sqlite, storage, web-ui |
+| [zen-logic/file-hunter](https://github.com/zen-logic/file-hunter) [🔗](https://filehunter.zenlogic.uk) | File Hunter — catalog, deduplicate, and consolidate your archive storage | deduplication, duplicate-finder, file-catalog, file-manager, homelab, python, self-hosted, sqlite, storage, web-ui |
 | [zeozeozeo/microui-go](https://github.com/zeozeozeo/microui-go) [🔗](https://zeozeozeo.github.io/ebitengine-microui-go/demo) | A tiny, portable, immediate-mode UI library ported to idiomatic Go | golang, golang-gui, golang-ui, gui, immediate-gui, immediate-mode, immediate-mode-ui, immediate-ui, microui, no-cgo, port, pure-go, ui |
 | [zephyrproject-rtos/zephyr](https://github.com/zephyrproject-rtos/zephyr) [🔗](https://docs.zephyrproject.org) | Primary Git Repository for the Zephyr Project. Zephyr is a new generation, scalable, optimized, secure RTOS for multiple hardware architectures. | bluetooth, bluetooth-le, embedded, embedded-c, iot, mcu, microcontroller, real-time, rtos, zephyr, zephyr-rtos, zephyros |
 | [zeroclaw-labs/zeroclaw](https://github.com/zeroclaw-labs/zeroclaw) [🔗](https://www.zeroclawlabs.ai/) | Fast, small, and fully autonomous AI personal assistant infrastructure, ANY OS, ANY PLATFORM — deploy anywhere, swap anything 🦀 | agent, agentic, ai, infra, ml, openclaw, os, zeroclaw |

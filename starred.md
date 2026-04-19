@@ -1634,7 +1634,7 @@ List of starred repositories.
 | [goreleaser/homebrew-tap](https://github.com/goreleaser/homebrew-tap) | Homebrew Formulae to @goreleaser binaries, powered by @goreleaser | homebrew-tap |
 | [gorgonia/gorgonia](https://github.com/gorgonia/gorgonia) [🔗](https://gorgonia.org/) | Gorgonia is a library that helps facilitate machine learning in Go. | artificial-intelligence, automatic-differentiation, computation-graph, deep-learning, deep-neural-networks, deeplearning, differentiation, go, golang, gorgonia, gradient-descent, graph-computation, hacktoberfest, machine-learning, neural-network, symbolic-differentiation |
 | [gorhill/uBlock](https://github.com/gorhill/uBlock) | uBlock Origin - An efficient blocker for Chromium and Firefox. Fast and lean. | blocker, browser-extension, chromium, firefox, javascript, ublock, ublock-origin |
-| [gorse-io/goat](https://github.com/gorse-io/goat) | Go assembly transpiler for C programming language support amd64, arm64, riscv64, and loong64 |  |
+| [gorse-io/goat](https://github.com/gorse-io/goat) | Go assembly transpiler for C programming language support amd64, arm64, riscv64, loong64 and s390x |  |
 | [gorse-io/gorse](https://github.com/gorse-io/gorse) [🔗](https://gorse.io) | AI powered open source recommender system engine supports classical/LLM rankers and multimodal content via embedding | collaborative-filtering, go, knn, machine-learning, recommender-system |
 | [goruby/goruby](https://github.com/goruby/goruby) | GoRuby, an implementation of Ruby written in Go | go, golang, interpreter, language, programming-language, ruby |
 | [gotify/server](https://github.com/gotify/server) [🔗](https://gotify.net) | A simple server for sending and receiving messages in real-time per WebSocket. (Includes a sleek web-ui) | api, cloud, free-software, golang, gotify, hosting, javascript, notifications, privacy, react, self-hosted, self-hosting, selfhosted |
@@ -1810,6 +1810,8 @@ List of starred repositories.
 | [joho/7XX-rfc](https://github.com/joho/7XX-rfc) | An RFC for a new series of HTTP status codes covering developer fouls. | rfc, satire |
 | [joinloops/loops-server](https://github.com/joinloops/loops-server) [🔗](https://joinloops.org) | The federated short video sharing platform. | activitypub, loops, reels, short-videos, social-media, social-network, tiktok |
 | [jonaburg/picom](https://github.com/jonaburg/picom) | A lightweight compositor for X11 (previously a compton fork) |  |
+| [jonataslaw/fastcrypt](https://github.com/jonataslaw/fastcrypt) |  |  |
+| [jonataslaw/get_storage](https://github.com/jonataslaw/get_storage) | A fast, extra light and synchronous key-value storage to Get framework |  |
 | [jondurbin/airoboros](https://github.com/jondurbin/airoboros) | Customizable implementation of the self-instruct paper. |  |
 | [jonradoff/lofp](https://github.com/jonradoff/lofp) [🔗](https://metavert.io) | Legends of Future Past, the classic commercial MUD form the 1990's | game, game-development, golang, interactive-fiction, mud, mud-server, online-game |
 | [joomcode/errorx](https://github.com/joomcode/errorx) | A comprehensive error handling library for Go | error-handling, errors, go, stack-traces |
@@ -2036,7 +2038,6 @@ List of starred repositories.
 | [mattn/go-sqlite3](https://github.com/mattn/go-sqlite3) [🔗](http://mattn.github.io/go-sqlite3) | sqlite3 driver for go using database/sql | go, sqlite, sqlite3-driver |
 | [mattogodoy/nametag](https://github.com/mattogodoy/nametag) | A simple, yet effective Personal Relationship Manager |  |
 | [mattpocock/evalite](https://github.com/mattpocock/evalite) [🔗](https://www.evalite.dev/) | Evaluate your LLM-powered apps with TypeScript | ai, evals, typescript |
-| [matzehuels/stacktower](https://github.com/matzehuels/stacktower) [🔗](https://stacktower.io/) | Visualize package dependencies as XKCD-style tower diagrams. Supports Python, Rust, JavaScript, Ruby, PHP, Java, and Go. | dependencies, golang, graphs |
 | [mauriceboe/TREK](https://github.com/mauriceboe/TREK) [🔗](https://demo-nomad.pakulat.org) | A self-hosted travel/trip planner with real-time collaboration, interactive maps, PWA support, SSO, budgets, packing lists, and more. | budget-tracker, collaborative, open-source, opensource, packing-list, poi, real-time, routes, self-hosted, travel, travel-app, travel-planner, traveling, trip, trip-planner, wanderlog, wanderlust, webapplication |
 | [maurom/qbasic-reversing-notes](https://github.com/maurom/qbasic-reversing-notes) | Some useful notes to reverse engineer and decompile QBasic executables. |  |
 | [mausimus/scummvm-speech](https://github.com/mausimus/scummvm-speech) | Proof-of-concept of playing ScummVM with Speech Recognition |  |
@@ -2610,6 +2611,7 @@ List of starred repositories.
 | [sqlite/sqlite](https://github.com/sqlite/sqlite) | Official Git mirror of the SQLite source tree |  |
 | [ssbc/ssb-buttwoo-spec](https://github.com/ssbc/ssb-buttwoo-spec) | Spec for a new binary feed format for SSB |  |
 | [stack-auth/stack-auth](https://github.com/stack-auth/stack-auth) [🔗](https://stack-auth.com) | Open-source Auth0/Clerk alternative | auth, auth0, authentication, clerk, cognito, email-password, firebase-auth, keycloak, login, magic-link, nextjs, oauth, password, react, session-management, shadcn, signin, social-login, supabase-auth, typescript |
+| [stacktower-io/stacktower](https://github.com/stacktower-io/stacktower) [🔗](https://stacktower.io/) | Visualize package dependencies as XKCD-style tower diagrams. Supports Python, Rust, JavaScript, Ruby, PHP, Java, and Go. | dependencies, golang, graphs |
 | [staltz/rxmarbles](https://github.com/staltz/rxmarbles) [🔗](http://www.rxmarbles.com) |  Interactive diagrams of Rx Observables |  |
 | [stalwartlabs/stalwart](https://github.com/stalwartlabs/stalwart) [🔗](https://stalw.art) | All-in-one Mail & Collaboration server. Secure, scalable and fluent in every protocol (IMAP, JMAP, SMTP, CalDAV, CardDAV, WebDAV). | caldav, carddav, imap, jmap, mail, pop3, rust, server, smtp, webdav |
 | [stalwartlabs/webadmin](https://github.com/stalwartlabs/webadmin) [🔗](https://stalw.art) | Web-based admin for Stalwart | mail, server, stalwart, webadmin |

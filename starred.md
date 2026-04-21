@@ -1232,7 +1232,7 @@ List of starred repositories.
 | [cznic/ql](https://github.com/cznic/ql) [🔗](https://godoc.org/modernc.org/ql) | github.com/cznic/ql has moved to modernc.org/ql |  |
 | [d07RiV/diabloweb](https://github.com/d07RiV/diabloweb) | Diablo 1 for web browsers |  |
 | [d4l3k/go-pry](https://github.com/d4l3k/go-pry) [🔗](https://gopry.rice.sh/) | An interactive REPL for Go that allows you to drop into your code at any point. | go, interpreter, repl |
-| [dagger/dagger](https://github.com/dagger/dagger) [🔗](https://dagger.io) | Automation engine to build, test and ship any codebase. Runs locally, in CI, or directly in the cloud | agents, ai, caching, ci-cd, containers, continuous-deployment, continuous-integration, dag, dagger, devops, docker, graphql, workflows |
+| [dagger/dagger](https://github.com/dagger/dagger) [🔗](https://dagger.io) | Automation engine to build, test and ship any codebase. Runs locally, in CI, or directly in the cloud | agents, caching, ci-cd, containers, continuous-deployment, continuous-integration, dag, dagger, devops, docker, graphql, workflows |
 | [danfragoso/thdwb](https://github.com/danfragoso/thdwb) | 🌭 The hotdog web browser and browser engine 🌭 | browser-engine, golang, hotdog, html-renderer, ketchup, mayo, mustard, sauce, web-browser |
 | [dani-garcia/vaultwarden](https://github.com/dani-garcia/vaultwarden) | Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs | bitwarden, bitwarden-rs, docker, rocket, rust, vaultwarden |
 | [danielcosta/MSWORD](https://github.com/danielcosta/MSWORD) [🔗](http://blogs.technet.com/b/microsoft_blog/archive/2014/03/25/microsoft-makes-source-code-for-ms-dos-and-word-for-windows-available-to-public.aspx) | Microsoft makes source code for Word for Windows available to public |  |
@@ -1277,6 +1277,7 @@ List of starred repositories.
 | [dexidp/dex](https://github.com/dexidp/dex) [🔗](https://dexidp.io) | OpenID Connect (OIDC) identity and OAuth 2.0 provider with pluggable connectors | hacktoberfest, identity-provider, idp, kubernetes, oidc |
 | [dexteryy/spellbook-of-modern-webdev](https://github.com/dexteryy/spellbook-of-modern-webdev) | A Big Picture, Thesaurus, and Taxonomy of Modern JavaScript Web Development | awesome, css3, html5, isomorphic-javascript, javascript, learning, libraries, nodejs, universal-javascript, webapp, webplatform |
 | [dghubble/gologin](https://github.com/dghubble/gologin) | Go login handlers for authentication providers (OAuth1, OAuth2) |  |
+| [dgr8akki/nano-ffmpeg](https://github.com/dgr8akki/nano-ffmpeg) [🔗](https://nano-ffmpeg.vercel.app) | nano-ffmpeg wraps the full power of ffmpeg in a beautiful, keyboard-driven terminal dashboard. No more googling flags. Browse your files, pick what you want to do, tweak settings with presets, and watch a live progress bar while it encodes. | ffmpeg |
 | [dgryski/awesome-go-style](https://github.com/dgryski/awesome-go-style) | A collection of Go style guides |  |
 | [dgryski/go-perfbook](https://github.com/dgryski/go-perfbook) | Thoughts on Go performance optimization | optimization, performance, performance-analysis, performance-optimization |
 | [dhall-lang/dhall-lang](https://github.com/dhall-lang/dhall-lang) [🔗](https://dhall-lang.org) | Maintainable configuration files | configuration-language, dhall |
@@ -1608,7 +1609,7 @@ List of starred repositories.
 | [google/gitiles](https://github.com/google/gitiles) [🔗](https://gerrit.googlesource.com/gitiles/) | A simple browser for Git repositories. |  |
 | [google/go-cloud](https://github.com/google/go-cloud) [🔗](https://gocloud.dev/) | The Go Cloud Development Kit (Go CDK): A library and tools for open cloud development in Go. | aws, azure, cloud, gcp, go, golang, hybrid-cloud, multi-cloud, portable, server |
 | [google/go-cmp](https://github.com/google/go-cmp) | Package for comparing Go values in tests | equality, go, testing |
-| [google/go-github](https://github.com/google/go-github) [🔗](https://pkg.go.dev/github.com/google/go-github/v84/github) | Go library for accessing the GitHub v3 API | github, github-api, go, golang, hacktoberfest |
+| [google/go-github](https://github.com/google/go-github) [🔗](https://pkg.go.dev/github.com/google/go-github/v85/github) | Go library for accessing the GitHub v3 API | github, github-api, go, golang, hacktoberfest |
 | [google/gops](https://github.com/google/gops) | A tool to list and diagnose Go processes currently running on your system | cpu-profile, diagnostics, go, go-tools, golang, heap-profile |
 | [google/magika](https://github.com/google/magika) [🔗](https://securityresearch.google/magika/) | Fast and accurate AI powered file content types detection  | ai, deep-learning, filetype, keras-classification-models, keras-models, mime-types, onnx |
 | [google/mozc](https://github.com/google/mozc) | Mozc - a Japanese Input Method Editor designed for multi-platform |  |
@@ -1785,7 +1786,7 @@ List of starred repositories.
 | [jberkel/sms-backup-plus](https://github.com/jberkel/sms-backup-plus) [🔗](https://play.google.com/store/apps/details?id=com.zegoggles.smssync) | Backup Android SMS, MMS and call log to Gmail / Gcal / IMAP | android, android-backup, automatic-backups, calendar, gmail-inbox, imap-server, java, mms, restore, sms, sms-backup |
 | [jcs/no_color](https://github.com/jcs/no_color) [🔗](https://no-color.org) | Website data for no-color.org |  |
 | [jdx/fnox](https://github.com/jdx/fnox) [🔗](https://fnox.jdx.dev) | encrypted/remote secret manager |  |
-| [jdx/mise](https://github.com/jdx/mise) [🔗](https://mise.jdx.dev) | dev tools, env vars, task runner |  |
+| [jdx/mise](https://github.com/jdx/mise) [🔗](https://mise.en.dev) | dev tools, env vars, task runner |  |
 | [jeanslack/FFcuesplitter](https://github.com/jeanslack/FFcuesplitter) | FFmpeg based audio splitter for CDDA images associated with .cue files | audio, cue, cuesheet, ffcuesplitter, ffmpeg, python |
 | [jehna/this-website-does-not-exist](https://github.com/jehna/this-website-does-not-exist) [🔗](https://thiswebsitedoesnotexist.net) |  |  |
 | [jellyfin-archive/jellyfin-desktop-qt](https://github.com/jellyfin-archive/jellyfin-desktop-qt) | Jellyfin Desktop Client | jellyfin, jellyfin-client |
@@ -1824,7 +1825,7 @@ List of starred repositories.
 | [jrouwe/JoltPhysics](https://github.com/jrouwe/JoltPhysics) | A multi core friendly rigid body physics and collision detection library. Written in C++. Suitable for games and VR applications. Used by Horizon Forbidden West and Death Stranding 2. | c-plus-plus, cpp, game-development, game-engine, physics, physics-engine, physics-simulation, simulation, vr |
 | [jsattler/BetterCapture](https://github.com/jsattler/BetterCapture) [🔗](https://bettercapture.app/) | The macOS screen recorder for the rest of us - always free and open source with a native look and feel  📺 | apple, audiorecorder, hevc, macos, prores, screen-capture, screen-recorder, screenrecorder, utility |
 | [jsha/minica](https://github.com/jsha/minica) | minica is a small, simple CA intended for use in situations where the CA operator also operates each host where a certificate will be used. |  |
-| [jstrieb/github-stats](https://github.com/jstrieb/github-stats) | Better GitHub statistics images for your profile, with stats from private repos too | git-scraping, github, github-actions, github-api, github-stats, profile, readme-md, readme-template, statistics, statistics-images, stats-images, visualizations |
+| [jstrieb/github-stats](https://github.com/jstrieb/github-stats) | Better GitHub statistics images for your profile, with stats from private repos too | git-scraping, github, github-actions, github-api, github-stats, profile, readme-md, readme-template, statistics, statistics-images, stats-images, visualizations, zig, ziglang |
 | [juanfont/headscale](https://github.com/juanfont/headscale) | An open source, self-hosted implementation of the Tailscale control server | tailscale, tailscale-control-server, tailscale-server, wireguard |
 | [juce-framework/JUCE](https://github.com/juce-framework/JUCE) [🔗](https://juce.com) | JUCE is an open-source cross-platform C++ application framework for desktop and mobile applications, including VST, VST3, AU, AUv3, LV2 and AAX audio plug-ins. | aax, au, audio, audiounit, auv3, c-plus-plus, cpp, framework, juce, plugin, vst, vst3 |
 | [jugeekuz/HomeShare](https://github.com/jugeekuz/HomeShare) |  |  |
@@ -2694,7 +2695,6 @@ List of starred repositories.
 | [thokzz/asset-lookup](https://github.com/thokzz/asset-lookup) | A comprehensive Warranty, Maintenance, Subscription management system with automated notification system |  |
 | [thorikawa/android-opencv-ocr](https://github.com/thorikawa/android-opencv-ocr) |  |  |
 | [thunder-app/thunder](https://github.com/thunder-app/thunder) [🔗](https://thunderapp.dev) | An open-source cross-platform Lemmy & PieFed client for iOS and Android | android, dart, fediverse, fediverse-client, flutter, ios, lemmy, piefed, threadiverse |
-| [tidwall/buntdb](https://github.com/tidwall/buntdb) | BuntDB is an embeddable, in-memory key/value database for Go with custom indexing and geospatial support | database, geospatial, golang, in-memory, key-value |
 | [tidwall/buntdb](https://github.com/tidwall/buntdb) | BuntDB is an embeddable, in-memory key/value database for Go with custom indexing and geospatial support | database, geospatial, golang, in-memory, key-value |
 | [tigerbeetle/tigerbeetle](https://github.com/tigerbeetle/tigerbeetle) [🔗](https://tigerbeetle.com) | The financial transactions database designed for mission critical safety and performance. |  |
 | [tikikun/f5-tts-mlx-quantized](https://github.com/tikikun/f5-tts-mlx-quantized) | Implementation of F5-TTS in MLX |  |

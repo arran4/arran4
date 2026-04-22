@@ -116,6 +116,7 @@ List of repositories and their licenses.
 | [goxresources](https://github.com/arran4/goxresources) | go parser for xresource files  | MIT | dotfiles, go, golang, xresources |
 | [homebrew-tap](https://github.com/arran4/homebrew-tap) | My homebrew tap semiautomated.. maybe? | MIT | homebrew, homebrew-tap, tap |
 | [interactions](https://github.com/arran4/interactions) | How things interact | MIT | image, experiment, fun, generated-infographic, generator, statistics, test |
+| [kllamabooks](https://github.com/arran4/kllamabooks) | A KDE-styled QT application that interacts with local Ollama sessions and stores chat history locally via encrypted SQLite databases | MIT | ai, chat, client, kde, ollama |
 | [lxa](https://github.com/arran4/lxa) | ls with extended attributes | MIT | fs-attr, linux, ls, xattr, xdp |
 | [matchStickProblem](https://github.com/arran4/matchStickProblem) | Generates an image of solving the "match stick problem" (move a match stick) for amusement | MIT | amusement, experiment, fun, generated, generator, go, golang, match-stick, test |
 | [md2png](https://github.com/arran4/md2png) [🔗](https://pkg.go.dev/github.com/arran4/md2png) | Very basic generated md2png  | MIT | cli + library, converter, dependency-free, experiment, go, golang, markdown, md2png, png |

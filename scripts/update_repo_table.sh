@@ -30,19 +30,53 @@ SORTED="$TMP_DIR/sorted.json"
 jq 'sort_by(.name)' "$FILTERED" > "$SORTED"
 
 SYNONYMS='{
-  "go": "golang",
+  "golang": "go",
+  "golang-library": ["go", "library"],
+  "go-library": ["go", "library"],
+  "util": "utility",
+  "fun": "for-fun",
+  "amusement": "for-fun",
+  "rss-generator": "rss",
+  "rss-gen": "rss",
+  "awesome": "awesome-list",
+  "dart-library": "dart",
   "dartlang": "dart",
-  "github-action": "github-actions"
+  "tool": "utility",
+  "github-action": "github-actions",
+  "github-workflow": "github-actions",
+  "githubpages": "github-pages",
+  "gentoo-overlay": ["gentoo", "overlay"],
+  "gentoo-portage-overlay": ["gentoo", "overlay"],
+  "portage-overlay": ["gentoo", "overlay"],
+  "google-appengine": "google-app-engine",
+  "go-google-app-engine": ["go", "google-app-engine"],
+  "cli-tool": "cli",
+  "cli-app": "cli",
+  "commandline-tool": "cli",
+  "command-line": "cli",
+  "desktop-app": "desktop",
+  "desktop-util": "desktop",
+  "dotfile": "dotfiles",
+  "flutter-library": ["flutter", "library"],
+  "testing": "test",
+  "games": "game",
+  "mac": "macos",
+  "systemtray": "system-tray",
+  "system-tray-icons": "system-tray",
+  "sys-icon": "system-tray",
+  "cheetsheet": "cheatsheet",
+  "vimcheatsheet": ["vim", "cheatsheet"],
+  "vim-cheatsheet": ["vim", "cheatsheet"]
 }'
 MIN_TAG_COUNT=3
 
-INTERESTING_TAGS=$(jq -c --argjson synonyms "$SYNONYMS" --argjson min_count "$MIN_TAG_COUNT" '[.[].topics | select(. != null) | map($synonyms[.] // .) | unique | .[]] | group_by(.) | map({tag: .[0], count: length}) | sort_by(-.count) | map(select(.count >= $min_count)) | map(.tag)' "$SORTED")
+INTERESTING_TAGS=$(jq -c --argjson synonyms "$SYNONYMS" --argjson min_count "$MIN_TAG_COUNT" '[.[].topics | select(. != null) | [ .[] | if $synonyms[.] then (if ($synonyms[.] | type) == "array" then $synonyms[.][] else $synonyms[.] end) else . end ] | unique | .[]] | group_by(.) | map({tag: .[0], count: length}) | sort_by(-.count) | map(select(.count >= $min_count)) | map(.tag)' "$SORTED")
 
 COMMON_JQ='
   def interesting_tags: $ext_interesting_tags;
   def synonyms: $ext_synonyms;
   def normalize_topics($topics):
-    ($topics // []) | map(synonyms[.] // .) | unique;
+    ($topics // []) | [ .[] | if synonyms[.] then (if (synonyms[.] | type) == "array" then synonyms[.][] else synonyms[.] end) else . end ] | unique;
   def tag_label($topics):
     normalize_topics($topics) as $all
     | [ $all[] | select(. as $tag | (interesting_tags | index($tag)) != null) ] as $selected

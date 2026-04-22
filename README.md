@@ -16,354 +16,166 @@ Have questions or feedback? [Open an issue](https://github.com/arran4/arran4/iss
 
 ## My Projects
 <!--repos-start-->
-### abc + rss + rss-generator
+### awesome-list
 | Repository | Description | Tags |
 |---|---|---|
-| [abc-justin-rss](https://github.com/arran4/abc-justin-rss) | ABC news just-in to rss converter - generated | abc + rss + rss-generator, abc-news |
-| [abc-kohler-report-rss](https://github.com/arran4/abc-kohler-report-rss) | RSS generator for ABC's Kohler Report | abc + rss + rss-generator, abc-news |
-| [abc-mediawatch-rss](https://github.com/arran4/abc-mediawatch-rss) | RSS generator for ABC's Media Watch | abc + rss + rss-generator, abc-media-watch |
-
-### ai + chat + kde
-| Repository | Description | Tags |
-|---|---|---|
-| [kllamabooks](https://github.com/arran4/kllamabooks) | A KDE-styled QT application that interacts with local Ollama sessions and stores chat history locally via encrypted SQLite databases | ai + chat + kde, client, ollama |
-
-### ai + flutter + linux + utility
-| Repository | Description | Tags |
-|---|---|---|
-| [flutter_jules](https://github.com/arran4/flutter_jules) | My flutter based google jules client  | ai + flutter + linux + utility, app, google-jules, jules, mac, windows |
-
-### ai + generated + test
-| Repository | Description | Tags |
-|---|---|---|
-| [gorillas-react](https://github.com/arran4/gorillas-react) [🔗](https://ai.studio/apps/drive/1BOLZ6UAK9YYH8kl5eU8Ihn6J-fxugrk0) | Generated gorillas in react | ai + generated + test, game, react |
-
-### ai + kde
-| Repository | Description | Tags |
-|---|---|---|
-| [kjules](https://github.com/arran4/kjules) | A C++ application built with KDE Frameworks that provides a desktop interface for interacting with the Google Jules API | ai + kde, desktop-app, google-jules, jules |
-
-### amusement + cli + for-fun + golang
-| Repository | Description | Tags |
-|---|---|---|
-| [sentencestats](https://github.com/arran4/sentencestats) | Tools to plot character usage in sentences | amusement + cli + for-fun + golang, character-counter, chart, joke, meme, plotter |
-
-### amusement + experiment + fun + generated + generator + golang + test
-| Repository | Description | Tags |
-|---|---|---|
-| [matchStickProblem](https://github.com/arran4/matchStickProblem) | Generates an image of solving the "match stick problem" (move a match stick) for amusement | amusement + experiment + fun + generated + generator + golang + test, match-stick |
-
-### amusement + for-fun + generator + golang
-| Repository | Description | Tags |
-|---|---|---|
-| [phonenumber](https://github.com/arran4/phonenumber) | A generator for the nokia phone keyboard meme | amusement + for-fun + generator + golang, meme, nokia, nokia-keyboard, phone, phonenumber |
-
-### awesome + awesome-list
-| Repository | Description | Tags |
-|---|---|---|
-| [awesome-fodmap-resources](https://github.com/arran4/awesome-fodmap-resources) [🔗](https://arran4.github.io/awesome-fodmap-resources/) | Compilation of Low Fodmap resources | awesome + awesome-list, fodmap, fodmaps, low-fodmap |
-| [awesome-postserver](https://github.com/arran4/awesome-postserver) [🔗](https://arran4.github.io/awesome-postserver/) | Awesome Post-Cloud Post-NAS (True Serverless) Syncing | awesome + awesome-list, list, postnas, postserver, serverless, true-serverless |
-| [awesome-terminal-multiplexers](https://github.com/arran4/awesome-terminal-multiplexers) [🔗](https://arran4.github.io/awesome-terminal-multiplexers/) | Simple awesome list of terminal multiplexers | awesome + awesome-list, terminal, terminal-multiplexers |
-
-### awesome-list + ui
-| Repository | Description | Tags |
-|---|---|---|
-| [ux](https://github.com/arran4/ux) [🔗](https://arran4.github.io/ux/) | Some design links I refer to  | awesome-list + ui, design, docs, links, list, references, ui-design, ux, ux-design |
-
-### chat
-| Repository | Description | Tags |
-|---|---|---|
-| [chat-barcodes](https://github.com/arran4/chat-barcodes) [🔗](https://arran4.github.io/barcode-cheatsheets) | Chat barcode cheatsheet | chat, barcodes, chat-barcodes, chat-cheatsheet, chat-shortcuts, cheetsheet |
-
-### chat + flutter + linux + web
-| Repository | Description | Tags |
-|---|---|---|
-| [Dimension](https://github.com/arran4/Dimension) [🔗](https://arran4.github.io/Dimension/) | (Beta) Peer-to-peer group chat and file transfer. | chat + flutter + linux + web, android, desktop, fileshare, ios, mac, mobile, peer-to-peer, peer2peer, windows |
+| [awesome-fodmap-resources](https://github.com/arran4/awesome-fodmap-resources) [🔗](https://arran4.github.io/awesome-fodmap-resources/) | Compilation of Low Fodmap resources | awesome-list, awesome, fodmap, fodmaps, low-fodmap |
+| [awesome-postserver](https://github.com/arran4/awesome-postserver) [🔗](https://arran4.github.io/awesome-postserver/) | Awesome Post-Cloud Post-NAS (True Serverless) Syncing | awesome-list, awesome, list, postnas, postserver, serverless, true-serverless |
+| [awesome-terminal-multiplexers](https://github.com/arran4/awesome-terminal-multiplexers) [🔗](https://arran4.github.io/awesome-terminal-multiplexers/) | Simple awesome list of terminal multiplexers | awesome-list, awesome, terminal, terminal-multiplexers |
+| [ux](https://github.com/arran4/ux) [🔗](https://arran4.github.io/ux/) | Some design links I refer to  | awesome-list, design, docs, links, list, references, ui, ui-design, ux, ux-design |
 
 ### cli
 | Repository | Description | Tags |
 |---|---|---|
+| [directoryGrouperBySize](https://github.com/arran4/directoryGrouperBySize) | Tools that help you group directories to a paricular size range. (ie getting things to fit on dvds.) | cli, directory-tools, go, helpers, tools, utility |
+| [dirtools](https://github.com/arran4/dirtools) [🔗](https://pkg.go.dev/github.com/arran4/dirtools) | Some directory tools, such as separating out all of a file extension into mirror directories | cli, directory, golang, organization, tool, utility |
+| [editorconfig-guesser](https://github.com/arran4/editorconfig-guesser) | Generates reasonable .editorconfig files for source files. | cli, detector, devtool, editorconfig, generator, generators, golang |
+| [eightbyeight](https://github.com/arran4/eightbyeight) | golang based dithering experiments | cli, dithering, experiment, golang, graphics, util |
+| [git-tag-inc](https://github.com/arran4/git-tag-inc) | Yet another semantic version incrementor and tagger for git  | cli, git, git-tag, git-tags, go, golang, semantic, semantic-versioning, util |
+| [go-lojban-password-gen](https://github.com/arran4/go-lojban-password-gen) | Lojban password generator - Generate passwords that use lojban | cli, binary, generator, go, lojban, password, password-generator, utility |
+| [go-subcommand](https://github.com/arran4/go-subcommand) | Generates dependencyless go command line argument subcommand system | cli, cli-subcommands, flags, geneated-flags, go, go-generate, subcommands |
+| [mdsplit](https://github.com/arran4/mdsplit) | Splits markdown files into chunks suitable for processing with other tools or making into slides | cli, go, markdown |
+| [mostcomm](https://github.com/arran4/mostcomm) | A cli utility for finding the most common and sorting by length, lines-sets in a text file | cli, common, common-lines, diff, go, golang, merge, multiple |
+| [move-dups-script](https://github.com/arran4/move-dups-script) | Simple program to move dups nothing really interesting - Once off go project which could have been a shell script | cli, go, golang, golang-cli, shell-script-as-go |
 | [mvcommon](https://github.com/arran4/mvcommon) | Tool for moving files into a folder where they have a common prefix | cli, mv, smart-tools |
+| [pimtrace](https://github.com/arran4/pimtrace) | A CLI tool for preforming queries on ical, maildir, mbox and csv files | cli, csv, ical, query, tool |
+| [podcast-cdr-manager](https://github.com/arran4/podcast-cdr-manager) | CLI tool to help manage podcast subscriptions for burning to CDROMs / CDR / CDRW | cli, golang, iso, iso9660, podcasts, utility |
+| [rotatingcircles](https://github.com/arran4/rotatingcircles) | Generates an optical illusion: Rotating circles | cli, amesuement, animated, fun, generated, generator, gif, go, golang, optical-illusion |
+| [shineyshot](https://github.com/arran4/shineyshot) | A simple screenshotting tool with several user modes | cli, annotation, go, golang, hyprland, linux, screencap, screendump, screenshot, tool, ui, utility, wayland, x11 |
+| [skillsmatrixkmeans](https://github.com/arran4/skillsmatrixkmeans) | k-means clustering of skills of people to identify weaknesses | cli, employment, go, golang, graphs, jobs, k-means, teams, utility |
+| [trace-redirects](https://github.com/arran4/trace-redirects) | Very simple cli tool for tracing redirects on a site - nothing you couldn't do with curl | cli, curl, curl-like, debug, go, golang, http-redirect, http-redirect-tracing, redirect, single-purpose-cli-app, tracing |
 
-### cli + experiment + golang + library
+### cli + for-fun
 | Repository | Description | Tags |
 |---|---|---|
-| [md2png](https://github.com/arran4/md2png) [🔗](https://pkg.go.dev/github.com/arran4/md2png) | Very basic generated md2png  | cli + experiment + golang + library, converter, dependency-free, markdown, md2png, png |
+| [sentencestats](https://github.com/arran4/sentencestats) | Tools to plot character usage in sentences | cli + for-fun, amusement, character-counter, chart, go, golang, joke, meme, plotter |
 
-### cli + experiment + golang + util
+### cli + image + library
 | Repository | Description | Tags |
 |---|---|---|
-| [eightbyeight](https://github.com/arran4/eightbyeight) | golang based dithering experiments | cli + experiment + golang + util, dithering, graphics |
+| [go-pattern](https://github.com/arran4/go-pattern) [🔗](https://pkg.go.dev/github.com/arran4/go-pattern) | image.Image patterns | cli + image + library, designer, games, generator, go, golang, image-interface, pattern, patterns, prebuilt, showcase, util |
 
-### cli + fun + generated + generator + golang
+### cli + library
 | Repository | Description | Tags |
 |---|---|---|
-| [rotatingcircles](https://github.com/arran4/rotatingcircles) | Generates an optical illusion: Rotating circles | cli + fun + generated + generator + golang, amesuement, animated, gif, optical-illusion |
+| [go-evaluator](https://github.com/arran4/go-evaluator) [🔗](https://pkg.go.dev/github.com/arran4/go-evaluator) | A simple evaluation markup with a simple parser too.  | cli + library, eval, evaluation-language, go, golang, golib, simple, util, utility |
+| [golang-diff](https://github.com/arran4/golang-diff) | A multiline string comparsion library (and tool.) | cli + library, cli-app, comparison, diff, go, golang, testing |
+| [lookup](https://github.com/arran4/lookup) [🔗](https://pkg.go.dev/github.com/arran4/lookup) | A golang structure based element lookup library | cli + library, go, golang, jsonpath, lookup, utility |
+| [md2png](https://github.com/arran4/md2png) [🔗](https://pkg.go.dev/github.com/arran4/md2png) | Very basic generated md2png  | cli + library, converter, dependency-free, experiment, go, golang, markdown, md2png, png |
+| [strings2](https://github.com/arran4/strings2) [🔗](https://pkg.go.dev/github.com/arran4/strings2) | Some golang string helper functions focused around case transformation but other things in the future. | cli + library, camel-case, case, command-line, converter, flexible, go, golang, kebab-case, snake-case, string-case, string-converter, strings, utility |
+| [txtar](https://github.com/arran4/txtar) [🔗](https://pkg.go.dev/github.com/arran4/txtar) | txtar enhanced and with a cli tool | cli + library, archive, cli-application, cli-tool, go, golang, tool, txtar |
 
-### cli + generator + golang
+### dart-library + library
 | Repository | Description | Tags |
 |---|---|---|
-| [editorconfig-guesser](https://github.com/arran4/editorconfig-guesser) | Generates reasonable .editorconfig files for source files. | cli + generator + golang, detector, devtool, editorconfig, generators |
+| [dart_unix_single_instance](https://github.com/arran4/dart_unix_single_instance) [🔗](https://pub.dev/packages/unix_single_instance) | A library which uses unix sockets to ensure a single instance | dart-library + library, dart, dartlang, flutter, flutter-library, single-instance, unix |
 
-### cli + generator + golang + image + library + util
+### for-fun
 | Repository | Description | Tags |
 |---|---|---|
-| [go-pattern](https://github.com/arran4/go-pattern) [🔗](https://pkg.go.dev/github.com/arran4/go-pattern) | image.Image patterns | cli + generator + golang + image + library + util, designer, games, image-interface, pattern, patterns, prebuilt, showcase |
-
-### cli + generator + golang + utility
-| Repository | Description | Tags |
-|---|---|---|
-| [go-lojban-password-gen](https://github.com/arran4/go-lojban-password-gen) | Lojban password generator - Generate passwords that use lojban | cli + generator + golang + utility, binary, lojban, password, password-generator |
-
-### cli + golang
-| Repository | Description | Tags |
-|---|---|---|
-| [go-subcommand](https://github.com/arran4/go-subcommand) | Generates dependencyless go command line argument subcommand system | cli + golang, cli-subcommands, flags, geneated-flags, go-generate, subcommands |
-| [mdsplit](https://github.com/arran4/mdsplit) | Splits markdown files into chunks suitable for processing with other tools or making into slides | cli + golang, markdown |
-| [mostcomm](https://github.com/arran4/mostcomm) | A cli utility for finding the most common and sorting by length, lines-sets in a text file | cli + golang, common, common-lines, diff, merge, multiple |
-| [move-dups-script](https://github.com/arran4/move-dups-script) | Simple program to move dups nothing really interesting - Once off go project which could have been a shell script | cli + golang, golang-cli, shell-script-as-go |
-| [trace-redirects](https://github.com/arran4/trace-redirects) | Very simple cli tool for tracing redirects on a site - nothing you couldn't do with curl | cli + golang, curl, curl-like, debug, http-redirect, http-redirect-tracing, redirect, single-purpose-cli-app, tracing |
-
-### cli + golang + library
-| Repository | Description | Tags |
-|---|---|---|
-| [golang-diff](https://github.com/arran4/golang-diff) | A multiline string comparsion library (and tool.) | cli + golang + library, cli-app, comparison, diff, testing |
-
-### cli + golang + library + tool
-| Repository | Description | Tags |
-|---|---|---|
-| [txtar](https://github.com/arran4/txtar) [🔗](https://pkg.go.dev/github.com/arran4/txtar) | txtar enhanced and with a cli tool | cli + golang + library + tool, archive, cli-application, cli-tool, txtar |
-
-### cli + golang + library + util + utility
-| Repository | Description | Tags |
-|---|---|---|
-| [go-evaluator](https://github.com/arran4/go-evaluator) [🔗](https://pkg.go.dev/github.com/arran4/go-evaluator) | A simple evaluation markup with a simple parser too.  | cli + golang + library + util + utility, eval, evaluation-language, golib, simple |
-
-### cli + golang + library + utility
-| Repository | Description | Tags |
-|---|---|---|
-| [lookup](https://github.com/arran4/lookup) [🔗](https://pkg.go.dev/github.com/arran4/lookup) | A golang structure based element lookup library | cli + golang + library + utility, jsonpath, lookup |
-| [strings2](https://github.com/arran4/strings2) [🔗](https://pkg.go.dev/github.com/arran4/strings2) | Some golang string helper functions focused around case transformation but other things in the future. | cli + golang + library + utility, camel-case, case, command-line, converter, flexible, kebab-case, snake-case, string-case, string-converter, strings |
-
-### cli + golang + linux + tool + ui + utility
-| Repository | Description | Tags |
-|---|---|---|
-| [shineyshot](https://github.com/arran4/shineyshot) | A simple screenshotting tool with several user modes | cli + golang + linux + tool + ui + utility, annotation, hyprland, screencap, screendump, screenshot, wayland, x11 |
-
-### cli + golang + tool + utility
-| Repository | Description | Tags |
-|---|---|---|
-| [dirtools](https://github.com/arran4/dirtools) [🔗](https://pkg.go.dev/github.com/arran4/dirtools) | Some directory tools, such as separating out all of a file extension into mirror directories | cli + golang + tool + utility, directory, organization |
-
-### cli + golang + util
-| Repository | Description | Tags |
-|---|---|---|
-| [git-tag-inc](https://github.com/arran4/git-tag-inc) | Yet another semantic version incrementor and tagger for git  | cli + golang + util, git, git-tag, git-tags, semantic, semantic-versioning |
-
-### cli + golang + utility
-| Repository | Description | Tags |
-|---|---|---|
-| [directoryGrouperBySize](https://github.com/arran4/directoryGrouperBySize) | Tools that help you group directories to a paricular size range. (ie getting things to fit on dvds.) | cli + golang + utility, directory-tools, helpers, tools |
-| [podcast-cdr-manager](https://github.com/arran4/podcast-cdr-manager) | CLI tool to help manage podcast subscriptions for burning to CDROMs / CDR / CDRW | cli + golang + utility, iso, iso9660, podcasts |
-| [skillsmatrixkmeans](https://github.com/arran4/skillsmatrixkmeans) | k-means clustering of skills of people to identify weaknesses | cli + golang + utility, employment, graphs, jobs, k-means, teams |
-
-### cli + tool
-| Repository | Description | Tags |
-|---|---|---|
-| [pimtrace](https://github.com/arran4/pimtrace) | A CLI tool for preforming queries on ical, maildir, mbox and csv files | cli + tool, csv, ical, query |
-
-### dart
-| Repository | Description | Tags |
-|---|---|---|
-| [dart-udt](https://github.com/arran4/dart-udt) [🔗](https://pub.dev/packages/dart_udt) | AI port of UDT library from source forge to Dart | dart, udt |
-
-### dart + datastore + flutter + utility
-| Repository | Description | Tags |
-|---|---|---|
-| [flutter_google_datastore](https://github.com/arran4/flutter_google_datastore) | Google Datastore and Datastore emulator client for "easy" modification of values | dart + datastore + flutter + utility, google |
-
-### dart + flutter + library
-| Repository | Description | Tags |
-|---|---|---|
-| [dart_unix_single_instance](https://github.com/arran4/dart_unix_single_instance) [🔗](https://pub.dev/packages/unix_single_instance) | A library which uses unix sockets to ensure a single instance | dart + flutter + library, dart-library, flutter-library, single-instance, unix |
-| [flutter_nodelistview](https://github.com/arran4/flutter_nodelistview) | A flutter widget which uses an infinite list of double linked nodes | dart + flutter + library, listview |
-
-### dart + library
-| Repository | Description | Tags |
-|---|---|---|
-| [dartobjectutils](https://github.com/arran4/dartobjectutils) [🔗](https://pub.dev/packages/dartobjectutils) | Dart Constructor Type Enforcement / Conversion | dart + library, object-construction-utils, object-verification |
-
-### datastore + golang + library
-| Repository | Description | Tags |
-|---|---|---|
-| [datastoreutils](https://github.com/arran4/datastoreutils) [🔗](https://pkg.go.dev/github.com/arran4/datastoreutils) | Basic google cloud datastore helpers | datastore + golang + library, go-google-app-engine, google-app-engine, google-datastore |
-| [dsquery](https://github.com/arran4/dsquery) [🔗](https://pkg.go.dev/github.com/arran4/dsquery) | A google datastore query aggregator and compiler with some minor enhancements | datastore + golang + library, google-appengine |
-
-### experiment + fun + generator + image + test
-| Repository | Description | Tags |
-|---|---|---|
-| [interactions](https://github.com/arran4/interactions) | How things interact | experiment + fun + generator + image + test, generated-infographic, statistics |
-
-### experiment + golang
-| Repository | Description | Tags |
-|---|---|---|
-| [heatplot](https://github.com/arran4/heatplot) | This program takes a formula and plots the "heat" for any particular location | experiment + golang, graph, heatplot, maths, plot, testing |
-
-### experiment + golang + test
-| Repository | Description | Tags |
-|---|---|---|
-| [image-formula-find](https://github.com/arran4/image-formula-find) | Experimenting with genetic algorithms | experiment + golang + test, experimentation, genetic-algorithms |
-
-### flutter
-| Repository | Description | Tags |
-|---|---|---|
-| [lemmy_notify](https://github.com/arran4/lemmy_notify) | Lemmy Notification app - for desktop atm | flutter, desktop, lemmy |
-| [mlocate_explorer](https://github.com/arran4/mlocate_explorer) [🔗](https://arran4.github.io/mlocate_explorer/) | A basic mlocate db file explorer | flutter, db, explorer, gui, mlocate |
-
-### flutter + tool
-| Repository | Description | Tags |
-|---|---|---|
-| [send_to_linkwarden](https://github.com/arran4/send_to_linkwarden) [🔗](https://arran4.github.io/send_to_linkwarden/) | Mobile version of Linkwarden | flutter + tool, android, archiving, link, linkwarden, mobile |
-
-### for-fun + golang
-| Repository | Description | Tags |
-|---|---|---|
-| [fontlengths](https://github.com/arran4/fontlengths) | Font lengths tester by generating pngs of each font and sorting by length automatically | for-fun + golang, font-length, fonts, png-generator |
-
-### generator + gentoo
-| Repository | Description | Tags |
-|---|---|---|
-| [arrans_overlay_workflow_builder](https://github.com/arran4/arrans_overlay_workflow_builder) | A gentoo overlay ebuild workflow builder generator for -bin with a special purpose handler for .appimage binary files | generator + gentoo, builder, ebuild, gentoo-overlay, github-workflow |
+| [fontlengths](https://github.com/arran4/fontlengths) | Font lengths tester by generating pngs of each font and sorting by length automatically | for-fun, font-length, fonts, golang, png-generator |
+| [phonenumber](https://github.com/arran4/phonenumber) | A generator for the nokia phone keyboard meme | for-fun, amusement, generator, go, golang, meme, nokia, nokia-keyboard, phone, phonenumber |
 
 ### gentoo
 | Repository | Description | Tags |
 |---|---|---|
 | [arrans_overlay](https://github.com/arran4/arrans_overlay) [🔗](https://arran4.github.io/arrans_overlay/) | Arrans Gentoo Overlay | gentoo, gentoo-overlay, gentoo-portage-overlay, overlay, portage-overlay |
+| [arrans_overlay_workflow_builder](https://github.com/arran4/arrans_overlay_workflow_builder) | A gentoo overlay ebuild workflow builder generator for -bin with a special purpose handler for .appimage binary files | gentoo, builder, ebuild, generator, gentoo-overlay, github-workflow |
+| [g2](https://github.com/arran4/g2) [🔗](https://pkg.go.dev/github.com/arran4/g2) | g2 Gentoo Tools | gentoo, gentoo-utils, golang |
+| [g2-action](https://github.com/arran4/g2-action) | g2 github workflow action | gentoo, ci, g2, github-action, workflows |
 | [gentoo-packages](https://github.com/arran4/gentoo-packages) [🔗](https://arran4.github.io/gentoo-packages/) | Gentoo packages | gentoo, generated-sites, gentoo-packages |
-
-### gentoo + github-actions
-| Repository | Description | Tags |
-|---|---|---|
-| [g2-action](https://github.com/arran4/g2-action) | g2 github workflow action | gentoo + github-actions, ci, g2, workflows |
-
-### gentoo + golang
-| Repository | Description | Tags |
-|---|---|---|
-| [g2](https://github.com/arran4/g2) [🔗](https://pkg.go.dev/github.com/arran4/g2) | g2 Gentoo Tools | gentoo + golang, gentoo-utils |
-
-### github
-| Repository | Description | Tags |
-|---|---|---|
-| [arran4](https://github.com/arran4/arran4) [🔗](https://arran4.github.io/ ) | Github Profile landing page github repo | github, github-profile, github-profile-readme |
-
-### github + golang + web
-| Repository | Description | Tags |
-|---|---|---|
-| [gobookmarks](https://github.com/arran4/gobookmarks) | Landing page for when you open browsers / live bookmarks in go. | github + golang + web, bookmarks, github-api, home-page, homepage, live-bookmarks, start-page, startpage |
-
-### github + hugo
-| Repository | Description | Tags |
-|---|---|---|
-| [arran4.github.io](https://github.com/arran4/arran4.github.io) [🔗](https://arran4.github.io/) | A nausiatingly personal github page. | github + hugo, github-pages, githubpages, hugo-site, landing-page, personal-page |
-
-### github + kde + ui
-| Repository | Description | Tags |
-|---|---|---|
-| [kgithub-notify](https://github.com/arran4/kgithub-notify) | A sleek GitHub notification system tray application written natively in C++ using Qt6 and KDE Frameworks 6 (KF6). It quietly monitors your GitHub account, notifying you when there are new notifications, and provides a rich desktop interface to manage themGithub notifier for KDE | github + kde + ui, api, notifier, qt |
-
-### github-actions
-| Repository | Description | Tags |
-|---|---|---|
-| [git-tag-inc-action](https://github.com/arran4/git-tag-inc-action) [🔗](https://github.com/arran4/git-tag-inc) | An action for incrementing semantic git tags | github-actions, git-tag-inc, github-workflow, semantic-tagging, semantic-versions, tag-manager |
-
-### github-actions + hugo
-| Repository | Description | Tags |
-|---|---|---|
-| [githubpages](https://github.com/arran4/githubpages) | Example hugo and github pages with github actions page | github-actions + hugo, github-pages |
-
-### golang
-| Repository | Description | Tags |
-|---|---|---|
-| [go-dynamic-content](https://github.com/arran4/go-dynamic-content) | Lazy or weak file content | golang, file-mapped-content, go-library, weak-pointer |
-| [go-objectutils](https://github.com/arran4/go-objectutils) [🔗](https://pkg.go.dev/github.com/arran4/go-objectutils) | Go objectutils for go.  | golang, go-library, type-converstion |
-| [go-template-functional-operations](https://github.com/arran4/go-template-functional-operations) | These functions enable a more functional programming style within template rendering, allowing you to easily perform operations like mapping, filtering, and finding indices directly within your templates. | golang, functional-go-template, go-template, go-template-functions |
-| [goa4web](https://github.com/arran4/goa4web) | My everything website (server) from 2005 ported from C to GO. Ready for news, forums, link sharing, image sharing and more | golang, cms, forum, image-sharing, link-sharing, news, personal, server, sql, webserver, website |
-| [goxresources](https://github.com/arran4/goxresources) | go parser for xresource files  | golang, dotfiles, xresources |
-| [rntocase](https://github.com/arran4/rntocase) | Some utilities to rename files, to upper, lower, title, camel, kebab, darwin case and many more | golang, case-changer, commandline-tool, filename, filename-case-changer, golibrary |
-
-### golang + golang-library
-| Repository | Description | Tags |
-|---|---|---|
-| [spacemap](https://github.com/arran4/spacemap) [🔗](https://pkg.go.dev/github.com/arran4/spacemap) | 2d space mapper, using a couple different algorithms with an interchangable interface | golang + golang-library, image-mapper, location, location-lookup, space-mapping |
-
-### golang + golang-library + image
-| Repository | Description | Tags |
-|---|---|---|
-| [golang-frame](https://github.com/arran4/golang-frame) [🔗](https://pkg.go.dev/github.com/arran4/golang-frame) | A simple golang image frame drawing library (Draws a frame around something.) | golang + golang-library + image |
-
-### golang + image
-| Repository | Description | Tags |
-|---|---|---|
-| [golang-rpg-textbox](https://github.com/arran4/golang-rpg-textbox) [🔗](https://pkg.go.dev/github.com/arran4/golang-rpg-textbox#section-readme) | Golang image library to Renders a RPG style text box with word wrapped text of your choosing | golang + image, game, rpg, rpg-game |
-| [golang-wordwrap](https://github.com/arran4/golang-wordwrap) [🔗](https://pkg.go.dev/github.com/arran4/golang-wordwrap) | Wordwrap library for golang images. | golang + image, wordwrap |
-
-### golang + library
-| Repository | Description | Tags |
-|---|---|---|
-| [gaelogger](https://github.com/arran4/gaelogger) [🔗](https://pkg.go.dev/github.com/arran4/gaelogger) | Another google apps engine go logger this one is for the new go111+ world.. | golang + library, google-app-engine, google-app-engine-logger, logger-abstraction |
-| [go-be-lazy](https://github.com/arran4/go-be-lazy) [🔗](https://pkg.go.dev/github.com/arran4/go-be-lazy) | Varidct based behavoural lazy evaluation | golang + library, lazy, lazy-eval, lazy-evaluation |
-| [go-consume](https://github.com/arran4/go-consume) | String and slice consumption librareis | golang + library, parser, parsing, string, tokenizer |
-| [go-rfc5849-hmac](https://github.com/arran4/go-rfc5849-hmac) | Implementation of rfc5849 hmac wrapper | golang + library, rfc5849, rfc5849-hmac |
-| [golang-ical](https://github.com/arran4/golang-ical) | A  ICS / ICal parser and serialiser for Golang. | golang + library, ical, ics |
-
-### golang + rss + rss-generator
-| Repository | Description | Tags |
-|---|---|---|
-| [phpbb2-rss](https://github.com/arran4/phpbb2-rss) | RSS generator for any phpbb2 forum | golang + rss + rss-generator, phpbb, phpbb2 |
-
-### golang + web
-| Repository | Description | Tags |
-|---|---|---|
-| [gorillamuxlogic](https://github.com/arran4/gorillamuxlogic) | Some very simple gorilla mux logic for `mux.MatcherFunc` | golang + web, gorilla, gorilla-mux, http |
 
 ### golang-library
 | Repository | Description | Tags |
 |---|---|---|
 | [golang-rcs](https://github.com/arran4/golang-rcs) [🔗](https://pkg.go.dev/github.com/arran4/golang-rcs) | golang rcs parser / generator, and utilities | golang-library, rcs, vcs |
+| [spacemap](https://github.com/arran4/spacemap) [🔗](https://pkg.go.dev/github.com/arran4/spacemap) | 2d space mapper, using a couple different algorithms with an interchangable interface | golang-library, go, golang, image-mapper, location, location-lookup, space-mapping |
+
+### golang-library + image
+| Repository | Description | Tags |
+|---|---|---|
+| [golang-frame](https://github.com/arran4/golang-frame) [🔗](https://pkg.go.dev/github.com/arran4/golang-frame) | A simple golang image frame drawing library (Draws a frame around something.) | golang-library + image, golang |
 
 ### hugo
 | Repository | Description | Tags |
 |---|---|---|
+| [arran4.github.io](https://github.com/arran4/arran4.github.io) [🔗](https://arran4.github.io/) | A nausiatingly personal github page. | hugo, github, github-pages, githubpages, hugo-site, landing-page, personal-page |
 | [blog](https://github.com/arran4/blog) [🔗](https://arran4.github.io/blog/) | Github pages blog | hugo, blog |
+| [githubpages](https://github.com/arran4/githubpages) | Example hugo and github pages with github actions page | hugo, github-actions, github-pages |
 
-### kde
+### image
 | Repository | Description | Tags |
 |---|---|---|
-| [KMagMux](https://github.com/arran4/KMagMux) | Torrent and Magent file and protocol handler for routing to programs / services | kde, handler, intent, link, magnent, mux, torrent |
+| [golang-rpg-textbox](https://github.com/arran4/golang-rpg-textbox) [🔗](https://pkg.go.dev/github.com/arran4/golang-rpg-textbox#section-readme) | Golang image library to Renders a RPG style text box with word wrapped text of your choosing | image, game, golang, rpg, rpg-game |
+| [golang-wordwrap](https://github.com/arran4/golang-wordwrap) [🔗](https://pkg.go.dev/github.com/arran4/golang-wordwrap) | Wordwrap library for golang images. | image, golang, wordwrap |
+| [interactions](https://github.com/arran4/interactions) | How things interact | image, experiment, fun, generated-infographic, generator, statistics, test |
 
 ### library
 | Repository | Description | Tags |
 |---|---|---|
-| [tsobjectutils](https://github.com/arran4/tsobjectutils) [🔗](https://www.npmjs.com/package/@arran4/tsobjectutils) | Some typescript objects I use in a couple repos | library, json-deserialization, npm, npm-package, ts-library, ts-objects, tslang, tslibrary, typescript |
+| [dartobjectutils](https://github.com/arran4/dartobjectutils) [🔗](https://pub.dev/packages/dartobjectutils) | Dart Constructor Type Enforcement / Conversion | library, dart, object-construction-utils, object-verification |
+| [datastoreutils](https://github.com/arran4/datastoreutils) [🔗](https://pkg.go.dev/github.com/arran4/datastoreutils) | Basic google cloud datastore helpers | library, datastore, go, go-google-app-engine, golang, google-app-engine, google-datastore |
+| [dsquery](https://github.com/arran4/dsquery) [🔗](https://pkg.go.dev/github.com/arran4/dsquery) | A google datastore query aggregator and compiler with some minor enhancements | library, datastore, golang, google-appengine |
+| [flutter_nodelistview](https://github.com/arran4/flutter_nodelistview) | A flutter widget which uses an infinite list of double linked nodes | library, dart, flutter, listview |
+| [gaelogger](https://github.com/arran4/gaelogger) [🔗](https://pkg.go.dev/github.com/arran4/gaelogger) | Another google apps engine go logger this one is for the new go111+ world.. | library, go, golang, google-app-engine, google-app-engine-logger, logger-abstraction |
+| [go-be-lazy](https://github.com/arran4/go-be-lazy) [🔗](https://pkg.go.dev/github.com/arran4/go-be-lazy) | Varidct based behavoural lazy evaluation | library, go, golang, lazy, lazy-eval, lazy-evaluation |
+| [go-consume](https://github.com/arran4/go-consume) | String and slice consumption librareis | library, go, parser, parsing, string, tokenizer |
+| [go-rfc5849-hmac](https://github.com/arran4/go-rfc5849-hmac) | Implementation of rfc5849 hmac wrapper | library, go, golang, rfc5849, rfc5849-hmac |
+| [golang-ical](https://github.com/arran4/golang-ical) | A  ICS / ICal parser and serialiser for Golang. | library, golang, ical, ics |
 
-### linux
+### library + npm-package
 | Repository | Description | Tags |
 |---|---|---|
-| [lxa](https://github.com/arran4/lxa) | ls with extended attributes | linux, fs-attr, ls, xattr, xdp |
+| [tsobjectutils](https://github.com/arran4/tsobjectutils) [🔗](https://www.npmjs.com/package/@arran4/tsobjectutils) | Some typescript objects I use in a couple repos | library + npm-package, json-deserialization, npm, ts-library, ts-objects, tslang, tslibrary, typescript |
 
-### rss + rss-generator
+### rss
 | Repository | Description | Tags |
 |---|---|---|
-| [whirlpool-forum-rss](https://github.com/arran4/whirlpool-forum-rss) | An RSS Generator for the Whirlpool.net.au forums | rss + rss-generator, rss-gen, whirlpool, whirlpool-forums |
+| [abc-justin-rss](https://github.com/arran4/abc-justin-rss) | ABC news just-in to rss converter - generated | rss, abc, abc-news, rss-generator |
+| [abc-kohler-report-rss](https://github.com/arran4/abc-kohler-report-rss) | RSS generator for ABC's Kohler Report | rss, abc, abc-news, rss-generator |
+| [abc-mediawatch-rss](https://github.com/arran4/abc-mediawatch-rss) | RSS generator for ABC's Media Watch | rss, abc, abc-media-watch, rss-generator |
+| [phpbb2-rss](https://github.com/arran4/phpbb2-rss) | RSS generator for any phpbb2 forum | rss, golang, phpbb, phpbb2, rss-generator |
+| [whirlpool-forum-rss](https://github.com/arran4/whirlpool-forum-rss) | An RSS Generator for the Whirlpool.net.au forums | rss, rss-gen, rss-generator, whirlpool, whirlpool-forums |
+
+### web
+| Repository | Description | Tags |
+|---|---|---|
+| [Dimension](https://github.com/arran4/Dimension) [🔗](https://arran4.github.io/Dimension/) | (Beta) Peer-to-peer group chat and file transfer. | web, android, chat, desktop, fileshare, flutter, ios, linux, mac, mobile, peer-to-peer, peer2peer, windows |
+| [gobookmarks](https://github.com/arran4/gobookmarks) | Landing page for when you open browsers / live bookmarks in go. | web, bookmarks, github, github-api, go, golang, home-page, homepage, live-bookmarks, start-page, startpage |
+| [gorillamuxlogic](https://github.com/arran4/gorillamuxlogic) | Some very simple gorilla mux logic for `mux.MatcherFunc` | web, go, golang, gorilla, gorilla-mux, http |
 
 ### Unmatched
 | Repository | Description | Tags |
 |---|---|---|
+| [KMagMux](https://github.com/arran4/KMagMux) | Torrent and Magent file and protocol handler for routing to programs / services | handler, intent, kde, link, magnent, mux, torrent |
+| [arran4](https://github.com/arran4/arran4) [🔗](https://arran4.github.io/ ) | Github Profile landing page github repo | github, github-profile, github-profile-readme |
+| [chat-barcodes](https://github.com/arran4/chat-barcodes) [🔗](https://arran4.github.io/barcode-cheatsheets) | Chat barcode cheatsheet | barcodes, chat, chat-barcodes, chat-cheatsheet, chat-shortcuts, cheetsheet |
+| [dart-udt](https://github.com/arran4/dart-udt) [🔗](https://pub.dev/packages/dart_udt) | AI port of UDT library from source forge to Dart | dart, udt |
 | [dotfiles](https://github.com/arran4/dotfiles) | Just a collection of dotfiles managed by Chezmoi | chezmoi, dotfiles |
+| [flutter_google_datastore](https://github.com/arran4/flutter_google_datastore) | Google Datastore and Datastore emulator client for "easy" modification of values | dart, datastore, flutter, google, utility |
+| [flutter_jules](https://github.com/arran4/flutter_jules) | My flutter based google jules client  | ai, app, flutter, google-jules, jules, linux, mac, utility, windows |
 | [git-barcode-sheet](https://github.com/arran4/git-barcode-sheet) [🔗](https://arran4.github.io/barcode-cheatsheets) | Git barcode based cheat sheet | barcode-cheatsheet, barcodes, cheetsheet, git, git-barcodes, git-cheatsheet |
+| [git-tag-inc-action](https://github.com/arran4/git-tag-inc-action) [🔗](https://github.com/arran4/git-tag-inc) | An action for incrementing semantic git tags | git-tag-inc, github-action, github-workflow, semantic-tagging, semantic-versions, tag-manager |
+| [go-dynamic-content](https://github.com/arran4/go-dynamic-content) | Lazy or weak file content | file-mapped-content, go, go-library, weak-pointer |
+| [go-objectutils](https://github.com/arran4/go-objectutils) [🔗](https://pkg.go.dev/github.com/arran4/go-objectutils) | Go objectutils for go.  | go, go-library, type-converstion |
+| [go-template-functional-operations](https://github.com/arran4/go-template-functional-operations) | These functions enable a more functional programming style within template rendering, allowing you to easily perform operations like mapping, filtering, and finding indices directly within your templates. | functional-go-template, go, go-template, go-template-functions, golang |
+| [goa4web](https://github.com/arran4/goa4web) | My everything website (server) from 2005 ported from C to GO. Ready for news, forums, link sharing, image sharing and more | cms, forum, go, golang, image-sharing, link-sharing, news, personal, server, sql, webserver, website |
+| [gorillas-react](https://github.com/arran4/gorillas-react) [🔗](https://ai.studio/apps/drive/1BOLZ6UAK9YYH8kl5eU8Ihn6J-fxugrk0) | Generated gorillas in react | ai, game, generated, react, test |
+| [goxresources](https://github.com/arran4/goxresources) | go parser for xresource files  | dotfiles, go, golang, xresources |
+| [heatplot](https://github.com/arran4/heatplot) | This program takes a formula and plots the "heat" for any particular location | experiment, golang, graph, heatplot, maths, plot, testing |
 | [homebrew-tap](https://github.com/arran4/homebrew-tap) | My homebrew tap semiautomated.. maybe? | homebrew, homebrew-tap, tap |
 | [idea-txtar-support-plugin](https://github.com/arran4/idea-txtar-support-plugin) [🔗](https://plugins.jetbrains.com/plugin/30286-txtar-file-support) | Jetbrains Idea txtar support plugin | idea, java, jetbrains, plugin, txtar |
+| [image-formula-find](https://github.com/arran4/image-formula-find) | Experimenting with genetic algorithms | experiment, experimentation, genetic-algorithms, go, golang, test |
+| [kgithub-notify](https://github.com/arran4/kgithub-notify) | A sleek GitHub notification system tray application written natively in C++ using Qt6 and KDE Frameworks 6 (KF6). It quietly monitors your GitHub account, notifying you when there are new notifications, and provides a rich desktop interface to manage themGithub notifier for KDE | api, github, kde, notifier, qt, ui |
+| [kjules](https://github.com/arran4/kjules) | A C++ application built with KDE Frameworks that provides a desktop interface for interacting with the Google Jules API | ai, desktop-app, google-jules, jules, kde |
+| [kllamabooks](https://github.com/arran4/kllamabooks) | A KDE-styled QT application that interacts with local Ollama sessions and stores chat history locally via encrypted SQLite databases | ai, chat, client, kde, ollama |
+| [lemmy_notify](https://github.com/arran4/lemmy_notify) | Lemmy Notification app - for desktop atm | desktop, flutter, lemmy |
+| [lxa](https://github.com/arran4/lxa) | ls with extended attributes | fs-attr, linux, ls, xattr, xdp |
+| [matchStickProblem](https://github.com/arran4/matchStickProblem) | Generates an image of solving the "match stick problem" (move a match stick) for amusement | amusement, experiment, fun, generated, generator, go, golang, match-stick, test |
+| [mlocate_explorer](https://github.com/arran4/mlocate_explorer) [🔗](https://arran4.github.io/mlocate_explorer/) | A basic mlocate db file explorer | db, explorer, flutter, gui, mlocate |
 | [resume](https://github.com/arran4/resume) | Arrans Resume | cv, resume, typst |
+| [rntocase](https://github.com/arran4/rntocase) | Some utilities to rename files, to upper, lower, title, camel, kebab, darwin case and many more | case-changer, commandline-tool, filename, filename-case-changer, go, golibrary |
+| [send_to_linkwarden](https://github.com/arran4/send_to_linkwarden) [🔗](https://arran4.github.io/send_to_linkwarden/) | Mobile version of Linkwarden | android, archiving, flutter, link, linkwarden, mobile, tool |
 | [tex_recipes_template](https://github.com/arran4/tex_recipes_template) | A very simple tex engine for recipes helpful for an AI world | recipes, template, tex |
 | [vim-barcode-sheet](https://github.com/arran4/vim-barcode-sheet) [🔗](https://arran4.github.io/barcode-cheatsheets) | Vim Barcodes Cheat Sheet to help with vim  | cheatsheet, vim, vim-cheatsheet, vimcheatsheet |
 | [vlc-xattr-plugin](https://github.com/arran4/vlc-xattr-plugin) | A plugin for VLC to add "seen" to the `xdg.tags` list automatically when ever you watch anything | c, cmake, fs-attr, plugins, vlc, vlc-plugin, xattr |

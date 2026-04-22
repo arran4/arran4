@@ -29,19 +29,29 @@ jq '[.[] | select(.fork == false and .archived == false)]' "$ALL" > "$FILTERED"
 SORTED="$TMP_DIR/sorted.json"
 jq 'sort_by(.name)' "$FILTERED" > "$SORTED"
 
-INTERESTING_TAGS=$(jq -c '[.[].topics | select(. != null) | .[]] | group_by(.) | map({tag: .[0], count: length}) | sort_by(-.count) | map(select(.count >= 3)) | map(.tag)' "$SORTED")
+SYNONYMS='{
+  "go": "golang",
+  "dartlang": "dart",
+  "github-action": "github-actions"
+}'
+MIN_TAG_COUNT=3
+
+INTERESTING_TAGS=$(jq -c --argjson synonyms "$SYNONYMS" --argjson min_count "$MIN_TAG_COUNT" '[.[].topics | select(. != null) | map($synonyms[.] // .) | unique | .[]] | group_by(.) | map({tag: .[0], count: length}) | sort_by(-.count) | map(select(.count >= $min_count)) | map(.tag)' "$SORTED")
 
 COMMON_JQ='
   def interesting_tags: $ext_interesting_tags;
+  def synonyms: $ext_synonyms;
+  def normalize_topics($topics):
+    ($topics // []) | map(synonyms[.] // .) | unique;
   def tag_label($topics):
-    ($topics // []) as $all
+    normalize_topics($topics) as $all
     | [ $all[] | select(. as $tag | (interesting_tags | index($tag)) != null) ] as $selected
     | if ($selected | length) == 0 then null
       elif ($selected | length) == 1 then $selected[0]
       else ($selected | sort | join(" + "))
       end;
   def grouped_tags($topics):
-    ($topics // []) as $all
+    normalize_topics($topics) as $all
     | (reduce $all[] as $tag (
         {selected: [], other: []};
         if ((interesting_tags | index($tag)) != null) then
@@ -58,7 +68,7 @@ COMMON_JQ='
 '
 
 TABLE="$TMP_DIR/table.md"
-jq -r --arg user "$USER" --argjson ext_interesting_tags "$INTERESTING_TAGS" "$COMMON_JQ"'
+jq -r --arg user "$USER" --argjson ext_interesting_tags "$INTERESTING_TAGS" --argjson ext_synonyms "$SYNONYMS" "$COMMON_JQ"'
   def repo_row($repo):
     "| [" + $repo.name + "](https://github.com/" + $user + "/" + $repo.name + ")"
     + (if $repo.homepage != null and $repo.homepage != "" then " [🔗](" + $repo.homepage + ")" else "" end) + " | "
@@ -92,7 +102,7 @@ jq -r --arg user "$USER" --argjson ext_interesting_tags "$INTERESTING_TAGS" "$CO
 ' "$SORTED" > "$TABLE"
 
 LICENSES_TABLE="$TMP_DIR/licenses_table.md"
-jq -r --arg user "$USER" --argjson ext_interesting_tags "$INTERESTING_TAGS" "$COMMON_JQ"'
+jq -r --arg user "$USER" --argjson ext_interesting_tags "$INTERESTING_TAGS" --argjson ext_synonyms "$SYNONYMS" "$COMMON_JQ"'
   def repo_row_license($repo):
     "| [" + $repo.name + "](https://github.com/" + $user + "/" + $repo.name + ")"
     + (if $repo.homepage != null and $repo.homepage != "" then " [🔗](" + $repo.homepage + ")" else "" end) + " | "
@@ -175,7 +185,7 @@ SORTED_STARRED="$TMP_DIR/sorted_starred.json"
 jq 'sort_by(.full_name // .name)' "$ALL_STARRED" > "$SORTED_STARRED"
 
 STARRED_TABLE="$TMP_DIR/starred_table.md"
-jq -r --argjson ext_interesting_tags "$INTERESTING_TAGS" "$COMMON_JQ"'
+jq -r --argjson ext_interesting_tags "$INTERESTING_TAGS" --argjson ext_synonyms "$SYNONYMS" "$COMMON_JQ"'
   def repo_row_starred($repo):
     "| [" + ($repo.full_name // $repo.name) + "](" + $repo.html_url + ")"
     + (if $repo.homepage != null and $repo.homepage != "" then " [🔗](" + $repo.homepage + ")" else "" end) + " | "

@@ -30,7 +30,7 @@ SORTED="$TMP_DIR/sorted.json"
 jq 'sort_by(.name)' "$FILTERED" > "$SORTED"
 
 COMMON_JQ='
-  def interesting_tags: ["npm-package","golang-library","cli","web","image","library","gentoo","for-fun","dart-library","awesome-list","hugo","rss"];
+  def interesting_tags: ["golang", "go", "cli", "library", "utility", "generator", "flutter", "experiment", "tool", "rss-generator", "rss", "image", "gentoo", "dart", "util", "test", "linux", "kde", "github", "awesome-list", "ai", "web", "ui", "hugo", "golang-library", "generated", "fun", "for-fun", "datastore", "chat", "awesome", "amusement", "abc", "npm-package", "dart-library"];
   def tag_label($topics):
     ($topics // []) as $all
     | [ $all[] | select(. as $tag | (interesting_tags | index($tag)) != null) ] as $selected

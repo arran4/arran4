@@ -30,16 +30,29 @@ SORTED="$TMP_DIR/sorted.json"
 jq 'sort_by(.name)' "$FILTERED" > "$SORTED"
 
 COMMON_JQ='
-  def interesting_tags: ["golang", "go", "cli", "library", "utility", "generator", "flutter", "experiment", "tool", "rss-generator", "rss", "image", "gentoo", "dart", "util", "test", "linux", "kde", "github", "awesome-list", "ai", "web", "ui", "hugo", "golang-library", "generated", "fun", "for-fun", "datastore", "chat", "awesome", "amusement", "abc", "npm-package", "dart-library"];
+  def synonyms: {
+    "golang": "go",
+    "golang-library": "go",
+    "util": "utility",
+    "fun": "for-fun",
+    "amusement": "for-fun",
+    "rss-generator": "rss",
+    "awesome": "awesome-list",
+    "dart-library": "dart",
+    "tool": "utility"
+  };
+  def interesting_tags: ["abc", "ai", "awesome-list", "chat", "cli", "dart", "datastore", "experiment", "flutter", "for-fun", "generated", "generator", "gentoo", "github", "go", "hugo", "image", "kde", "library", "linux", "npm-package", "rss", "test", "ui", "utility", "web"];
+  def resolve_tags($topics):
+    ($topics // []) | map(synonyms[.] // .) | unique;
   def tag_label($topics):
-    ($topics // []) as $all
+    resolve_tags($topics) as $all
     | [ $all[] | select(. as $tag | (interesting_tags | index($tag)) != null) ] as $selected
     | if ($selected | length) == 0 then null
       elif ($selected | length) == 1 then $selected[0]
       else ($selected | sort | join(" + "))
       end;
   def grouped_tags($topics):
-    ($topics // []) as $all
+    resolve_tags($topics) as $all
     | (reduce $all[] as $tag (
         {selected: [], other: []};
         if ((interesting_tags | index($tag)) != null) then

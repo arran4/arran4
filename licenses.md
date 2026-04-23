@@ -81,6 +81,7 @@ List of repositories and their licenses.
 | [abc-justin-rss](https://github.com/arran4/abc-justin-rss) | ABC news just-in to rss converter - generated | GPL-3.0 | rss, abc, abc-news, rss-generator |
 | [dirtools](https://github.com/arran4/dirtools) [🔗](https://pkg.go.dev/github.com/arran4/dirtools) | Some directory tools, such as separating out all of a file extension into mirror directories | GPL-3.0 | cli, directory, golang, organization, tool, utility |
 | [go-lojban-password-gen](https://github.com/arran4/go-lojban-password-gen) | Lojban password generator - Generate passwords that use lojban | GPL-3.0 | cli, binary, generator, go, lojban, password, password-generator, utility |
+| [kllamabooks](https://github.com/arran4/kllamabooks) | A KDE-styled QT application that interacts with local Ollama sessions and stores chat history locally via encrypted SQLite databases | GPL-3.0 | ai, chat, client, kde, ollama |
 | [mvcommon](https://github.com/arran4/mvcommon) | Tool for moving files into a folder where they have a common prefix | GPL-3.0 | cli, mv, smart-tools |
 | [phonenumber](https://github.com/arran4/phonenumber) | A generator for the nokia phone keyboard meme | GPL-3.0 | for-fun, amusement, generator, go, golang, meme, nokia, nokia-keyboard, phone, phonenumber |
 | [phpbb2-rss](https://github.com/arran4/phpbb2-rss) | RSS generator for any phpbb2 forum | GPL-3.0 | rss, golang, phpbb, phpbb2, rss-generator |
@@ -116,7 +117,6 @@ List of repositories and their licenses.
 | [goxresources](https://github.com/arran4/goxresources) | go parser for xresource files  | MIT | dotfiles, go, golang, xresources |
 | [homebrew-tap](https://github.com/arran4/homebrew-tap) | My homebrew tap semiautomated.. maybe? | MIT | homebrew, homebrew-tap, tap |
 | [interactions](https://github.com/arran4/interactions) | How things interact | MIT | image, experiment, fun, generated-infographic, generator, statistics, test |
-| [kllamabooks](https://github.com/arran4/kllamabooks) | A KDE-styled QT application that interacts with local Ollama sessions and stores chat history locally via encrypted SQLite databases | MIT | ai, chat, client, kde, ollama |
 | [lxa](https://github.com/arran4/lxa) | ls with extended attributes | MIT | fs-attr, linux, ls, xattr, xdp |
 | [matchStickProblem](https://github.com/arran4/matchStickProblem) | Generates an image of solving the "match stick problem" (move a match stick) for amusement | MIT | amusement, experiment, fun, generated, generator, go, golang, match-stick, test |
 | [md2png](https://github.com/arran4/md2png) [🔗](https://pkg.go.dev/github.com/arran4/md2png) | Very basic generated md2png  | MIT | cli + library, converter, dependency-free, experiment, go, golang, markdown, md2png, png |

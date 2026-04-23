@@ -29,17 +29,63 @@ jq '[.[] | select(.fork == false and .archived == false)]' "$ALL" > "$FILTERED"
 SORTED="$TMP_DIR/sorted.json"
 jq 'sort_by(.name)' "$FILTERED" > "$SORTED"
 
+SYNONYMS='{
+  "golang": "go",
+  "golang-library": ["go", "library"],
+  "go-library": ["go", "library"],
+  "util": "utility",
+  "fun": "for-fun",
+  "amusement": "for-fun",
+  "rss-generator": "rss",
+  "rss-gen": "rss",
+  "awesome": "awesome-list",
+  "dart-library": "dart",
+  "dartlang": "dart",
+  "tool": "utility",
+  "github-action": "github-actions",
+  "github-workflow": "github-actions",
+  "githubpages": "github-pages",
+  "gentoo-overlay": ["gentoo", "overlay"],
+  "gentoo-portage-overlay": ["gentoo", "overlay"],
+  "portage-overlay": ["gentoo", "overlay"],
+  "google-appengine": "google-app-engine",
+  "go-google-app-engine": ["go", "google-app-engine"],
+  "cli-tool": "cli",
+  "cli-app": "cli",
+  "commandline-tool": "cli",
+  "command-line": "cli",
+  "desktop-app": "desktop",
+  "desktop-util": "desktop",
+  "dotfile": "dotfiles",
+  "flutter-library": ["flutter", "library"],
+  "testing": "test",
+  "games": "game",
+  "mac": "macos",
+  "systemtray": "system-tray",
+  "system-tray-icons": "system-tray",
+  "sys-icon": "system-tray",
+  "cheetsheet": "cheatsheet",
+  "vimcheatsheet": ["vim", "cheatsheet"],
+  "vim-cheatsheet": ["vim", "cheatsheet"]
+}'
+MIN_TAG_COUNT=3
+
+INTERESTING_TAGS=$(jq -c --argjson synonyms "$SYNONYMS" --argjson min_count "$MIN_TAG_COUNT" '[.[].topics | select(. != null) | [ .[] | if $synonyms[.] then (if ($synonyms[.] | type) == "array" then $synonyms[.][] else $synonyms[.] end) else . end ] | unique | .[]] | group_by(.) | map({tag: .[0], count: length}) | sort_by(-.count) | map(select(.count >= $min_count)) | map(.tag)' "$SORTED")
+
 COMMON_JQ='
-  def interesting_tags: ["npm-package","golang-library","cli","web","image","library","gentoo","for-fun","dart-library","awesome-list","hugo","rss"];
+  def interesting_tags: $ext_interesting_tags;
+  def synonyms: $ext_synonyms;
+  def normalize_topics($topics):
+    ($topics // []) | [ .[] | if synonyms[.] then (if (synonyms[.] | type) == "array" then synonyms[.][] else synonyms[.] end) else . end ] | unique;
   def tag_label($topics):
-    ($topics // []) as $all
+    normalize_topics($topics) as $all
     | [ $all[] | select(. as $tag | (interesting_tags | index($tag)) != null) ] as $selected
     | if ($selected | length) == 0 then null
       elif ($selected | length) == 1 then $selected[0]
       else ($selected | sort | join(" + "))
       end;
   def grouped_tags($topics):
-    ($topics // []) as $all
+    normalize_topics($topics) as $all
     | (reduce $all[] as $tag (
         {selected: [], other: []};
         if ((interesting_tags | index($tag)) != null) then
@@ -56,7 +102,7 @@ COMMON_JQ='
 '
 
 TABLE="$TMP_DIR/table.md"
-jq -r --arg user "$USER" "$COMMON_JQ"'
+jq -r --arg user "$USER" --argjson ext_interesting_tags "$INTERESTING_TAGS" --argjson ext_synonyms "$SYNONYMS" "$COMMON_JQ"'
   def repo_row($repo):
     "| [" + $repo.name + "](https://github.com/" + $user + "/" + $repo.name + ")"
     + (if $repo.homepage != null and $repo.homepage != "" then " [🔗](" + $repo.homepage + ")" else "" end) + " | "
@@ -90,7 +136,7 @@ jq -r --arg user "$USER" "$COMMON_JQ"'
 ' "$SORTED" > "$TABLE"
 
 LICENSES_TABLE="$TMP_DIR/licenses_table.md"
-jq -r --arg user "$USER" "$COMMON_JQ"'
+jq -r --arg user "$USER" --argjson ext_interesting_tags "$INTERESTING_TAGS" --argjson ext_synonyms "$SYNONYMS" "$COMMON_JQ"'
   def repo_row_license($repo):
     "| [" + $repo.name + "](https://github.com/" + $user + "/" + $repo.name + ")"
     + (if $repo.homepage != null and $repo.homepage != "" then " [🔗](" + $repo.homepage + ")" else "" end) + " | "
@@ -173,7 +219,7 @@ SORTED_STARRED="$TMP_DIR/sorted_starred.json"
 jq 'sort_by(.full_name // .name)' "$ALL_STARRED" > "$SORTED_STARRED"
 
 STARRED_TABLE="$TMP_DIR/starred_table.md"
-jq -r "$COMMON_JQ"'
+jq -r --argjson ext_interesting_tags "$INTERESTING_TAGS" --argjson ext_synonyms "$SYNONYMS" "$COMMON_JQ"'
   def repo_row_starred($repo):
     "| [" + ($repo.full_name // $repo.name) + "](" + $repo.html_url + ")"
     + (if $repo.homepage != null and $repo.homepage != "" then " [🔗](" + $repo.homepage + ")" else "" end) + " | "

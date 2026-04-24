@@ -93,12 +93,8 @@ List of starred repositories.
 ### ai + chat
 | Repository | Description | Tags |
 |---|---|---|
+| [arran4/kllamabooks](https://github.com/arran4/kllamabooks) | A KDE-styled QT application that interacts with local Ollama sessions and stores chat history locally via encrypted SQLite databases | ai + chat, client, kde, ollama |
 | [khoj-ai/khoj](https://github.com/khoj-ai/khoj) [🔗](https://khoj.dev) | Your AI second brain. Self-hostable. Get answers from the web or your docs. Build custom agents, schedule automations, do deep research. Turn any online or local LLM into your personal, autonomous AI (gpt, claude, gemini, llama, qwen, mistral). Get started - free. | ai + chat, agent, assistant, chatgpt, emacs, image-generation, llama3, llamacpp, llm, obsidian, obsidian-md, offline-llm, productivity, rag, research, self-hosted, semantic-search, stt, whatsapp-ai |
-
-### ai + chat + kde
-| Repository | Description | Tags |
-|---|---|---|
-| [arran4/kllamabooks](https://github.com/arran4/kllamabooks) | A KDE-styled QT application that interacts with local Ollama sessions and stores chat history locally via encrypted SQLite databases | ai + chat + kde, client, ollama |
 
 ### ai + cli
 | Repository | Description | Tags |
@@ -115,11 +111,6 @@ List of starred repositories.
 |---|---|---|
 | [arran4/kjules](https://github.com/arran4/kjules) | A C++ application built with KDE Frameworks that provides a desktop interface for interacting with the Google Jules API | ai + desktop + kde, google-jules, jules |
 
-### ai + desktop + linux
-| Repository | Description | Tags |
-|---|---|---|
-| [lencx/ChatGPT](https://github.com/lencx/ChatGPT) | 🔮 ChatGPT Desktop Application (Mac, Windows and Linux) | ai + desktop + linux, app, application, chatgpt, gpt, gpt-3, macos, notes-app, openai, rust, tauri, webview, windows |
-
 ### ai + flutter + linux + utility
 | Repository | Description | Tags |
 |---|---|---|
@@ -130,54 +121,20 @@ List of starred repositories.
 |---|---|---|
 | [arran4/gorillas-react](https://github.com/arran4/gorillas-react) [🔗](https://ai.studio/apps/drive/1BOLZ6UAK9YYH8kl5eU8Ihn6J-fxugrk0) | Generated gorillas in react | ai + game + generated + test, react |
 
-### ai + github
-| Repository | Description | Tags |
-|---|---|---|
-| [BandarLabs/gitpodcast](https://github.com/BandarLabs/gitpodcast) [🔗](https://www.gitpodcast.com) | Convert any git repository into an engaging podcast | ai + github, automation, azure, developer-tools, openai, podcast, tts |
-
-### ai + github-actions
-| Repository | Description | Tags |
-|---|---|---|
-| [google-github-actions/run-gemini-cli](https://github.com/google-github-actions/run-gemini-cli) [🔗](https://github.com/google-gemini/gemini-cli) | A GitHub Action invoking the Gemini CLI. | ai + github-actions, actions, gcp, gemini, gemini-cli, google-cloud, google-cloud-platform |
-
 ### ai + go
 | Repository | Description | Tags |
 |---|---|---|
+| [go-vgo/robotgo](https://github.com/go-vgo/robotgo) [🔗](https://atomai.cc) | RobotGo, Go Native cross-platform RPA, GUI automation, Auto test and Computer use  @vcaesar | ai + go, auto-test, automation, c, computer-use, hook, image, mouse, opencv, robot, robotgo, rpa, window |
 | [kekePower/museweb](https://github.com/kekePower/museweb) | MuseWeb is a Prompt Driven AI WebServer | ai + go, asl2, open-source, prompt-engineering, webserver |
 | [photoprism/photoprism](https://github.com/photoprism/photoprism) [🔗](https://www.photoprism.app) | AI-Powered Photos App for the Decentralized Web 🌈💎✨ | ai + go, google-photos, machine-learning, photography, private-cloud, self-hosted, tensorflow |
 | [pingcap/tidb](https://github.com/pingcap/tidb) [🔗](https://www.tidb.io/) | TiDB is built for agentic workloads that grow unpredictably, with ACID guarantees and native support for transactions, analytics, and vector search. No data silos. No noisy neighbors. No infrastructure ceiling. | ai + go, agent, agent-context, agent-memory, agentic, cloud-native, database, distributed-database, distributed-transactions, hacktoberfest, htap, memory, mysql, mysql-compatibility, scale, serverless, sql, tidb |
 | [qax-os/excelize](https://github.com/qax-os/excelize) [🔗](https://xuri.me/excelize) | Go language library for reading and writing Microsoft Excel™ (XLAM / XLSM / XLSX / XLTM / XLTX) spreadsheets | ai + go, agent, analytics, chart, ecma-376, excel, excelize, formula, mcp, microsoft, office, ooxml, spreadsheet, statistics, table, vba, visualization, xlsx, xml |
 | [tmc/langchaingo](https://github.com/tmc/langchaingo) [🔗](https://tmc.github.io/langchaingo/) | LangChain for Go, the easiest way to write LLM-based programs in Go | ai + go, langchain |
 
-### ai + go + image
-| Repository | Description | Tags |
-|---|---|---|
-| [go-vgo/robotgo](https://github.com/go-vgo/robotgo) [🔗](https://atomai.cc) | RobotGo, Go Native cross-platform RPA, GUI automation, Auto test and Computer use  @vcaesar | ai + go + image, auto-test, automation, c, computer-use, hook, mouse, opencv, robot, robotgo, rpa, window |
-
-### ai + image
-| Repository | Description | Tags |
-|---|---|---|
-| [agentheroes/agentheroes](https://github.com/agentheroes/agentheroes) [🔗](https://agentheroes.ai) | Generate, animate and schedule your AI characters 🤖 | ai + image, agent, agents, chatgpt, generate, lora, replicate, train, video, workflow |
-
 ### ai + linux
 | Repository | Description | Tags |
 |---|---|---|
 | [omegaui/linux-voice-control](https://github.com/omegaui/linux-voice-control) | Your personal, fully customizable, Linux Voice Control Assistant. | ai + linux, desktop-voice-control, voice-control |
-
-### ai + rss
-| Repository | Description | Tags |
-|---|---|---|
-| [RSSNext/Folo](https://github.com/RSSNext/Folo) [🔗](https://app.folo.is) | 🧡 Folo is the AI RSS Reader | ai + rss, reader, rss-reader, rsshub |
-
-### ai + ui
-| Repository | Description | Tags |
-|---|---|---|
-| [open-webui/open-webui](https://github.com/open-webui/open-webui) [🔗](https://openwebui.com) | User-friendly AI Interface (Supports Ollama, OpenAI API, ...) | ai + ui, llm, llm-ui, llm-webui, llms, mcp, ollama, ollama-webui, open-webui, openai, openapi, rag, self-hosted, webui |
-
-### ai + web
-| Repository | Description | Tags |
-|---|---|---|
-| [AUTOMATIC1111/stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui) | Stable Diffusion web UI | ai + web, ai-art, deep-learning, diffusion, gradio, image-generation, image2image, img2img, pytorch, stable-diffusion, text2image, torch, txt2img, unstable, upscaling |
 
 ### awesome-list
 | Repository | Description | Tags |
@@ -235,49 +192,20 @@ List of starred repositories.
 |---|---|---|
 | [alebcay/awesome-shell](https://github.com/alebcay/awesome-shell) | A curated list of awesome command-line frameworks, toolkits, guides and gizmos. Inspired by awesome-php. | awesome-list + cli, bash, fish, list, shell, zsh |
 
-### awesome-list + dart + flutter
-| Repository | Description | Tags |
-|---|---|---|
-| [Solido/awesome-flutter](https://github.com/Solido/awesome-flutter) | An awesome list that curates the best Flutter libraries, tools, tutorials, articles and more. | awesome-list + dart + flutter, android, collections, cross-platform, flutter-apps, flutter-examples, flutter-plugin, flutter-plugins, ios, material-design, mobile, mobile-app, mobile-development, reactive-programming, resources |
-
-### awesome-list + dart + flutter + linux
-| Repository | Description | Tags |
-|---|---|---|
-| [jpnurmi/awesome-flutter-linux](https://github.com/jpnurmi/awesome-flutter-linux) | A curated list of awesome Linux-specific Flutter packages and projects. | awesome-list + dart + flutter + linux |
-
 ### awesome-list + game
 | Repository | Description | Tags |
 |---|---|---|
 | [bobeff/open-source-games](https://github.com/bobeff/open-source-games) | A list of open source games. | awesome-list + game, open-source |
 | [ellisonleao/magictools](https://github.com/ellisonleao/magictools) | :video_game: :pencil: A list of Game Development resources to make magic happen. | awesome-list + game, art, board-games, curated, design, frameworks, game-design, game-development, game-engine, game-jam, game-programming, gamedev, hacktoberfest, list |
 
-### awesome-list + github
-| Repository | Description | Tags |
-|---|---|---|
-| [abhisheknaiidu/awesome-github-profile-readme](https://github.com/abhisheknaiidu/awesome-github-profile-readme) [🔗](https://bit.ly/awesome-gh) | 😎 A curated list of awesome GitHub Profile which updates in real time  | awesome-list + github, github-profile-readme, github-readme, portfolio, profile-readme |
-
-### awesome-list + github + github-actions
-| Repository | Description | Tags |
-|---|---|---|
-| [sdras/awesome-actions](https://github.com/sdras/awesome-actions) | A curated list of awesome actions to use on GitHub | awesome-list + github + github-actions, actions, actions-list, awesome-lists, curated-list |
-
 ### awesome-list + go
 | Repository | Description | Tags |
 |---|---|---|
+| [avelino/awesome-go](https://github.com/avelino/awesome-go) [🔗](https://awesome-go.com) | A curated list of awesome Go frameworks, libraries and software | awesome-list + go, hacktoberfest, library |
 | [gostor/awesome-go-storage](https://github.com/gostor/awesome-go-storage) | A curated list of awesome Go storage projects and libraries | awesome-list + go, hacktoberfest, storage |
 | [nikolaydubina/go-recipes](https://github.com/nikolaydubina/go-recipes) | 🦩 Tools for Go projects | awesome-list + go, benchmarking, code-generation, code-visualization, command-line-tool, compilers, data-visualization, developer-tools, documentation, profiling, static-analysis, tests, visualization |
 | [sedyh/awesome-ebitengine](https://github.com/sedyh/awesome-ebitengine) | A curated list of awesome Ebitengine frameworks, libraries and software  | awesome-list + go, ebiten, ebitengine, game-development, gamedev |
 | [tmrts/go-patterns](https://github.com/tmrts/go-patterns) [🔗](http://tmrts.com/go-patterns) | Curated list of Go design patterns, recipes and idioms | awesome-list + go, design-patterns, design-patterns-for-humans, idioms, patterns |
-
-### awesome-list + go + library
-| Repository | Description | Tags |
-|---|---|---|
-| [avelino/awesome-go](https://github.com/avelino/awesome-go) [🔗](https://awesome-go.com) | A curated list of awesome Go frameworks, libraries and software | awesome-list + go + library, hacktoberfest |
-
-### awesome-list + kde
-| Repository | Description | Tags |
-|---|---|---|
-| [shvedes/awesome-kde](https://github.com/shvedes/awesome-kde) | A curated list of awesome KDE applications, plugins, and resources | awesome-list + kde, kde-plasma-6, plasma, plasma-desktop, plasma6, resources |
 
 ### awesome-list + linux
 | Repository | Description | Tags |
@@ -316,16 +244,6 @@ List of starred repositories.
 | [thesubtleties/atria](https://github.com/thesubtleties/atria) [🔗](https://atria.gg) | Virtual and Hybrid Event management platform with real-time networking features. Create events, manage sessions, facilitate attendee connections, and enable live chat. Built with Flask, React, and Socket.IO. | chat, agenda, association, community, creator-platform, direct-messaging, event-agenda, event-management, event-networking, events, hybrid-events, jitsi-meet, live-events, livestreaming, non-profit-organization, social-network, video-conferencing, virtual-events, zoom |
 | [zulip/zulip](https://github.com/zulip/zulip) [🔗](https://zulip.com) | Zulip server and web application. Open-source team chat that helps teams stay productive and focused. | chat, apache, collaboration, electron, foss, free, javascript, python, python3, react-native, slack, zulip |
 
-### chat + cheatsheet
-| Repository | Description | Tags |
-|---|---|---|
-| [arran4/chat-barcodes](https://github.com/arran4/chat-barcodes) [🔗](https://arran4.github.io/barcode-cheatsheets) | Chat barcode cheatsheet | chat + cheatsheet, barcodes, chat-barcodes, chat-cheatsheet, chat-shortcuts |
-
-### chat + dart + flutter
-| Repository | Description | Tags |
-|---|---|---|
-| [SimformSolutionsPvtLtd/chatview](https://github.com/SimformSolutionsPvtLtd/chatview) [🔗](https://pub.dev/packages/chatview) | Highly customisable chat UI with reply and reaction functionality. | chat + dart + flutter, android, chat-ui, chatview, flutterpackage, ios |
-
 ### chat + dart + flutter + ui
 | Repository | Description | Tags |
 |---|---|---|
@@ -340,6 +258,7 @@ List of starred repositories.
 ### chat + flutter
 | Repository | Description | Tags |
 |---|---|---|
+| [SimformSolutionsPvtLtd/chatview](https://github.com/SimformSolutionsPvtLtd/chatview) [🔗](https://pub.dev/packages/chatview) | Highly customisable chat UI with reply and reaction functionality. | chat + flutter, android, chat-ui, chatview, dart, flutterpackage, ios |
 | [lollipopkit/flutter_gpt_box](https://github.com/lollipopkit/flutter_gpt_box) | GPTBox - a third-party client for OpenAI API. | chat + flutter, app, chatgpt, gpt, openai |
 
 ### chat + go
@@ -360,21 +279,18 @@ List of starred repositories.
 | Repository | Description | Tags |
 |---|---|---|
 | [7etsuo/windows-api-function-cheatsheets](https://github.com/7etsuo/windows-api-function-cheatsheets) | A reference of Windows API function calls, including functions for file operations, process management, memory management, thread management, dynamic-link library (DLL) management, synchronization, interprocess communication, Unicode string manipulation, error handling, Winsock networking operations, and registry operations. | cheatsheet, malware-analysis, malware-research, reverse-engineering, syscalls, systems-programming, win32-api, windows, windows-10, windows-11, windows-api, windows-internals |
+| [arran4/chat-barcodes](https://github.com/arran4/chat-barcodes) [🔗](https://arran4.github.io/barcode-cheatsheets) | Chat barcode cheatsheet | cheatsheet, barcodes, chat, chat-barcodes, chat-cheatsheet, chat-shortcuts |
 | [arran4/git-barcode-sheet](https://github.com/arran4/git-barcode-sheet) [🔗](https://arran4.github.io/barcode-cheatsheets) | Git barcode based cheat sheet | cheatsheet, barcode-cheatsheet, barcodes, git, git-barcodes, git-cheatsheet |
 | [arran4/vim-barcode-sheet](https://github.com/arran4/vim-barcode-sheet) [🔗](https://arran4.github.io/barcode-cheatsheets) | Vim Barcodes Cheat Sheet to help with vim  | cheatsheet, vim |
 | [rendi-api/ffmpeg-cheatsheet](https://github.com/rendi-api/ffmpeg-cheatsheet) [🔗](https://rendi.dev) | A categorized collection of FFmpeg commands for video automation pipelines. | cheatsheet, automation, ffmpeg, ffprobe, gist, video |
 | [swisskyrepo/PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings) [🔗](https://swisskyrepo.github.io/PayloadsAllTheThings/) | A list of useful payloads and bypass for Web Application Security and Pentest/CTF | cheatsheet, bounty, bugbounty, bypass, enumeration, hacking, hacktoberfest, methodology, payload, payloads, penetration-testing, pentest, privilege-escalation, redteam, security, vulnerability, web-application |
-
-### cheatsheet + cli + linux
-| Repository | Description | Tags |
-|---|---|---|
-| [tldr-pages/tldr](https://github.com/tldr-pages/tldr) [🔗](https://tldr.sh) | Collaborative cheatsheets for console commands 📚. | cheatsheet + cli + linux, android, bsd, cheatsheets, console, documentation, examples, hacktoberfest, help, macos, man-page, manpages, manual, osx, shell, terminal, tldr, windows |
 
 ### cheatsheet + linux
 | Repository | Description | Tags |
 |---|---|---|
 | [Tikam02/DevOps-Guide](https://github.com/Tikam02/DevOps-Guide) |  DevOps Guide - Development to Production all configurations with basic notes to debug efficiently. | cheatsheet + linux, ansible, ci-cd, containers, devops, devops-cheatsheets, docker, git, grafana, hacktoberfest, hacktoberfest-2020, hacktoberfest2020, interview, jenkins, kubernetes, kubernetes-monitoring, networking, python |
 | [ruanbekker/cheatsheets](https://github.com/ruanbekker/cheatsheets) [🔗](http://cheatsheets.ruanbekker.com/) | My Cheatsheet Repository | cheatsheet + linux, aws, bash, cheat-sheets, devops, docker, elasticsearch, jq, kubectl, kubernetes, mongodb, mysql, postgresql |
+| [tldr-pages/tldr](https://github.com/tldr-pages/tldr) [🔗](https://tldr.sh) | Collaborative cheatsheets for console commands 📚. | cheatsheet + linux, android, bsd, cheatsheets, cli, console, documentation, examples, hacktoberfest, help, macos, man-page, manpages, manual, osx, shell, terminal, tldr, windows |
 
 ### cli
 | Repository | Description | Tags |
@@ -430,26 +346,6 @@ List of starred repositories.
 | [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) [🔗](https://docs.ultralytics.com) | Ultralytics YOLO 🚀 | cli, computer-vision, deep-learning, hub, image-classification, instance-segmentation, machine-learning, object-detection, pose-estimation, python, pytorch, rotated-object-detection, segment-anything, tracking, ultralytics, yolo, yolo-world, yolo11, yolo26, yolov8 |
 | [yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp) [🔗](https://discord.gg/H5MNcFW63r) | A feature-rich command-line audio/video downloader | cli, downloader, python, sponsorblock, youtube-dl, youtube-downloader, yt-dlp |
 
-### cli + dart + flutter
-| Repository | Description | Tags |
-|---|---|---|
-| [leoafarias/fvm](https://github.com/leoafarias/fvm) [🔗](https://fvm.app) | Flutter Version Management: A simple CLI to manage Flutter SDK versions. | cli + dart + flutter, flutter-releases, flutter-sdk-versions, fvm, sdk |
-
-### cli + desktop
-| Repository | Description | Tags |
-|---|---|---|
-| [bitwarden/clients](https://github.com/bitwarden/clients) [🔗](https://bitwarden.com) | Bitwarden client apps (web, browser extension, desktop, and cli). | cli + desktop, angular, bitwarden, browser-extension, chrome, electron, firefox, javascript, nodejs, safari, typescript, webextension |
-
-### cli + experiment + go + library
-| Repository | Description | Tags |
-|---|---|---|
-| [arran4/md2png](https://github.com/arran4/md2png) [🔗](https://pkg.go.dev/github.com/arran4/md2png) | Very basic generated md2png  | cli + experiment + go + library, converter, dependency-free, markdown, md2png, png |
-
-### cli + experiment + go + utility
-| Repository | Description | Tags |
-|---|---|---|
-| [arran4/eightbyeight](https://github.com/arran4/eightbyeight) | golang based dithering experiments | cli + experiment + go + utility, dithering, graphics |
-
 ### cli + for-fun + generated + generator + go
 | Repository | Description | Tags |
 |---|---|---|
@@ -465,31 +361,11 @@ List of starred repositories.
 |---|---|---|
 | [arran4/go-pattern](https://github.com/arran4/go-pattern) [🔗](https://pkg.go.dev/github.com/arran4/go-pattern) | image.Image patterns | cli + game + generator + go + image + library + utility, designer, image-interface, pattern, patterns, prebuilt, showcase |
 
-### cli + generator + go
-| Repository | Description | Tags |
-|---|---|---|
-| [arran4/editorconfig-guesser](https://github.com/arran4/editorconfig-guesser) | Generates reasonable .editorconfig files for source files. | cli + generator + go, detector, devtool, editorconfig, generators |
-
-### cli + generator + go + utility
-| Repository | Description | Tags |
-|---|---|---|
-| [arran4/go-lojban-password-gen](https://github.com/arran4/go-lojban-password-gen) | Lojban password generator - Generate passwords that use lojban | cli + generator + go + utility, binary, lojban, password, password-generator |
-
-### cli + github
-| Repository | Description | Tags |
-|---|---|---|
-| [muesli/gitty](https://github.com/muesli/gitty) | Contextual information about your git projects, right on the command-line | cli + github, git, gitea, gitlab, terminal, tui |
-
 ### cli + github + go
 | Repository | Description | Tags |
 |---|---|---|
 | [dlvhdr/diffnav](https://github.com/dlvhdr/diffnav) | A git diff pager based on delta but with a file tree, à la GitHub. | cli + github + go, delta, diff, git, tui |
 | [dlvhdr/gh-dash](https://github.com/dlvhdr/gh-dash) [🔗](https://gh-dash.dev) | A rich terminal UI for GitHub that doesn't break your flow. | cli + github + go, bubbles, bubbletea, cobra, gh-extension, glamour, lipgloss, terminal, tui |
-
-### cli + github + go + library
-| Repository | Description | Tags |
-|---|---|---|
-| [blackwell-systems/shelfctl](https://github.com/blackwell-systems/shelfctl) [🔗](https://blackwell-systems.github.io/shelfctl/) | PDF/EPUB library CLI/TUI backed by GitHub Release assets (Git LFS alternative). On-demand per-file downloads, metadata catalog, migrate/split bloated repos. | cli + github + go + library, books, bubbles, bubbletea, document-management, ebook-management, ebooks, epub, github-api, github-rest-api, lipgloss, metadata, pdf, personal-library, reading-list, tui |
 
 ### cli + go
 | Repository | Description | Tags |
@@ -538,7 +414,9 @@ List of starred repositories.
 ### cli + go + library
 | Repository | Description | Tags |
 |---|---|---|
+| [arran4/md2png](https://github.com/arran4/md2png) [🔗](https://pkg.go.dev/github.com/arran4/md2png) | Very basic generated md2png  | cli + go + library, converter, dependency-free, experiment, markdown, md2png, png |
 | [avamsi/climate](https://github.com/avamsi/climate) [🔗](https://pkg.go.dev/github.com/avamsi/climate#section-documentation) | "CLI Mate" autogenerates CLIs from structs / functions (nested subcommands, global / local flags, help generation, typo suggestions, shell completion etc.) | cli + go + library |
+| [blackwell-systems/shelfctl](https://github.com/blackwell-systems/shelfctl) [🔗](https://blackwell-systems.github.io/shelfctl/) | PDF/EPUB library CLI/TUI backed by GitHub Release assets (Git LFS alternative). On-demand per-file downloads, metadata catalog, migrate/split bloated repos. | cli + go + library, books, bubbles, bubbletea, document-management, ebook-management, ebooks, epub, github, github-api, github-rest-api, lipgloss, metadata, pdf, personal-library, reading-list, tui |
 | [spf13/cobra](https://github.com/spf13/cobra) [🔗](https://cobra.dev) | A Commander for modern Go CLI interactions | cli + go + library, cobra, cobra-generator, cobra-library, command, command-cobra, commandline, golang-application, posix, posix-compliant-flags, subcommands |
 
 ### cli + go + library + utility
@@ -550,11 +428,6 @@ List of starred repositories.
 | [arran4/txtar](https://github.com/arran4/txtar) [🔗](https://pkg.go.dev/github.com/arran4/txtar) | txtar enhanced and with a cli tool | cli + go + library + utility, archive, cli-application, txtar |
 | [guptarohit/asciigraph](https://github.com/guptarohit/asciigraph) [🔗](https://pkg.go.dev/github.com/guptarohit/asciigraph) | Go package to make lightweight ASCII line graph ╭┈╯ in command line apps with no other dependencies. | cli + go + library + utility, ascii-chart, asciigraph, chart, charting-library, command-line-tool, graph, line-chart, plot, terminal |
 
-### cli + go + linux
-| Repository | Description | Tags |
-|---|---|---|
-| [TheZoraiz/ascii-image-converter](https://github.com/TheZoraiz/ascii-image-converter) | A cross-platform command-line tool to convert images into ascii art and print them on the console. Now supports braille art! | cli + go + linux, ascii, ascii-art, ascii-image, ascii-image-converter, braille, braille-art, braille-patterns, command-line-tool, converts-images, cross-platform, gif, image-processing, image-to-ascii, snap, terminal, terminal-app |
-
 ### cli + go + linux + ui + utility
 | Repository | Description | Tags |
 |---|---|---|
@@ -565,20 +438,18 @@ List of starred repositories.
 |---|---|---|
 | [arran4/directoryGrouperBySize](https://github.com/arran4/directoryGrouperBySize) | Tools that help you group directories to a paricular size range. (ie getting things to fit on dvds.) | cli + go + utility, directory-tools, helpers, tools |
 | [arran4/dirtools](https://github.com/arran4/dirtools) [🔗](https://pkg.go.dev/github.com/arran4/dirtools) | Some directory tools, such as separating out all of a file extension into mirror directories | cli + go + utility, directory, organization |
+| [arran4/eightbyeight](https://github.com/arran4/eightbyeight) | golang based dithering experiments | cli + go + utility, dithering, experiment, graphics |
 | [arran4/git-tag-inc](https://github.com/arran4/git-tag-inc) | Yet another semantic version incrementor and tagger for git  | cli + go + utility, git, git-tag, git-tags, semantic, semantic-versioning |
+| [arran4/go-lojban-password-gen](https://github.com/arran4/go-lojban-password-gen) | Lojban password generator - Generate passwords that use lojban | cli + go + utility, binary, generator, lojban, password, password-generator |
 | [arran4/podcast-cdr-manager](https://github.com/arran4/podcast-cdr-manager) | CLI tool to help manage podcast subscriptions for burning to CDROMs / CDR / CDRW | cli + go + utility, iso, iso9660, podcasts |
 | [solworktech/md2pdf](https://github.com/solworktech/md2pdf) | A CLI utility that generates PDFs from Markdown. Features:  syntax highlighting (for code blocks), dark, light and custom themes, TOC autogeneration, tables, pagination control (using horizontal lines - especially useful for presentations), page Footer (consisting of author, title and page number), support of non-Latin charsets and multiple fonts | cli + go + utility, convert, footer, markdown, md2pdf, mdtopdf, pagination, pdf-generation, syntax-highlighting, themes, toc-generator |
-
-### cli + kde
-| Repository | Description | Tags |
-|---|---|---|
-| [ChocolateLoverRaj/rust-fp](https://github.com/ChocolateLoverRaj/rust-fp) | Fingerprint library, dbus interface, CLI, and PAM module for unlocking Linux with fingerprint sensors. Currently for Chromebooks. | cli + kde, chromebook, fingerprint, nixos, pam, rust |
 
 ### cli + linux
 | Repository | Description | Tags |
 |---|---|---|
 | [89luca89/distrobox](https://github.com/89luca89/distrobox) [🔗](https://distrobox.it/) | Use any linux distribution inside your terminal. Enable both backward and forward compatibility with software and freedom to use whatever distribution you’re more comfortable with. Mirror available at: https://gitlab.com/89luca89/distrobox | cli + linux, almalinux, alpine, archlinux, bash, centos, containers, debian, development, docker, fedora, opensuse, podman, posix, posix-sh, rockylinux, suse, tools, ubuntu |
 | [PowerShell/PowerShell](https://github.com/PowerShell/PowerShell) [🔗](https://microsoft.com/PowerShell) | PowerShell for every system! | cli + linux, hacktoberfest, macos, netcore, powershell, shell, windows |
+| [TheZoraiz/ascii-image-converter](https://github.com/TheZoraiz/ascii-image-converter) | A cross-platform command-line tool to convert images into ascii art and print them on the console. Now supports braille art! | cli + linux, ascii, ascii-art, ascii-image, ascii-image-converter, braille, braille-art, braille-patterns, command-line-tool, converts-images, cross-platform, gif, go, image-processing, image-to-ascii, snap, terminal, terminal-app |
 | [dongyx/hardv](https://github.com/dongyx/hardv) | A Powerful Flashcard Program for Linux, macOS, and Other Unix-like Systems | cli + linux, flashcard, flashcard-application, flashcard-generator, flashcards, line-oriented, plaintext, quiz, shell, spaced-repetition, terminal, unix, unix-filter, unix-philosophy |
 | [muesli/duf](https://github.com/muesli/duf) | Disk Usage/Free Utility - a better 'df' alternative | cli + linux, df, disk-space, disk-usage, filesystem, freebsd, hacktoberfest, macos, openbsd, terminal, tui, user-friendly, windows |
 | [pvolok/mprocs](https://github.com/pvolok/mprocs) | Run multiple commands in parallel | cli + linux, macos, rust, terminal, tui, windows |
@@ -586,15 +457,11 @@ List of starred repositories.
 | [sxyazi/yazi](https://github.com/sxyazi/yazi) [🔗](https://yazi-rs.github.io) | 💥 Blazing fast terminal file manager written in Rust, based on async I/O. | cli + linux, android, asyncio, concurrency, cross-platform, developer-tools, file-explorer, file-manager, filesystem, macos, neovim, productivity, rust, terminal, tui, vim, windows |
 | [wavetermdev/waveterm](https://github.com/wavetermdev/waveterm) [🔗](https://www.waveterm.dev) | An open-source, AI-integrated, cross-platform terminal for seamless workflows | cli + linux, developer-tools, macos, productivity, terminal, terminal-emulators, windows |
 
-### cli + linux + utility
-| Repository | Description | Tags |
-|---|---|---|
-| [donnemartin/saws](https://github.com/donnemartin/saws) | A supercharged AWS command line interface (CLI). | cli + linux + utility, aws, aws-cli, client, cloud, cloud-management, developer-tools, development, macos, programming, python, shell, terminal, utilities, windows |
-
 ### cli + utility
 | Repository | Description | Tags |
 |---|---|---|
 | [arran4/pimtrace](https://github.com/arran4/pimtrace) | A CLI tool for preforming queries on ical, maildir, mbox and csv files | cli + utility, csv, ical, query |
+| [donnemartin/saws](https://github.com/donnemartin/saws) | A supercharged AWS command line interface (CLI). | cli + utility, aws, aws-cli, client, cloud, cloud-management, developer-tools, development, linux, macos, programming, python, shell, terminal, utilities, windows |
 | [hartwork/resolve-march-native](https://github.com/hartwork/resolve-march-native) [🔗](https://pypi.python.org/pypi/resolve-march-native) | :snail: Tool to determine what GCC or (experimental!) Clang flags -march=native would resolve into | cli + utility, clang, compilation, cross-compilation, distcc, distccflags, gcc, python, python3 |
 | [lasantosr/intelli-shell](https://github.com/lasantosr/intelli-shell) [🔗](https://lasantosr.github.io/intelli-shell/) | Like IntelliSense, but for shells | cli + utility, autocomplete, bash, bookmark, fish, productivity, rust, rust-lang, terminal, zsh |
 | [sharkdp/bat](https://github.com/sharkdp/bat) | A cat(1) clone with wings. | cli + utility, git, hacktoberfest, rust, syntax-highlighting, terminal |
@@ -617,18 +484,23 @@ List of starred repositories.
 |---|---|---|
 | [Koukobin/Ermis](https://github.com/Koukobin/Ermis) | Ermis: A decentralized, secure and open-source messaging platform for real-time communication. | dart + flutter, communication, data-integrity, instant-messaging, java, javafx, open-source, security |
 | [MaikuB/flutter_appauth](https://github.com/MaikuB/flutter_appauth) | A Flutter wrapper for AppAuth iOS and Android SDKs | dart + flutter, android, flutter-plugin, ios |
+| [PrintN/Human-Benchmark](https://github.com/PrintN/Human-Benchmark) | Human Benchmark is a Flutter app for Android that features many tests to assess your abilities. | dart + flutter, android, benchmark, game, humanbenchmark, mobile-app, reaction-time |
+| [Solido/awesome-flutter](https://github.com/Solido/awesome-flutter) | An awesome list that curates the best Flutter libraries, tools, tutorials, articles and more. | dart + flutter, android, awesome-list, collections, cross-platform, flutter-apps, flutter-examples, flutter-plugin, flutter-plugins, ios, material-design, mobile, mobile-app, mobile-development, reactive-programming, resources |
 | [TerminalStudio/xterm.dart](https://github.com/TerminalStudio/xterm.dart) [🔗](https://pub.dev/packages/xterm) | 💻 xterm.dart is a fast and fully-featured terminal emulator for Flutter, with support for mobile and desktop platforms. | dart + flutter, emulator, terminal, terminal-emulator, vte |
 | [VeryGoodOpenSource/very_good_templates](https://github.com/VeryGoodOpenSource/very_good_templates) | Collection of open-source templates created and maintained by Very Good Ventures. | dart + flutter, dart-cli, dart-package, flame-engine, flutter-app, flutter-plugin, templates, ui-package |
 | [YehudaKremer/msix](https://github.com/YehudaKremer/msix) [🔗](https://pub.dev/packages/msix) | Create Msix installer for flutter windows-build files. | dart + flutter, appinstaller, flutter-packge, microsoft-store, msix |
+| [afonsocraposo/buttons_tabbar](https://github.com/afonsocraposo/buttons_tabbar) [🔗](https://pub.dev/documentation/buttons_tabbar/latest/) | A Flutter package that implements a TabBar where each label is a toggle button. | dart + flutter, android, button, flutter-package, flutter-ui, flutter-widget, ios, mobile, package, tab, tabbar, ui, ui-components, ui-design |
 | [bluefireteam/audioplayers](https://github.com/bluefireteam/audioplayers) [🔗](https://pub.dartlang.org/packages/audioplayers) | A Flutter package to play multiple audio files simultaneously (Android/iOS/web/Linux/Windows/macOS) | dart + flutter, audio, audio-player, flame, hacktoberfest, player |
 | [brandonp2412/Flexify](https://github.com/brandonp2412/Flexify) [🔗](https://brandonp2412.github.io/Flexify/) | 💪 Track your gym progress and flex on people | dart + flutter, android, dark-theme, data-visualization, fitness, gym, ios, mobile-app, offline-first, strength-training, timer, workout-tracker |
 | [fleather-editor/fleather](https://github.com/fleather-editor/fleather) [🔗](https://fleather-editor.github.io) | Soft and gentle rich text editing for Flutter applications. | dart + flutter, collaborative, quill-delta, rich-text-editor, wysiwyg |
 | [flutter/gallery](https://github.com/flutter/gallery) | Flutter Gallery was a resource to help developers evaluate and use Flutter | dart + flutter |
 | [foss42/apidash](https://github.com/foss42/apidash) [🔗](https://apidash.dev) | API Dash is a beautiful AI-powered open-source cross-platform (Desktop & Mobile) API Client built using Flutter which can help you easily create & customize your HTTP & GraphQL API requests, visually inspect responses and generate API integration code. A lightweight alternative to postman/insomnia. | dart + flutter, api, api-client, api-testing, developer-tools, flutter-apps, flutter-desktop, graphql, graphql-api, graphql-client, gssoc, hacktoberfest, http-client, http-requests, postman, rest-api, server-sent-events, websocket |
 | [gonuit/flutter-custom-refresh-indicator](https://github.com/gonuit/flutter-custom-refresh-indicator) | Widget that makes it easy to implement a custom pull to refresh gesture. | dart + flutter, p2r, pull-to-refresh, refresh-indicator, widget |
+| [isar/isar](https://github.com/isar/isar) [🔗](https://isar.dev) | Extremely fast, easy to use, and fully async NoSQL database for Flutter | dart + flutter, android, cross-platform, database, ios, isar, web |
 | [jama5262/jiffy](https://github.com/jama5262/jiffy) [🔗](https://pub.dev/packages/jiffy) | Jiffy is a Flutter (Android, IOS and Web) date time package for parsing, manipulating, querying and formatting dates | dart + flutter, date, dateformat, datetime, flutter-package, time |
 | [keshav-space/safenotes](https://github.com/keshav-space/safenotes) [🔗](https://safenotes.dev) | Safe Notes is a security project aimed at providing an encrypted, private note manager that works locally and protects notes from various threat actors. | dart + flutter, android, anonymity, encryption, fdroid, hacktoberfest, ios, localization, notes-app, privacy, security |
 | [krishnakumarcn/faded](https://github.com/krishnakumarcn/faded) [🔗](https://pub.dev/packages/faded) | Client did not pay? Add opacity to widgets and decrease it every day until their app completely fades away. Set a due date and customize the number of days you offer them until the app is fully vanished. | dart + flutter, flutter-package |
+| [leoafarias/fvm](https://github.com/leoafarias/fvm) [🔗](https://fvm.app) | Flutter Version Management: A simple CLI to manage Flutter SDK versions. | dart + flutter, cli, flutter-releases, flutter-sdk-versions, fvm, sdk |
 | [letsar/flutter_sticky_header](https://github.com/letsar/flutter_sticky_header) | Flutter implementation of sticky headers for sliver | dart + flutter, sticky-headers |
 | [localsend/localsend](https://github.com/localsend/localsend) [🔗](https://localsend.org) | An open-source cross-platform alternative to AirDrop | dart + flutter, file-sharing, flutter-apps |
 | [lollipopkit/flutter_server_box](https://github.com/lollipopkit/flutter_server_box) [🔗](https://serverbox.lpkt.cn) | ServerBox - server status & toolbox | dart + flutter, android, ios, server, ssh, status, vps |
@@ -636,37 +508,15 @@ List of starred repositories.
 | [objectbox/objectbox-dart](https://github.com/objectbox/objectbox-dart) [🔗](https://docs.objectbox.io/getting-started) | Flutter database for super-fast Dart object persistence | dart + flutter, android, cross-platform, database, embedded, firebase, ios, mobile, nosql, offline-first, sustainable, sync |
 | [simolus3/drift](https://github.com/simolus3/drift) [🔗](https://drift.simonbinder.eu/) | Drift is an easy to use, reactive, typesafe persistence library for Dart & Flutter. | dart + flutter, dart-build-system, persistence, reactive, sqlite |
 | [singerdmx/flutter-quill](https://github.com/singerdmx/flutter-quill) [🔗](https://pub.dev/packages/flutter_quill) | Rich text editor for Flutter | dart + flutter, editor, flutter-apps, flutter-examples, flutter-package, flutter-widget, quill, quill-delta, quilljs, reactquill, rich-text, rich-text-editor, wysiwyg, wysiwyg-editor |
+| [subosito/flutter-action](https://github.com/subosito/flutter-action) | Flutter environment for use in GitHub Actions. It works on Linux, Windows, and macOS. | dart + flutter, actions, github-actions |
 | [thunder-app/thunder](https://github.com/thunder-app/thunder) [🔗](https://thunderapp.dev) | An open-source cross-platform Lemmy & PieFed client for iOS and Android | dart + flutter, android, fediverse, fediverse-client, ios, lemmy, piefed, threadiverse |
 | [wgh136/PicaComic](https://github.com/wgh136/PicaComic) | A comic app built with Flutter, supporting multiple comic sources. | dart + flutter, android-application, e-hentai, hitomi-la, ios-app, jmcomic, nhentai, picacg, windows-app |
-
-### dart + flutter + game
-| Repository | Description | Tags |
-|---|---|---|
-| [PrintN/Human-Benchmark](https://github.com/PrintN/Human-Benchmark) | Human Benchmark is a Flutter app for Android that features many tests to assess your abilities. | dart + flutter + game, android, benchmark, humanbenchmark, mobile-app, reaction-time |
-
-### dart + flutter + github-actions
-| Repository | Description | Tags |
-|---|---|---|
-| [subosito/flutter-action](https://github.com/subosito/flutter-action) | Flutter environment for use in GitHub Actions. It works on Linux, Windows, and macOS. | dart + flutter + github-actions, actions |
-
-### dart + flutter + go
-| Repository | Description | Tags |
-|---|---|---|
-| [owlistic-notes/owlistic](https://github.com/owlistic-notes/owlistic) [🔗](https://owlistic-notes.github.io/owlistic/) | 🦉 Free open-source notetaking app with real-time sync 🔄⚡️🚀 | dart + flutter + go, event-driven, evernote-alternative, joplin-alternative, knowledge-base, markdown, note-taking, notes, productivity, real-time, self-hosted, task-manager, tasks, todo, todo-list, wysiwyg-editor |
-
-### dart + flutter + library
-| Repository | Description | Tags |
-|---|---|---|
-| [arran4/dart_unix_single_instance](https://github.com/arran4/dart_unix_single_instance) [🔗](https://pub.dev/packages/unix_single_instance) | A library which uses unix sockets to ensure a single instance | dart + flutter + library, single-instance, unix |
-
-### dart + flutter + library + linux
-| Repository | Description | Tags |
-|---|---|---|
-| [arran4/dart_xdg_status_notifier_item](https://github.com/arran4/dart_xdg_status_notifier_item) [🔗](https://pub.dev/packages/dart_xdg_status_notifier_item) | Allows status notifications (i.e. system tray) on Linux desktops using the StatusNotifierItem specification. | dart + flutter + library + linux, dbus, free-desktop, freedesktop, status-notifier, system-tray, xdg |
 
 ### dart + flutter + linux
 | Repository | Description | Tags |
 |---|---|---|
+| [arran4/dart_xdg_status_notifier_item](https://github.com/arran4/dart_xdg_status_notifier_item) [🔗](https://pub.dev/packages/dart_xdg_status_notifier_item) | Allows status notifications (i.e. system tray) on Linux desktops using the StatusNotifierItem specification. | dart + flutter + linux, dbus, free-desktop, freedesktop, library, status-notifier, system-tray, xdg |
+| [jpnurmi/awesome-flutter-linux](https://github.com/jpnurmi/awesome-flutter-linux) | A curated list of awesome Linux-specific Flutter packages and projects. | dart + flutter + linux, awesome-list |
 | [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk) [🔗](https://rustdesk.com) | An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer. | dart + flutter + linux, android, anydesk, flatpak, flutter-apps, ios, macos, p2p, rdp, remote-control, remote-desktop, rust, rust-lang, teamviewer, vnc, wayland, windows |
 
 ### dart + flutter + linux + web
@@ -675,20 +525,11 @@ List of starred repositories.
 | [authpass/authpass](https://github.com/authpass/authpass) [🔗](https://authpass.app/) | AuthPass - Password Manager based on Flutter for all platforms. Keepass 2.x (KDBX 3 and KDBX 4) compatible. | dart + flutter + linux + web, android, contributions-welcome, debian, flutter-apps, hacktoberfest, help-wanted, ios, kdbx, kdbx4, keepass, macos-application, password-manager, password-store, security, windows |
 | [media-kit/media-kit](https://github.com/media-kit/media-kit) [🔗](https://github.com/media-kit/media-kit) | A cross-platform video player & audio player for Flutter & Dart. | dart + flutter + linux + web, android, audio, audio-player, c, cpp, ios, java, libmpv, macos, media-player, obj-c, swift, video, video-player, windows |
 
-### dart + flutter + ui
-| Repository | Description | Tags |
-|---|---|---|
-| [afonsocraposo/buttons_tabbar](https://github.com/afonsocraposo/buttons_tabbar) [🔗](https://pub.dev/documentation/buttons_tabbar/latest/) | A Flutter package that implements a TabBar where each label is a toggle button. | dart + flutter + ui, android, button, flutter-package, flutter-ui, flutter-widget, ios, mobile, package, tab, tabbar, ui-components, ui-design |
-
-### dart + flutter + web
-| Repository | Description | Tags |
-|---|---|---|
-| [isar/isar](https://github.com/isar/isar) [🔗](https://isar.dev) | Extremely fast, easy to use, and fully async NoSQL database for Flutter | dart + flutter + web, android, cross-platform, database, ios, isar |
-
 ### dart + library
 | Repository | Description | Tags |
 |---|---|---|
 | [arran4/dart-libayatana-appindicator-glib](https://github.com/arran4/dart-libayatana-appindicator-glib) [🔗](https://pub.dev/packages/dart_libayatana_appindicator) | Ayatana Application Indicators Library (Dart port) | dart + library, c-to-dart, dbus, port, system-tray |
+| [arran4/dart_unix_single_instance](https://github.com/arran4/dart_unix_single_instance) [🔗](https://pub.dev/packages/unix_single_instance) | A library which uses unix sockets to ensure a single instance | dart + library, flutter, single-instance, unix |
 | [arran4/dartobjectutils](https://github.com/arran4/dartobjectutils) [🔗](https://pub.dev/packages/dartobjectutils) | Dart Constructor Type Enforcement / Conversion | dart + library, object-construction-utils, object-verification |
 
 ### datastore + go + google-app-engine + library
@@ -705,14 +546,11 @@ List of starred repositories.
 | [HeyPuter/puter](https://github.com/HeyPuter/puter) [🔗](https://puter.com) | 🌐 The Internet Computer! Free, Open-Source, and Self-Hostable. | desktop, cloud, cloud-os, cloud-storage, desktop-environment, dropbox, good-first-issue, gui, javascript, nas, open-source, operating-system, os, osjs, puter, remote-desktop, storage, web-desktop, web-os, webtop |
 | [ONLYOFFICE/DesktopEditors](https://github.com/ONLYOFFICE/DesktopEditors) [🔗](https://www.onlyoffice.com) | Open-source office suite pack that comprises all the tools you need to work with documents, spreadsheets, presentations, PDFs, and PDF forms on Windows, Linux, and macOS | desktop, collaboration, docx, excel, form-builder, office, onlyoffice, pdf, pdf-form, pptx, presentation, spreadsheet, word, xlsx |
 | [Shabinder/SpotiFlyer](https://github.com/Shabinder/SpotiFlyer) [🔗](https://spotiflyer.in/) | Kotlin Multiplatform Music Downloader, Supports Spotify /   Gaana / Youtube Music / Jio Saavn / SoundCloud. | desktop, album-downloader, albums, android, app, gaana, gaana-downloader, metadata, mp3, music, music-downloader, playlist-downloader, song-downloader, soundcloud, spotify, spotify-downloader, youtube, youtube-downloader, youtube-music |
+| [arran4/lemmy_notify](https://github.com/arran4/lemmy_notify) | Lemmy Notification app - for desktop atm | desktop, flutter, lemmy |
+| [bitwarden/clients](https://github.com/bitwarden/clients) [🔗](https://bitwarden.com) | Bitwarden client apps (web, browser extension, desktop, and cli). | desktop, angular, bitwarden, browser-extension, chrome, cli, electron, firefox, javascript, nodejs, safari, typescript, webextension |
 | [dotnet/maui](https://github.com/dotnet/maui) [🔗](https://dot.net/maui) | .NET MAUI is the .NET Multi-platform App UI, a framework for building native device applications spanning mobile, tablet, and desktop. | desktop, android, dotnet, hacktoberfest, ios, maccatalyst, maui, microsoft, mobile, multi-platform, user-interface, winui, winui3 |
 | [ilius/ayandict](https://github.com/ilius/ayandict) | AyanDict - simple yet advanced multi-lingual cross-platform offline dictionary for desktop, using Qt and Go. Version 3 incoming... | desktop, dictionary, dictionary-application, qt, stardict |
 | [microsoft/PowerToys](https://github.com/microsoft/PowerToys) | Microsoft PowerToys is a collection of utilities that supercharge productivity and customization on Windows | desktop, advanced-paste, color-picker, command-palette, fancyzones, keyboard-manager, microsoft-powertoys, powerrename, powertoys, windows, windows-10, windows-11 |
-
-### desktop + flutter
-| Repository | Description | Tags |
-|---|---|---|
-| [arran4/lemmy_notify](https://github.com/arran4/lemmy_notify) | Lemmy Notification app - for desktop atm | desktop + flutter, lemmy |
 
 ### desktop + flutter + go + linux + ui
 | Repository | Description | Tags |
@@ -738,17 +576,14 @@ List of starred repositories.
 | [Nheko-Reborn/nheko](https://github.com/Nheko-Reborn/nheko) [🔗](https://nheko-reborn.github.io/) | Desktop client for Matrix using Qt and C++20. | desktop + linux, hacktoberfest, macos, matrix, windows |
 | [amir1376/ab-download-manager](https://github.com/amir1376/ab-download-manager) [🔗](https://abdownloadmanager.com) | A Download Manager that speeds up your downloads | desktop + linux, chrome, compose, compose-desktop, compose-multiplatform, download, download-manager, downloader, downloadmanager, firefox, kotlin, kotlin-multiplatform, windows |
 | [elkowar/eww](https://github.com/elkowar/eww) [🔗](https://elkowar.github.io/eww) | ElKowars wacky widgets | desktop + linux, eww, gtk, gtk-rs, gtk3, hacktoberfest, rust, rust-lang, unixporn, widget |
+| [lencx/ChatGPT](https://github.com/lencx/ChatGPT) | 🔮 ChatGPT Desktop Application (Mac, Windows and Linux) | desktop + linux, ai, app, application, chatgpt, gpt, gpt-3, macos, notes-app, openai, rust, tauri, webview, windows |
 | [oOthkOo/whatsapp-desktop](https://github.com/oOthkOo/whatsapp-desktop) [🔗](http://oothkoo.com) | Unofficial WhatsApp Desktop Client for OSX, Linux and Windows. Build with Electron. | desktop + linux, debian, debian-packages, electron, facebook, macos, message, messager, messaging, osx, statuses, texting, tray-icon, ubuntu, whatsapp, whatsapp-client, whatsapp-desktop, whatsapp-web, windows |
 
 ### desktop + ui
 | Repository | Description | Tags |
 |---|---|---|
+| [DioxusLabs/dioxus](https://github.com/DioxusLabs/dioxus) [🔗](https://dioxuslabs.com) | Fullstack app framework for web, desktop, and mobile. | desktop + ui, android, css, html, ios, native, react, rust, ssr, virtualdom, wasm, web |
 | [slint-ui/slint](https://github.com/slint-ui/slint) [🔗](https://slint.dev) | Slint is an open-source declarative GUI toolkit to build native user interfaces for Rust, C++, JavaScript, or Python apps. | desktop + ui, cpp, declarative-ui, embedded-devices, gui, javascript, language, lsp-server, native, rust, rust-lang, toolkit, user-interface, wasm, webassembly, widgets |
-
-### desktop + ui + web
-| Repository | Description | Tags |
-|---|---|---|
-| [DioxusLabs/dioxus](https://github.com/DioxusLabs/dioxus) [🔗](https://dioxuslabs.com) | Fullstack app framework for web, desktop, and mobile. | desktop + ui + web, android, css, html, ios, native, react, rust, ssr, virtualdom, wasm |
 
 ### experiment + for-fun + generated + generator + go + test
 | Repository | Description | Tags |
@@ -810,6 +645,7 @@ List of starred repositories.
 |---|---|---|
 | [GopeedLab/gopeed](https://github.com/GopeedLab/gopeed) [🔗](https://gopeed.com) |   A fast, modern download manager for HTTP, BitTorrent, Magnet, and ed2k. Cross-platform, built with Golang and Flutter. | flutter + go, android, bittorrent, cross-platform, debian, downloader, http, https, ios, macos, magnet, torrent, ubuntu, windows |
 | [ente-io/ente](https://github.com/ente-io/ente) [🔗](https://ente.com) | 💚 End-to-end encrypted cloud for everything. | flutter + go, 2fa, android, authy, e2ee, encryption, end-to-end-encryption, google-photos, google-photos-alternative, ios, opensource, photos, privacy, privacy-tools, typescript, zero-knowledge |
+| [owlistic-notes/owlistic](https://github.com/owlistic-notes/owlistic) [🔗](https://owlistic-notes.github.io/owlistic/) | 🦉 Free open-source notetaking app with real-time sync 🔄⚡️🚀 | flutter + go, dart, event-driven, evernote-alternative, joplin-alternative, knowledge-base, markdown, note-taking, notes, productivity, real-time, self-hosted, task-manager, tasks, todo, todo-list, wysiwyg-editor |
 
 ### flutter + linux
 | Repository | Description | Tags |
@@ -817,38 +653,15 @@ List of starred repositories.
 | [KRTirtho/spotube](https://github.com/KRTirtho/spotube) [🔗](https://spotube.krtirtho.dev/) | 🎧 Open source music streaming app! Available for both desktop & mobile! | flutter + linux, android, android-client, android-music-player, desktop-client, fdroid, flutter-desktop, macos, music, music-player, windows, youtube |
 | [antler119/system_tray](https://github.com/antler119/system_tray) | A Flutter package that makes it easy to customize and work with your Flutter desktop app's system tray. | flutter + linux, macos, windows |
 | [leanflutter/window_manager](https://github.com/leanflutter/window_manager) [🔗](https://leanflutter.dev/documentation/window_manager) | The window_manager plugin provides comprehensive window management capabilities for Flutter desktop applications, enabling full control over window size, position, appearance, close behavior, and listening to events. | flutter + linux, flutter-desktop, flutter-web, macos, window-manager, window-resize, window-resizer, windows |
+| [picguard/picguard](https://github.com/picguard/picguard) [🔗](https://web.picguard.org) | Your pictures, your signature. | flutter + linux, android, ios, macos, picguard, watermark-assistant, watermarkassistant, web, windows |
 | [ubuntu-flutter-community/musicpod](https://github.com/ubuntu-flutter-community/musicpod) | Music, radio, television and podcast player for Ubuntu, MacOs and maybe soon Android | flutter + linux, android, internet-radio, macos, music, music-player, podcasts, radio, radio-station, radiobrowser, radiobrowser-api, tv, ubuntu |
 | [venera-app/venera](https://github.com/venera-app/venera) | A comic app | flutter + linux, android-app, comic, ios-app, macos-app, windows-app |
-
-### flutter + linux + web
-| Repository | Description | Tags |
-|---|---|---|
-| [picguard/picguard](https://github.com/picguard/picguard) [🔗](https://web.picguard.org) | Your pictures, your signature. | flutter + linux + web, android, ios, macos, picguard, watermark-assistant, watermarkassistant, windows |
-
-### flutter + utility
-| Repository | Description | Tags |
-|---|---|---|
-| [arran4/send_to_linkwarden](https://github.com/arran4/send_to_linkwarden) [🔗](https://arran4.github.io/send_to_linkwarden/) | Mobile version of Linkwarden | flutter + utility, android, archiving, link, linkwarden, mobile |
-
-### flutter + web
-| Repository | Description | Tags |
-|---|---|---|
-| [appwrite/appwrite](https://github.com/appwrite/appwrite) [🔗](https://appwrite.io) | Appwrite® - complete cloud infrastructure for your web, mobile and AI apps. Including Auth, Databases, Storage, Functions, Messaging, Hosting, Realtime and more | flutter + web, android, appwrite, backend, backend-as-a-service, docker, firebase, hosting, ios, javascript, nextjs, react, react-native, reactnative, self-hosted, selfhosted, serverless, supabase, swift |
 
 ### for-fun
 | Repository | Description | Tags |
 |---|---|---|
+| [arran4/fontlengths](https://github.com/arran4/fontlengths) | Font lengths tester by generating pngs of each font and sorting by length automatically | for-fun, font-length, fonts, go, png-generator |
 | [moul/sshportal](https://github.com/moul/sshportal) [🔗](https://manfred.life/sshportal) | :tophat: simple, fun and transparent SSH (and telnet) bastion server | for-fun, bastion, devops, security, ssh, ssh-server |
-
-### for-fun + generator + go
-| Repository | Description | Tags |
-|---|---|---|
-| [arran4/phonenumber](https://github.com/arran4/phonenumber) | A generator for the nokia phone keyboard meme | for-fun + generator + go, meme, nokia, nokia-keyboard, phone, phonenumber |
-
-### for-fun + go
-| Repository | Description | Tags |
-|---|---|---|
-| [arran4/fontlengths](https://github.com/arran4/fontlengths) | Font lengths tester by generating pngs of each font and sorting by length automatically | for-fun + go, font-length, fonts, png-generator |
 
 ### game
 | Repository | Description | Tags |
@@ -883,13 +696,9 @@ List of starred repositories.
 |---|---|---|
 | [Lallassu/bintris](https://github.com/Lallassu/bintris) | Binary Tetris | game + go, android, gomobile, mobile, mobile-game, openal, opengl |
 | [OpenDiablo2/OpenDiablo2](https://github.com/OpenDiablo2/OpenDiablo2) [🔗](https://opendiablo2.com/) | An open source re-implementation of Diablo 2 | game + go, 2d, arpg, diablo, diablo2, engine, game-engine, open-source |
+| [arran4/golang-rpg-textbox](https://github.com/arran4/golang-rpg-textbox) [🔗](https://pkg.go.dev/github.com/arran4/golang-rpg-textbox#section-readme) | Golang image library to Renders a RPG style text box with word wrapped text of your choosing | game + go, image, rpg, rpg-game |
 | [hajimehoshi/go-inovation](https://github.com/hajimehoshi/go-inovation) [🔗](http://hajimehoshi.github.io/go-inovation/) | Go port of Inovation 2007 by Omega | game + go |
 | [jonradoff/lofp](https://github.com/jonradoff/lofp) [🔗](https://metavert.io) | Legends of Future Past, the classic commercial MUD form the 1990's | game + go, game-development, interactive-fiction, mud, mud-server, online-game |
-
-### game + go + image
-| Repository | Description | Tags |
-|---|---|---|
-| [arran4/golang-rpg-textbox](https://github.com/arran4/golang-rpg-textbox) [🔗](https://pkg.go.dev/github.com/arran4/golang-rpg-textbox#section-readme) | Golang image library to Renders a RPG style text box with word wrapped text of your choosing | game + go + image, rpg, rpg-game |
 
 ### game + go + library
 | Repository | Description | Tags |
@@ -910,15 +719,12 @@ List of starred repositories.
 | [Azgaar/Fantasy-Map-Generator](https://github.com/Azgaar/Fantasy-Map-Generator) [🔗](https://azgaar.github.io/Fantasy-Map-Generator) | Web application generating interactive and highly customizable maps | generator, cartography, dungeons-and-dragons, fantasy-maps, javascript, map-generation, mapmaker, procedural-generation |
 | [orhun/git-cliff](https://github.com/orhun/git-cliff) [🔗](https://git-cliff.org) | A highly customizable Changelog Generator that follows Conventional Commit specifications ⛰️  | generator, changelog, changelog-generator, commit, conventional-changelog, conventional-commit, conventional-commits, git, git-cliff, hacktoberfest, keepachangelog, rust, semver |
 
-### generator + gentoo + github-actions
-| Repository | Description | Tags |
-|---|---|---|
-| [arran4/arrans_overlay_workflow_builder](https://github.com/arran4/arrans_overlay_workflow_builder) | A gentoo overlay ebuild workflow builder generator for -bin with a special purpose handler for .appimage binary files | generator + gentoo + github-actions, builder, ebuild, overlay |
-
 ### generator + go
 | Repository | Description | Tags |
 |---|---|---|
 | [OneOfOne/struct2ts](https://github.com/OneOfOne/struct2ts) | Generate Typescript classes/interfaces out of Go structs | generator + go, class, es6, struct, typescript |
+| [arran4/editorconfig-guesser](https://github.com/arran4/editorconfig-guesser) | Generates reasonable .editorconfig files for source files. | generator + go, cli, detector, devtool, editorconfig, generators |
+| [arran4/phonenumber](https://github.com/arran4/phonenumber) | A generator for the nokia phone keyboard meme | generator + go, for-fun, meme, nokia, nokia-keyboard, phone, phonenumber |
 | [awalterschulze/goderive](https://github.com/awalterschulze/goderive) | Derives and generates mundane golang functions that you do not want to maintain yourself | generator + go, deriving, functional-programming, generics |
 | [brianvoe/gofakeit](https://github.com/brianvoe/gofakeit) | Random fake data generator written in go | generator + go, data, fake, random, seed |
 | [go-gorm/gen](https://github.com/go-gorm/gen) [🔗](https://gorm.io/gen/) | Gen:  Friendly & Safer GORM powered by Code Generation | generator + go, gorm |
@@ -931,12 +737,14 @@ List of starred repositories.
 | [SpiderX/portage-overlay](https://github.com/SpiderX/portage-overlay) | Gentoo portage overlay | gentoo, ebuilds, overlay, portage |
 | [arran4/arrans_overlay](https://github.com/arran4/arrans_overlay) [🔗](https://arran4.github.io/arrans_overlay/) | Arrans Gentoo Overlay | gentoo, overlay |
 | [arran4/gentoo-packages](https://github.com/arran4/gentoo-packages) [🔗](https://arran4.github.io/gentoo-packages/) | Gentoo packages | gentoo, generated-sites, gentoo-packages |
+| [gentoo/gentoo](https://github.com/gentoo/gentoo) [🔗](https://gitweb.gentoo.org/repo/gentoo.git) | [MIRROR] Official Gentoo ebuild repository | gentoo, ebuild, ebuild-repository, hacktoberfest, linux, portage |
 | [gentoo/portage](https://github.com/gentoo/portage) [🔗](https://gitweb.gentoo.org/proj/portage.git) | [MIRROR] Package management system | gentoo, hacktoberfest, package, package-manager, portage, python |
 | [gentoo/portage-utils](https://github.com/gentoo/portage-utils) [🔗](https://gitweb.gentoo.org/proj/portage-utils.git) | [MIRROR] Small and fast Portage helper tools written in C | gentoo, hacktoberfest, portage |
 
 ### gentoo + github-actions
 | Repository | Description | Tags |
 |---|---|---|
+| [arran4/arrans_overlay_workflow_builder](https://github.com/arran4/arrans_overlay_workflow_builder) | A gentoo overlay ebuild workflow builder generator for -bin with a special purpose handler for .appimage binary files | gentoo + github-actions, builder, ebuild, generator, overlay |
 | [arran4/g2-action](https://github.com/arran4/g2-action) | g2 github workflow action | gentoo + github-actions, ci, g2, workflows |
 
 ### gentoo + go
@@ -945,21 +753,16 @@ List of starred repositories.
 | [arran4/g2](https://github.com/arran4/g2) [🔗](https://pkg.go.dev/github.com/arran4/g2) | g2 Gentoo Tools | gentoo + go, gentoo-utils |
 | [chramb/go-gentoo](https://github.com/chramb/go-gentoo) | varoius modules meant to help developing for Gentoo in Go | gentoo + go, portage |
 
-### gentoo + go + linux
-| Repository | Description | Tags |
-|---|---|---|
-| [BenjaminGuzman/gentoo-utils](https://github.com/BenjaminGuzman/gentoo-utils) | Utilities and notes for my gentoo installation | gentoo + go + linux, bash |
-
-### gentoo + linux
-| Repository | Description | Tags |
-|---|---|---|
-| [gentoo/gentoo](https://github.com/gentoo/gentoo) [🔗](https://gitweb.gentoo.org/repo/gentoo.git) | [MIRROR] Official Gentoo ebuild repository | gentoo + linux, ebuild, ebuild-repository, hacktoberfest, portage |
-
 ### github
 | Repository | Description | Tags |
 |---|---|---|
+| [BandarLabs/gitpodcast](https://github.com/BandarLabs/gitpodcast) [🔗](https://www.gitpodcast.com) | Convert any git repository into an engaging podcast | github, ai, automation, azure, developer-tools, openai, podcast, tts |
+| [abhisheknaiidu/awesome-github-profile-readme](https://github.com/abhisheknaiidu/awesome-github-profile-readme) [🔗](https://bit.ly/awesome-gh) | 😎 A curated list of awesome GitHub Profile which updates in real time  | github, awesome-list, github-profile-readme, github-readme, portfolio, profile-readme |
+| [arran4/arran4.github.io](https://github.com/arran4/arran4.github.io) [🔗](https://arran4.github.io/) | A nausiatingly personal github page. | github, github-pages, hugo, hugo-site, landing-page, personal-page |
 | [cool-calm/collected-press](https://github.com/cool-calm/collected-press) [🔗](https://collected.press) | Render Markdown from any public GitHub repo or gist | github, cdn, edge-computing, markdown, markdown-viewer, serverless, service |
 | [git-ecosystem/git-credential-manager](https://github.com/git-ecosystem/git-credential-manager) | Secure, cross-platform Git credential storage with authentication to GitHub, Azure Repos, and other popular Git hosting services. | github, aad, authentication, azure-devops, azure-repos, bitbucket, credential, cross-platform, git, gitlab |
+| [johnwarne/upvote-rss](https://github.com/johnwarne/upvote-rss) [🔗](https://www.upvote-rss.com/) | Generate rich RSS feeds from Reddit, Hacker News, Lemmy, Mbin, and more | github, hacker-news, lemmy, lobsters, mbin, piefed, reddit, rss, self-hosted, social-aggregator, upvote, voting |
+| [muesli/gitty](https://github.com/muesli/gitty) | Contextual information about your git projects, right on the command-line | github, cli, git, gitea, gitlab, terminal, tui |
 | [rtuszik/starwarden](https://github.com/rtuszik/starwarden) | Export GitHub Stars to LinkWarden | github, github-stars, linkwarden |
 | [utterance/utterances](https://github.com/utterance/utterances) [🔗](https://utteranc.es) | :crystal_ball: A lightweight comments widget built on GitHub issues | github, blog, comments, comments-widget, utterances |
 
@@ -969,33 +772,20 @@ List of starred repositories.
 | [github-aws-runners/terraform-aws-github-runner](https://github.com/github-aws-runners/terraform-aws-github-runner) [🔗](https://github-aws-runners.github.io/terraform-aws-github-runner/) | Terraform module for scalable GitHub action runners on AWS | github + github-actions, action-runner, actions-runner, aws, cicd, hacktoberfest, lambda, scalable, self-hosted, serverless, terraform |
 | [jstrieb/github-stats](https://github.com/jstrieb/github-stats) | Better GitHub statistics images for your profile, with stats from private repos too | github + github-actions, git-scraping, github-api, github-stats, profile, readme-md, readme-template, statistics, statistics-images, stats-images, visualizations, zig, ziglang |
 | [lowlighter/metrics](https://github.com/lowlighter/metrics) [🔗](https://metrics.lecoq.io) | 📊 An infographics generator with 30+ plugins and 300+ options to display stats about your GitHub account and render them as SVG, Markdown, PDF or JSON! | github + github-actions, automated, automation, github-api, github-metrics, github-profile, javascript, metrics, profile, profile-card, profile-readme, readme, readme-generator, readme-profile, svg-image |
+| [sdras/awesome-actions](https://github.com/sdras/awesome-actions) | A curated list of awesome actions to use on GitHub | github + github-actions, actions, actions-list, awesome-list, awesome-lists, curated-list |
 
 ### github + go
 | Repository | Description | Tags |
 |---|---|---|
 | [Tanq16/backhub](https://github.com/Tanq16/backhub) | Backhub helps maintain backups of multiple GitHub repos as full local mirrors. | github + go, automation, backup, backup-utility, git, git-mirror, github-backup, homelab, repository-backup, self-hosted, self-hosting |
+| [arran4/gobookmarks](https://github.com/arran4/gobookmarks) | Landing page for when you open browsers / live bookmarks in go. | github + go, bookmarks, github-api, home-page, homepage, live-bookmarks, start-page, startpage, web |
 | [github/git-sizer](https://github.com/github/git-sizer) | Compute various size metrics for a Git repository, flagging those that might cause problems | github + go, git |
 | [google/go-github](https://github.com/google/go-github) [🔗](https://pkg.go.dev/github.com/google/go-github/v85/github) | Go library for accessing the GitHub v3 API | github + go, github-api, hacktoberfest |
-
-### github + go + web
-| Repository | Description | Tags |
-|---|---|---|
-| [arran4/gobookmarks](https://github.com/arran4/gobookmarks) | Landing page for when you open browsers / live bookmarks in go. | github + go + web, bookmarks, github-api, home-page, homepage, live-bookmarks, start-page, startpage |
-
-### github + hugo
-| Repository | Description | Tags |
-|---|---|---|
-| [arran4/arran4.github.io](https://github.com/arran4/arran4.github.io) [🔗](https://arran4.github.io/) | A nausiatingly personal github page. | github + hugo, github-pages, hugo-site, landing-page, personal-page |
 
 ### github + kde + ui
 | Repository | Description | Tags |
 |---|---|---|
 | [arran4/kgithub-notify](https://github.com/arran4/kgithub-notify) | A sleek GitHub notification system tray application written natively in C++ using Qt6 and KDE Frameworks 6 (KF6). It quietly monitors your GitHub account, notifying you when there are new notifications, and provides a rich desktop interface to manage themGithub notifier for KDE | github + kde + ui, api, notifier, qt |
-
-### github + rss
-| Repository | Description | Tags |
-|---|---|---|
-| [johnwarne/upvote-rss](https://github.com/johnwarne/upvote-rss) [🔗](https://www.upvote-rss.com/) | Generate rich RSS feeds from Reddit, Hacker News, Lemmy, Mbin, and more | github + rss, hacker-news, lemmy, lobsters, mbin, piefed, reddit, self-hosted, social-aggregator, upvote, voting |
 
 ### github-actions
 | Repository | Description | Tags |
@@ -1005,21 +795,13 @@ List of starred repositories.
 | [actions/actions-runner-controller](https://github.com/actions/actions-runner-controller) | Kubernetes controller for GitHub Actions self-hosted runners | github-actions, kubernetes, operator |
 | [arran4/git-tag-inc-action](https://github.com/arran4/git-tag-inc-action) [🔗](https://github.com/arran4/git-tag-inc) | An action for incrementing semantic git tags | github-actions, git-tag-inc, semantic-tagging, semantic-versions, tag-manager |
 | [gcarreno/setup-lazarus](https://github.com/gcarreno/setup-lazarus) | Set up your GitHub Actions workflow with a specific version of Lazarus | github-actions, action, actions, ci, continuous-integration, free-pascal, freepascal, lazarus, lazarus-ide, object-pascal, objectpascal, pascal |
+| [google-github-actions/run-gemini-cli](https://github.com/google-github-actions/run-gemini-cli) [🔗](https://github.com/google-gemini/gemini-cli) | A GitHub Action invoking the Gemini CLI. | github-actions, actions, ai, gcp, gemini, gemini-cli, google-cloud, google-cloud-platform |
 | [goreleaser/goreleaser](https://github.com/goreleaser/goreleaser) [🔗](https://goreleaser.com) | Release engineering, simplified | github-actions, announcements, hacktoberfest, package, release-automation, release-engineering |
+| [nektos/act](https://github.com/nektos/act) [🔗](https://nektosact.com) | Run your GitHub Actions locally 🚀 | github-actions, ci, devops, go |
 | [rhysd/actionlint](https://github.com/rhysd/actionlint) [🔗](https://rhysd.github.io/actionlint/) | :octocat: Static checker for GitHub Actions workflow files | github-actions, actions, ci, lint, linter |
 | [traderepublic/Cilicon](https://github.com/traderepublic/Cilicon) | 🛠️ Self-Hosted ephemeral macOS CI on Apple Silicon | github-actions, atom-mobile-platform, ci, element-experience-infra, m1, m2, macos, self-hosted, self-hosted-runner, selfhosted, silicon, virtualization |
 | [vn7n24fzkq/github-profile-summary-cards](https://github.com/vn7n24fzkq/github-profile-summary-cards) [🔗](https://github-profile-summary-cards.vercel.app/demo) | A tool to generate your GitHub summary card for profile README | github-actions, github-profile-readme, hacktoberfest, profile-readme, profile-summary, readme-stats, star, summary-cards, trigger-action |
 | [zizmorcore/zizmor](https://github.com/zizmorcore/zizmor) [🔗](http://docs.zizmor.sh/) | Static analysis for GitHub Actions | github-actions, security, security-tools, static-analysis |
-
-### github-actions + go
-| Repository | Description | Tags |
-|---|---|---|
-| [nektos/act](https://github.com/nektos/act) [🔗](https://nektosact.com) | Run your GitHub Actions locally 🚀 | github-actions + go, ci, devops |
-
-### github-actions + hugo
-| Repository | Description | Tags |
-|---|---|---|
-| [arran4/githubpages](https://github.com/arran4/githubpages) | Example hugo and github pages with github actions page | github-actions + hugo, github-pages |
 
 ### go
 | Repository | Description | Tags |
@@ -1351,11 +1133,6 @@ List of starred repositories.
 | [ztrue/tracerr](https://github.com/ztrue/tracerr) | Golang errors with stack trace and source fragments. | go, debug, error-handling, errors, errors-log, source-map, stacktrace |
 | [zyedidia/eget](https://github.com/zyedidia/eget) | Easily install prebuilt binaries from GitHub. | go, command-line-tool, installer, prebuilt-binaries |
 
-### go + google-app-engine + library
-| Repository | Description | Tags |
-|---|---|---|
-| [arran4/gaelogger](https://github.com/arran4/gaelogger) [🔗](https://pkg.go.dev/github.com/arran4/gaelogger) | Another google apps engine go logger this one is for the new go111+ world.. | go + google-app-engine + library, google-app-engine-logger, logger-abstraction |
-
 ### go + hugo
 | Repository | Description | Tags |
 |---|---|---|
@@ -1366,19 +1143,16 @@ List of starred repositories.
 | Repository | Description | Tags |
 |---|---|---|
 | [SmilyOrg/photofield](https://github.com/SmilyOrg/photofield) [🔗](https://photofield.dev/) |  A self-hosted non-invasive single-binary photo gallery with a focus on speed and simplicity. | go + image, gallery, image-viewer, photo, photo-gallery, photos, photoviewer, self-hosted, selfhosted, vue3 |
+| [arran4/golang-frame](https://github.com/arran4/golang-frame) [🔗](https://pkg.go.dev/github.com/arran4/golang-frame) | A simple golang image frame drawing library (Draws a frame around something.) | go + image, library |
 | [arran4/golang-wordwrap](https://github.com/arran4/golang-wordwrap) [🔗](https://pkg.go.dev/github.com/arran4/golang-wordwrap) | Wordwrap library for golang images. | go + image, wordwrap |
 | [corona10/goimagehash](https://github.com/corona10/goimagehash) | Go Perceptual image hashing package | go + image, ahash, dhash, hacktoberfest, hash, image-hash, perceptual, phash |
-
-### go + image + library
-| Repository | Description | Tags |
-|---|---|---|
-| [arran4/golang-frame](https://github.com/arran4/golang-frame) [🔗](https://pkg.go.dev/github.com/arran4/golang-frame) | A simple golang image frame drawing library (Draws a frame around something.) | go + image + library |
 
 ### go + library
 | Repository | Description | Tags |
 |---|---|---|
 | [CalebQ42/squashfs](https://github.com/CalebQ42/squashfs) | A library to interact with Squashfs archives. Currently only has support for reading, but writing archives will probably come eventually. | go + library, squashfs |
 | [arl/statsviz](https://github.com/arl/statsviz) | Visualise Go runtime metrics in real time | go + library, garbage-collector, hacktoberfest, live, metrics, monitoring, plots, runtime, stats, visualization |
+| [arran4/gaelogger](https://github.com/arran4/gaelogger) [🔗](https://pkg.go.dev/github.com/arran4/gaelogger) | Another google apps engine go logger this one is for the new go111+ world.. | go + library, google-app-engine, google-app-engine-logger, logger-abstraction |
 | [arran4/go-be-lazy](https://github.com/arran4/go-be-lazy) [🔗](https://pkg.go.dev/github.com/arran4/go-be-lazy) | Varidct based behavoural lazy evaluation | go + library, lazy, lazy-eval, lazy-evaluation |
 | [arran4/go-consume](https://github.com/arran4/go-consume) | String and slice consumption librareis | go + library, parser, parsing, string, tokenizer |
 | [arran4/go-dynamic-content](https://github.com/arran4/go-dynamic-content) | Lazy or weak file content | go + library, file-mapped-content, weak-pointer |
@@ -1400,42 +1174,25 @@ List of starred repositories.
 | [zitadel/oidc](https://github.com/zitadel/oidc) [🔗](https://zitadel.com) | Easy to use OpenID Connect client and server library written for Go and certified by the OpenID Foundation | go + library, certified, client, code-flow, code-flow-pkce, discovery, jwt, oauth, oauth2, oidc, openid-connect, openidconnect, pkce, refresh-token, relying-party, server, standard |
 | [zombiezen/go-sqlite](https://github.com/zombiezen/go-sqlite) [🔗](https://pkg.go.dev/zombiezen.com/go/sqlite) | Low-level Go interface to SQLite 3 | go + library, database, golang-package, sqlite, sqlite3 |
 
-### go + library + linux
-| Repository | Description | Tags |
-|---|---|---|
-| [adrg/xdg](https://github.com/adrg/xdg) [🔗](https://pkg.go.dev/github.com/adrg/xdg) | Go implementation of the XDG Base Directory Specification and XDG user directories | go + library + linux, cross-platform, golang-package, known-folders, macos, plan9, specification, unix, windows, xdg, xdg-basedir, xdg-compliance, xdg-specs, xdg-user-dirs |
-
 ### go + library + ui
 | Repository | Description | Tags |
 |---|---|---|
+| [vugu/vugu](https://github.com/vugu/vugu) [🔗](https://www.vugu.org) | Vugu: A modern UI library for Go+WebAssembly (experimental) | go + library + ui, framework, gui, vugu, web, webassembly |
 | [ying32/govcl](https://github.com/ying32/govcl) [🔗](https://z-kit.cc) |  Cross-platform Go/Golang GUI library. | go + library + ui, go-gui, go-ui, gogui, golangui, golcl, goui, gui, gui-toolkit, lazarus, lcl, linux-desktop, macos-app, windows-desktop |
-
-### go + library + ui + web
-| Repository | Description | Tags |
-|---|---|---|
-| [vugu/vugu](https://github.com/vugu/vugu) [🔗](https://www.vugu.org) | Vugu: A modern UI library for Go+WebAssembly (experimental) | go + library + ui + web, framework, gui, vugu, webassembly |
-
-### go + library + utility
-| Repository | Description | Tags |
-|---|---|---|
-| [alecthomas/chroma](https://github.com/alecthomas/chroma) | A general purpose syntax highlighter in pure Go  | go + library + utility, console, highlighter, highlighting, html, syntax |
 
 ### go + linux
 | Repository | Description | Tags |
 |---|---|---|
+| [BenjaminGuzman/gentoo-utils](https://github.com/BenjaminGuzman/gentoo-utils) | Utilities and notes for my gentoo installation | go + linux, bash, gentoo |
 | [MertJSX/folderhost](https://github.com/MertJSX/folderhost) [🔗](https://folderhost.org) | Your own private cloud in one executable. Share files, collaborate on code, and manage users without complex setup. | go + linux, cloud, collaborative-editing, file-manager, open-source, portable, react, self-hosted, windows |
 | [Tanq16/danzo](https://github.com/Tanq16/danzo) | Swiss army knife of multi-service CLI download utilities written on Go. | go + linux, aws-s3, danzo, download, download-manager, github-downloader, google-drive-downloader, hls-downloader, http, m3u8-downloader, macos, repo-cloner, s3-download, web-download, windows, youtube, youtube-downloader, youtube-music-downloader |
+| [adrg/xdg](https://github.com/adrg/xdg) [🔗](https://pkg.go.dev/github.com/adrg/xdg) | Go implementation of the XDG Base Directory Specification and XDG user directories | go + linux, cross-platform, golang-package, known-folders, library, macos, plan9, specification, unix, windows, xdg, xdg-basedir, xdg-compliance, xdg-specs, xdg-user-dirs |
 | [ayn2op/discordo](https://github.com/ayn2op/discordo) | A lightweight, secure, and feature-rich Discord terminal (TUI) client. | go + linux, client, cross-platform, discord, discord-bot, discordo, lightweight, macos, terminal, terminal-based, tui, windows |
 | [golang-design/clipboard](https://github.com/golang-design/clipboard) [🔗](https://golang.design/x/clipboard) | 📋 cross-platform clipboard package that supports accessing text and image in Go (macOS/Linux/Windows/Android/iOS)  | go + linux, android, clipboard, clipboard-library, cross-platform, ios, macos, nspasteboard, windows, x11 |
 | [inbucket/inbucket](https://github.com/inbucket/inbucket) [🔗](https://inbucket.org/) | Disposable webmail server (similar to Mailinator) with built in SMTP, POP3, RESTful servers; no DB required. | go + linux, integration-testing, mail, mailserver, osx, pop, pop3, smtp, smtp-server, webmail, windows |
 | [shellhub-io/shellhub](https://github.com/shellhub-io/shellhub) [🔗](https://shellhub.io) | :computer: Get seamless remote access to any Linux device. Centralized SSH for the edge and cloud computing | go + linux, cloud-computing, embedded, hacktoberfest, iot, raspberry-pi, shellhub, ssh, ssh-tunnel |
 | [therecipe/qt](https://github.com/therecipe/qt) | Qt binding for Go (Golang) with support for Windows / macOS / Linux / FreeBSD / Android / iOS / Sailfish OS / Raspberry Pi / AsteroidOS / Ubuntu Touch / JavaScript / WebAssembly | go + linux, android, asteroidos, cross-platform-gui, felgo, freebsd, gui-framework, ios, javascript, macos, qt, raspberry-pi, sailfish-os, ubuntu-touch, webassembly, windows |
 | [wailsapp/wails](https://github.com/wailsapp/wails) [🔗](https://wails.io) | Create beautiful applications using Go | go + linux, angular, desktop-application, javascript, macos, react, svelte, vuejs, windows |
-
-### go + linux + web
-| Repository | Description | Tags |
-|---|---|---|
-| [cogentcore/core](https://github.com/cogentcore/core) [🔗](http://cogentcore.org/core) | A free and open source framework for building powerful, fast, elegant 2D and 3D apps that run on macOS, Windows, Linux, iOS, Android, and web with a single Go codebase, allowing you to Code Once, Run Everywhere. | go + linux + web, android, apps, cross-platform, framework, graphics, gui, ios, macos, toolkit, webgpu, windows |
 
 ### go + rss
 | Repository | Description | Tags |
@@ -1466,6 +1223,7 @@ List of starred repositories.
 ### go + utility
 | Repository | Description | Tags |
 |---|---|---|
+| [alecthomas/chroma](https://github.com/alecthomas/chroma) | A general purpose syntax highlighter in pure Go  | go + utility, console, highlighter, highlighting, html, library, syntax |
 | [arran4/gocdm](https://github.com/arran4/gocdm) [🔗](http://evertiro.com) | Console Display Manager (go port) | go + utility, display-manager, go-port, login, unix |
 | [caarlos0/svu](https://github.com/caarlos0/svu) | semantic version utility | go + utility, hacktoberfest, semantic-versioning |
 | [elliotchance/pie](https://github.com/elliotchance/pie) [🔗](https://pkg.go.dev/github.com/elliotchance/pie/v2) | 🍕 Enjoy a slice! A utility library for dealing with slices and maps that focuses on type safety and performance. | go + utility, generics, slices |
@@ -1476,6 +1234,7 @@ List of starred repositories.
 |---|---|---|
 | [arran4/goa4web-bookmarks](https://github.com/arran4/goa4web-bookmarks) | Landing page for when you open browers / live bookmarks in go. -- AI based C -> Go port | go + web, bookmarks, home-page, homepage, live-bookmarks, start-page |
 | [arran4/gorillamuxlogic](https://github.com/arran4/gorillamuxlogic) | Some very simple gorilla mux logic for `mux.MatcherFunc` | go + web, gorilla, gorilla-mux, http |
+| [cogentcore/core](https://github.com/cogentcore/core) [🔗](http://cogentcore.org/core) | A free and open source framework for building powerful, fast, elegant 2D and 3D apps that run on macOS, Windows, Linux, iOS, Android, and web with a single Go codebase, allowing you to Code Once, Run Everywhere. | go + web, android, apps, cross-platform, framework, graphics, gui, ios, linux, macos, toolkit, webgpu, windows |
 | [go-gorm/gorm](https://github.com/go-gorm/gorm) [🔗](https://gorm.io) | The fantastic ORM library for Golang, aims to be developer friendly | go + web, gorm, orm |
 | [gobuffalo/buffalo](https://github.com/gobuffalo/buffalo) [🔗](http://gobuffalo.io) | Rapid Web Development w/ Go | go + web, buffalo, framework, gobuffalo, rails, web-framework, webframework |
 | [gocopper/copper](https://github.com/gocopper/copper) [🔗](https://gocopper.dev) | 🚀‏‏‎    ‎‏‏‎‏‏‎‎‎‎‎‎Copper is a Go toolkit complete with everything you need to build web apps. | go + web, api, middleware, router, service |
@@ -1486,6 +1245,7 @@ List of starred repositories.
 | Repository | Description | Tags |
 |---|---|---|
 | [arran4/blog](https://github.com/arran4/blog) [🔗](https://arran4.github.io/blog/) | Github pages blog | hugo, blog |
+| [arran4/githubpages](https://github.com/arran4/githubpages) | Example hugo and github pages with github actions page | hugo, github-actions, github-pages |
 | [ashishb/wp2hugo](https://github.com/ashishb/wp2hugo) [🔗](https://ashishb.net/tech/wordpress-to-hugo/) | The best WordPress to static site migrator | hugo, hugo-utility, static-site, static-site-generator, static-website |
 | [hugo-themes/toha](https://github.com/hugo-themes/toha) [🔗](https://toha-preview.hugo-themes.com) | A Hugo theme for personal portfolio | hugo, blog, hacktoberfest, hacktoberfest-accepted, hugo-site, personal-site, personal-website, portfolio, portfolio-site, theme, toha |
 
@@ -1493,42 +1253,33 @@ List of starred repositories.
 | Repository | Description | Tags |
 |---|---|---|
 | [VectorSpaceLab/OmniGen](https://github.com/VectorSpaceLab/OmniGen) | OmniGen: Unified Image Generation. https://arxiv.org/pdf/2409.11340 | image, diffusion, image-edit, image-generation, multi-modal, multi-task |
+| [agentheroes/agentheroes](https://github.com/agentheroes/agentheroes) [🔗](https://agentheroes.ai) | Generate, animate and schedule your AI characters 🤖 | image, agent, agents, ai, chatgpt, generate, lora, replicate, train, video, workflow |
+| [armbian/build](https://github.com/armbian/build) [🔗](https://www.armbian.com) | The official build framework for the Armbian Linux distribution. This repository contains the complete toolchain and scripts required to compile custom OS images from source, including kernel configuration, U-Boot handling, and board-specific tweaks for various ARM and ARM64 single-board computers. | image, aarch64, arm, debian, firmware, framework, iso, kernel, kernel-compilation, kernel-hacking, lightweight, linux, linux-distribution, operating-system, u-boot, ubuntu, uefi, wsl2, x86 |
 | [vercel/satori](https://github.com/vercel/satori) [🔗](https://og-playground.vercel.app) | Enlightened library to convert HTML and CSS to SVG | image, css, image-generation, image-generator, jsx, opengraph-images, satori, svg, vercel |
 | [zelon88/HRConvert2](https://github.com/zelon88/HRConvert2) [🔗](https://github.com/zelon88/HRConvert2) | A self-hosted, drag-and-drop & nosql file conversion server & share tool that supports 445 file formats in 13 languages. | image, archiver, conversion, converter, document-conversion, extractor, file-converter, file-sharing, format, multilingual, ocr, ocr-recognition, pdf-converter, php, server, virustotal |
-
-### image + linux
-| Repository | Description | Tags |
-|---|---|---|
-| [armbian/build](https://github.com/armbian/build) [🔗](https://www.armbian.com) | The official build framework for the Armbian Linux distribution. This repository contains the complete toolchain and scripts required to compile custom OS images from source, including kernel configuration, U-Boot handling, and board-specific tweaks for various ARM and ARM64 single-board computers. | image + linux, aarch64, arm, debian, firmware, framework, iso, kernel, kernel-compilation, kernel-hacking, lightweight, linux-distribution, operating-system, u-boot, ubuntu, uefi, wsl2, x86 |
 
 ### kde
 | Repository | Description | Tags |
 |---|---|---|
+| [ChocolateLoverRaj/rust-fp](https://github.com/ChocolateLoverRaj/rust-fp) | Fingerprint library, dbus interface, CLI, and PAM module for unlocking Linux with fingerprint sensors. Currently for Chromebooks. | kde, chromebook, cli, fingerprint, nixos, pam, rust |
 | [Intika-KDE-Plasmoids/plasmoid-ultimate-gmail-feed](https://github.com/Intika-KDE-Plasmoids/plasmoid-ultimate-gmail-feed) [🔗](https://www.opendesktop.org/p/1248550/) | Plasma 5 plasmoid showing your gmail feed (based on anthon38/gmailfeed) | kde, kde-plasma-5, plasma, plasma-applet, plasma5 |
 | [JunoNgx/kde-currently-playing](https://github.com/JunoNgx/kde-currently-playing) [🔗](https://store.kde.org/p/1821551) | A minimal media info widget for KDE Plasma | kde, media, plasma, plasmoid, qml, widget |
 | [arran4/KMagMux](https://github.com/arran4/KMagMux) | Torrent and Magent file and protocol handler for routing to programs / services | kde, handler, intent, link, magnent, mux, torrent |
 | [arran4/kde-keyboard-shortcuts](https://github.com/arran4/kde-keyboard-shortcuts) | A quick and simple installer for my kde keyboard bindings in system, as a deb/rpm file | kde, deb, kde-keyboard-shortcuts, keyboard-bindings, keyboard-shortcuts, package-manager, rpm |
 | [comxd/plasma-kdeconnect-sms](https://github.com/comxd/plasma-kdeconnect-sms) [🔗](https://store.kde.org/p/1202579) | 📱 💬 Plasmoid for KDE Connect allowing SMS sending from your desktop — KDE Plasma 6 | kde, android, kde-connect-features, kde-plasma, kde-plasma-6, kdeconnect, plasma, plasma6, plasmoid, sms, widget |
 | [esjeon/krohnkite](https://github.com/esjeon/krohnkite) | A dynamic tiling extension for KWin | kde, kwin, kwin-script, tiling, tiling-scripts, tiling-window-manager, typescript |
+| [peteonrails/voxtype](https://github.com/peteonrails/voxtype) | Voice-to-text with push-to-talk for Wayland compositors | kde, accessibility, dictation, gnome, hyprland, linux, offline, push-to-talk, rust, speech-recognition, speech-to-text, sway, voice-to-text, voice-typing, wayland, whisper, whisper-cpp |
+| [shvedes/awesome-kde](https://github.com/shvedes/awesome-kde) | A curated list of awesome KDE applications, plugins, and resources | kde, awesome-list, kde-plasma-6, plasma, plasma-desktop, plasma6, resources |
 | [wwmm/easyeffects](https://github.com/wwmm/easyeffects) [🔗](https://wwmm.github.io/easyeffects/) | Limiter, compressor, convolver, equalizer and auto volume and many other plugins for PipeWire applications | kde, auto-volume, compressor, equalizer, kirigami2, pipewire, pulseaudio, qml, qt, reverberation, stereo-equalizer-effects |
-
-### kde + linux
-| Repository | Description | Tags |
-|---|---|---|
-| [peteonrails/voxtype](https://github.com/peteonrails/voxtype) | Voice-to-text with push-to-talk for Wayland compositors | kde + linux, accessibility, dictation, gnome, hyprland, offline, push-to-talk, rust, speech-recognition, speech-to-text, sway, voice-to-text, voice-typing, wayland, whisper, whisper-cpp |
 
 ### library
 | Repository | Description | Tags |
 |---|---|---|
 | [arran4/tsobjectutils](https://github.com/arran4/tsobjectutils) [🔗](https://www.npmjs.com/package/@arran4/tsobjectutils) | Some typescript objects I use in a couple repos | library, json-deserialization, npm, npm-package, ts-library, ts-objects, tslang, tslibrary, typescript |
 | [evanwashere/mitata](https://github.com/evanwashere/mitata) | benchmark tooling that loves you ❤️ | library, benchmark, bun, cpp, deno, graaljs, javascript, jsc, microbenchmark, node, nodejs, performance, single-header, spidermonkey, v8 |
+| [ocornut/imgui](https://github.com/ocornut/imgui) | Dear ImGui: Bloat-free Graphical User interface for C++ with minimal dependencies | library, api, cplusplus, framework, game-development, game-engine, gamedev, gui, imgui, immediate-gui, multi-platform, native, toolkit, tools, ui |
 | [open-source-labs/Svelvet](https://github.com/open-source-labs/Svelvet) [🔗](https://svelvet.io) | 🎛 A Svelte library for building dynamic, infinitely customizable node-based user interfaces and flowcharts | library, devtool, diagrams, flowcharts, npm, opensource, svelte, sveltekit, typescript |
 | [sbstjn/timesheet.js](https://github.com/sbstjn/timesheet.js) [🔗](https://sbstjn.github.io/timesheet.js) | JavaScript library for HTML5 & CSS3 time sheets | library, chart, charting-library, css, html, javascript, timesheet, visualization |
-
-### library + ui
-| Repository | Description | Tags |
-|---|---|---|
-| [ocornut/imgui](https://github.com/ocornut/imgui) | Dear ImGui: Bloat-free Graphical User interface for C++ with minimal dependencies | library + ui, api, cplusplus, framework, game-development, game-engine, gamedev, gui, imgui, immediate-gui, multi-platform, native, toolkit, tools |
 
 ### linux
 | Repository | Description | Tags |
@@ -1602,17 +1353,13 @@ List of starred repositories.
 | [xeco23/WasIstLos](https://github.com/xeco23/WasIstLos) | An unofficial WhatsApp desktop application for Linux. | linux, appindicator, cmake, cpp, gtk3, gtkmm3-library, gui, webkit2gtk, whatsapp |
 | [yeahitsjan/pawxel](https://github.com/yeahitsjan/pawxel) | Lightweight screenshot tool for designers & developers | linux, capture, cross-platform, design-tools, image-editing, qt, qt5, region-capture, screenshot, screenshot-tool, screenshot-utility, windows |
 
-### linux + utility
-| Repository | Description | Tags |
-|---|---|---|
-| [GyulyVGC/sniffnet](https://github.com/GyulyVGC/sniffnet) [🔗](https://sniffnet.net) | Comfortably monitor your Internet traffic 🕵️‍♂️ | linux + utility, application, gui, iced, macos, network, network-analysis, network-monitoring, networking, packet-analyser, packet-capture, packet-sniffer, pcap, rust, rust-crate, security, windows |
-
 ### rss
 | Repository | Description | Tags |
 |---|---|---|
 | [ArchiveBox/ArchiveBox](https://github.com/ArchiveBox/ArchiveBox) [🔗](https://archivebox.io) | 🗃 Open source self-hosted web archiving. Takes URLs/browser history/bookmarks/Pocket/Pinboard/etc., saves HTML, JS, PDFs, media, and more... | rss, archivebox, backups, bookmark-archiver, browser-bookmarks, chromium, digipres, firefox, headless-browser, internet-archiving, pinboard, pocket, python, self-hosted, singlefile, warc, wayback-machine, web-archiving, wget, youtube-dl |
 | [DIYgod/RSSHub](https://github.com/DIYgod/RSSHub) [🔗](https://docs.rsshub.app) | 🧡 Everything is RSSible | rss, bilibili, douban, dribbble, instagram, lofter, pixiv, rsshub, spotify, telegram, tiktok, twitter, v2ex, wechat, weibo, ximalaya, youtube, zhihu |
 | [Jackett/Jackett](https://github.com/Jackett/Jackett) | API Support for your favorite torrent trackers | rss, api, couchpotato, duckietv, hacktoberfest, indexer, jackett, lidarr, medusa, mylar3, nefarious, newznab, proxy, radarr, rss-proxy, sickrage, sonarr, torrent, torznab, trackers |
+| [RSSNext/Folo](https://github.com/RSSNext/Folo) [🔗](https://app.folo.is) | 🧡 Folo is the AI RSS Reader | rss, ai, reader, rss-reader, rsshub |
 | [arran4/whirlpool-forum-rss](https://github.com/arran4/whirlpool-forum-rss) | An RSS Generator for the Whirlpool.net.au forums | rss, whirlpool, whirlpool-forums |
 | [dgtlmoon/changedetection.io](https://github.com/dgtlmoon/changedetection.io) [🔗](https://changedetection.io) | Best and simplest tool for website change detection, web page monitoring, and website change alerts. Perfect for tracking content changes, price drops, restock alerts, and website defacement monitoring—all for free or enjoy our SaaS plan! | rss, back-in-stock, change-alert, change-detection, change-monitoring, monitoring, notifications, restock-monitor, self-hosted, url-monitor, web-scraping, website-change-detection, website-change-detector, website-change-monitor, website-change-notification, website-change-tracker, website-defacement-monitoring, website-monitor, website-monitoring, website-watcher |
 | [gugray/rss-parrot](https://github.com/gugray/rss-parrot) [🔗](https://rss-parrot.net) | Notifies Mastodon accounts about new posts in the RSS feeds they follow | rss, activitypub, atom, fediverse, feed-reader, mastodon |
@@ -1634,6 +1381,7 @@ List of starred repositories.
 | [arwes/arwes](https://github.com/arwes/arwes) [🔗](https://arwes.dev) | Futuristic Sci-Fi UI Web Framework. | ui, arwes, cyberprep, framework, gui, react, retrowave, sci-fi, science-fiction, scifi, solarpunk, synthwave |
 | [givanz/VvvebJs](https://github.com/givanz/VvvebJs) [🔗](https://www.vvveb.com/vvvebjs/editor.html) | Drag and drop page builder library written in vanilla javascript without dependencies or build tools. | ui, bootstrap, bootstrap5, builder, drag-and-drop, editor, free, javascript, low-code, no-code, nocode, nodejs, open-source, page-builder, scss, site-generator, vanilla-javascript, website-builder, website-generation, wysiwyg |
 | [nicbarker/clay](https://github.com/nicbarker/clay) [🔗](https://nicbarker.com/clay) | High performance UI layout library in C. | ui, layout |
+| [open-webui/open-webui](https://github.com/open-webui/open-webui) [🔗](https://openwebui.com) | User-friendly AI Interface (Supports Ollama, OpenAI API, ...) | ui, ai, llm, llm-ui, llm-webui, llms, mcp, ollama, ollama-webui, open-webui, openai, openapi, rag, self-hosted, webui |
 | [portainer/portainer](https://github.com/portainer/portainer) [🔗](https://www.portainer.io) | Making Docker and Kubernetes management easy. | ui, docker, docker-compose, docker-container, docker-deployment, docker-image, docker-swarm, docker-ui, dockerfile, hacktoberfest, kubernetes, moby, portainer |
 | [shadcn-ui/ui](https://github.com/shadcn-ui/ui) [🔗](https://ui.shadcn.com) | A set of beautifully-designed, accessible components and a code distribution platform. Works with your favorite frameworks. Open Source. Open Code. | ui, base-ui, components, laravel, nextjs, radix-ui, react, shadcn, tailwindcss, tanstack, vite |
 | [sveltejs/svelte](https://github.com/sveltejs/svelte) [🔗](https://svelte.dev) | web development for the rest of us | ui, compiler, template |
@@ -1643,6 +1391,8 @@ List of starred repositories.
 | Repository | Description | Tags |
 |---|---|---|
 | [AykutSarac/jsoncrack.com](https://github.com/AykutSarac/jsoncrack.com) [🔗](https://jsoncrack.com/) | ✨ Innovative and open-source visualization application that transforms various data formats, such as JSON, YAML, XML and CSV into interactive graphs. | utility, csv, diagrams, graph, json, nextjs, react, visualization, yaml |
+| [GyulyVGC/sniffnet](https://github.com/GyulyVGC/sniffnet) [🔗](https://sniffnet.net) | Comfortably monitor your Internet traffic 🕵️‍♂️ | utility, application, gui, iced, linux, macos, network, network-analysis, network-monitoring, networking, packet-analyser, packet-capture, packet-sniffer, pcap, rust, rust-crate, security, windows |
+| [arran4/send_to_linkwarden](https://github.com/arran4/send_to_linkwarden) [🔗](https://arran4.github.io/send_to_linkwarden/) | Mobile version of Linkwarden | utility, android, archiving, flutter, link, linkwarden, mobile |
 | [christianmalek/vuex-rest-api](https://github.com/christianmalek/vuex-rest-api) [🔗](http://vuex-rest-api.org) | A utility to simplify the use of REST APIs with Vuex | utility, api, axios, hacktoberfest, helper, middleware, rest, vue, vue2, vuex |
 | [jsattler/BetterCapture](https://github.com/jsattler/BetterCapture) [🔗](https://bettercapture.app/) | The macOS screen recorder for the rest of us - always free and open source with a native look and feel  📺 | utility, apple, audiorecorder, hevc, macos, prores, screen-capture, screen-recorder, screenrecorder |
 | [ran-j/PS2Recomp](https://github.com/ran-j/PS2Recomp) | Playstation 2 Static Recompiler & Runtime Tool to make native PC ports | utility, ps2, recompile, reverse-engineering, static-recompilation |
@@ -1652,6 +1402,8 @@ List of starred repositories.
 ### web
 | Repository | Description | Tags |
 |---|---|---|
+| [AUTOMATIC1111/stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui) | Stable Diffusion web UI | web, ai, ai-art, deep-learning, diffusion, gradio, image-generation, image2image, img2img, pytorch, stable-diffusion, text2image, torch, txt2img, unstable, upscaling |
+| [appwrite/appwrite](https://github.com/appwrite/appwrite) [🔗](https://appwrite.io) | Appwrite® - complete cloud infrastructure for your web, mobile and AI apps. Including Auth, Databases, Storage, Functions, Messaging, Hosting, Realtime and more | web, android, appwrite, backend, backend-as-a-service, docker, firebase, flutter, hosting, ios, javascript, nextjs, react, react-native, reactnative, self-hosted, selfhosted, serverless, supabase, swift |
 | [donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer) | Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashcards. | web, design, design-patterns, design-system, development, interview, interview-practice, interview-questions, programming, python, system, web-application, webapp |
 | [eythaann/Seelen-UI](https://github.com/eythaann/Seelen-UI) | The Fully Customizable Desktop Environment for Windows 10/11. | web, app-launcher, desktop-application, dock, finder, multilanguage, seelen, seelen-ui, taskbar, tauri, tauri-app, tiling-window-manager, toolbar, tools, topbar, wallpaper, web-technologies, windows, windows-11 |
 | [go-dev-frame/sponge](https://github.com/go-dev-frame/sponge) [🔗](https://go-sponge.com) | A powerful and easy-to-use Go development framework that enables you to effortlessly build stable, reliable, and high-performance backend services with a "low-code" approach. | web, ai-assistant, ai-generated-code, cloud-native, code-generation, custom-templates, developer-tools, development-framework, gin, go-sponge, grpc, grpc-gateway, low-code, microservice, protobuf, restful-api, sponge |

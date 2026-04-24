@@ -73,22 +73,72 @@ MIN_TAG_COUNT=3
 INTERESTING_TAGS=$(jq -c --argjson synonyms "$SYNONYMS" --argjson min_count "$MIN_TAG_COUNT" '[.[].topics | select(. != null) | [ .[] | if $synonyms[.] then (if ($synonyms[.] | type) == "array" then $synonyms[.][] else $synonyms[.] end) else . end ] | unique | .[]] | group_by(.) | map({tag: .[0], count: length}) | sort_by(-.count) | map(select(.count >= $min_count)) | map(.tag)' "$SORTED")
 
 COMMON_JQ='
+  def calc_score($new_size; $tags_len):
+    if $tags_len == 0 then 10
+    elif $new_size >= 4 and $new_size <= 9 then 100
+    elif $new_size >= 2 and $new_size <= 3 then 50 + $new_size
+    elif $new_size > 9 then 40 - $new_size
+    else 0 end;
+
+  def optimize_groups:
+    until(.changed == false or .iteration >= 20;
+      .changed = false
+      | .iteration = .iteration + 1
+      | .groups = (
+          reduce .items[] as $item ({};
+            .[($item.tags | tojson)] = (.[($item.tags | tojson)] // 0) + 1
+          )
+        )
+      | reduce range(.items | length) as $idx (.;
+          .groups as $g
+          | .items[$idx] as $item
+          | if ($item.tags | length) > 0 and $g[($item.tags | tojson)] == 1 then
+              (
+                [
+                  range($item.tags | length) |
+                  . as $i |
+                  ($item.tags[:$i] + $item.tags[$i+1:]) as $cand_tags |
+                  (($g[($cand_tags | tojson)] // 0) + 1) as $new_size |
+                  {
+                    tags: $cand_tags,
+                    score: calc_score($new_size; $cand_tags | length)
+                  }
+                ]
+                | sort_by([-.score, .tags])
+                | .[0]
+              ) as $best
+              | if $best != null and $best.score > 0 then
+                  .items[$idx].tags = $best.tags
+                  | .groups[($item.tags | tojson)] = (.groups[($item.tags | tojson)] - 1)
+                  | .groups[($best.tags | tojson)] = (.groups[($best.tags | tojson)] // 0) + 1
+                  | .changed = true
+                else
+                  .
+                end
+            else
+              .
+            end
+        )
+    )
+    | .items;
+
   def interesting_tags: $ext_interesting_tags;
   def synonyms: $ext_synonyms;
   def normalize_topics($topics):
     ($topics // []) | [ .[] | if synonyms[.] then (if (synonyms[.] | type) == "array" then synonyms[.][] else synonyms[.] end) else . end ] | unique;
-  def tag_label($topics):
+  def initial_tags($topics):
     normalize_topics($topics) as $all
-    | [ $all[] | select(. as $tag | (interesting_tags | index($tag)) != null) ] as $selected
-    | if ($selected | length) == 0 then null
-      elif ($selected | length) == 1 then $selected[0]
-      else ($selected | sort | join(" + "))
-      end;
-  def grouped_tags($topics):
+    | [ $all[] | select(. as $tag | (interesting_tags | index($tag)) != null) ] | sort;
+  def tag_label($tags):
+    if ($tags | length) == 0 then null
+    elif ($tags | length) == 1 then $tags[0]
+    else ($tags | join(" + "))
+    end;
+  def grouped_tags($topics; $optimized_tags):
     normalize_topics($topics) as $all
     | (reduce $all[] as $tag (
         {selected: [], other: []};
-        if ((interesting_tags | index($tag)) != null) then
+        if (($optimized_tags | index($tag)) != null) then
           .selected += [$tag]
         else
           .other += [$tag]
@@ -107,7 +157,7 @@ jq -r --arg user "$USER" --argjson ext_interesting_tags "$INTERESTING_TAGS" --ar
     "| [" + $repo.name + "](https://github.com/" + $user + "/" + $repo.name + ")"
     + (if $repo.homepage != null and $repo.homepage != "" then " [🔗](" + $repo.homepage + ")" else "" end) + " | "
     + ($repo.description // "") + " | "
-    + (grouped_tags($repo.topics) | join(", ")) + " |";
+    + (grouped_tags($repo.topics; $repo.tags) | join(", ")) + " |";
   def table_for($heading; $repos):
     if ($repos | length) == 0 then null
     else
@@ -117,7 +167,11 @@ jq -r --arg user "$USER" --argjson ext_interesting_tags "$INTERESTING_TAGS" --ar
       + ($repos | map(repo_row(.)) | join("\n"))
       + "\n"
     end;
-  [.[] | {label: tag_label(.topics), name: .name, description: .description, topics: .topics, homepage: .homepage}] as $items
+  {
+    items: [.[] | {name: .name, description: .description, topics: .topics, homepage: .homepage, tags: initial_tags(.topics)}],
+    iteration: 0,
+    changed: true
+  } | optimize_groups | map(.label = tag_label(.tags)) as $items
   | (
       $items
       | map(select(.label != null))
@@ -142,7 +196,7 @@ jq -r --arg user "$USER" --argjson ext_interesting_tags "$INTERESTING_TAGS" --ar
     + (if $repo.homepage != null and $repo.homepage != "" then " [🔗](" + $repo.homepage + ")" else "" end) + " | "
     + ($repo.description // "") + " | "
     + ($repo.license.spdx_id // $repo.license.name // "") + " | "
-    + (grouped_tags($repo.topics) | join(", ")) + " |";
+    + (grouped_tags($repo.topics; $repo.tags) | join(", ")) + " |";
   def table_for_license($heading; $repos):
     if ($repos | length) == 0 then null
     else
@@ -156,7 +210,11 @@ jq -r --arg user "$USER" --argjson ext_interesting_tags "$INTERESTING_TAGS" --ar
     if ($license == null or ($license.spdx_id == null and $license.name == null)) then "No License"
     else ($license.spdx_id // $license.name)
     end;
-  [.[] | {label: license_group(.license), name: .name, description: .description, topics: .topics, homepage: .homepage, license: .license}] as $items
+  {
+    items: [.[] | {label: license_group(.license), name: .name, description: .description, topics: .topics, homepage: .homepage, license: .license, tags: initial_tags(.topics)}],
+    iteration: 0,
+    changed: true
+  } | optimize_groups as $items
   | (
       $items
       | group_by(.label)
@@ -224,7 +282,7 @@ jq -r --argjson ext_interesting_tags "$INTERESTING_TAGS" --argjson ext_synonyms 
     "| [" + ($repo.full_name // $repo.name) + "](" + $repo.html_url + ")"
     + (if $repo.homepage != null and $repo.homepage != "" then " [🔗](" + $repo.homepage + ")" else "" end) + " | "
     + ($repo.description // "") + " | "
-    + (grouped_tags($repo.topics) | join(", ")) + " |";
+    + (grouped_tags($repo.topics; $repo.tags) | join(", ")) + " |";
   def table_for_starred($heading; $repos):
     if ($repos | length) == 0 then null
     else
@@ -234,7 +292,11 @@ jq -r --argjson ext_interesting_tags "$INTERESTING_TAGS" --argjson ext_synonyms 
       + ($repos | map(repo_row_starred(.)) | join("\n"))
       + "\n"
     end;
-  [.[] | {label: tag_label(.topics), name: .name, full_name: .full_name, description: .description, topics: .topics, homepage: .homepage, html_url: .html_url}] as $items
+  {
+    items: [.[] | {name: .name, full_name: .full_name, description: .description, topics: .topics, homepage: .homepage, html_url: .html_url, tags: initial_tags(.topics)}],
+    iteration: 0,
+    changed: true
+  } | optimize_groups | map(.label = tag_label(.tags)) as $items
   | (
       $items
       | map(select(.label != null))

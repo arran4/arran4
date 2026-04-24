@@ -104,7 +104,7 @@ COMMON_JQ='
                     score: calc_score($new_size; $cand_tags | length)
                   }
                 ]
-                | sort_by(-.score, .tags)
+                | sort_by([-.score, .tags])
                 | .[0]
               ) as $best
               | if $best != null and $best.score > 0 then

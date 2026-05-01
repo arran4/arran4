@@ -4,15 +4,54 @@ set -euo pipefail
 USER="arran4"
 
 TMP_DIR=$(mktemp -d)
+
+fetch_github_api() {
+  local url="$1"
+  local accept_header="$2"
+  local output_file="$3"
+
+  echo "Fetching: $url" >&2
+
+  local curl_opts=(
+    -sSL
+    --retry 3
+    --retry-delay 5
+    -H "Accept: $accept_header"
+    -w "%{http_code}"
+  )
+
+  if [ -n "${GITHUB_TOKEN:-}" ]; then
+    curl_opts+=(-H "Authorization: Bearer $GITHUB_TOKEN")
+  fi
+
+  local response_file="$TMP_DIR/curl_response"
+  local http_code
+
+  http_code=$(curl "${curl_opts[@]}" -o "$response_file" "$url")
+  local exit_code=$?
+
+  if [ $exit_code -ne 0 ]; then
+    echo "Error fetching $url (curl exit code $exit_code)" >&2
+    return $exit_code
+  fi
+
+  if [ "$http_code" -ne 200 ]; then
+    echo "Error fetching $url: HTTP status $http_code" >&2
+    echo "Response body:" >&2
+    cat "$response_file" >&2
+    return 22 # Return 22 to match curl -f behavior
+  fi
+
+  mv "$response_file" "$output_file"
+}
+
 PAGE=1
 ALL="$TMP_DIR/all.json"
 : > "$ALL"
 
 while true; do
   PAGE_FILE="$TMP_DIR/page_${PAGE}.json"
-  curl -fsSL \
-    -H "Accept: application/vnd.github.mercy-preview+json" \
-    "https://api.github.com/users/${USER}/repos?per_page=100&page=${PAGE}" > "$PAGE_FILE"
+  fetch_github_api "https://api.github.com/users/${USER}/repos?per_page=100&page=${PAGE}" "application/vnd.github.mercy-preview+json" "$PAGE_FILE"
   COUNT=$(jq 'length' "$PAGE_FILE")
   jq -s 'add' "$ALL" "$PAGE_FILE" > "$ALL.tmp"
   mv "$ALL.tmp" "$ALL"
@@ -260,9 +299,7 @@ ALL_STARRED="$TMP_DIR/all_starred.json"
 
 while true; do
   PAGE_FILE="$TMP_DIR/page_starred_${PAGE}.json"
-  curl -fsSL \
-    -H "Accept: application/vnd.github.v3+json" \
-    "https://api.github.com/users/${USER}/starred?per_page=100&page=${PAGE}" > "$PAGE_FILE"
+  fetch_github_api "https://api.github.com/users/${USER}/starred?per_page=100&page=${PAGE}" "application/vnd.github.v3+json" "$PAGE_FILE"
   COUNT=$(jq 'length' "$PAGE_FILE")
   jq -s 'add' "$ALL_STARRED" "$PAGE_FILE" > "$ALL_STARRED.tmp"
   mv "$ALL_STARRED.tmp" "$ALL_STARRED"

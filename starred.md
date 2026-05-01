@@ -21,7 +21,7 @@ List of starred repositories.
 | [CodeWithCJ/SparkyFitness](https://github.com/CodeWithCJ/SparkyFitness) [🔗](https://codewithcj.github.io/SparkyFitness/) | SparkyFitness: Built for Families. Powered by AI. Track food, fitness, water, and health — together. | ai, artificial-intelligence, fitness, fitness-app, fitness-tracker, health, health-coaching, healthcheck, self-hosted, selfhosted |
 | [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) [🔗](https://www.comfy.org/) | The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. | ai, comfy, comfyui, python, pytorch, stable-diffusion |
 | [FireCubeStudios/Clippy](https://github.com/FireCubeStudios/Clippy) [🔗](https://discord.gg/3WYcKat) | Bring back Clippy on Windows 10/11! | ai, chatgpt, clippy, fluent-design, gpt-3, openai, windows, windows-10, windows-11, winui3 |
-| [IliasHad/edit-mind](https://github.com/IliasHad/edit-mind) [🔗](https://youtu.be/YrVaJ33qmtg) | Local-first Video Knowledge Base. Index your video library with multi-modal analysis (YOLO, DeepFace, Whisper), search semantically via natural language, Docker-ready. | ai, computer-vision, deepface, face-recognition, ml, self-hosted, video-editing, video-indexing, video-processing, videos |
+| [IliasHad/edit-mind](https://github.com/IliasHad/edit-mind) [🔗](https://edit-mind.com) | Local-first Video Knowledge Base. Index your video library with multi-modal analysis (YOLO, DeepFace, Whisper), search semantically via natural language, Docker-ready. | ai, computer-vision, deepface, face-recognition, ml, self-hosted, video-editing, video-indexing, video-processing, videos |
 | [LykosAI/StabilityMatrix](https://github.com/LykosAI/StabilityMatrix) [🔗](https://lykos.ai) | Multi-Platform Package Manager for Stable Diffusion | ai, automatic1111, avalonia, comfyui, dotnet, python, sd-webui, stable-diffusion, text2image |
 | [MbBrainz/ttslab](https://github.com/MbBrainz/ttslab) [🔗](https://ttslab.dev) | TTSLab is THE place to easily test ANY text to text to speech model on your own pc with 0 cost | ai, developer-tools, text-to-speech, tts, voice-assistant, voice-cloning, voice-generation |
 | [MemPalace/mempalace](https://github.com/MemPalace/mempalace) [🔗](http://mempalaceofficial.com/) | The best-benchmarked open-source AI memory system. And it's free. | ai, chromadb, llm, mcp, memory, python |
@@ -1574,6 +1574,7 @@ List of starred repositories.
 | [KDE/kde1-kdebase](https://github.com/KDE/kde1-kdebase) | Historical copy of the base applications module of KDE 1, adapted to compile on modern systems (circa. 2016) |  |
 | [KDE/kde1-kdelibs](https://github.com/KDE/kde1-kdelibs) | Historical copy of the libraries module of KDE 1, adapted to compile on modern systems (circa. 2016) |  |
 | [KDE/kdepim-runtime](https://github.com/KDE/kdepim-runtime) [🔗](https://invent.kde.org/pim/kdepim-runtime) | Akonadi agents and resources |  |
+| [KDE/kdevelop](https://github.com/KDE/kdevelop) [🔗](https://invent.kde.org/kdevelop/kdevelop) | Cross-platform IDE for C, C++, Python, QML/JavaScript and PHP |  |
 | [KDE/kget](https://github.com/KDE/kget) [🔗](https://invent.kde.org/network/kget) | Download Manager |  |
 | [KDE/kmail](https://github.com/KDE/kmail) [🔗](https://invent.kde.org/pim/kmail) | State-of-the-art feature-rich email client that supports many protocols |  |
 | [KDE/konsole](https://github.com/KDE/konsole) [🔗](https://invent.kde.org/utilities/konsole) | Terminal emulator by KDE |  |
@@ -1691,7 +1692,7 @@ List of starred repositories.
 | [Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) [🔗](https://www.theunwindai.com) | 100+ AI Agent & RAG apps you can actually run — clone, customize, ship. | agents, llms, python, rag |
 | [Si7li/Griffith-Voice](https://github.com/Si7li/Griffith-Voice) |  |  |
 | [Sigil-Ebook/PageEdit](https://github.com/Sigil-Ebook/PageEdit) | ePub XHTML Visual Editor |  |
-| [SignLLM/Prompt2Sign](https://github.com/SignLLM/Prompt2Sign) [🔗](https://signllm.github.io) | The Data and Code of Prompt2Sign: A Comprehensive Multilingual Sign Language Dataset. |  |
+| [SignLLM/Prompt2Sign](https://github.com/SignLLM/Prompt2Sign) [🔗](https://signllm.github.io) | [ICCV 2025 CV411y] The Data and Code of Prompt2Sign: A Comprehensive Multilingual Sign Language Dataset. |  |
 | [Smaug6739/Alexandrie](https://github.com/Smaug6739/Alexandrie) [🔗](https://alexandrie-hub.fr) | Self-hosted knowledge base with extended Markdown, Kanban, OIDC/SSO, PWA & offline support. Deploy in one command. | docker, kanban, knowledge-base, markdown, note-taking, notes-app, nuxtjs, pwa, selfhosted, wiki |
 | [SnowCait/nostter](https://github.com/SnowCait/nostter) [🔗](https://nostter.app) | Nostr client for web. | nostr |
 | [SoWeBegin/ToyBattlesHQ](https://github.com/SoWeBegin/ToyBattlesHQ) [🔗](https://toybattles.net) | ToyBattlesHQ serves as the central public repository for the server used by ToyBattles - the first (ever!) open-source server emulator for MicroVolts. | microvolts, mmorpg, multiplayer, multiplayer-game-server, reverse-engineering, security, server |
@@ -2025,6 +2026,7 @@ List of starred repositories.
 | [cttynul/gimpshop-reloaded](https://github.com/cttynul/gimpshop-reloaded) [🔗](https://cttynul.github.io/gimpshop-reloaded) | :pencil2: GIMP mod to make it similiar to Adobe™ product. A reborn of the most popular free Photoshop™ alternative | download, free, gimp, gimp-theme, gimpshop, gimpshop-reloaded, photoshop |
 | [ctwm-wm/ctwm](https://github.com/ctwm-wm/ctwm) [🔗](https://www.ctwm.org/index.html) | The ctwm window manager |  |
 | [cue-lang/cue](https://github.com/cue-lang/cue) [🔗](https://cuelang.org) | The home of the CUE language! Validate and define text-based and dynamic configuration | configuration, data, kubernetes, validation |
+| [cutiepi-io/cutiepi-drivers](https://github.com/cutiepi-io/cutiepi-drivers) [🔗](https://cutiepi.io) | Drivers for the CutiePi tablet  |  |
 | [cutiepi-io/pi-gen_stage4.5-cutiepi](https://github.com/cutiepi-io/pi-gen_stage4.5-cutiepi) | Stage folder for building CutiePi image with pi-gen |  |
 | [cznic/ql](https://github.com/cznic/ql) [🔗](https://godoc.org/modernc.org/ql) | github.com/cznic/ql has moved to modernc.org/ql |  |
 | [d07RiV/diabloweb](https://github.com/d07RiV/diabloweb) | Diablo 1 for web browsers |  |
@@ -2145,7 +2147,7 @@ List of starred repositories.
 | [emersion/go-smtp](https://github.com/emersion/go-smtp) | 📤 An SMTP library for Go clients and servers | client, esmtp, lmtp, mail, server, smtp |
 | [en-wl/wordlist](https://github.com/en-wl/wordlist) [🔗](https://wordlist.aspell.net) | English Speller Database |  |
 | [encharm/libsystemtray](https://github.com/encharm/libsystemtray) | Library for creating system tray icons in Plasma5, other backends are welcome as pull requests |  |
-| [encodeous/nylon](https://github.com/encodeous/nylon) [🔗](https://jq.ax/nylon) | Dynamic Routing on WireGuard for everyone | distributed-networking, overlay-network, routing, vpn, wireguard |
+| [encodeous/nylon](https://github.com/encodeous/nylon) [🔗](https://nylon.jq.ax) | Performant, secure, and reliable mesh networking made easy. | distributed-networking, overlay-network, routing, vpn, wireguard |
 | [endojs/Jessie](https://github.com/endojs/Jessie) | Tiny subset of JavaScript for ocap-safe universal mobile code |  |
 | [eneam/mboxviewer](https://github.com/eneam/mboxviewer) | A small but powerfull app for viewing MBOX files |  |
 | [enjector/microgpt-c](https://github.com/enjector/microgpt-c) | Zero-dependency C99 GPT-2 engine for edge AI. Sub-1M parameter models train on-device in seconds. Organelle Pipeline Architecture (OPA) coordinates specialised micro-models — 91% win rates on 11 logic games with 30K–160K parameters. Composition beats capacity. |  |

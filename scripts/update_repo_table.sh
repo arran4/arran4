@@ -4,6 +4,7 @@ set -euo pipefail
 USER="arran4"
 
 TMP_DIR=$(mktemp -d)
+trap 'rm -rf "$TMP_DIR"' EXIT
 
 fetch_github_api() {
   local url="$1"
@@ -27,10 +28,8 @@ fetch_github_api() {
   local response_file="$TMP_DIR/curl_response"
   local http_code
 
-  http_code=$(curl "${curl_opts[@]}" -o "$response_file" "$url")
-  local exit_code=$?
-
-  if [ $exit_code -ne 0 ]; then
+  if ! http_code=$(curl "${curl_opts[@]}" -o "$response_file" "$url"); then
+    local exit_code=$?
     echo "Error fetching $url (curl exit code $exit_code)" >&2
     return $exit_code
   fi
@@ -367,5 +366,3 @@ $0==start{print;for(i=1;i<=length(lines);i++)print lines[i];skip=1;next}
 $0==end{skip=0;print;next}
 !skip{print}
 ' "$STARRED_TABLE" "$STARRED_MD" > "$STARRED_MD.tmp" && mv "$STARRED_MD.tmp" "$STARRED_MD"
-
-rm -rf "$TMP_DIR"

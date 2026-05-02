@@ -1817,6 +1817,7 @@ List of starred repositories.
 | [antoniandre/vue-cal-v4](https://github.com/antoniandre/vue-cal-v4) [🔗](https://antoniandre.github.io/vue-cal-v4/) | A Vue.js full calendar, no dependency, no BS. :metal: | vue, vue3 |
 | [antony-jr/spirit](https://github.com/antony-jr/spirit) [🔗](https://antonyjr.in/spirit) | The Twenty First Century Window Sitter. |  |
 | [anuraghazra/github-readme-stats](https://github.com/anuraghazra/github-readme-stats) [🔗](https://github-readme-stats.vercel.app) | :zap: Dynamically generated stats for your github readmes | dynamic, profile-readme, readme-generator, readme-stats, serverless |
+| [anyc/steam-overlay](https://github.com/anyc/steam-overlay) | Gentoo overlay for Valve's Steam client and Steam-based games |  |
 | [anycable/anycable](https://github.com/anycable/anycable) [🔗](https://anycable.io) | Realtime server for reliable two-way communication to power-up any backend | realtime, sse, websockets |
 | [anyproto/any-store](https://github.com/anyproto/any-store) |  |  |
 | [anyproto/any-sync](https://github.com/anyproto/any-sync) [🔗](https://anytype.io/) | An open-source protocol enabling high-performance, local-first, peer-to-peer, end-to-end encrypted collaborative apps. | anytype, e2ee, local-first, p2p, performance, privacy, protocol |

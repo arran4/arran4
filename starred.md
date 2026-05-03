@@ -1060,6 +1060,7 @@ List of starred repositories.
 | [pocketbase/pocketbase](https://github.com/pocketbase/pocketbase) [🔗](https://pocketbase.io) | Open Source realtime backend in 1 file | go, authentication, backend, realtime |
 | [probonopd/go-appimage](https://github.com/probonopd/go-appimage) | Go implementation of AppImage tools | go, appimage, hacktoberfest |
 | [psilva261/mycel](https://github.com/psilva261/mycel) | Rudimentary web browser written in Golang | go, plan9, web-browser |
+| [qdm12/ddns-updater](https://github.com/qdm12/ddns-updater) [🔗](https://hub.docker.com/r/qmcgaw/ddns-updater/) | Container to update DNS records periodically with WebUI for many DNS providers | go, cloudflare, ddns, ddns-client, ddns-manager, ddns-updater, ddnss, dnspod, docker, dreamhost, duckdns, dynamic-dns, dyndns, godaddy, gotify, infomaniak, namecheap, noip, webui |
 | [qmuntal/stateless](https://github.com/qmuntal/stateless) [🔗](https://wikipedia.org/wiki/Finite-state_machine) | Go library for creating finite state machines | go, dot-graph, fsm, state-diagram, state-machine, statechart |
 | [qpliu/qrencode-go](https://github.com/qpliu/qrencode-go) | QR encoder in Go | go, qr-code, qr-generator |
 | [quic-go/quic-go](https://github.com/quic-go/quic-go) [🔗](https://quic-go.net) | A production-ready QUIC implementation in pure Go | go, http3, protocol, qlog, quic, quic-client, quic-server |
@@ -1571,13 +1572,16 @@ List of starred repositories.
 | [KDE/dolphin](https://github.com/KDE/dolphin) [🔗](https://invent.kde.org/system/dolphin) | File manager by KDE |  |
 | [KDE/haruna](https://github.com/KDE/haruna) [🔗](https://invent.kde.org/multimedia/haruna) | Open source video player built with Qt/QML and libmpv. |  |
 | [KDE/kalarm](https://github.com/KDE/kalarm) [🔗](https://invent.kde.org/pim/kalarm) | Application to manage alarms and other timer-based alerts on the desktop |  |
+| [KDE/kbackup](https://github.com/KDE/kbackup) [🔗](https://invent.kde.org/utilities/kbackup) | Backup program with an easy-to-use interface |  |
 | [KDE/kde1-kdebase](https://github.com/KDE/kde1-kdebase) | Historical copy of the base applications module of KDE 1, adapted to compile on modern systems (circa. 2016) |  |
 | [KDE/kde1-kdelibs](https://github.com/KDE/kde1-kdelibs) | Historical copy of the libraries module of KDE 1, adapted to compile on modern systems (circa. 2016) |  |
 | [KDE/kdepim-runtime](https://github.com/KDE/kdepim-runtime) [🔗](https://invent.kde.org/pim/kdepim-runtime) | Akonadi agents and resources |  |
 | [KDE/kdevelop](https://github.com/KDE/kdevelop) [🔗](https://invent.kde.org/kdevelop/kdevelop) | Cross-platform IDE for C, C++, Python, QML/JavaScript and PHP |  |
 | [KDE/kget](https://github.com/KDE/kget) [🔗](https://invent.kde.org/network/kget) | Download Manager |  |
 | [KDE/kmail](https://github.com/KDE/kmail) [🔗](https://invent.kde.org/pim/kmail) | State-of-the-art feature-rich email client that supports many protocols |  |
+| [KDE/konlineaccounts](https://github.com/KDE/konlineaccounts) [🔗](https://invent.kde.org/system/konlineaccounts) | KOnlineAccounts is a system service to allow applications to obtain information about system-wide logged in accounts |  |
 | [KDE/konsole](https://github.com/KDE/konsole) [🔗](https://invent.kde.org/utilities/konsole) | Terminal emulator by KDE |  |
+| [KDE/kup](https://github.com/KDE/kup) [🔗](https://invent.kde.org/system/kup) | Backup scheduler for the Plasma desktop |  |
 | [KDE/kweather](https://github.com/KDE/kweather) [🔗](https://invent.kde.org/utilities/kweather) | Weather application for Plasma Mobile |  |
 | [KDE/marknote](https://github.com/KDE/marknote) [🔗](https://invent.kde.org/office/marknote) | A simple markdown note management app |  |
 | [KDE/qt1](https://github.com/KDE/qt1) | Historical copy of Qt 1, adapted to compile on modern systems (circa. 2016) |  |
@@ -2395,6 +2399,7 @@ List of starred repositories.
 | [itchyny/go2bf](https://github.com/itchyny/go2bf) | Compile Go to Brainfuck! | brainfuck |
 | [itlightning/dateparse](https://github.com/itlightning/dateparse) | GoLang Parse many date strings without knowing format in advance. |  |
 | [itome/flx](https://github.com/itome/flx) |  |  |
+| [itsc0c0/flipsay](https://github.com/itsc0c0/flipsay) | Turn your flipper into an mini SDR! |  |
 | [iv-org/invidious](https://github.com/iv-org/invidious) [🔗](https://invidious.io) | Invidious is an alternative front-end to YouTube | agplv3, hacktoberfest, invidious, libre, video, watch, youtube, youtube-video |
 | [j-evins/glabels-qt](https://github.com/j-evins/glabels-qt) [🔗](https://glabels.org) | gLabels Label Designer (Qt/C++) | barcodes, business-card, c-plus-plus, cards, glabels, labels, printing, qt |
 | [jakecoffman/cp](https://github.com/jakecoffman/cp) [🔗](https://chipmunk-physics.net) | A pure Go physics library with no dependencies. Unofficial Chipmunk2D port. | chipmunk2d, physics, physics-2d |
@@ -2856,6 +2861,7 @@ List of starred repositories.
 | [ptsouchlos/modern-cv](https://github.com/ptsouchlos/modern-cv) [🔗](https://typst.app/universe/package/modern-cv) | A modern resume template written in Typst, inspired by Awesome-CV | awesome-cv, clean, cover-letter, cover-letter-template, cover-letter-templates, cv, modern, resume, resume-template, resume-templates, typst, typst-cv, typst-template |
 | [pushtell/react-bootstrap-date-picker](https://github.com/pushtell/react-bootstrap-date-picker) | React-Bootstrap based date picker. |  |
 | [qarmin/czkawka](https://github.com/qarmin/czkawka) | Multi functional app to find duplicates, empty folders, similar images etc. | cleaner, duplicates, multiplatform, optimization, optimizer, rust, similar-images, similar-music, similar-videos |
+| [qiaeru/couplecards](https://github.com/qiaeru/couplecards) [🔗](https://couplecards.qiaeru.com) | A self-hosted web app that lets couples draw activity cards to break the routine and spice up their daily lives. | couples, docker, docker-compose, fastify, pwa, self-hosted |
 | [quantumaikr/quant.cpp](https://github.com/quantumaikr/quant.cpp) | LLM inference with 7x longer context. Pure C, zero dependencies. Lossless KV cache compression + single-header library. | delta-compression, embeddable, gguf, kv-cache, llm, llm-inference, pure-c, quantization, transformer, turboquant |
 | [quirkey/sammy](https://github.com/quirkey/sammy) [🔗](http://sammyjs.org) | Sammy is a tiny javascript framework built on top of jQuery, It's RESTful Evented Javascript. |  |
 | [qwibitai/nanoclaw](https://github.com/qwibitai/nanoclaw) [🔗](https://nanoclaw.dev) | A lightweight alternative to OpenClaw that runs in containers for security. Connects to WhatsApp, Telegram, Slack, Discord, Gmail and other messaging apps,, has memory, scheduled jobs, and runs directly on Anthropic's Agents SDK | ai-agents, ai-assistant, claude-code, claude-skills, openclaw |

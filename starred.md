@@ -1814,11 +1814,13 @@ List of starred repositories.
 | [andrii-kryvoviaz/slink](https://github.com/andrii-kryvoviaz/slink) [🔗](https://docs.slinkapp.io) | Self-hosted image sharing service | gallery, hosting, images, self-hosted, share-image |
 | [android-password-store/Android-Password-Store](https://github.com/android-password-store/Android-Password-Store) [🔗](https://passwordstore.app) | Android application compatible with ZX2C4's Pass command line application | android, hacktoberfest, openpgp, password-generator, password-manager, password-store |
 | [andybalholm/brotli](https://github.com/andybalholm/brotli) | Pure Go Brotli encoder and decoder |  |
+| [animetosho/animetosho-setup](https://github.com/animetosho/animetosho-setup) | Anime Tosho server setup scripts |  |
 | [anomalyco/openauth](https://github.com/anomalyco/openauth) [🔗](https://openauth.js.org) | ▦ Universal, standards-based auth provider. |  |
 | [anomalyco/opencode](https://github.com/anomalyco/opencode) [🔗](https://opencode.ai) | The open source coding agent. |  |
 | [anomalyco/sst](https://github.com/anomalyco/sst) [🔗](https://sst.dev) | Build full-stack apps on your own infrastructure. |  |
 | [anthon38/gmailfeed](https://github.com/anthon38/gmailfeed) | Plasma 6 plasmoid showing your Gmail feed |  |
 | [anthwri/GeoJson-Data](https://github.com/anthwri/GeoJson-Data) | GeoJson Data for Australia |  |
+| [antirez/ds4](https://github.com/antirez/ds4) | DeepSeek 4 Flash local inference engine for Metal |  |
 | [antlafarge/jdownloader](https://github.com/antlafarge/jdownloader) [🔗](https://hub.docker.com/r/antlafarge/jdownloader) | Docker JDownloader 2 headless image (multi-arch) with automatic update. | alpine, bash, docker, docker-container, java, jdownloader, jre, myjdownloader, openjdk, shell, ubuntu |
 | [antoniandre/vue-cal-v4](https://github.com/antoniandre/vue-cal-v4) [🔗](https://antoniandre.github.io/vue-cal-v4/) | A Vue.js full calendar, no dependency, no BS. :metal: | vue, vue3 |
 | [antony-jr/spirit](https://github.com/antony-jr/spirit) [🔗](https://antonyjr.in/spirit) | The Twenty First Century Window Sitter. |  |
@@ -2820,7 +2822,7 @@ List of starred repositories.
 | [passbolt/passbolt_api](https://github.com/passbolt/passbolt_api) [🔗](https://passbolt.com) | Passbolt Community Edition (CE) API. The JSON API for the open source password manager for teams! | cakephp, cakephp5, credentials, passbolt, password, password-manager, php, productivity, security |
 | [paulproteus/ccd2iso-debian](https://github.com/paulproteus/ccd2iso-debian) | git-buildpackage repo for ccd2iso |  |
 | [pawelmalak/flame](https://github.com/pawelmalak/flame) | Flame is self-hosted startpage for your server. Easily manage your apps and bookmarks with built-in editors. | homepage, self-hosted, startpage |
-| [pawelsalawa/sqlitestudio](https://github.com/pawelsalawa/sqlitestudio) [🔗](https://sqlitestudio.pl) | A free, open source, multi-platform SQLite database manager. | cpp, database, database-management, qt, qt5, sqlcipher, sqlite, sqlite3-database, wxsqlite3 |
+| [pawelsalawa/letos](https://github.com/pawelsalawa/letos) [🔗](https://sqlitestudio.pl) | A free, open source, multi-platform SQLite database manager. | cpp, database, database-management, qt, qt5, sqlcipher, sqlite, sqlite3-database, wxsqlite3 |
 | [pbek/QOwnNotes](https://github.com/pbek/QOwnNotes) [🔗](https://www.qownnotes.org/) | QOwnNotes is a plain-text file notepad and todo-list manager with Markdown support and Nextcloud / ownCloud integration. | bookmark, c-plus-plus, caldav, chrome-extension, dropbox, firefox-extension, llm, local-first, markdown, nextcloud, nextcloud-notes, note-taking, notebook, notes, owncloud, pim, pkm, qownnotes, qt, second-brain |
 | [pdet/Scrooge-McDuck](https://github.com/pdet/Scrooge-McDuck) |  |  |
 | [peazip/PeaZip](https://github.com/peazip/PeaZip) [🔗](https://peazip.github.io) | Free Zip / Unzip software and Rar file extractor. Cross-platform file and archive manager. Features volume spanning, compression, authenticated encryption. Supports 7Z, 7-Zip sfx, ACE, ARJ, Brotli, BZ2, CAB, CHM, CPIO, DEB, GZ, ISO, JAR, LHA/LZH, NSIS, OOo, PAQ/LPAQ, PEA, QUAD, RAR, RPM, split, TAR, Z, ZIP, ZIPX, Zstandard. | archiver, brotli, compression, encryption, extractor, paq, peazip, rar, zip, zstandard |
@@ -3022,7 +3024,7 @@ List of starred repositories.
 | [starship/starship](https://github.com/starship/starship) [🔗](https://starship.rs) | ☄🌌️  The minimal, blazing-fast, and infinitely customizable prompt for any shell! | bash, fish, fish-prompt, fish-theme, oh-my-zsh, powershell, rust, shell-prompt, starship, zsh, zsh-prompt, zsh-theme |
 | [stoatchat/for-desktop](https://github.com/stoatchat/for-desktop) [🔗](https://stoat.chat) | Stoat for Desktop – application for Windows, macOS, and Linux |  |
 | [stoatchat/for-web](https://github.com/stoatchat/for-web) [🔗](https://stoat.chat/app) | Stoat for Web – browser app for Stoat | stoat, stoat-chat, stoat-client, stoatchat |
-| [stoatchat/stoatchat](https://github.com/stoatchat/stoatchat) [🔗](https://developers.revolt.chat/api/) | The software powering Stoat | api, mongodb, redis, revolt, revolt-chat, revoltchat, rust, stoat, stoat-chat, stoatchat |
+| [stoatchat/stoatchat](https://github.com/stoatchat/stoatchat) [🔗](https://developers.stoat.chat/) | The software powering Stoat | api, mongodb, redis, revolt, revolt-chat, revoltchat, rust, stoat, stoat-chat, stoatchat |
 | [stolowski/QComicBook](https://github.com/stolowski/QComicBook) [🔗](https://github.com/stolowski/QComicBook) | Viewer for comic book archives that aims at convenience and simplicity |  |
 | [streamich/json-joy](https://github.com/streamich/json-joy) [🔗](https://jsonjoy.com/libs/json-joy-js) | json-joy is a library that implements cutting-edge real-time and collaborative editing algorithms and utilities for JSON data models, with a focus on developing the JSON CRDT (Conflict-free Replicated Data Type) specification and implementation. | cbor, collaboration, collaborative, collaborative-editing, crdt, json, json-crdt-patch, json-random, local-first, messagepack, multiplayer, offline, operational-transformation, p2p, patch, reactive, realtime, rpc, schema, ubjson |
 | [stylearcade/zaw](https://github.com/stylearcade/zaw) | Zero Allocation WASM |  |

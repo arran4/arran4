@@ -134,13 +134,14 @@ List of repositories and their licenses.
 | Repository | Description | License | Tags |
 |---|---|---|---|
 | [blog](https://github.com/arran4/blog) [🔗](https://arran4.github.io/blog/) | Github pages blog | NOASSERTION | hugo, blog |
-| [pimtrace](https://github.com/arran4/pimtrace) | A CLI tool for preforming queries on ical, maildir, mbox and csv files | NOASSERTION | cli + utility, csv, ical, query |
+| [pimtrace](https://github.com/arran4/pimtrace) | A CLI tool for preforming queries on ical, maildir, mbox and csv files | NOASSERTION | cli, csv, ical, query, utility |
 | [resume](https://github.com/arran4/resume) | Arrans Resume | NOASSERTION | cv, resume, typst |
 
 ### No License
 | Repository | Description | License | Tags |
 |---|---|---|---|
 | [flutter_jules](https://github.com/arran4/flutter_jules) | My flutter based google jules client  |  | ai + flutter + linux + utility, app, google-jules, jules, macos, windows |
+| [personal-splitwise-helper-scripts](https://github.com/arran4/personal-splitwise-helper-scripts) | Splitwise TUI and CLI interface |  | cli, helper, splitwise, tui |
 
 ### Unlicense
 | Repository | Description | License | Tags |

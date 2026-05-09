@@ -310,6 +310,7 @@ List of starred repositories.
 | [antfu-collective/ni](https://github.com/antfu-collective/ni) | 💡 Use the right package manager | cli, npm, package-manager, pnpm, yarn |
 | [arran4/anytype-to-linkwarden](https://github.com/arran4/anytype-to-linkwarden) | Simple application for migrating AnyType bookmarks to Linkwarden | cli, anytype, linkwarden, migration |
 | [arran4/mvcommon](https://github.com/arran4/mvcommon) | Tool for moving files into a folder where they have a common prefix | cli, mv, smart-tools |
+| [arran4/personal-splitwise-helper-scripts](https://github.com/arran4/personal-splitwise-helper-scripts) | Splitwise TUI and CLI interface | cli, helper, splitwise, tui |
 | [bcicen/ctop](https://github.com/bcicen/ctop) [🔗](https://ctop.sh) | Top-like interface for container metrics | cli, commandline, containers, docker, monitoring, runc, top |
 | [beetbox/beets](https://github.com/beetbox/beets) [🔗](http://beets.io/) | music library manager and MusicBrainz tagger | cli, hacktoberfest, music, music-library, musicbrainz, python |
 | [charmbracelet/vhs](https://github.com/charmbracelet/vhs) | Your CLI home video recorder 📼 | cli, ascii, gif, recording, terminal, vhs, video |
@@ -668,7 +669,7 @@ List of starred repositories.
 | Repository | Description | Tags |
 |---|---|---|
 | [FullScreenShenanigans/FullScreenPokemon](https://github.com/FullScreenShenanigans/FullScreenPokemon) | A free HTML5 remake of the original Pokemon, expanded for modern browsing. | game, fullscreenmario, gamestartr, html5-remake, javascript, pokemon, typescript |
-| [LostArtefacts/TRX](https://github.com/LostArtefacts/TRX) [🔗](https://lostartefacts.dev/) | Open source re-implementation of Tomb Raider I and Tomb Raider II, along with additional enhancements and bugfixes | game, game-modding, reverse-engineering, tomb-raider |
+| [LostArtefacts/TRX](https://github.com/LostArtefacts/TRX) [🔗](https://lostartefacts.dev/) | Open source re-implementation of Tomb Raider I, Tomb Raider II and Tomb Raider III, along with additional enhancements and bugfixes | game, game-modding, reverse-engineering, tomb-raider |
 | [Quasolaris/Hacked-for-Nuclear-War](https://github.com/Quasolaris/Hacked-for-Nuclear-War) [🔗](https://quasolaris.tech/) | Hacked for Nuclear war is a little game written in Bash, that makes you investigate simple logs in search for Indicators of Compromise (IoC) that you get from the MITRE | ATT&CK collection.  | game, bash, forensics, nuclear, submarine |
 | [TombEngine/TombEngine](https://github.com/TombEngine/TombEngine) [🔗](https://tombengine.com) | A new and modern engine for custom Tomb Raider levels incorporating classic features and new enhancements.  | game, game-engine, tomb-raider, tombraider, trle |
 | [alexbatalov/fallout1-ce](https://github.com/alexbatalov/fallout1-ce) | Fallout for modern operating systems | game, c-plus-plus, fallout, isometric |
@@ -781,7 +782,7 @@ List of starred repositories.
 | [Tanq16/backhub](https://github.com/Tanq16/backhub) | Backhub helps maintain backups of multiple GitHub repos as full local mirrors. | github + go, automation, backup, backup-utility, git, git-mirror, github-backup, homelab, repository-backup, self-hosted, self-hosting |
 | [arran4/gobookmarks](https://github.com/arran4/gobookmarks) | Landing page for when you open browsers / live bookmarks in go. | github + go, bookmarks, github-api, home-page, homepage, live-bookmarks, start-page, startpage, web |
 | [github/git-sizer](https://github.com/github/git-sizer) | Compute various size metrics for a Git repository, flagging those that might cause problems | github + go, git |
-| [google/go-github](https://github.com/google/go-github) [🔗](https://pkg.go.dev/github.com/google/go-github/v85/github) | Go library for accessing the GitHub v3 API | github + go, github-api, hacktoberfest |
+| [google/go-github](https://github.com/google/go-github) [🔗](https://pkg.go.dev/github.com/google/go-github/v86/github) | Go library for accessing the GitHub v3 API | github + go, github-api, hacktoberfest |
 
 ### github + kde + ui
 | Repository | Description | Tags |
@@ -1035,6 +1036,7 @@ List of starred repositories.
 | [moovweb/gvm](https://github.com/moovweb/gvm) [🔗](http://github.com/moovweb/gvm) | Go Version Manager | go, dependency-manager |
 | [msteinert/pam](https://github.com/msteinert/pam) [🔗](http://godoc.org/github.com/msteinert/pam) | Go wrapper module for the Pluggable Authentication Modules (PAM) API | go, authentication, pam |
 | [mvdan/sh](https://github.com/mvdan/sh) [🔗](https://pkg.go.dev/mvdan.cc/sh/v3) | A shell parser, formatter, and interpreter with bash and zsh support; includes shfmt | go, bash, beautify, formatter, interpreter, mksh, parser, posix, shell, shfmt, zsh |
+| [mvm-sh/mvm](https://github.com/mvm-sh/mvm) [🔗](https://mvm.sh) | Mvm is a fast interpreter and virtual machine for Go and beyond. | go, interpreter, mvm, vm |
 | [nafey/minimalytics](https://github.com/nafey/minimalytics) [🔗](https://minimalytics.app/) | Standalone analytics app in a CLI  | go, analytics, sqlite |
 | [nalgeon/chans](https://github.com/nalgeon/chans) [🔗](https://pkg.go.dev/github.com/nalgeon/chans) | Building blocks for idiomatic Go pipelines | go, channels, concurrency, pipelines |
 | [nao1215/filesql](https://github.com/nao1215/filesql) | sql driver for CSV, TSV, LTSV, JSON, Parquet, Excel with gzip, bzip2, xz, zstd support. | go, ach, bzip2, csv, excel, fedwire, gzip, json, ltsv, parquet, sql, sql-driver, sql-query, sqlite3, tsv, xz, zstd |
@@ -1764,6 +1766,7 @@ List of starred repositories.
 | [Zebradil/cloudflare-dynamic-dns](https://github.com/Zebradil/cloudflare-dynamic-dns) | Dynamic DNS client for Cloudflare with IPv6/IPv4 support | cloudflare, dns, dynamic-dns, dynamic-dns-client, systemd-timer |
 | [ZephrFish/WindowsHardeningScript](https://github.com/ZephrFish/WindowsHardeningScript) | Some settings stolen from multiple scripts @ZephrFish |  |
 | [ZeroQI/Absolute-Series-Scanner](https://github.com/ZeroQI/Absolute-Series-Scanner) | Seasons, absolute mode, Subfolders... |  |
+| [Zetaphor/whatcable-linux](https://github.com/Zetaphor/whatcable-linux) | A linux/KDE port of whatcable, a tool to tell you what each USB connected cable can do |  |
 | [Zipstack/unstract](https://github.com/Zipstack/unstract) [🔗](https://unstract.com) | LLM-Driven Extraction of Unstructured Data — Built for API Deployments & ETL Pipeline Workflows | api-deployments, data-extraction, document-processing, etl-pipelines, open-source-data-pipeline, unstructured-data-extraction |
 | [ZitaoTech/Hackberry-Pi_Zero](https://github.com/ZitaoTech/Hackberry-Pi_Zero) | A handheld Linux terminal using Raspberry pi Zero 2W as Core with 4" 720X720 TFT display |  |
 | [ZoneMinder/zoneminder](https://github.com/ZoneMinder/zoneminder) [🔗](http://www.zoneminder.com/) | ZoneMinder is a free, open source Closed-circuit television software application developed for Linux which supports IP, USB and Analog cameras.  | cctv, distributed, h264, h265, scalable, video, vms, zmninja, zoneminder |
@@ -1841,6 +1844,7 @@ List of starred repositories.
 | [arakiken/mlterm](https://github.com/arakiken/mlterm) |  |  |
 | [arasatasaygin/openlogos](https://github.com/arasatasaygin/openlogos) [🔗](http://openlogos.org) | Free logos for open source projects |  |
 | [arcee-ai/mergekit](https://github.com/arcee-ai/mergekit) | Tools for merging pretrained large language models. | llama, llm, model-merging |
+| [architecture-decision-record/architecture-decision-record](https://github.com/architecture-decision-record/architecture-decision-record) | Architecture decision record (ADR) examples for software planning, IT leadership, and template documentation | adr, architecture-decision-record, decision-record, decisions, documentation, project-management, teamwork, tutorial |
 | [ardanlabs/kronk](https://github.com/ardanlabs/kronk) | Your personal engine for running open source models locally. Use Go for hardware accelerated local inference with llama.cpp directly integrated into your Go applications via the yzma module. Kronk provides a high-level API that feels similar to using an OpenAI compatible API. Kronk also provides a model server to run local work |  |
 | [aretext/aretext](https://github.com/aretext/aretext) [🔗](https://aretext.org) | Minimalist text editor with vim-compatible key bindings. | code-editor, minimalist, modal-editing, syntax-highlighting, terminal-based, text-editor, tui, vim |
 | [areweguiyet/areweguiyet](https://github.com/areweguiyet/areweguiyet) [🔗](http://areweguiyet.com) | A website built for the Rust community |  |
@@ -1966,6 +1970,7 @@ List of starred repositories.
 | [casey/just](https://github.com/casey/just) [🔗](https://just.systems) | 🤖 Just a command runner |  |
 | [caseymrm/menuet](https://github.com/caseymrm/menuet) | Go library to create menubar apps- programs that live only in OSX's NSStatusBar |  |
 | [caseyryan/flutter_multi_formatter](https://github.com/caseyryan/flutter_multi_formatter) [🔗](https://pub.dev/packages/flutter_multi_formatter) | A set of formatters for text and input fields. Not only it can format a phone number but also automatically detect a country dial code and the name of the country. It also can apply formatting for currencies e.g. you need to convert 100000 into a USD currency value representation. Add MoneyInputFormatter and you can get it e.g. like: $100,000.00 right on the fly or whatever you need. Just see the example of usage |  |
+| [cashapp/hermit](https://github.com/cashapp/hermit) [🔗](https://cashapp.github.io/hermit) | 🐚 Hermit manages isolated, self-bootstrapping sets of tools in software projects. | hermetic, installer, package-manager |
 | [casteng/i-pascal](https://github.com/casteng/i-pascal) | A free Object Pascal language plugin for IntelliJ IDEA  | ast, completion, delphi, fpc, ide, intellij, parser, pascal, syntax-highlighting |
 | [caydey/ffshare](https://github.com/caydey/ffshare) | An android app to compress image, video and audio files through ffmpeg before sharing them | android, android-app, fdroid, ffmpeg, ffmpeg-kit, kotlin |
 | [cblgh/cerca](https://github.com/cblgh/cerca) [🔗](https://cblgh.org/cerca) | lean forum software |  |
@@ -2256,6 +2261,8 @@ List of starred repositories.
 | [gentoo/api-gentoo-org](https://github.com/gentoo/api-gentoo-org) [🔗](https://gitweb.gentoo.org/data/api.git) | [MIRROR] Seed data for api.gentoo.org | hacktoberfest |
 | [gentoo/guru](https://github.com/gentoo/guru) [🔗](https://gitweb.gentoo.org/repo/proj/guru.git) | [MIRROR] GURU: repository of new packages maintained collaboratively by users | hacktoberfest |
 | [gentoo/java-ebuilder](https://github.com/gentoo/java-ebuilder) [🔗](https://gitweb.gentoo.org/proj/java-ebuilder.git) | [MIRROR] Java team tool for semi-automatic creation of ebuilds from pom.xml | hacktoberfest |
+| [gershwin-desktop/gershwin-desktop](https://github.com/gershwin-desktop/gershwin-desktop) | Desktop Environment based on GNUstep welcoming to switchers |  |
+| [gershwin-desktop/gershwin-developer](https://github.com/gershwin-desktop/gershwin-developer) |  |  |
 | [getguesstimate/guesstimate-app](https://github.com/getguesstimate/guesstimate-app) [🔗](http://getguesstimate.com/) | Create Fermi Estimates and Perform Monte Carlo Estimates |  |
 | [getlantern/systray](https://github.com/getlantern/systray) | a cross platfrom Go library to place an icon and menu in the notification area |  |
 | [getmango/Mango](https://github.com/getmango/Mango) [🔗](https://getmango.app) | Mango is a self-hosted manga server and web reader | crystal, crystal-lang, manga, manga-reader, manga-server, mangadex, self-hosted, web-application |
@@ -2435,7 +2442,6 @@ List of starred repositories.
 | [jimaek/geolocation-tool](https://github.com/jimaek/geolocation-tool) | Geo locate any IP to a physical location using latency | geoip, globalping, iplookup |
 | [jj-vcs/jj](https://github.com/jj-vcs/jj) [🔗](https://jj-vcs.dev) | A Git-compatible VCS that is both simple and powerful |  |
 | [jmlago/subzeroclaw](https://github.com/jmlago/subzeroclaw) |  |  |
-| [joelparkerhenderson/architecture-decision-record](https://github.com/joelparkerhenderson/architecture-decision-record) | Architecture decision record (ADR) examples for software planning, IT leadership, and template documentation | adr, architecture-decision-record, decision-record, decisions, documentation, project-management, teamwork, tutorial |
 | [joelparkerhenderson/github-special-files-and-paths](https://github.com/joelparkerhenderson/github-special-files-and-paths) | GitHub special files and paths, such as README, LICENSE, .github, docs, dependabot, workflows. |  |
 | [joewalnes/websocketd](https://github.com/joewalnes/websocketd) [🔗](http://websocketd.com/) | Turn any program that uses STDIN/STDOUT into a WebSocket server. Like inetd, but for WebSockets.  | proxy, websocket-server, websockets |
 | [johnculviner/jquery.fileDownload](https://github.com/johnculviner/jquery.fileDownload) [🔗](http://johnculviner.com/post/2012/03/22/Ajax-like-feature-rich-file-downloads-with-jQuery-File-Download.aspx) | jQuery File Download is a cross server platform compatible jQuery plugin that allows for an Ajax-like file download experience that isn’t normally possible using the web. |  |

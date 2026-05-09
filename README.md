@@ -63,6 +63,13 @@ Have questions or feedback? [Open an issue](https://github.com/arran4/arran4/iss
 | [git-barcode-sheet](https://github.com/arran4/git-barcode-sheet) [🔗](https://arran4.github.io/barcode-cheatsheets) | Git barcode based cheat sheet | cheatsheet, barcode-cheatsheet, barcodes, git, git-barcodes, git-cheatsheet |
 | [vim-barcode-sheet](https://github.com/arran4/vim-barcode-sheet) [🔗](https://arran4.github.io/barcode-cheatsheets) | Vim Barcodes Cheat Sheet to help with vim  | cheatsheet, vim |
 
+### cli
+| Repository | Description | Tags |
+|---|---|---|
+| [mvcommon](https://github.com/arran4/mvcommon) | Tool for moving files into a folder where they have a common prefix | cli, mv, smart-tools |
+| [personal-splitwise-helper-scripts](https://github.com/arran4/personal-splitwise-helper-scripts) | Splitwise TUI and CLI interface | cli, helper, splitwise, tui |
+| [pimtrace](https://github.com/arran4/pimtrace) | A CLI tool for preforming queries on ical, maildir, mbox and csv files | cli, csv, ical, query, utility |
+
 ### cli + experiment + go + library
 | Repository | Description | Tags |
 |---|---|---|
@@ -118,11 +125,6 @@ Have questions or feedback? [Open an issue](https://github.com/arran4/arran4/iss
 | [go-lojban-password-gen](https://github.com/arran4/go-lojban-password-gen) | Lojban password generator - Generate passwords that use lojban | cli + go + utility, binary, generator, lojban, password, password-generator |
 | [podcast-cdr-manager](https://github.com/arran4/podcast-cdr-manager) | CLI tool to help manage podcast subscriptions for burning to CDROMs / CDR / CDRW | cli + go + utility, iso, iso9660, podcasts |
 | [skillsmatrixkmeans](https://github.com/arran4/skillsmatrixkmeans) | k-means clustering of skills of people to identify weaknesses | cli + go + utility, employment, graphs, jobs, k-means, teams |
-
-### cli + utility
-| Repository | Description | Tags |
-|---|---|---|
-| [pimtrace](https://github.com/arran4/pimtrace) | A CLI tool for preforming queries on ical, maildir, mbox and csv files | cli + utility, csv, ical, query |
 
 ### dart + datastore + flutter + utility
 | Repository | Description | Tags |
@@ -246,7 +248,6 @@ Have questions or feedback? [Open an issue](https://github.com/arran4/arran4/iss
 | [homebrew-tap](https://github.com/arran4/homebrew-tap) | My homebrew tap semiautomated.. maybe? | homebrew, homebrew-tap, tap |
 | [idea-txtar-support-plugin](https://github.com/arran4/idea-txtar-support-plugin) [🔗](https://plugins.jetbrains.com/plugin/30286-txtar-file-support) | Jetbrains Idea txtar support plugin | idea, java, jetbrains, plugin, txtar |
 | [lxa](https://github.com/arran4/lxa) | ls with extended attributes | fs-attr, linux, ls, xattr, xdp |
-| [mvcommon](https://github.com/arran4/mvcommon) | Tool for moving files into a folder where they have a common prefix | cli, mv, smart-tools |
 | [resume](https://github.com/arran4/resume) | Arrans Resume | cv, resume, typst |
 | [tex_recipes_template](https://github.com/arran4/tex_recipes_template) | A very simple tex engine for recipes helpful for an AI world | recipes, template, tex |
 | [vlc-xattr-plugin](https://github.com/arran4/vlc-xattr-plugin) | A plugin for VLC to add "seen" to the `xdg.tags` list automatically when ever you watch anything | c, cmake, fs-attr, plugins, vlc, vlc-plugin, xattr |

@@ -1397,6 +1397,7 @@ List of starred repositories.
 | [GyulyVGC/sniffnet](https://github.com/GyulyVGC/sniffnet) [🔗](https://sniffnet.net) | Comfortably monitor your Internet traffic 🕵️‍♂️ | utility, application, gui, iced, linux, macos, network, network-analysis, network-monitoring, networking, packet-analyser, packet-capture, packet-sniffer, pcap, rust, rust-crate, security, windows |
 | [arran4/send_to_linkwarden](https://github.com/arran4/send_to_linkwarden) [🔗](https://arran4.github.io/send_to_linkwarden/) | Mobile version of Linkwarden | utility, android, archiving, flutter, link, linkwarden, mobile |
 | [christianmalek/vuex-rest-api](https://github.com/christianmalek/vuex-rest-api) [🔗](http://vuex-rest-api.org) | A utility to simplify the use of REST APIs with Vuex | utility, api, axios, hacktoberfest, helper, middleware, rest, vue, vue2, vuex |
+| [darrylmorley/whatcable](https://github.com/darrylmorley/whatcable) [🔗](https://whatcable.uk/) | macOS menu bar app that tells you, in plain English, what each USB-C cable plugged into your Mac can actually do | utility, apple-silicon, hardware-info, iokit, mac-app, macos, menubar, menubar-app, swift, swiftui, thunderbolt, usb-c, usb-power-delivery |
 | [jsattler/BetterCapture](https://github.com/jsattler/BetterCapture) [🔗](https://bettercapture.app/) | The macOS screen recorder for the rest of us - always free and open source with a native look and feel  📺 | utility, apple, audiorecorder, hevc, macos, prores, screen-capture, screen-recorder, screenrecorder |
 | [ran-j/PS2Recomp](https://github.com/ran-j/PS2Recomp) | Playstation 2 Static Recompiler & Runtime Tool to make native PC ports | utility, ps2, recompile, reverse-engineering, static-recompilation |
 | [timzaak/notir](https://github.com/timzaak/notir) | Notir: simple pubsub via http and websocket, provide web console to handle the message | utility, pubsub |
@@ -1912,7 +1913,6 @@ List of starred repositories.
 | [bandundu/docmote](https://github.com/bandundu/docmote) |  |  |
 | [bayandin/awesome-awesomeness](https://github.com/bayandin/awesome-awesomeness) | A curated list of awesome awesomeness |  |
 | [bbidulock/blackboxwm](https://github.com/bbidulock/blackboxwm) | A window manager for X11 | ewmh, floating, minimalistic, window-manager |
-| [bboynton97/mob](https://github.com/bboynton97/mob) | i wanted a terminal buddy again 🐸 |  |
 | [bddicken/languages](https://github.com/bddicken/languages) [🔗](https://benjdd.com/languages2) | Compare languages |  |
 | [bebraw/jswiki](https://github.com/bebraw/jswiki) [🔗](jswiki.org) | JavaScript wiki. Focuses mainly on JS/HTML5/WebGL related tech. |  |
 | [beefsack/go-rate](https://github.com/beefsack/go-rate) | A timed rate limiter for Go |  |
@@ -1943,6 +1943,7 @@ List of starred repositories.
 | [boxesandglue/boxesandglue](https://github.com/boxesandglue/boxesandglue) [🔗](https://boxesandglue.dev) | PDF rendering library for Go using TeX algorithms. | pdf, pdf-generation, tex, typesetting |
 | [bpc-clone/bpc_chrome_support](https://github.com/bpc-clone/bpc_chrome_support) |  |  |
 | [bradfitz/latlong](https://github.com/bradfitz/latlong) | The latlong package maps from a latitude and longitude to a timezone. |  |
+| [braelyn-ai/mob](https://github.com/braelyn-ai/mob) | i wanted a terminal buddy again 🐸 |  |
 | [bregman-arie/sre-checklist](https://github.com/bregman-arie/sre-checklist) | A checklist of anyone practicing Site Reliability Engineering | automation, checklist, gitops, kubernetes, reliability-engineering, sre, terraform |
 | [brendangregg/bpf-perf-tools-book](https://github.com/brendangregg/bpf-perf-tools-book) | Official repository for the BPF Performance Tools book |  |
 | [brson/my-rust-lists](https://github.com/brson/my-rust-lists) | Lightly organized personal notes about Rust |  |
@@ -2727,6 +2728,7 @@ List of starred repositories.
 | [nalgeon/sandboxes](https://github.com/nalgeon/sandboxes) [🔗](https://codapi.org) | Sandboxes for running code and tools | codapi, code-sandbox, sandbox |
 | [nalgeon/sqlean](https://github.com/nalgeon/sqlean) | The ultimate set of SQLite extensions | sqlite, sqlite-extension |
 | [nalgeon/vaqt](https://github.com/nalgeon/vaqt) | High-precision date/time in C | datetime, duration, time, timedelta |
+| [nanocoai/nanoclaw](https://github.com/nanocoai/nanoclaw) [🔗](https://nanoclaw.dev) | A lightweight alternative to OpenClaw that runs in containers for security. Connects to WhatsApp, Telegram, Slack, Discord, Gmail and other messaging apps,, has memory, scheduled jobs, and runs directly on Anthropic's Agents SDK | ai-agents, ai-assistant, claude-code, claude-skills, openclaw |
 | [natalie-lang/natalie](https://github.com/natalie-lang/natalie) [🔗](https://natalie-lang.org) | a work-in-progress Ruby compiler, written in Ruby and C++ | compiler, cpp, language, ruby |
 | [navidrome/navidrome](https://github.com/navidrome/navidrome) [🔗](https://www.navidrome.org) | 🎧 Your Personal Streaming Service  | airsonic, madsonic, media-server, music, music-server, navidrome, opensubsonic, raspberry-pi, self-hosted, streamer, streaming-api, streaming-audio, subsonic, subsonic-server |
 | [nbr23/youtube-dl-server](https://github.com/nbr23/youtube-dl-server) | Web / REST interface for downloading youtube videos onto a server. | docker, self-hosted, youtube-dl |
@@ -2876,7 +2878,6 @@ List of starred repositories.
 | [qiaeru/couplecards](https://github.com/qiaeru/couplecards) [🔗](https://couplecards.qiaeru.com) | A self-hosted web app that lets couples draw activity cards to break the routine and spice up their daily lives. | couples, docker, docker-compose, fastify, pwa, self-hosted |
 | [quantumaikr/quant.cpp](https://github.com/quantumaikr/quant.cpp) | LLM inference with 7x longer context. Pure C, zero dependencies. Lossless KV cache compression + single-header library. | delta-compression, embeddable, gguf, kv-cache, llm, llm-inference, pure-c, quantization, transformer, turboquant |
 | [quirkey/sammy](https://github.com/quirkey/sammy) [🔗](http://sammyjs.org) | Sammy is a tiny javascript framework built on top of jQuery, It's RESTful Evented Javascript. |  |
-| [qwibitai/nanoclaw](https://github.com/qwibitai/nanoclaw) [🔗](https://nanoclaw.dev) | A lightweight alternative to OpenClaw that runs in containers for security. Connects to WhatsApp, Telegram, Slack, Discord, Gmail and other messaging apps,, has memory, scheduled jobs, and runs directly on Anthropic's Agents SDK | ai-agents, ai-assistant, claude-code, claude-skills, openclaw |
 | [rabilrbl/llamafile-builder](https://github.com/rabilrbl/llamafile-builder) | A simple github actions script to build a llamafile and uploads to huggingface | llama, llama2, llamacpp, llamafile, llamafile-builder, llamafile-server |
 | [raboof/nethogs](https://github.com/raboof/nethogs) | Linux 'net top' tool |  |
 | [rackemrack/ampdeck](https://github.com/rackemrack/ampdeck) |  |  |
@@ -2921,7 +2922,7 @@ List of starred repositories.
 | [router-for-me/Cli-Proxy-API-Management-Center](https://github.com/router-for-me/Cli-Proxy-API-Management-Center) | This is a WebUI interface based on CLI-Proxy-API, designed to simplify configuration modifications and runtime status monitoring. |  |
 | [rowanwins/vue-dropzone](https://github.com/rowanwins/vue-dropzone) [🔗](https://rowanwins.github.io/vue-dropzone/docs/dist) | A Vue.js component for Dropzone.js - a drag’n’drop file uploads utility with image previews |  |
 | [royalicing/Orb](https://github.com/royalicing/Orb) [🔗](https://useorb.dev) | Write WebAssembly with Elixir | compiler, dsl, elixir, wasm, webassembly |
-| [royalicing/qip](https://github.com/royalicing/qip) [🔗](https://qip-one.vercel.app) | Pockets of speed safely sewn together |  |
+| [royalicing/qip](https://github.com/royalicing/qip) [🔗](https://qip.dev) | Run composable WebAssembly modules securely | components, modules, sandbox, webassembly |
 | [rpodgorny/uptimed](https://github.com/rpodgorny/uptimed) | uptime tracking daemon |  |
 | [rrrlasse/memlz](https://github.com/rrrlasse/memlz) | Extremely fast compression library for C/C++ |  |
 | [rudderlabs/rudder-server](https://github.com/rudderlabs/rudder-server) [🔗](https://www.rudderstack.com/) | Privacy and Security focused Segment-alternative, in Golang and React   | bigquery, cdp, customer-data, customer-data-lake, customer-data-pipeline, customer-data-platform, data-engineering, data-integration, data-pipeline, data-synchronization, data-warehouse, elt, etl, event-streaming, privacy, redshift, segment-alternative, snowflake, warehouse-management, warehouse-native |

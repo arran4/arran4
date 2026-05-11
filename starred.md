@@ -342,6 +342,7 @@ List of starred repositories.
 | [projectdiscovery/httpx](https://github.com/projectdiscovery/httpx) [🔗](https://docs.projectdiscovery.io/tools/httpx) | httpx is a fast and multi-purpose HTTP toolkit that allows running multiple probes using the retryablehttp library. | cli, bugbounty, cybersecurity, hacktoberfest, http, lib, osint, pentest-tool, pipeline, ssl-certificate |
 | [rstemmer/musicdb](https://github.com/rstemmer/musicdb) [🔗](https://rstemmer.github.io/musicdb/) | 🎧 A music manager with focus on remote access to your music by having a WebUI and providing an audio stream. | cli, client, cloud, gstreamer, javascript, music, music-collection, music-library, music-manager, music-player, music-streaming, musicdb, python, python3, self-hosted, server, streaming, streaming-audio, webui |
 | [saulpw/visidata](https://github.com/saulpw/visidata) [🔗](http://visidata.org) | A terminal spreadsheet multitool for discovering and arranging data | cli, csv, datajournalism, datawrangling, devops-tools, eda, hdf5, json, opendata, pandas, python, reconciliation, spreadsheet, sqlite, tabular-data, tsv, tui, unix-toolkit |
+| [six-ddc/plow](https://github.com/six-ddc/plow) [🔗](https://deepwiki.com/six-ddc/plow) | A high-performance HTTP benchmarking tool that includes a real-time web UI and terminal display | cli, apachebench, http, load, load-testing, performance, realtime, visualization, wrk |
 | [thehowl/claws](https://github.com/thehowl/claws) | Awesome WebSocket CLient - an interactive command line client for testing websocket servers | cli, command-line-app, debugging, gocui, websocket, websocket-client, websockets |
 | [tvrzna/emptty](https://github.com/tvrzna/emptty) | Dead simple CLI Display Manager on TTY | cli, display-manager |
 | [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) [🔗](https://docs.ultralytics.com) | Ultralytics YOLO 🚀 | cli, computer-vision, deep-learning, hub, image-classification, instance-segmentation, machine-learning, object-detection, pose-estimation, python, pytorch, rotated-object-detection, segment-anything, tracking, ultralytics, yolo, yolo-world, yolo11, yolo26, yolov8 |
@@ -562,7 +563,7 @@ List of starred repositories.
 ### desktop + go
 | Repository | Description | Tags |
 |---|---|---|
-| [FyshOS/fynedesk](https://github.com/FyshOS/fynedesk) [🔗](https://fyne.io/fynedesk/) | A full desktop environment for Linux/Unix using Fyne | desktop + go, desktop-environment, gui, hacktoberfest |
+| [FyshOS/tyde](https://github.com/FyshOS/tyde) [🔗](https://fyne.io/fynedesk/) | A full desktop environment for Linux/Unix using Fyne | desktop + go, desktop-environment, gui, hacktoberfest |
 | [dweymouth/supersonic](https://github.com/dweymouth/supersonic) | A lightweight and full-featured cross-platform desktop client for self-hosted music servers | desktop + go, airsonic, audio-player, cross-platform, fyne, gonic, jellyfin, music, navidrome, nextcloud, opensubsonic, subsonic, subsonic-client |
 
 ### desktop + go + linux
@@ -1212,6 +1213,7 @@ List of starred repositories.
 | Repository | Description | Tags |
 |---|---|---|
 | [Shopify/toxiproxy](https://github.com/Shopify/toxiproxy) [🔗](https://github.com/shopify/toxiproxy) | :alarm_clock: :fire: A TCP proxy to simulate network and system conditions for chaos and resiliency testing | go + test, chaos, down, is, omg, proxy, resiliency, tcp-proxy |
+| [flyingmutant/rapid](https://github.com/flyingmutant/rapid) [🔗](https://pkg.go.dev/pgregory.net/rapid) | Rapid is a modern Go property-based testing library | go + test, fuzzing, property-based-testing, property-testing, quickcheck |
 | [google/go-cmp](https://github.com/google/go-cmp) | Package for comparing Go values in tests | go + test, equality |
 | [knqyf263/cob](https://github.com/knqyf263/cob) | Continuous Benchmark for Go Project | go + test, benchmark, ci |
 | [wawandco/fako](https://github.com/wawandco/fako) [🔗](http://wawand.co) | Struct Faker for Go | go + test, faker, struct, stub |
@@ -2801,7 +2803,7 @@ List of starred repositories.
 | [openai/swarm](https://github.com/openai/swarm) | Educational framework exploring ergonomic, lightweight multi-agent orchestration. Managed by OpenAI Solution team. |  |
 | [openai/whisper](https://github.com/openai/whisper) | Robust Speech Recognition via Large-Scale Weak Supervision |  |
 | [openapi-ts/openapi-typescript](https://github.com/openapi-ts/openapi-typescript) [🔗](https://openapi-ts.dev) | Generate TypeScript types from OpenAPI 3 specs | openapi, openapi3, openapi3-1, swagger, typescript |
-| [openclaw/gogcli](https://github.com/openclaw/gogcli) [🔗](https://gogcli.sh/) | Google Suite CLI: Gmail, GCal, GDrive, GContacts. | gcal, gcontacts, gdrive, gmail, google |
+| [openclaw/gogcli](https://github.com/openclaw/gogcli) [🔗](https://gogcli.sh) | Google Workspace in your terminal. | gcal, gcontacts, gdrive, gmail, google |
 | [opencloud-eu/opencloud](https://github.com/opencloud-eu/opencloud) [🔗](https://opencloud.eu) | 🌤️ OpenCloud is the open source platform for file management, sharing and collaboration. Simple and sovereign. |  |
 | [openconstruct/Peersuite](https://github.com/openconstruct/Peersuite) [🔗](https://peersuite.space) | Peer to peer workspace |  |
 | [opencv/opencv](https://github.com/opencv/opencv) [🔗](https://opencv.org) | Open Source Computer Vision Library | c-plus-plus, computer-vision, deep-learning, image-processing, opencv |

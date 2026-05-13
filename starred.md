@@ -1821,12 +1821,13 @@ List of starred repositories.
 | [android-password-store/Android-Password-Store](https://github.com/android-password-store/Android-Password-Store) [🔗](https://passwordstore.app) | Android application compatible with ZX2C4's Pass command line application | android, hacktoberfest, openpgp, password-generator, password-manager, password-store |
 | [andybalholm/brotli](https://github.com/andybalholm/brotli) | Pure Go Brotli encoder and decoder |  |
 | [animetosho/animetosho-setup](https://github.com/animetosho/animetosho-setup) | Anime Tosho server setup scripts |  |
+| [animetosho/animetosho-updater](https://github.com/animetosho/animetosho-updater) | Anime Tosho's core update tasks |  |
 | [anomalyco/openauth](https://github.com/anomalyco/openauth) [🔗](https://openauth.js.org) | ▦ Universal, standards-based auth provider. |  |
 | [anomalyco/opencode](https://github.com/anomalyco/opencode) [🔗](https://opencode.ai) | The open source coding agent. |  |
 | [anomalyco/sst](https://github.com/anomalyco/sst) [🔗](https://sst.dev) | Build full-stack apps on your own infrastructure. |  |
 | [anthon38/gmailfeed](https://github.com/anthon38/gmailfeed) | Plasma 6 plasmoid showing your Gmail feed |  |
 | [anthwri/GeoJson-Data](https://github.com/anthwri/GeoJson-Data) | GeoJson Data for Australia |  |
-| [antirez/ds4](https://github.com/antirez/ds4) | DeepSeek 4 Flash local inference engine for Metal |  |
+| [antirez/ds4](https://github.com/antirez/ds4) | DeepSeek 4 Flash local inference engine for Metal and CUDA |  |
 | [antlafarge/jdownloader](https://github.com/antlafarge/jdownloader) [🔗](https://hub.docker.com/r/antlafarge/jdownloader) | Docker JDownloader 2 headless image (multi-arch) with automatic update. | alpine, bash, docker, docker-container, java, jdownloader, jre, myjdownloader, openjdk, shell, ubuntu |
 | [antoniandre/vue-cal-v4](https://github.com/antoniandre/vue-cal-v4) [🔗](https://antoniandre.github.io/vue-cal-v4/) | A Vue.js full calendar, no dependency, no BS. :metal: | vue, vue3 |
 | [antony-jr/spirit](https://github.com/antony-jr/spirit) [🔗](https://antonyjr.in/spirit) | The Twenty First Century Window Sitter. |  |
@@ -1998,7 +1999,7 @@ List of starred repositories.
 | [cjpais/whisperfile](https://github.com/cjpais/whisperfile) |  |  |
 | [claabs/epicgames-freegames-node](https://github.com/claabs/epicgames-freegames-node) [🔗](https://hub.docker.com/r/charlocharlie/epicgames-freegames) | Automatically login and find available free games the Epic Games Store. Sends you a prepopulated checkout link so you can complete the checkout after logging in. Supports multiple accounts, login sessions, and scheduled runs. | docker, epic-games, epic-games-client, epic-games-store, epicgames-freegames-node, free-games, reverse-engineering, self-hosted |
 | [clef/handbook](https://github.com/clef/handbook) | An employee handbook built for inclusion |  |
-| [cline/cline](https://github.com/cline/cline) [🔗](https://marketplace.visualstudio.com/items?itemName=saoudrizwan.claude-dev) | Autonomous coding agent right in your IDE, capable of creating/editing files, executing commands, using the browser, and more with your permission every step of the way. |  |
+| [cline/cline](https://github.com/cline/cline) [🔗](https://x.com/cline) | Autonomous coding agent as an SDK, IDE extension, or CLI assistant. |  |
 | [cloudandthings/terraform-aws-clickops-notifier](https://github.com/cloudandthings/terraform-aws-clickops-notifier) [🔗](https://registry.terraform.io/modules/cloudandthings/clickops-notifier/aws/latest) | Get notified when actions are taken in the AWS Console. | aws, clickops, terraform, terraform-modules |
 | [cloudevents/spec](https://github.com/cloudevents/spec) [🔗](https://cloudevents.io) | CloudEvents Specification | serverless, specification |
 | [cloudflare/vinext](https://github.com/cloudflare/vinext) | Vite plugin that reimplements the Next.js API surface — deploy anywhere |  |
@@ -2981,7 +2982,7 @@ List of starred repositories.
 | [sigstore/model-transparency](https://github.com/sigstore/model-transparency) | Supply chain security for ML | machine-learning, security, sigstore, supply-chain |
 | [silexlabs/Silex](https://github.com/silexlabs/Silex) [🔗](https://www.silex.me) | Silex is an online tool for visually creating static sites with dynamic data. With the free/libre spirit of internet, together. | composable, design, grapesjs, jamstack, javascript, no-code, nocode, nodejs, saas, silex, visual, visual-programming, webdesign, website-builder |
 | [silverbulletmd/silverbullet](https://github.com/silverbulletmd/silverbullet) [🔗](https://silverbullet.md) | An open source personal productivity platform built on Markdown, turbo charged with the scripting power of Lua | end-user-programming, knowledge-management, lua, markdown, note-taking, personal-knowledge-management |
-| [sim186/AmicoScript](https://github.com/sim186/AmicoScript) | Local Audio Transcription Tool |  |
+| [sim186/AmicoScript](https://github.com/sim186/AmicoScript) [🔗](https://sim186.github.io/AmicoScript/) | Local Audio Transcription Tool | open-source, transcription, whisper |
 | [simonnilsson/ask](https://github.com/simonnilsson/ask) | A Go package that provides a simple way of accessing nested properties in maps and slices. |  |
 | [simonw/google-drive-to-sqlite](https://github.com/simonw/google-drive-to-sqlite) [🔗](https://datasette.io/tools/google-drive-to-sqlite) | Create a SQLite database containing metadata from Google Drive |  |
 | [simpledms/simpledms](https://github.com/simpledms/simpledms) [🔗](https://simpledms.eu) | Document management for small businesses. | archiving, digital-archive, dms, document, document-management, document-management-system, documents, documents-management, documents-manager, filemanagement, filemanager, full-text-search, metadata, ocr, organizer, pdf, personal-document-system, tagging, tags, webapp |

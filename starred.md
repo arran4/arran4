@@ -304,7 +304,7 @@ List of starred repositories.
 | [OpenHands/OpenHands](https://github.com/OpenHands/OpenHands) [🔗](https://openhands.dev) | 🙌 OpenHands: AI-Driven Development | cli, agent, artificial-intelligence, chatgpt, claude-ai, developer-tools, gpt, llm, openai |
 | [Rigellute/spotify-tui](https://github.com/Rigellute/spotify-tui) | Spotify for the terminal written in Rust 🚀 | cli, rust, spotify, spotify-api, spotify-tui, terminal, terminal-based |
 | [alexhallam/fwdt](https://github.com/alexhallam/fwdt) | 🔥 📝  (fwdt) "few word do trick" is a cross platform manual fast logger | cli, csv, data-entry, database, entry, logger |
-| [algorismo-au/lanekeep](https://github.com/algorismo-au/lanekeep) | Governance guardrails and insights for AI coding agents | cli, agentic-coding, ai-agents, ai-governance, ai-safety, bash, budgets, claude-code, compliance, devsecops, devtools, governance, guardrails, observability, pii-detection, prompt-injection, security |
+| [algorismo-au/lanekeep](https://github.com/algorismo-au/lanekeep) | Governance guardrails and insights for AI coding agents | cli, agentic-coding, ai-agents, ai-governance, ai-safety, bash, budgets, claude-code, compliance, devsecops, devtools, governance, guardrails, llm-security, observability, pii-detection, policy-as-code, prompt-injection, secrets-detection, security |
 | [altdesktop/playerctl](https://github.com/altdesktop/playerctl) | 🎧 mpris media player command-line controller for vlc, mpv, RhythmBox, web browsers, cmus, mpd, spotify and others. | cli, audacious, c, cmus, mediaplayer, mopidy, mpd, mpris, rhythmbox, vlc |
 | [amanusk/s-tui](https://github.com/amanusk/s-tui) [🔗](https://amanusk.github.io/s-tui/) | Terminal-based CPU stress and monitoring utility | cli, console, cpu, frequency, monitoring, power, psutil, stress, stress-test, temperature, terminal, tui, urwid, utilization |
 | [antfu-collective/ni](https://github.com/antfu-collective/ni) | 💡 Use the right package manager | cli, npm, package-manager, pnpm, yarn |
@@ -1704,6 +1704,7 @@ List of starred repositories.
 | [ShizukuIchi/winXP](https://github.com/ShizukuIchi/winXP) [🔗](https://winxp.now.sh) | 🏁 Web based Windows XP desktop recreation.  | hooks, javascript, react, reimplementation, web-desktop, windows-xp |
 | [Shopify/ejson](https://github.com/Shopify/ejson) | EJSON is a small library to manage encrypted secrets using asymmetric encryption. |  |
 | [Shopify/gomail](https://github.com/Shopify/gomail) | The best way to send emails in Go. |  |
+| [ShringarStudio/Tulasi](https://github.com/ShringarStudio/Tulasi) | A pixel art icon pack for Linux, by Shringar Studio. |  |
 | [Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) [🔗](https://www.theunwindai.com) | 100+ AI Agent & RAG apps you can actually run — clone, customize, ship. | agents, llms, python, rag |
 | [Si7li/Griffith-Voice](https://github.com/Si7li/Griffith-Voice) |  |  |
 | [Sigil-Ebook/PageEdit](https://github.com/Sigil-Ebook/PageEdit) | ePub XHTML Visual Editor |  |
@@ -2926,7 +2927,7 @@ List of starred repositories.
 | [roscale/freedesktop_desktop_entry](https://github.com/roscale/freedesktop_desktop_entry) | A Dart package for parsing freedesktop (XDG) desktop entries on Linux. |  |
 | [rossmoody/svg-gobbler](https://github.com/rossmoody/svg-gobbler) [🔗](https://www.svggobbler.com) | Open source browser extension for finding, editing, exporting, optimizing, and managing SVG content. | chrome-extension, extension, firefox-addon, icon, icons, inline-svg, javascript, svg, svg-export, svg-icons, svgo, svgr, typescript |
 | [rothgar/awesome-tuis](https://github.com/rothgar/awesome-tuis) | List of projects that provide terminal user interfaces |  |
-| [router-for-me/CLIProxyAPI](https://github.com/router-for-me/CLIProxyAPI) | Wrap Gemini CLI, Antigravity, ChatGPT Codex, Claude Code as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 3.1 Pro, GPT 5.5, Claude model through API | antigravity, claude-code, cluade, codex, gemini, openai |
+| [router-for-me/CLIProxyAPI](https://github.com/router-for-me/CLIProxyAPI) | Wrap Gemini CLI, Antigravity, ChatGPT Codex, Claude Code, Grok Build as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 3.1 Pro, GPT 5.5, Claude model through API | antigravity, claude-code, cluade, codex, gemini, openai |
 | [router-for-me/Cli-Proxy-API-Management-Center](https://github.com/router-for-me/Cli-Proxy-API-Management-Center) | This is a WebUI interface based on CLI-Proxy-API, designed to simplify configuration modifications and runtime status monitoring. |  |
 | [rowanwins/vue-dropzone](https://github.com/rowanwins/vue-dropzone) [🔗](https://rowanwins.github.io/vue-dropzone/docs/dist) | A Vue.js component for Dropzone.js - a drag’n’drop file uploads utility with image previews |  |
 | [royalicing/Orb](https://github.com/royalicing/Orb) [🔗](https://useorb.dev) | Write WebAssembly with Elixir | compiler, dsl, elixir, wasm, webassembly |
@@ -3091,6 +3092,7 @@ List of starred repositories.
 | [thielepaul/flutter-draggable-scrollbar](https://github.com/thielepaul/flutter-draggable-scrollbar) |  |  |
 | [thokzz/asset-lookup](https://github.com/thokzz/asset-lookup) | A comprehensive Warranty, Maintenance, Subscription management system with automated notification system |  |
 | [thorikawa/android-opencv-ocr](https://github.com/thorikawa/android-opencv-ocr) |  |  |
+| [tidwall/btype](https://github.com/tidwall/btype) | B-tree based collection types for Go |  |
 | [tigerbeetle/tigerbeetle](https://github.com/tigerbeetle/tigerbeetle) [🔗](https://tigerbeetle.com) | The financial transactions database designed for mission critical safety and performance. |  |
 | [tikikun/f5-tts-mlx-quantized](https://github.com/tikikun/f5-tts-mlx-quantized) | Implementation of F5-TTS in MLX |  |
 | [tikv/tikv](https://github.com/tikv/tikv) [🔗](https://tikv.org) | Distributed transactional key-value database, originally created to complement TiDB | cncf, consensus, distributed-transactions, hacktoberfest, key-value, raft, rocksdb, rust, tidb, tikv |

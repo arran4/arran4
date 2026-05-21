@@ -51,6 +51,13 @@ jobs:
               echo '```'
               echo
               echo '</details>'
+
+              if [ -f scripts/parse_diff.py ]; then
+                echo
+                echo "## Repository Changes"
+                echo
+                git diff | python3 scripts/parse_diff.py
+              fi
             fi
             echo
             echo "## Notes"

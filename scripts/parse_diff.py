@@ -24,25 +24,20 @@ class Row:
         self.desc = self.cols[1] if len(self.cols) > 1 else ""
         self.tags = self.cols[-1] if len(self.cols) > 2 else ""
         if len(self.cols) > 3:
-             self.license = self.cols[2]
-             self.tags = self.cols[3]
+            self.license = self.cols[2]
         else:
-             self.license = ""
-             self.tags = self.cols[2] if len(self.cols) > 2 else ""
+            self.license = ""
 
     def get_tags_set(self):
         if not self.tags: return set()
         return set([t.strip() for t in self.tags.split(',') if t.strip()])
 
 def main():
-    diff_text = sys.stdin.read()
-    if not diff_text:
-        return
-
     files_changed = {}
     current_file = None
 
-    for line in diff_text.split('\n'):
+    for line in sys.stdin:
+        line = line.rstrip('\n')
         if line.startswith('+++ b/'):
             current_file = line[6:]
             files_changed[current_file] = {'add': [], 'del': []}
@@ -69,37 +64,22 @@ def main():
         matched_dels = set()
         updates = []
 
-        # Exact name
-        for i, d in enumerate(dels):
-            for j, a in enumerate(adds):
-                if j in matched_adds: continue
-                if d.name == a.name:
-                    updates.append((d, a))
-                    matched_dels.add(i)
-                    matched_adds.add(j)
-                    break
-
-        # repo_only and desc
-        for i, d in enumerate(dels):
-            if i in matched_dels: continue
-            for j, a in enumerate(adds):
-                if j in matched_adds: continue
-                if d.repo_only == a.repo_only and d.desc == a.desc:
-                    updates.append((d, a))
-                    matched_dels.add(i)
-                    matched_adds.add(j)
-                    break
-
-        # repo_only
-        for i, d in enumerate(dels):
-            if i in matched_dels: continue
-            for j, a in enumerate(adds):
-                if j in matched_adds: continue
-                if d.repo_only == a.repo_only:
-                    updates.append((d, a))
-                    matched_dels.add(i)
-                    matched_adds.add(j)
-                    break
+        # Matching heuristics
+        match_criteria = [
+            lambda d, a: d.name == a.name,
+            lambda d, a: d.repo_only == a.repo_only and d.desc == a.desc,
+            lambda d, a: d.repo_only == a.repo_only
+        ]
+        for criteria in match_criteria:
+            for i, d in enumerate(dels):
+                if i in matched_dels: continue
+                for j, a in enumerate(adds):
+                    if j in matched_adds: continue
+                    if criteria(d, a):
+                        updates.append((d, a))
+                        matched_dels.add(i)
+                        matched_adds.add(j)
+                        break
 
         for j, a in enumerate(adds):
             if j not in matched_adds:

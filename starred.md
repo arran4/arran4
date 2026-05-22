@@ -375,7 +375,7 @@ List of starred repositories.
 | [GianlucaP106/mynav](https://github.com/GianlucaP106/mynav) | Workspace and session management TUI | cli + go, development, management, productivity, sessions, terminal, tmux, tui, workspaces |
 | [Infisical/infisical](https://github.com/Infisical/infisical) [🔗](https://infisical.com) | Infisical is the open-source platform for secrets, certificates, and privileged access management. | cli + go, acme, certificate-management, environment-variables, node-js, open-source, pki, postgres, private-ca, secret-management, secret-manager, secret-scanning, secrets, secrets-management, security, security-tools, typescript, vault |
 | [JohannesKaufmann/html-to-markdown](https://github.com/JohannesKaufmann/html-to-markdown) [🔗](https://html-to-markdown.com) | ⚙️ Convert HTML to Markdown. Even works with entire websites and can be extended through rules. | cli + go, converter, html, html-to-markdown, markdown |
-| [TomWright/dasel](https://github.com/TomWright/dasel) [🔗](https://daseldocs.tomwright.me) | Select, put and delete data from JSON, TOML, YAML, XML, INI, HCL, KDL and CSV files with a single tool. Also available as a go mod. | cli + go, config, configuration, data-processing, data-structures, data-wrangling, devops-tools, hcl2, json, json-processing, parser, query, selector, toml, update, xml, yaml, yaml-processor |
+| [TomWright/dasel](https://github.com/TomWright/dasel) [🔗](https://daseldocs.tomwright.me) | Unified querying, transformation, and modification of JSON, TOML, YAML, XML, INI, HCL, KDL and CSV. | cli + go, config, configuration, data-processing, data-structures, data-wrangling, devops-tools, hcl2, json, json-processing, parser, query, selector, toml, update, xml, yaml, yaml-processor |
 | [Zouuup/landrun](https://github.com/Zouuup/landrun) | Run any Linux process in a secure, unprivileged sandbox using Landlock. Think firejail, but lightweight, user-friendly, and baked into the kernel. | cli + go, kernel, landlock, sandbox, sandbox-environment, security, security-tools |
 | [arran4/go-playerctl](https://github.com/arran4/go-playerctl) [🔗](https://pkg.go.dev/github.com/arran4/go-playerctl) | 🎧 mpris media player command-line controller for vlc, mpv, RhythmBox, web browsers, cmus, mpd, spotify and others. | cli + go, media, media-controls, port |
 | [arran4/go-subcommand](https://github.com/arran4/go-subcommand) | Generates dependencyless go command line argument subcommand system | cli + go, cli-subcommands, flags, geneated-flags, go-generate, subcommands |
@@ -782,7 +782,7 @@ List of starred repositories.
 | [Tanq16/backhub](https://github.com/Tanq16/backhub) | Backhub helps maintain backups of multiple GitHub repos as full local mirrors. | github + go, automation, backup, backup-utility, git, git-mirror, github-backup, homelab, repository-backup, self-hosted, self-hosting |
 | [arran4/gobookmarks](https://github.com/arran4/gobookmarks) | Landing page for when you open browsers / live bookmarks in go. | github + go, bookmarks, github-api, home-page, homepage, live-bookmarks, start-page, startpage, web |
 | [github/git-sizer](https://github.com/github/git-sizer) | Compute various size metrics for a Git repository, flagging those that might cause problems | github + go, git |
-| [google/go-github](https://github.com/google/go-github) [🔗](https://pkg.go.dev/github.com/google/go-github/v87/github) | Go library for accessing the GitHub v3 API | github + go, github-api, hacktoberfest |
+| [google/go-github](https://github.com/google/go-github) [🔗](https://pkg.go.dev/github.com/google/go-github/v88/github) | Go library for accessing the GitHub v3 API | github + go, github-api, hacktoberfest |
 
 ### github + kde + ui
 | Repository | Description | Tags |
@@ -1663,7 +1663,7 @@ List of starred repositories.
 | [OfflineIMAP/offlineimap3](https://github.com/OfflineIMAP/offlineimap3) | Read/sync your IMAP mailboxes (python3) |  |
 | [OmkarDabade/markdown_editor_plus](https://github.com/OmkarDabade/markdown_editor_plus) | Markdown editor with Preview for flutter |  |
 | [OmniDB/OmniDB](https://github.com/OmniDB/OmniDB) [🔗](https://omnidb.org) | Web tool for database management | database, database-conversion, database-management, web-application |
-| [OpenBMB/MiniCPM-V](https://github.com/OpenBMB/MiniCPM-V) | A Pocket-Sized MLLM for Ultra-Efficient Image and Video Understanding on Your Phone | minicpm, minicpm-v, multi-modal |
+| [OpenBMB/MiniCPM-V](https://github.com/OpenBMB/MiniCPM-V) | A Pocket-Sized MLLM for Ultra-Efficient Image and Video Understanding on Your Phone | minicpm, minicpm-o, minicpm-v, multi-modal |
 | [OpenCTI-Platform/opencti](https://github.com/OpenCTI-Platform/opencti) [🔗](https://opencti.io) | Open Cyber Threat Intelligence Platform | cti, cyber, cybersecurity, intelligence, osint, security, threat-intelligence |
 | [Opisek/luna](https://github.com/Opisek/luna) | Self-Hosted Calendar Aggregator and Frontend |  |
 | [OrionReed/dom3d](https://github.com/OrionReed/dom3d) | Browser extension to view and debug the DOM in 3D space. |  |
@@ -2450,6 +2450,7 @@ List of starred repositories.
 | [jellyfin-archive/jellyfin-desktop-qt](https://github.com/jellyfin-archive/jellyfin-desktop-qt) | Jellyfin Desktop Client | jellyfin, jellyfin-client |
 | [jellyfin/jellyfin](https://github.com/jellyfin/jellyfin) [🔗](https://jellyfin.org) | The Free Software Media System - Server Backend & API | csharp, dotnet, hacktoberfest, jellyfin |
 | [jellyfin/jellyfin-webos](https://github.com/jellyfin/jellyfin-webos) [🔗](https://jellyfin.org) | WebOS Client for Jellyfin | jellyfin, jellyfin-client, webos |
+| [jeprecated/immich-cat](https://github.com/jeprecated/immich-cat) | Immich Cat[egoriser]. Quickly assign your assets to albums. |  |
 | [jesseduffield/lazydocker](https://github.com/jesseduffield/lazydocker) | The lazier way to manage everything docker |  |
 | [jgraph/drawio-desktop](https://github.com/jgraph/drawio-desktop) [🔗](https://www.diagrams.net) | Official electron build of draw.io | diagram-editor, electron-app, graphics, javascript-applications |
 | [jimaek/geolocation-tool](https://github.com/jimaek/geolocation-tool) | Geo locate any IP to a physical location using latency | geoip, globalping, iplookup |
@@ -2798,7 +2799,6 @@ List of starred repositories.
 | [obsproject/obs-studio](https://github.com/obsproject/obs-studio) [🔗](https://obsproject.com) | OBS Studio - Free and open source software for live streaming and screen recording | c, c-plus-plus, directshow, facebook-live, ffmpeg, game-capture, live-streaming, screen-capture, twitch-tv, video-recording, youtube-live |
 | [odvcencio/gotreesitter](https://github.com/odvcencio/gotreesitter) | Pure Go tree-sitter runtime |  |
 | [offensive-security/exploitdb](https://github.com/offensive-security/exploitdb) [🔗](https://gitlab.com/exploit-database/exploitdb) | The legacy Exploit Database repository - New repo located at https://gitlab.com/exploit-database/exploitdb |  |
-| [ohare93/immich-cat](https://github.com/ohare93/immich-cat) | Immich Cat[egoriser]. Quickly assign your assets to albums. |  |
 | [oils-for-unix/oils](https://github.com/oils-for-unix/oils) [🔗](https://oils.pub/) | Oils is our upgrade path from bash to a better language and runtime.  It's also for Python and JavaScript users who avoid shell! |  |
 | [oldany/dropmind](https://github.com/oldany/dropmind) | Self-hosted capture layer to save anything from anywhere. | bookmark-manager, capture, docker, fastapi, knowledge-management, link-management, minimal, notes, productivity, pwa, second-brain, self-hosted, sqlite |
 | [omarmir/nanote](https://github.com/omarmir/nanote) | Lightweight, self-hosted note-taking application with filesystem-based storage so you maintain 100% portability of your notes. |  |

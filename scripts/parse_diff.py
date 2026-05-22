@@ -97,7 +97,7 @@ def main():
                 else:
                     changes_list.append(f"Renamed from `{d.name}` to `{a.name}`")
             if d.desc != a.desc:
-                changes_list.append(f"Updated description")
+                changes_list.append(f"Updated description from `{d.desc}` to `{a.desc}`")
             if d.homepage != a.homepage:
                 if d.homepage or a.homepage:
                     changes_list.append(f"Updated homepage from `{d.homepage}` to `{a.homepage}`")

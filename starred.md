@@ -79,7 +79,7 @@ List of starred repositories.
 | [svc-develop-team/so-vits-svc](https://github.com/svc-develop-team/so-vits-svc) | SoftVC VITS Singing Voice Conversion | ai, audio-analysis, deep-learning, flow, generative-adversarial-network, pytorch, singing-voice-conversion, so-vits-svc, sovits, speech, variational-inference, vc, vits, voice, voice-changer, voice-conversion, voiceconversion |
 | [vercel/chatbot](https://github.com/vercel/chatbot) [🔗](https://chatbot.ai-sdk.dev) | A full-featured, hackable Next.js AI chatbot built by Vercel | ai, chatgpt, nextjs, react, redis, shadcn-ui, vercel |
 | [x1xhlol/system-prompts-and-models-of-ai-tools](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools) | FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia & v0. (And other Open Sourced) System Prompts, Internal Tools & AI Models | ai, bolt, cluely, copilot, cursor, cursorai, devin, github-copilot, lovable, open-source, perplexity, replit, system-prompts, trae, trae-ai, trae-ide, v0, vscode, windsurf, windsurf-ai |
-| [zeroclaw-labs/zeroclaw](https://github.com/zeroclaw-labs/zeroclaw) [🔗](https://www.zeroclawlabs.ai/) | Fast, small, and fully autonomous AI personal assistant infrastructure, ANY OS, ANY PLATFORM — deploy anywhere, swap anything 🦀 | ai, agent, agentic, infra, ml, openclaw, os, zeroclaw |
+| [zeroclaw-labs/zeroclaw](https://github.com/zeroclaw-labs/zeroclaw) [🔗](https://www.zeroclawlabs.ai/) | Fast, small, and fully autonomous AI personal assistant infrastructure, any OS, any platform — deploy anywhere, swap anything 🦀 | ai, agent, agentic, infra, ml, openclaw, os, zeroclaw |
 
 ### ai + awesome-list
 | Repository | Description | Tags |
@@ -297,7 +297,6 @@ List of starred repositories.
 | Repository | Description | Tags |
 |---|---|---|
 | [Aider-AI/aider](https://github.com/Aider-AI/aider) [🔗](https://aider.chat/) | aider is AI pair programming in your terminal | cli, anthropic, chatgpt, claude-3, gemini, gpt-3, gpt-35-turbo, gpt-4, gpt-4o, llama, openai, sonnet |
-| [Boeing/config-file-validator](https://github.com/Boeing/config-file-validator) [🔗](https://boeing.github.io/config-file-validator/) | Cross-platform CLI tool to validate configuration files (JSON, YAML, TOML, XML, INI, HCL, ENV, Properties, CSV, and more). Catch errors in syntax and schema before deployment. Written in Go. | cli, ci-cd, config-validation, configuration, csv-validator, devops, hcl-validator, ini-validator, json-validator, linter, toml-validator, validation, xml-validator, yaml-validator |
 | [BurntSushi/ripgrep](https://github.com/BurntSushi/ripgrep) | ripgrep recursively searches directories for a regex pattern while respecting your gitignore | cli, command-line-tool, gitignore, grep, recursively-search, regex, ripgrep, rust, search |
 | [ClementTsang/bottom](https://github.com/ClementTsang/bottom) [🔗](https://bottom.pages.dev) | Yet another cross-platform graphical process/system monitor. | cli, bottom, btm, cross-platform, monitoring, rust, terminal, top, tui |
 | [Dicklesworthstone/destructive_command_guard](https://github.com/Dicklesworthstone/destructive_command_guard) | The Destructive Command Guard (dcg) is for blocking dangerous git and shell commands from being executed by agents. | cli, ai-agents, developer-tools, git, rust, safety |
@@ -372,6 +371,7 @@ List of starred repositories.
 | Repository | Description | Tags |
 |---|---|---|
 | [Adembc/lazyssh](https://github.com/Adembc/lazyssh) | A terminal-based SSH manager inspired by lazydocker and k9s - Written in go | cli + go, lazyssh, scp, ssh, ssh-client, tui, tui-go |
+| [Boeing/config-file-validator](https://github.com/Boeing/config-file-validator) [🔗](https://boeing.github.io/config-file-validator/) | Cross-platform CLI tool to validate configuration files across 16 formats. Syntax and schema validation with JSON Schema, XSD, and SchemaStore integration. Written in Go. | cli + go, cli-tools, config-validation, csv-validator, devops, hcl-validator, ini-validator, json-validator, jsonschema, schema-validation, toml-validator, xml-validator, yaml-validator |
 | [GianlucaP106/mynav](https://github.com/GianlucaP106/mynav) | Workspace and session management TUI | cli + go, development, management, productivity, sessions, terminal, tmux, tui, workspaces |
 | [Infisical/infisical](https://github.com/Infisical/infisical) [🔗](https://infisical.com) | Infisical is the open-source platform for secrets, certificates, and privileged access management. | cli + go, acme, certificate-management, environment-variables, node-js, open-source, pki, postgres, private-ca, secret-management, secret-manager, secret-scanning, secrets, secrets-management, security, security-tools, typescript, vault |
 | [JohannesKaufmann/html-to-markdown](https://github.com/JohannesKaufmann/html-to-markdown) [🔗](https://html-to-markdown.com) | ⚙️ Convert HTML to Markdown. Even works with entire websites and can be extended through rules. | cli + go, converter, html, html-to-markdown, markdown |
@@ -1037,7 +1037,7 @@ List of starred repositories.
 | [moovweb/gvm](https://github.com/moovweb/gvm) [🔗](http://github.com/moovweb/gvm) | Go Version Manager | go, dependency-manager |
 | [msteinert/pam](https://github.com/msteinert/pam) [🔗](http://godoc.org/github.com/msteinert/pam) | Go wrapper module for the Pluggable Authentication Modules (PAM) API | go, authentication, pam |
 | [mvdan/sh](https://github.com/mvdan/sh) [🔗](https://pkg.go.dev/mvdan.cc/sh/v3) | A shell parser, formatter, and interpreter with bash and zsh support; includes shfmt | go, bash, beautify, formatter, interpreter, mksh, parser, posix, shell, shfmt, zsh |
-| [mvm-sh/mvm](https://github.com/mvm-sh/mvm) [🔗](https://mvm.sh) | Mvm is a fast interpreter and virtual machine for Go and beyond. | go, interpreter, mvm, vm |
+| [mvm-sh/mvm](https://github.com/mvm-sh/mvm) [🔗](https://mvm.sh) | Mvm is a fast interpreter and virtual machine for Go and beyond. | go, bytecode, compiler, embeddable, interpreter, mvm, repl, virtual-machine, vm, wasm |
 | [nafey/minimalytics](https://github.com/nafey/minimalytics) [🔗](https://minimalytics.app/) | Standalone analytics app in a CLI  | go, analytics, sqlite |
 | [nalgeon/chans](https://github.com/nalgeon/chans) [🔗](https://pkg.go.dev/github.com/nalgeon/chans) | Building blocks for idiomatic Go pipelines | go, channels, concurrency, pipelines |
 | [nao1215/filesql](https://github.com/nao1215/filesql) | sql driver for CSV, TSV, LTSV, JSON, Parquet, Excel with gzip, bzip2, xz, zstd support. | go, ach, bzip2, csv, excel, fedwire, gzip, json, ltsv, parquet, sql, sql-driver, sql-query, sqlite3, tsv, xz, zstd |
@@ -1653,7 +1653,6 @@ List of starred repositories.
 | [Nic0/reddit-top](https://github.com/Nic0/reddit-top) [🔗](http://www.catonmat.net/blog/follow-reddit-from-the-console/) | A top-like program for monitoring reddit from the console |  |
 | [NiceOpenSource/posttolemmy](https://github.com/NiceOpenSource/posttolemmy) | Lemmy extension firefox/chromium | chrome-extension, firefox-addon, lemmy |
 | [NickeManarin/ScreenToGif](https://github.com/NickeManarin/ScreenToGif) [🔗](http://www.screentogif.com) | 🎬 ScreenToGif allows you to record a selected area of your screen, edit and save it as a gif or video. | editor, gif, recorder, sketchboard, video, webcam, wpf |
-| [Nightmare-Eclipse/BlueHammer](https://github.com/Nightmare-Eclipse/BlueHammer) | Repository hosting the bluehammer vulnerability |  |
 | [NilsIrl/dockerc](https://github.com/NilsIrl/dockerc) | container image to single executable compiler | containers, docker, oci, oci-image |
 | [NiuTrans/ABigSurveyOfLLMs](https://github.com/NiuTrans/ABigSurveyOfLLMs) | A collection of 150+ surveys on LLMs |  |
 | [NixOS/patchelf](https://github.com/NixOS/patchelf) | A small utility to modify the dynamic linker and RPATH of ELF executables |  |
@@ -1966,7 +1965,7 @@ List of starred repositories.
 | [bullno1/cosmo-sokol](https://github.com/bullno1/cosmo-sokol) | sokol imgui demo built with cosmopolitan libc |  |
 | [bulwarkmail/webmail](https://github.com/bulwarkmail/webmail) [🔗](https://bulwarkmail.org) | JMAP Webmail built for the 21st Century. A modern, self-hosted email client for Stalwart Mail Server powered by the JMAP protocol. Email, calendar, contacts and files. Fast, private, and open source. | calendar, contacts, email, email-client, jmap, mail, nextjs, self-hosted, typescript, webmail |
 | [bunkeriot/BunkerM](https://github.com/bunkeriot/BunkerM) [🔗](https://www.bunkerai.dev) | 🚀 BunkerM: Eclipse Mosquitto MQTT management platform, featuring dynamic security, MQTT ACL management, monitoring,and AI integrations | ai-agents, automation, docker, industry40, iot-platform, mosquitto, mosquitto-authentication, mosquitto-clients, mosquitto-dynamic-security, mosquitto-monitoring, mqtt, mqtt-broker, mqtt-security, slack, telegram |
-| [byrongamatos/slopsmith](https://github.com/byrongamatos/slopsmith) | Self-contained Docker web app for browsing, playing, and practicing Rocksmith 2014 CDLC |  |
+| [byrongamatos/slopsmith](https://github.com/byrongamatos/slopsmith) | Self-hosted Docker web app for browsing, playing & practicing interactive full-band music notation, with an extensive plugin system |  |
 | [bytedance/Dolphin](https://github.com/bytedance/Dolphin) | The official repo for “Dolphin: Document Image Parsing via Heterogeneous Anchor Prompting”, ACL, 2025. | document-analysis, layout-analysis, ocr, parser, pdf, pdf-converter, pdf-parser, python, vlm-ocr |
 | [c4pt0r/kvql](https://github.com/c4pt0r/kvql) | A SQL-like query language on general Key-Value DB |  |
 | [caarlos0/mdtree](https://github.com/caarlos0/mdtree) | Convert markdown lists into ASCII trees |  |
@@ -3182,6 +3181,7 @@ List of starred repositories.
 | [vuejs/awesome-vue](https://github.com/vuejs/awesome-vue) | 🎉 A curated list of awesome things related to Vue.js |  |
 | [vuejs/vuex](https://github.com/vuejs/vuex) [🔗](https://vuex.vuejs.org) | 🗃️ Centralized State Management for Vue.js. | javascript, state-management, time-travel, vue, vuex |
 | [vuesion/vuesion](https://github.com/vuesion/vuesion) [🔗](https://vuesion.herokuapp.com/) | Vuesion is a boilerplate that empowers product teams to build faster with modern best practices across engineering and design. It features a full-stack framework, comprehensive design system, robust testing, and seamless internationalization.  | authentication, best-practises, boilerplate, cypress, design-system, i18n, kitchen-sink, nuxtjs, pinia, pwa, seo, server-side-rendering, storybook, typescipt, typescript, universal, vitest, vue, vuejs |
+| [w3c-cg/swag](https://github.com/w3c-cg/swag) [🔗](https://www.w3.org/community/swag/) | Repository for the SWAG Community Group | bestpractices, webdevelopment, websecurity, webstandards |
 | [w3c/webcodecs](https://github.com/w3c/webcodecs) [🔗](https://w3c.github.io/webcodecs/) | WebCodecs is a flexible web API for encoding and decoding audio and video. |  |
 | [wI2L/jsondiff](https://github.com/wI2L/jsondiff) [🔗](https://jsondiff-play-wi2l.vercel.app) | Compute the diff between two JSON documents as a series of JSON Patch (RFC6902) operations | json-patch, jsonpatch, kubernetes-webhook, merge-patch, mutating-webhook, rfc-6902, rfc-7386, rfc6902 |
 | [wallabag/wallabag](https://github.com/wallabag/wallabag) [🔗](https://wallabag.org) | wallabag is a self hostable application for saving web pages: Save and classify articles. Read them later. Freely. | hacktoberfest, php, read-it-later, self-hosted, symfony, symfony-application, wallabag |

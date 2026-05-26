@@ -225,7 +225,7 @@ List of starred repositories.
 |---|---|---|
 | [2noise/ChatTTS](https://github.com/2noise/ChatTTS) [🔗](https://2noise.com) | A generative speech model for daily dialogue. | chat, agent, chatgpt, chattts, chinese, chinese-language, english, english-language, gpt, llm, llm-agent, natural-language-inference, python, text-to-speech, torch, torchaudio, tts |
 | [LemmyNet/lemmy](https://github.com/LemmyNet/lemmy) [🔗](https://join-lemmy.org) | 🐀 A decentralised discussion platform for communities. | chat, activitypub, fediverse, lemmy, link-aggregator, reddit, rust |
-| [Pokled/nodyx](https://github.com/Pokled/nodyx) [🔗](https://start.nodyx.org/) | Self-hosted community platform Forum + Chat + Voice + P2P + Canvas + Homepage Builder. One server, one community, forever. AGPL-3.0.  Discord alternative | Private Chat. | chat, canvas, community-platform, decentralized, discord-alternative, e2e-encryption, fastify, forum, homepage-builder, open-source, p2p, postgresql, rust, self-hosted, selfhosted, svelte, sveltekit, typescript, voice-chat, webrtc |
+| [Pokled/nodyx](https://github.com/Pokled/nodyx) [🔗](https://start.nodyx.org/) | Self-hosted community platform Forum + Chat + Voice + P2P + Canvas + Homepage Builder. One server, one community, forever. AGPL-3.0.  Discord alternative | Private Chat. | Streamer Hub | chat, canvas, community-platform, decentralized, discord-alternative, e2e-encryption, fastify, forum, homepage-builder, open-source, p2p, postgresql, rust, self-hosted, selfhosted, svelte, sveltekit, typescript, voice-chat, webrtc |
 | [RocketChat/Rocket.Chat](https://github.com/RocketChat/Rocket.Chat) [🔗](https://rocket.chat/) | The Secure CommsOS™ for mission-critical operations | chat, collaboration, foss, free, hacktoberfest, javascript, meteor, mit, real-time, slack, webrtc |
 | [Sharkord/sharkord](https://github.com/Sharkord/sharkord) [🔗](https://sharkord.com) | Lightweight, self-hosted, open-source chat server with voice, video, text, and screen sharing. Built for small groups who want privacy, simplicity, and full control over their data. | chat, bun, data-ownership, mediasoup, messaging, privacy, realtime, screen-sharing, self-hosted, webrtc |
 | [TannerMidd/minimal-chat](https://github.com/TannerMidd/minimal-chat) [🔗](https://minimalchat.app) | MinimalChat is a lightweight, open-source chat application that allows you to interact with various large language models. | chat, artificial-intelligence, chat-application, chatbot, chatgpt, chatgpt-api, claude-3, gpt, gpt-vision, javascript, llama, llm, meta-llama, self-hosted, selfhosted, vue, vue3, vuejs, webapplication |
@@ -1734,6 +1734,7 @@ List of starred repositories.
 | [SynologyOpenSource/pkgscripts-ng](https://github.com/SynologyOpenSource/pkgscripts-ng) | Synology DSM6.0 package toolkit framework |  |
 | [SynologyOpenSource/tmux](https://github.com/SynologyOpenSource/tmux) | Synology example tmux package |  |
 | [TTimo/doom3.gpl](https://github.com/TTimo/doom3.gpl) | Doom 3 GPL source release |  |
+| [TX230/winproc-tui](https://github.com/TX230/winproc-tui) [🔗](https://github.com/TX230/winproc-tui) | Rust/Ratatui TUI for Windows 11 process investigation with live metrics, time-series graphs, A/B comparison, recording. | monitoring-tool, ratatui-rs, rust, system-monitoring |
 | [TableProApp/TablePro](https://github.com/TableProApp/TablePro) [🔗](https://tablepro.app) | Free and open source database client built natively for developers | appkit, database, database-client, database-gui, database-management, macos, macos-app, mongodb, mssql, mysql, mysql-client, native, postgresql, redis, sql, sql-editor, sqlite, swift, swiftui, tableplus |
 | [Taxel/PlexTraktSync](https://github.com/Taxel/PlexTraktSync) | A python script that syncs the movies, shows and ratings between trakt and Plex (without needing a PlexPass or Trakt VIP subscription) |  |
 | [TeamPiped/Piped](https://github.com/TeamPiped/Piped) [🔗](https://piped.video) | An alternative privacy-friendly YouTube frontend which is efficient by design. | activej, dearrow, hacktoberfest, ipfs, java, newpipe, privacy, sponsorblock, videos, vuejs, youtube |
@@ -2173,7 +2174,7 @@ List of starred repositories.
 | [emersion/go-mbox](https://github.com/emersion/go-mbox) | Package mbox parses the mbox file format into messages and formats messages into mbox files |  |
 | [emersion/go-message](https://github.com/emersion/go-message) | ✉️ A streaming Go library for the Internet Message Format and mail messages | mail, mime |
 | [emersion/go-smtp](https://github.com/emersion/go-smtp) | 📤 An SMTP library for Go clients and servers | client, esmtp, lmtp, mail, server, smtp |
-| [en-wl/wordlist](https://github.com/en-wl/wordlist) [🔗](https://wordlist.aspell.net) | English Speller Database |  |
+| [en-wl/wordlist](https://github.com/en-wl/wordlist) [🔗](https://wordlist.aspell.net) | English Speller Database (ESDB) |  |
 | [encharm/libsystemtray](https://github.com/encharm/libsystemtray) | Library for creating system tray icons in Plasma5, other backends are welcome as pull requests |  |
 | [endojs/Jessie](https://github.com/endojs/Jessie) | Tiny subset of JavaScript for ocap-safe universal mobile code |  |
 | [eneam/mboxviewer](https://github.com/eneam/mboxviewer) | A small but powerfull app for viewing MBOX files |  |
@@ -2748,7 +2749,7 @@ List of starred repositories.
 | [nbr23/youtube-dl-server](https://github.com/nbr23/youtube-dl-server) | Web / REST interface for downloading youtube videos onto a server. | docker, self-hosted, youtube-dl |
 | [nccgroup/ScoutSuite](https://github.com/nccgroup/ScoutSuite) | Multi-Cloud Security Auditing Tool | auditing, aws, azure, cloud, gcp, security |
 | [ncruces/go-sqlite3](https://github.com/ncruces/go-sqlite3) [🔗](https://pkg.go.dev/github.com/ncruces/go-sqlite3) | Go bindings to SQLite using wasm2go | no-cgo, sqlite3, wasm, wasm2go |
-| [ncruces/wasm2go](https://github.com/ncruces/wasm2go) | A Wasm to Go translator |  |
+| [ncruces/wasm2go](https://github.com/ncruces/wasm2go) | A Wasm to Go translator | wasm2go |
 | [ndsrf/wine-tasting-game](https://github.com/ndsrf/wine-tasting-game) [🔗](https://vino.ndsrf.com/) | The Ultimate Multiplayer Wine Tasting Experience |  |
 | [nebomuk/nobleNoteAndroid](https://github.com/nebomuk/nobleNoteAndroid) | Simple Android app to make and manage notes | android, kotlin, notebook |
 | [necdetsanli/do-not-ghost-me](https://github.com/necdetsanli/do-not-ghost-me) [🔗](https://www.donotghostme.com) | Anonymous reports and stats about recruitment ghosting. Next.js + PostgreSQL, privacy-first and open source. | ghosting, good-first-issue, good-first-pr, hacktoberfest, hiring, jobs, jobsearch, nextjs, postgresql, react, recruitment, typescript |
@@ -2787,7 +2788,7 @@ List of starred repositories.
 | [nostr-protocol/nostr](https://github.com/nostr-protocol/nostr) | a truly censorship-resistant alternative to Twitter that has a chance of working | nostr |
 | [notclickable-jordan/podcastdn](https://github.com/notclickable-jordan/podcastdn) | A self-hosted YouTube video/playlist to podcast generator that uploads to S3 and CloudFront |  |
 | [novitalabs/AnimateAnyone](https://github.com/novitalabs/AnimateAnyone) [🔗](https://novita.ai) | Unofficial Implementation of Animate Anyone by Novita AI | animateanyone, videogeneration |
-| [novuhq/novu](https://github.com/novuhq/novu) [🔗](https://go.novu.co/github) | The open-source notification infrastructure. In-app Inbox component, E-mail, SMS, Push and Slack Integrations. | agents, communication, email, inbox, infrastructure, javascript, nodejs, notification-center, notifications, novu, push-notifications, react, reactjs, sms, transactional, typescript |
+| [novuhq/novu](https://github.com/novuhq/novu) [🔗](https://go.novu.co/github) | The open-source notification infrastructure. In-app Inbox component, E-mail, SMS, Push and Slack Integrations. | agents, communication, email, inbox, infrastructure, nodejs, notification-center, notifications, novu, push-notifications, react, reactjs, sms, transactional, typescript |
 | [npcnixel/genanki-go](https://github.com/npcnixel/genanki-go) | Go library for generating Anki notes, decks, packages (genanki port) |  |
 | [numediart/MBROLA](https://github.com/numediart/MBROLA) | MBROLA is a speech synthesizer based on the concatenation of diphones | numediart-speech, numediart-tools |
 | [numman-ali/codex-wrapped](https://github.com/numman-ali/codex-wrapped) | Generate a personalized Spotify Wrapped-style summary of your Codex usage |  |

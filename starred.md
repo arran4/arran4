@@ -1402,7 +1402,7 @@ List of starred repositories.
 | Repository | Description | Tags |
 |---|---|---|
 | [AykutSarac/jsoncrack.com](https://github.com/AykutSarac/jsoncrack.com) [🔗](https://jsoncrack.com/) | ✨ Innovative and open-source visualization application that transforms various data formats, such as JSON, YAML, XML and CSV into interactive graphs. | utility, csv, diagrams, graph, json, nextjs, react, visualization, yaml |
-| [GyulyVGC/sniffnet](https://github.com/GyulyVGC/sniffnet) [🔗](https://sniffnet.net) | Comfortably monitor your Internet traffic 🕵️‍♂️ | utility, application, gui, iced, linux, macos, network, network-analysis, network-monitoring, networking, packet-analyser, packet-capture, packet-sniffer, pcap, rust, rust-crate, security, windows |
+| [GyulyVGC/sniffnet](https://github.com/GyulyVGC/sniffnet) [🔗](https://sniffnet.app) | Comfortably monitor your Internet traffic 🕵️‍♂️ | utility, application, gui, iced, linux, macos, network, network-analysis, network-monitoring, networking, packet-analyser, packet-capture, packet-sniffer, pcap, rust, rust-crate, security, windows |
 | [arran4/send_to_linkwarden](https://github.com/arran4/send_to_linkwarden) [🔗](https://arran4.github.io/send_to_linkwarden/) | Mobile version of Linkwarden | utility, android, archiving, flutter, link, linkwarden, mobile |
 | [christianmalek/vuex-rest-api](https://github.com/christianmalek/vuex-rest-api) [🔗](http://vuex-rest-api.org) | A utility to simplify the use of REST APIs with Vuex | utility, api, axios, hacktoberfest, helper, middleware, rest, vue, vue2, vuex |
 | [darrylmorley/whatcable](https://github.com/darrylmorley/whatcable) [🔗](https://whatcable.uk/) | macOS menu bar app that tells you, in plain English, what each USB-C cable plugged into your Mac can actually do | utility, apple-silicon, hardware-info, iokit, mac-app, macos, menubar, menubar-app, swift, swiftui, thunderbolt, usb-c, usb-power-delivery |
@@ -1739,7 +1739,7 @@ List of starred repositories.
 | [TableProApp/TablePro](https://github.com/TableProApp/TablePro) [🔗](https://tablepro.app) | Free and open source database client built natively for developers | appkit, database, database-client, database-gui, database-management, macos, macos-app, mongodb, mssql, mysql, mysql-client, native, postgresql, redis, sql, sql-editor, sqlite, swift, swiftui, tableplus |
 | [Taxel/PlexTraktSync](https://github.com/Taxel/PlexTraktSync) | A python script that syncs the movies, shows and ratings between trakt and Plex (without needing a PlexPass or Trakt VIP subscription) |  |
 | [TeamPiped/Piped](https://github.com/TeamPiped/Piped) [🔗](https://piped.video) | An alternative privacy-friendly YouTube frontend which is efficient by design. | activej, dearrow, hacktoberfest, ipfs, java, newpipe, privacy, sponsorblock, videos, vuejs, youtube |
-| [Termix-SSH/Termix](https://github.com/Termix-SSH/Termix) [🔗](https://termix.site/) | Termix is a web-based server management platform with SSH terminal, tunneling, and file editing capabilities. | docker, file-management, self-hosted, ssh, ssh-tunnel, termix |
+| [Termix-SSH/Termix](https://github.com/Termix-SSH/Termix) [🔗](https://termix.site/) | Self-hosted SSH and remote desktop management. | docker, file-management, rdp, self-hosted, server-stats, ssh, ssh-tunnel, telnet, terminal, termix, vnc |
 | [TerryCavanagh/VVVVVV](https://github.com/TerryCavanagh/VVVVVV) | The source code to VVVVVV! http://thelettervsixtim.es/ |  |
 | [TheCommsChannel/TC2-BBS-mesh](https://github.com/TheCommsChannel/TC2-BBS-mesh) | A BBS server for Meshtastic for posting bulletins, sending mail to users, and channel directory. |  |
 | [TheEconomist/covid-19-excess-deaths-tracker](https://github.com/TheEconomist/covid-19-excess-deaths-tracker) [🔗](https://www.economist.com/graphic-detail/coronavirus-excess-deaths-tracker) | Source code and data for The Economist's covid-19 excess deaths tracker |  |
@@ -1809,6 +1809,7 @@ List of starred repositories.
 | [akopachov/flipper-zero_authenticator](https://github.com/akopachov/flipper-zero_authenticator) | Software-based TOTP/HOTP authenticator for Flipper Zero device. | authenticator, flipper-plugin, flipperzero, hotp, totp |
 | [albertan017/LLM4Decompile](https://github.com/albertan017/LLM4Decompile) [🔗](https://aclanthology.org/2024.emnlp-main.203) | Reverse Engineering: Decompiling Binary Code with Large Language Models | binary, decompile, large-language-models, reverse-engineering |
 | [alecthomas/units](https://github.com/alecthomas/units) | Helpful unit multipliers and functions for Go |  |
+| [alejandroqh/term39](https://github.com/alejandroqh/term39) | A modern, retro-styled terminal multiplexer built with Rust. | multiplexer, retro, rust, terminal |
 | [aleksey-hoffman/sigma-file-manager](https://github.com/aleksey-hoffman/sigma-file-manager) | "Sigma File Manager" is a free, open-source, quickly evolving, modern file manager (explorer / browser) app for Windows and Linux. | app, electron, electron-app, electronjs, file-manager, filemanager, modern-applications, vue |
 | [aleksey-saenko/MusicRecognizer](https://github.com/aleksey-saenko/MusicRecognizer) | An open-source Android app for music recognition that integrates AudD, ACRCloud, and Shazam to perform song identification. | acrcloud, android, android-application, android-widget, audd, foss, jetpack-compose, kotlin-android, music, music-recognition, shazam, shazam-like |
 | [alex/what-happens-when](https://github.com/alex/what-happens-when) | An attempt to answer the age old interview question "What happens when you type google.com into your browser and press enter?" |  |
@@ -1922,6 +1923,7 @@ List of starred repositories.
 | [axios/axios](https://github.com/axios/axios) [🔗](https://axios-http.com) | Promise based HTTP client for the browser and node.js | hacktoberfest, http-client, javascript, nodejs, promise |
 | [azz/excalidraw](https://github.com/azz/excalidraw) [🔗](http://www.excalidraw.com) | Sketch hand-drawn like diagrams |  |
 | [azz/up-api-google-sheets](https://github.com/azz/up-api-google-sheets) | Prototype for using the Up Banking API in Google Sheets | google-sheets, hacktoberfest, up-api, up-banking |
+| [b1rdmania/motif](https://github.com/b1rdmania/motif) [🔗](https://wario.style) | Wario.Style. Game Boy Midi Synthesis Engine. Search any song. Get the 8-bit Game Boy version. | chiptune, gameboy, gameboy-emulator, generative-music, midi, soundfont, tonejs, typescript, vite, web-audio |
 | [b4rtaz/svg-workflow-designer](https://github.com/b4rtaz/svg-workflow-designer) | Workflow designer written in TypeScript with no dependencies. | designer, javascript, typescript, workflow-designer, workflow-tool, workflows |
 | [bandundu/docmote](https://github.com/bandundu/docmote) |  |  |
 | [bayandin/awesome-awesomeness](https://github.com/bayandin/awesome-awesomeness) | A curated list of awesome awesomeness |  |
@@ -1968,7 +1970,6 @@ List of starred repositories.
 | [bullno1/cosmo-sokol](https://github.com/bullno1/cosmo-sokol) | sokol imgui demo built with cosmopolitan libc |  |
 | [bulwarkmail/webmail](https://github.com/bulwarkmail/webmail) [🔗](https://bulwarkmail.org) | JMAP Webmail built for the 21st Century. A modern, self-hosted email client for Stalwart Mail Server powered by the JMAP protocol. Email, calendar, contacts and files. Fast, private, and open source. | calendar, contacts, email, email-client, jmap, mail, nextjs, self-hosted, typescript, webmail |
 | [bunkeriot/BunkerM](https://github.com/bunkeriot/BunkerM) [🔗](https://www.bunkerai.dev) | 🚀 BunkerM: Eclipse Mosquitto MQTT management platform, featuring dynamic security, MQTT ACL management, monitoring,and AI integrations | ai-agents, automation, docker, industry40, iot-platform, mosquitto, mosquitto-authentication, mosquitto-clients, mosquitto-dynamic-security, mosquitto-monitoring, mqtt, mqtt-broker, mqtt-security, slack, telegram |
-| [byrongamatos/slopsmith](https://github.com/byrongamatos/slopsmith) | Self-hosted Docker web app for browsing, playing & practicing interactive full-band music notation, with an extensive plugin system |  |
 | [bytedance/Dolphin](https://github.com/bytedance/Dolphin) | The official repo for “Dolphin: Document Image Parsing via Heterogeneous Anchor Prompting”, ACL, 2025. | document-analysis, layout-analysis, ocr, parser, pdf, pdf-converter, pdf-parser, python, vlm-ocr |
 | [c4pt0r/kvql](https://github.com/c4pt0r/kvql) | A SQL-like query language on general Key-Value DB |  |
 | [caarlos0/mdtree](https://github.com/caarlos0/mdtree) | Convert markdown lists into ASCII trees |  |
@@ -2068,6 +2069,7 @@ List of starred repositories.
 | [databacker/mysql-backup](https://github.com/databacker/mysql-backup) | image to enable automated backups of mysql databases in containers |  |
 | [datvodinh/rag-chatbot](https://github.com/datvodinh/rag-chatbot) |  Chat with multiple PDFs locally | chatbot, chatbot-ui, chatbots, gradio, llama-index, llama3, llm, mistral, ollama, question-answering, rag |
 | [davabase/whisper_real_time](https://github.com/davabase/whisper_real_time) | Real time transcription with OpenAI Whisper. |  |
+| [davmlaw/they_live_adblocker](https://github.com/davmlaw/they_live_adblocker) | Replace Ads with They Live style slogans |  |
 | [dbcli/mycli](https://github.com/dbcli/mycli) [🔗](http://mycli.net) | A Terminal Client for MySQL with AutoCompletion and Syntax Highlighting. | auto-completion, database, mycli, mysql, python, syntax-highlighting |
 | [dbeaver/cloudbeaver](https://github.com/dbeaver/cloudbeaver) [🔗](https://dbeaver.com/) | Cloud Database Manager | cloud, cloud-database-manager, database, databases, dbeaver, webapp |
 | [dbgate/dbgate](https://github.com/dbgate/dbgate) [🔗](https://www.dbgate.io) | Database manager for MySQL, PostgreSQL, SQL Server, MongoDB, SQLite and others. Runs under Windows, Linux, Mac or as web application | cassandra, clickhouse, cockroachdb, cosmosdb, database-gui, database-manager, duckdb, electron, firebird, firestore, libsql, mariadb, mongodb, mysql, oracle, postgresql, redis, sql, sql-server, sqlite |
@@ -2295,6 +2297,7 @@ List of starred repositories.
 | [github/gitignore](https://github.com/github/gitignore) | A collection of useful .gitignore templates | git, gitignore |
 | [gitroomhq/postiz-app](https://github.com/gitroomhq/postiz-app) [🔗](https://postiz.com) | 📨 The ultimate agentic social media scheduling tool 🤖 | nextjs, open-source, open-source-social-media-scheduling-tool, oss, redis, scheduling-tool, social-media-scheduling-tool, typescript |
 | [givanz/Vvveb](https://github.com/givanz/Vvveb) [🔗](https://www.vvveb.com) | Powerful and easy to use cms to build websites, blogs or ecommerce stores. | backend, blog, blog-engine, blog-platform, blogging, cms, content-management, content-management-system, ecommerce, ecommerce-platform, no-code, page-builder, php, php-cms, php7, php8, self-hosted, shopping-cart, web-application, website-builder |
+| [gjedeer/fbterm](https://github.com/gjedeer/fbterm) [🔗](https://gjedeer.github.io/fbterm/) | (alpine/musl fork) fbterm is a framebuffer based terminal emulator for linux |  |
 | [gleam-lang/gleam](https://github.com/gleam-lang/gleam) [🔗](https://gleam.run) | ⭐️ A friendly language for building type-safe, scalable systems! | compiler, erlang, gleam, programming-language, statically-typed |
 | [glebbash/LO](https://github.com/glebbash/LO) | LO - small programming language targeting WASM that aims to be as simple as possible | compiler, language, webassembly |
 | [gliptic/liero](https://github.com/gliptic/liero) |  |  |
@@ -2384,7 +2387,7 @@ List of starred repositories.
 | [historicalsource/zork1](https://github.com/historicalsource/zork1) | Zork I (Microcomputer Version) by Infocom | bruce-daniels, dave-lebling, infocom, interactive-fiction, marc-blank, tim-anderson, z-machine, zil, zork |
 | [hometown-fork/hometown](https://github.com/hometown-fork/hometown) | A supported fork of Mastodon that provides local posting and a wider range of content types. |  |
 | [hotchemi/Scre](https://github.com/hotchemi/Scre) | A lightweight screen recorder macOS application written in SwiftUI. | macos, screenrecorder, swiftui |
-| [hotosm/drone-tm](https://github.com/hotosm/drone-tm) [🔗](https://dronetm.org/) | Drone Tasking Manager - community-driven drone imagery collection. | drones, flight-plan, tasking-manager, waypoints |
+| [hotosm/drone-tm](https://github.com/hotosm/drone-tm) [🔗](https://drone.hotosm.org) | Drone Tasking Manager - community-driven drone imagery collection. | drones, flight-plan, tasking-manager, waypoints |
 | [hpcaitech/Open-Sora](https://github.com/hpcaitech/Open-Sora) [🔗](https://hpcaitech.github.io/Open-Sora/) | Open-Sora: Democratizing Efficient Video Production for All |  |
 | [hpi-swa/sandblocks](https://github.com/hpi-swa/sandblocks) | A projectional editor for Squeak/Smalltalk. |  |
 | [hrdwrbob/surfacepresser](https://github.com/hrdwrbob/surfacepresser) |  |  |
@@ -2427,6 +2430,7 @@ List of starred repositories.
 | [itome/flx](https://github.com/itome/flx) |  |  |
 | [itsc0c0/flipsay](https://github.com/itsc0c0/flipsay) | Turn your flipper into an mini SDR! |  |
 | [iv-org/invidious](https://github.com/iv-org/invidious) [🔗](https://invidious.io) | Invidious is an alternative front-end to YouTube | agplv3, hacktoberfest, invidious, libre, video, watch, youtube, youtube-video |
+| [izmntuk/fbterm](https://github.com/izmntuk/fbterm) | (frozen archive) fbterm is a framebuffer based terminal emulator for linux |  |
 | [j-evins/glabels-qt](https://github.com/j-evins/glabels-qt) [🔗](https://glabels.org) | gLabels Label Designer (Qt/C++) | barcodes, business-card, c-plus-plus, cards, glabels, labels, printing, qt |
 | [jakecoffman/cp](https://github.com/jakecoffman/cp) [🔗](https://chipmunk-physics.net) | A pure Go physics library with no dependencies. Unofficial Chipmunk2D port. | chipmunk2d, physics, physics-2d |
 | [jameswdelancey/llama3.c](https://github.com/jameswdelancey/llama3.c) | A faithful clone of Karpathy's llama2.c (one file inference, zero dependency) but fully functional with LLaMA 3 8B base and instruct models. |  |
@@ -2545,6 +2549,7 @@ List of starred repositories.
 | [lettier/3d-game-shaders-for-beginners](https://github.com/lettier/3d-game-shaders-for-beginners) [🔗](https://lettier.github.io/3d-game-shaders-for-beginners/index.html) | 🎮 A step-by-step guide to implementing SSAO, depth of field, lighting, normal mapping, and more for your 3D game. | 3d, 3d-graphics, game-development, gamedev, glsl, glsl-shader, glsl-shaders, godot, graphics, graphics-programming, hlsl, indiedev, opengl, panda3d, shader, shaders, unity, unity3d, vulkan, webgl |
 | [leucos/ansible-tuto](https://github.com/leucos/ansible-tuto) | Ansible tutorial | ansible, tutorial, vagrant |
 | [lhartikk/ArnoldC](https://github.com/lhartikk/ArnoldC) [🔗](lhartikk.github.io/ArnoldC/) | Arnold Schwarzenegger based programming language |  |
+| [lheckemann/fbterm](https://github.com/lheckemann/fbterm) | (frozen archive) fbterm is a framebuffer based terminal emulator for linux |  |
 | [libical/libical](https://github.com/libical/libical) [🔗](http://libical.github.io/libical/) | Libical is an Open Source implementation of the iCalendar protocols and protocol data units. |  |
 | [libimobiledevice/ifuse](https://github.com/libimobiledevice/ifuse) [🔗](https://libimobiledevice.org) | A fuse filesystem to access the contents of iOS devices | afc, c, fuse, fuse-filesystem, ifuse, ios, mount |
 | [libnativeapi/nativeapi](https://github.com/libnativeapi/nativeapi) | A modern cross-platform C++ library providing seamless, unified access to native system APIs across multiple platforms. | nativeapi |
@@ -2948,6 +2953,7 @@ List of starred repositories.
 | [run-llama/llama_index](https://github.com/run-llama/llama_index) [🔗](https://developers.llamaindex.ai) | LlamaIndex is the leading document agent and OCR platform | agents, application, data, fine-tuning, framework, llamaindex, llm, multi-agents, rag, vector-database |
 | [rupa/z](https://github.com/rupa/z) | z - jump around |  |
 | [rusq/slackdump](https://github.com/rusq/slackdump) | Save or export your private and public Slack messages, threads, files, and users locally without admin privileges. | archive, backup, channels, dump, dumper, mattermost, mattermost-app, mcp-server, migration-tool, slack, slack-exports, slackdump |
+| [russellromney/honker](https://github.com/russellromney/honker) [🔗](https://honker.dev) | SQLite extension + bindings for Postgres NOTIFY/LISTEN semantics with durable queues, streams, pub/sub, and scheduler |  |
 | [russmac/python_rover_robot](https://github.com/russmac/python_rover_robot) | A multi-threaded ultrasonic & magnetic navigating rover. | opencv, raspberry-pi, robot, robotics, rover |
 | [rust-lang/mdBook](https://github.com/rust-lang/mdBook) [🔗](https://rust-lang.github.io/mdBook/) | Create book from markdown files. Like Gitbook but implemented in Rust |  |
 | [rust-lang/rust](https://github.com/rust-lang/rust) [🔗](https://www.rust-lang.org) | Empowering everyone to build reliable and efficient software. | compiler, language, rust |
@@ -3009,6 +3015,7 @@ List of starred repositories.
 | [sk22/megalodon](https://github.com/sk22/megalodon) [🔗](https://sk22.github.io/megalodon) | Abandoned. Pink modification of the official Mastodon for Android app | android, fork, mastodon, pink |
 | [skip2/go-qrcode](https://github.com/skip2/go-qrcode) | :sparkles: QR Code encoder (Go) |  |
 | [slackhq/nebula](https://github.com/slackhq/nebula) | A scalable overlay networking tool with a focus on performance, simplicity and security |  |
+| [slopsmith/slopsmith](https://github.com/slopsmith/slopsmith) | Self-hosted Docker web app for browsing, playing & practicing interactive full-band music notation, with an extensive plugin system |  |
 | [slyrz/warc](https://github.com/slyrz/warc) | Read and write WARC files in Go |  |
 | [smhanov/qb.js](https://github.com/smhanov/qb.js) | Mostly incomplete QBASIC implementation in JavaScript |  |
 | [smol-ai/GodMode](https://github.com/smol-ai/GodMode) [🔗](https://smol.ai) | AI Chat Browser: Fast, Full webapp access to ChatGPT / Claude / Bard / Bing / Llama2! I use this 20 times a day. | bard, chatgpt, electron, google, menubar |
@@ -3177,7 +3184,7 @@ List of starred repositories.
 | [visheratin/web-ai](https://github.com/visheratin/web-ai) [🔗](https://web-ai-demo.vercel.app) | Run modern deep learning models in the browser. | deep-learning, javascript, typescript |
 | [vitejs/vite](https://github.com/vitejs/vite) [🔗](http://vite.dev) | Next generation frontend tooling. It's fast! | build-tool, dev-server, frontend, hmr, vite |
 | [vktr2b/KaviGo](https://github.com/vktr2b/KaviGo) | KaviGo is a simple Go-based CLI tool that automatically renames files to match the naming conventions required by Kavita | kavita, manga |
-| [vladmandic/sdnext](https://github.com/vladmandic/sdnext) [🔗](https://vladmandic.github.io/sdnext-docs/) | SD.Next: All-in-one WebUI for AI generative image and video creation, captioning and processing | ai-art, caption, diffusers, generative-art, python, pytorch, sdnext, stable-diffusion, transformers, webui |
+| [vladmandic/sdnext](https://github.com/vladmandic/sdnext) [🔗](https://vladmandic.github.io/sdnext/) | SD.Next: All-in-one WebUI for AI generative image and video creation, captioning and processing | ai-art, caption, diffusers, generative-art, python, pytorch, sdnext, stable-diffusion, transformers, webui |
 | [vlang/v](https://github.com/vlang/v) | Simple, fast, safe, compiled language for developing maintainable software. Compiles itself in <1s with zero library dependencies. Supports automatic C => V translation. https://vlang.io | compiler, language, programming-language, v |
 | [vllm-project/vllm](https://github.com/vllm-project/vllm) [🔗](https://vllm.ai) | A high-throughput and memory-efficient inference and serving engine for LLMs | amd, blackwell, cuda, deepseek, deepseek-v3, gpt, gpt-oss, inference, kimi, llama, llm, llm-serving, model-serving, moe, openai, pytorch, qwen, qwen3, tpu, transformer |
 | [voidauth/voidauth](https://github.com/voidauth/voidauth) [🔗](http://voidauth.app) | Single Sign-On for Your Self-Hosted Universe | authentication, docker, oidc, oidc-provider, proxy-auth, security, selfhosted, sso |
@@ -3240,6 +3247,7 @@ List of starred repositories.
 | [zellux/paperwise](https://github.com/zellux/paperwise) [🔗](https://paperwise.dev) | Open-source document intelligence platform with OCR, extraction, grounded Q&A, and task-specific AI configuration |  |
 | [zen-logic/file-hunter](https://github.com/zen-logic/file-hunter) [🔗](https://filehunter.zenlogic.uk) | File Hunter — catalog, deduplicate, and consolidate your archive storage | deduplication, duplicate-finder, file-catalog, file-manager, homelab, python, self-hosted, sqlite, storage, web-ui |
 | [zephyrproject-rtos/zephyr](https://github.com/zephyrproject-rtos/zephyr) [🔗](https://docs.zephyrproject.org) | Primary Git Repository for the Zephyr Project. Zephyr is a new generation, scalable, optimized, secure RTOS for multiple hardware architectures. | bluetooth, bluetooth-le, embedded, embedded-c, iot, mcu, microcontroller, real-time, rtos, zephyr, zephyr-rtos, zephyros |
+| [zhangyuanwei/fbterm](https://github.com/zhangyuanwei/fbterm) | FbTerm is a fast terminal emulator for linux with frame buffer device or VESA video card. |  |
 | [ziglang/zig](https://github.com/ziglang/zig) [🔗](https://ziglang.org/news/migrating-from-github-to-codeberg/) | Moved to Codeberg | compiler, language, zig |
 | [zitadel/zitadel](https://github.com/zitadel/zitadel) [🔗](https://zitadel.com) | ZITADEL - Identity infrastructure, simplified for you. | 2fa, authentication, authorization, fido2, identity, login, mfa, multitenancy, oauth2, oidc, openid-connect, passkeys, saml, scim, sso, user |
 | [zkcrypto/bulletproofs](https://github.com/zkcrypto/bulletproofs) |  A pure-Rust implementation of Bulletproofs using Ristretto. |  |

@@ -1,5 +1,29 @@
 import sys
 import re
+import difflib
+
+def bold_difference(old_str, new_str):
+    old_str = old_str or ""
+    new_str = new_str or ""
+    if not old_str and not new_str:
+        return "", ""
+
+    sm = difflib.SequenceMatcher(None, old_str, new_str)
+    res_old = []
+    res_new = []
+    for opcode, a0, a1, b0, b1 in sm.get_opcodes():
+        if opcode == 'equal':
+            res_old.append(old_str[a0:a1])
+            res_new.append(new_str[b0:b1])
+        elif opcode == 'insert':
+            res_new.append(f"**{new_str[b0:b1]}**")
+        elif opcode == 'delete':
+            res_old.append(f"**{old_str[a0:a1]}**")
+        elif opcode == 'replace':
+            res_old.append(f"**{old_str[a0:a1]}**")
+            res_new.append(f"**{new_str[b0:b1]}**")
+
+    return "".join(res_old), "".join(res_new)
 
 class Row:
     def __init__(self, line):
@@ -98,7 +122,8 @@ def main():
                     changes_list.append(f"Renamed from `{d.name}` to `{a.name}`")
             if d.desc != a.desc:
                 if d.desc or a.desc:
-                    changes_list.append(f"Updated description from **`{d.desc or ''}`** to **`{a.desc or ''}`**")
+                    bold_old, bold_new = bold_difference(d.desc, a.desc)
+                    changes_list.append(f"Updated description from `{bold_old}` to `{bold_new}`")
             if d.homepage != a.homepage:
                 if d.homepage or a.homepage:
                     changes_list.append(f"Updated homepage from `{d.homepage}` to `{a.homepage}`")

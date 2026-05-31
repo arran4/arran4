@@ -19,7 +19,7 @@ def fetch_repos():
         req.add_header('Accept', 'application/vnd.github.v3+json')
 
         try:
-            with urllib.request.urlopen(req) as response:
+            with urllib.request.urlopen(req, timeout=10) as response:
                 data = json.loads(response.read().decode('utf-8'))
                 if not data:
                     break
@@ -29,6 +29,8 @@ def fetch_repos():
                 page += 1
         except urllib.error.URLError as e:
             print(f"Error fetching repos: {e}")
+            if hasattr(e, 'read'):
+                print(e.read().decode('utf-8'))
             sys.exit(1)
 
     return repos
@@ -105,7 +107,7 @@ def create_issue(title, body):
     req.add_header('Content-Type', 'application/json')
 
     try:
-        with urllib.request.urlopen(req) as response:
+        with urllib.request.urlopen(req, timeout=10) as response:
             result = json.loads(response.read().decode('utf-8'))
             print(f"Issue created successfully: {result.get('html_url')}")
     except urllib.error.URLError as e:

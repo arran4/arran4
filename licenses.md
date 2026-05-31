@@ -142,6 +142,7 @@ List of repositories and their licenses.
 |---|---|---|---|
 | [flutter_jules](https://github.com/arran4/flutter_jules) | My flutter based google jules client  |  | ai + flutter + linux + utility, app, google-jules, jules, macos, windows |
 | [personal-splitwise-helper-scripts](https://github.com/arran4/personal-splitwise-helper-scripts) | Splitwise TUI and CLI interface |  | cli, helper, splitwise, tui |
+| [rss-test-server-proof-of-issue](https://github.com/arran4/rss-test-server-proof-of-issue) | A test server for an rss issue |  |  |
 
 ### Unlicense
 | Repository | Description | License | Tags |

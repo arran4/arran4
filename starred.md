@@ -291,7 +291,7 @@ List of starred repositories.
 |---|---|---|
 | [Tikam02/DevOps-Guide](https://github.com/Tikam02/DevOps-Guide) |  DevOps Guide - Development to Production all configurations with basic notes to debug efficiently. | cheatsheet + linux, ansible, ci-cd, containers, devops, devops-cheatsheets, docker, git, grafana, hacktoberfest, hacktoberfest-2020, hacktoberfest2020, interview, jenkins, kubernetes, kubernetes-monitoring, networking, python |
 | [ruanbekker/cheatsheets](https://github.com/ruanbekker/cheatsheets) [🔗](http://cheatsheets.ruanbekker.com/) | My Cheatsheet Repository | cheatsheet + linux, aws, bash, cheat-sheets, devops, docker, elasticsearch, jq, kubectl, kubernetes, mongodb, mysql, postgresql |
-| [tldr-pages/tldr](https://github.com/tldr-pages/tldr) [🔗](https://tldr.sh) | Collaborative cheatsheets for console commands 📚. | cheatsheet + linux, android, bsd, cheatsheets, cli, console, documentation, examples, hacktoberfest, help, macos, man-page, manpages, manual, osx, shell, terminal, tldr, windows |
+| [tldr-pages/tldr](https://github.com/tldr-pages/tldr) [🔗](https://tldr.sh) | Collaborative cheatsheets for console commands 📚. | cheatsheet + linux, android, bsd, cheatsheets, cli, console, documentation, examples, hacktoberfest, help, macos, man-page, manual, osx, shell, terminal, tldr, windows |
 
 ### cli
 | Repository | Description | Tags |
@@ -1550,6 +1550,7 @@ List of starred repositories.
 | [GoogleCloudPlatform/cloud-spanner-emulator](https://github.com/GoogleCloudPlatform/cloud-spanner-emulator) | An open source emulator for Cloud Spanner. |  |
 | [GoogleContainerTools/distroless](https://github.com/GoogleContainerTools/distroless) | 🥑  Language focused docker images, minus the operating system.   | bazel, docker |
 | [GrapesJS/grapesjs](https://github.com/GrapesJS/grapesjs) [🔗](https://grapesjs.com) | Free and Open source Web Builder Framework. Next generation tool for building templates without coding | drag-and-drop, framework, no-code, nocode, page-builder, site-builder, site-generator, template-builder, ui-builder, web-builder, web-builder-framework, website-builder |
+| [GraphiteEditor/Graphite](https://github.com/GraphiteEditor/Graphite) [🔗](https://graphite.art) | Community-built comprehensive 2D content creation appplication for graphic design, digital art, and interactive real-time motion graphics powered by a node-based procedural graphics engine | 2d-graphics, animation, art, creative-coding, design, graphic-design, graphics, graphics-editor, image-manipulation, image-processing, motion-design, motion-graphics, node-graph, photo-editor, procedural, procedural-drawing, procedural-generation, svg-editor, vector-graphics |
 | [H1d3r/GPU_ShellCode](https://github.com/H1d3r/GPU_ShellCode) |  |  |
 | [Hannibal046/Awesome-LLM](https://github.com/Hannibal046/Awesome-LLM) | Awesome-LLM: a curated list of Large Language Model |  |
 | [HexFiend/HexFiend](https://github.com/HexFiend/HexFiend) [🔗](https://hexfiend.com) | A fast and clever hex editor for macOS |  |
@@ -1760,6 +1761,7 @@ List of starred repositories.
 | [Unmanic/unmanic](https://github.com/Unmanic/unmanic) | Unmanic - Library Optimiser | hacktoberfest |
 | [Unrud/video-downloader](https://github.com/Unrud/video-downloader) | Download videos from websites like YouTube and many others (based on yt-dlp) |  |
 | [VAST-AI-Research/MIDI-3D](https://github.com/VAST-AI-Research/MIDI-3D) [🔗](https://huanngzh.github.io/MIDI-Page/) | [CVPR 2025] MIDI: Multi-Instance Diffusion for Single Image to 3D Scene Generation | 3d, 3d-generation, 3d-scene, 3d-scene-generation |
+| [Valar-Systems/Ropener](https://github.com/Valar-Systems/Ropener) [🔗](https://valarsystems.com/products/ropener) | WiFi Stepper Motor Curtain Opener | stepper-motor-driver |
 | [ViridianLawyers/Privacy-Policy](https://github.com/ViridianLawyers/Privacy-Policy) [🔗](http://viridianlawyers.com) |  |  |
 | [VityaSchel/lufin](https://github.com/VityaSchel/lufin) | Read-only mirror of https://git.hloth.dev/hloth/lufin | bun, caddy, docker, docker-compose, drizzle-orm, e2ee, elysiajs, filesharing, lufi, minio, mongodb, postgresql, react, s3, sqlite, vite |
 | [Voultapher/sort-research-rs](https://github.com/Voultapher/sort-research-rs) | Test and benchmark suite for sort implementations. |  |
@@ -2138,6 +2140,7 @@ List of starred repositories.
 | [dropzone/dropzone](https://github.com/dropzone/dropzone) [🔗](http://www.dropzone.dev/js) | Dropzone is an easy to use drag'n'drop library. It supports image previews and shows nice progress bars. | drag-and-drop, dropzone, file-upload, javascript, javascript-library |
 | [dstotijn/hetty](https://github.com/dstotijn/hetty) [🔗](https://hetty.xyz) | An HTTP toolkit for security research. | bugbounty, http, infosec, mitm, pentesting, proxy |
 | [dtinth/comic-mono-font](https://github.com/dtinth/comic-mono-font) [🔗](https://dtinth.github.io/comic-mono-font/) | A legible monospace font... the very typeface you’ve been trained to recognize since childhood | jekyll, python |
+| [dtnewman/burn-baby-burn](https://github.com/dtnewman/burn-baby-burn) | Be the most productive engineer on your team 🚀🚀🚀 |  |
 | [duckdb/duckdb](https://github.com/duckdb/duckdb) [🔗](http://www.duckdb.org) | DuckDB is an analytical in-process SQL database management system | analytics, database, embedded-database, olap, sql |
 | [dunst-project/dunst](https://github.com/dunst-project/dunst) [🔗](https://dunst-project.org) | Lightweight and customizable notification daemon | c, dbus, libnotify, notification-daemon, wayland, x11 |
 | [duplicati/duplicati](https://github.com/duplicati/duplicati) | Store securely encrypted backups in the cloud! | backup, c-sharp, client-only-backup, cloud-backup, cloud-storage-services, duplicati, encryption, sftp, tno-backup, trust-no-one-backup, webdav |
@@ -2287,7 +2290,7 @@ List of starred repositories.
 | [getmaxun/maxun](https://github.com/getmaxun/maxun) [🔗](https://www.maxun.dev) | 🔥 The open-source no-code platform for web scraping, crawling, search and AI data extraction • Turn websites into structured APIs in minutes 🔥  | agents, api, automation, browser-automation, crawler, crawling, data-extraction, no-code, nocode, playwright, robotic-process-automation, rpa, scraper, self-hosted, web-scraper, web-scraping, web-search, webscraping |
 | [getomnico/omni](https://github.com/getomnico/omni) [🔗](https://getomni.co) | Workplace AI Assistant and Search Platform |  |
 | [getsops/sops](https://github.com/getsops/sops) [🔗](https://getsops.io) | Simple and flexible tool for managing secrets | aws, azure, devops, gcp, pgp, secret-distribution, secret-management, security, sops |
-| [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | LLM inference in C/C++ | ggml |
+| [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) [🔗](https://llama.app) | LLM inference in C/C++ | ggml |
 | [ggml-org/whisper.cpp](https://github.com/ggml-org/whisper.cpp) | Port of OpenAI's Whisper model in C/C++ | inference, openai, speech-recognition, speech-to-text, transformer, whisper |
 | [ghostty-org/ghostling](https://github.com/ghostty-org/ghostling) | A minimum viable terminal emulator built on top of the libghostty C API. Ex minimo, infinita nascuntur. 👻🐣 |  |
 | [gildas-lormeau/zip.js](https://github.com/gildas-lormeau/zip.js) [🔗](https://gildas-lormeau.github.io/zip.js) | JavaScript library to zip and unzip files supporting multi-core compression, web streams, zip64, split files, data encryption, and deflate64 decompression. | aes-encryption, browser, compression-stream, deflate64, deno, javascript, multi-core, multicore, nodejs, service-worker, split-zip, transform-stream, unzip, usdz, web-stream, web-worker, zip, zip-encryption, zip64, zipcrypto |
@@ -3138,6 +3141,7 @@ List of starred repositories.
 | [tree-sitter/tree-sitter](https://github.com/tree-sitter/tree-sitter) [🔗](https://tree-sitter.github.io) | An incremental parsing system for programming tools | c, incremental, parser, parsing, rust, tree-sitter, wasm |
 | [tristcoil/hanabira.org_manga_reader](https://github.com/tristcoil/hanabira.org_manga_reader) | Mokuro based self hosted manga reader with translations and grammar explanations |  |
 | [tromp/AIT](https://github.com/tromp/AIT) | Algorithmic Information Theory, using Binary Lambda Calculus |  |
+| [trypostit/trypost](https://github.com/trypostit/trypost) [🔗](https://trypost.it) | Open-source Social Media Scheduling | content-scheduling, creators, facebook, instragram, laravel, linkedin, marketing, open-source, php, pinterest, self-hosted, social-media, social-media-management, social-media-marketing, social-media-scheduler, threads, tiktok, twitter, vuejs, youtube |
 | [tsoding/olive.c](https://github.com/tsoding/olive.c) [🔗](https://tsoding.github.io/olive.c/) | Simple 2D Graphics Library for C |  |
 | [ttionya/vaultwarden-backup](https://github.com/ttionya/vaultwarden-backup) | Backup vaultwarden (formerly known as bitwarden_rs) SQLite3/PostgreSQL/MySQL/MariaDB database by rclone. (Docker) | bitwarden-rs, bitwardenrs-backup, vaultwarden, vaultwarden-backup |
 | [ttsiodras/ATtiny85_MonkeyIslandPlayer](https://github.com/ttsiodras/ATtiny85_MonkeyIslandPlayer) | Standalone player of Monkey Island PC-Speaker music ( https://www.thanassis.space/monkeyisland.html ) |  |

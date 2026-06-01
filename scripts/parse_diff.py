@@ -124,12 +124,12 @@ def main():
             a_desc_clean = a.desc.replace('`', '') if a.desc else ''
             if d_desc_clean != a_desc_clean:
                 if not d_desc_clean and a_desc_clean:
-                    changes_list.append(f"Added description `{a_desc_clean}`")
+                    changes_list.append(f"Added description:\n\n> {a_desc_clean}\n\n")
                 elif d_desc_clean and not a_desc_clean:
                     changes_list.append(f"Removed description")
                 else:
                     bold_old, bold_new = bold_difference(d_desc_clean, a_desc_clean)
-                    changes_list.append(f"Updated description from {bold_old} to {bold_new}")
+                    changes_list.append(f"Updated description from:\n\n> {bold_old}\n\nTo:\n\n> {bold_new}\n\n")
             if d.homepage != a.homepage:
                 if d.homepage or a.homepage:
                     changes_list.append(f"Updated homepage from `{d.homepage}` to `{a.homepage}`")

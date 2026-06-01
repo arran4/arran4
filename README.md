@@ -196,7 +196,6 @@ Have questions or feedback? [Open an issue](https://github.com/arran4/arran4/iss
 | [go-template-functional-operations](https://github.com/arran4/go-template-functional-operations) | These functions enable a more functional programming style within template rendering, allowing you to easily perform operations like mapping, filtering, and finding indices directly within your templates. | go, functional-go-template, go-template, go-template-functions |
 | [goa4web](https://github.com/arran4/goa4web) | My everything website (server) from 2005 ported from C to GO. Ready for news, forums, link sharing, image sharing and more | go, cms, forum, image-sharing, link-sharing, news, personal, server, sql, webserver, website |
 | [goxresources](https://github.com/arran4/goxresources) | go parser for xresource files  | go, dotfiles, xresources |
-| [phpbb2-rss](https://github.com/arran4/phpbb2-rss) | RSS generator for any phpbb2 forum | go, phpbb, phpbb2, rss |
 
 ### go + image
 | Repository | Description | Tags |
@@ -217,6 +216,12 @@ Have questions or feedback? [Open an issue](https://github.com/arran4/arran4/iss
 | [golang-ical](https://github.com/arran4/golang-ical) | A  ICS / ICal parser and serialiser for Golang. | go + library, ical, ics |
 | [golang-rcs](https://github.com/arran4/golang-rcs) [🔗](https://pkg.go.dev/github.com/arran4/golang-rcs) | golang rcs parser / generator, and utilities | go + library, rcs, vcs |
 | [spacemap](https://github.com/arran4/spacemap) [🔗](https://pkg.go.dev/github.com/arran4/spacemap) | 2d space mapper, using a couple different algorithms with an interchangable interface | go + library, image-mapper, location, location-lookup, space-mapping |
+
+### go + rss
+| Repository | Description | Tags |
+|---|---|---|
+| [phpbb2-rss](https://github.com/arran4/phpbb2-rss) | RSS generator for any phpbb2 forum | go + rss, phpbb, phpbb2 |
+| [rss-test-server-proof-of-issue](https://github.com/arran4/rss-test-server-proof-of-issue) | A test server for an rss issue | go + rss, issue, single-purpose-app, testing-code |
 
 ### go + web
 | Repository | Description | Tags |
@@ -249,7 +254,6 @@ Have questions or feedback? [Open an issue](https://github.com/arran4/arran4/iss
 | [idea-txtar-support-plugin](https://github.com/arran4/idea-txtar-support-plugin) [🔗](https://plugins.jetbrains.com/plugin/30286-txtar-file-support) | Jetbrains Idea txtar support plugin | idea, java, jetbrains, plugin, txtar |
 | [lxa](https://github.com/arran4/lxa) | ls with extended attributes | fs-attr, linux, ls, xattr, xdp |
 | [resume](https://github.com/arran4/resume) | Arrans Resume | cv, resume, typst |
-| [rss-test-server-proof-of-issue](https://github.com/arran4/rss-test-server-proof-of-issue) | A test server for an rss issue |  |
 | [tex_recipes_template](https://github.com/arran4/tex_recipes_template) | A very simple tex engine for recipes helpful for an AI world | recipes, template, tex |
 | [vlc-xattr-plugin](https://github.com/arran4/vlc-xattr-plugin) | A plugin for VLC to add "seen" to the `xdg.tags` list automatically when ever you watch anything | c, cmake, fs-attr, plugins, vlc, vlc-plugin, xattr |
 | [whirlpool-forum-rss](https://github.com/arran4/whirlpool-forum-rss) | An RSS Generator for the Whirlpool.net.au forums | rss, whirlpool, whirlpool-forums |

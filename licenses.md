@@ -84,7 +84,7 @@ List of repositories and their licenses.
 | [kllamabooks](https://github.com/arran4/kllamabooks) | A KDE-styled QT application that interacts with local Ollama sessions and stores chat history locally via encrypted SQLite databases | GPL-3.0 | ai + chat + kde, client, ollama |
 | [mvcommon](https://github.com/arran4/mvcommon) | Tool for moving files into a folder where they have a common prefix | GPL-3.0 | cli, mv, smart-tools |
 | [phonenumber](https://github.com/arran4/phonenumber) | A generator for the nokia phone keyboard meme | GPL-3.0 | for-fun + generator + go, meme, nokia, nokia-keyboard, phone, phonenumber |
-| [phpbb2-rss](https://github.com/arran4/phpbb2-rss) | RSS generator for any phpbb2 forum | GPL-3.0 | go, phpbb, phpbb2, rss |
+| [phpbb2-rss](https://github.com/arran4/phpbb2-rss) | RSS generator for any phpbb2 forum | GPL-3.0 | go + rss, phpbb, phpbb2 |
 | [rntocase](https://github.com/arran4/rntocase) | Some utilities to rename files, to upper, lower, title, camel, kebab, darwin case and many more | GPL-3.0 | cli + go, case-changer, filename, filename-case-changer, golibrary |
 | [send_to_linkwarden](https://github.com/arran4/send_to_linkwarden) [🔗](https://arran4.github.io/send_to_linkwarden/) | Mobile version of Linkwarden | GPL-3.0 | flutter, android, archiving, link, linkwarden, mobile, utility |
 | [whirlpool-forum-rss](https://github.com/arran4/whirlpool-forum-rss) | An RSS Generator for the Whirlpool.net.au forums | GPL-3.0 | rss, whirlpool, whirlpool-forums |
@@ -142,7 +142,7 @@ List of repositories and their licenses.
 |---|---|---|---|
 | [flutter_jules](https://github.com/arran4/flutter_jules) | My flutter based google jules client  |  | ai + flutter + linux + utility, app, google-jules, jules, macos, windows |
 | [personal-splitwise-helper-scripts](https://github.com/arran4/personal-splitwise-helper-scripts) | Splitwise TUI and CLI interface |  | cli, helper, splitwise, tui |
-| [rss-test-server-proof-of-issue](https://github.com/arran4/rss-test-server-proof-of-issue) | A test server for an rss issue |  |  |
+| [rss-test-server-proof-of-issue](https://github.com/arran4/rss-test-server-proof-of-issue) | A test server for an rss issue |  | go + rss, issue, single-purpose-app, testing-code |
 
 ### Unlicense
 | Repository | Description | License | Tags |

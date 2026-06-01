@@ -120,12 +120,12 @@ def main():
                     changes_list.append(f"Changed owner from `{d.owner}` to `{a.owner}`")
                 else:
                     changes_list.append(f"Renamed from `{d.name}` to `{a.name}`")
-            if d.desc != a.desc:
-                d_desc_clean = d.desc.replace('`', '') if d.desc else ''
-                a_desc_clean = a.desc.replace('`', '') if a.desc else ''
-                if not d.desc and a.desc:
+            d_desc_clean = d.desc.replace('`', '') if d.desc else ''
+            a_desc_clean = a.desc.replace('`', '') if a.desc else ''
+            if d_desc_clean != a_desc_clean:
+                if not d_desc_clean and a_desc_clean:
                     changes_list.append(f"Added description `{a_desc_clean}`")
-                elif d.desc and not a.desc:
+                elif d_desc_clean and not a_desc_clean:
                     changes_list.append(f"Removed description")
                 else:
                     bold_old, bold_new = bold_difference(d_desc_clean, a_desc_clean)

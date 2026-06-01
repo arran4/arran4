@@ -121,9 +121,15 @@ def main():
                 else:
                     changes_list.append(f"Renamed from `{d.name}` to `{a.name}`")
             if d.desc != a.desc:
-                if d.desc or a.desc:
-                    bold_old, bold_new = bold_difference(d.desc, a.desc)
-                    changes_list.append(f"Updated description from `{bold_old}` to `{bold_new}`")
+                d_desc_clean = d.desc.replace('`', '') if d.desc else ''
+                a_desc_clean = a.desc.replace('`', '') if a.desc else ''
+                if not d.desc and a.desc:
+                    changes_list.append(f"Added description `{a_desc_clean}`")
+                elif d.desc and not a.desc:
+                    changes_list.append(f"Removed description")
+                else:
+                    bold_old, bold_new = bold_difference(d_desc_clean, a_desc_clean)
+                    changes_list.append(f"Updated description from {bold_old} to {bold_new}")
             if d.homepage != a.homepage:
                 if d.homepage or a.homepage:
                     changes_list.append(f"Updated homepage from `{d.homepage}` to `{a.homepage}`")

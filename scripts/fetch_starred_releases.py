@@ -47,12 +47,12 @@ def fetch_releases(repos, token):
         })
 
         try:
-            with urllib.request.urlopen(req) as response:
+            with urllib.request.urlopen(req, timeout=10) as response:
                 data = json.loads(response.read().decode())
                 if 'data' in data:
                     for alias, repo_data in data['data'].items():
                         if repo_data and repo_data.get('latestRelease'):
-                            results[repo_data['nameWithOwner']] = repo_data['latestRelease']
+                            results[repo_data['nameWithOwner'].lower()] = repo_data['latestRelease']
         except Exception as e:
             print(f"Error fetching GraphQL for releases: {e}", file=sys.stderr)
 

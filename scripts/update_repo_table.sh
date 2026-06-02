@@ -313,7 +313,7 @@ STARRED_RELEASES="$TMP_DIR/starred_releases.json"
 python3 scripts/fetch_starred_releases.py "$ALL_STARRED" "$STARRED_RELEASES"
 
 ALL_STARRED_WITH_RELEASES="$TMP_DIR/all_starred_with_releases.json"
-jq -s '.[0] as $releases | .[1] | map(. + {latest_release_tag: $releases[.full_name]?.tagName, latest_release_date: $releases[.full_name]?.publishedAt})' "$STARRED_RELEASES" "$ALL_STARRED" > "$ALL_STARRED_WITH_RELEASES"
+jq -s '.[0] as $releases | .[1] | map(. + {latest_release_tag: $releases[.full_name | ascii_downcase]?.tagName, latest_release_date: $releases[.full_name | ascii_downcase]?.publishedAt})' "$STARRED_RELEASES" "$ALL_STARRED" > "$ALL_STARRED_WITH_RELEASES"
 mv "$ALL_STARRED_WITH_RELEASES" "$ALL_STARRED"
 
 SORTED_STARRED="$TMP_DIR/sorted_starred.json"

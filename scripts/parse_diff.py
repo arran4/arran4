@@ -158,7 +158,7 @@ def main():
                 for change in changes_list:
                     if '\n' in change:
                         formatted_change = change.strip().replace('\n', '\n    ')
-                        output.append(f"  - {formatted_change}\n")
+                        output.append(f"  - {formatted_change}")
                     else:
                         output.append(f"  - {change}")
 

@@ -1683,7 +1683,7 @@ List of starred repositories.
 | [PuerkitoBio/goquery](https://github.com/PuerkitoBio/goquery) | A little like that j-thing, only in Go. | goquery, html-parsing, jquery, selector-strings |
 | [Qolors/FeedCord](https://github.com/Qolors/FeedCord) | A dead simple RSS Feed with Discord Webhooks |  |
 | [QwenLM/Qwen3-TTS](https://github.com/QwenLM/Qwen3-TTS) | Qwen3-TTS is an open-source series of TTS models developed by the Qwen team at Alibaba Cloud, supporting stable, expressive, and streaming speech generation, free-form voice design, and vivid voice cloning. |  |
-| [QwenLM/qwen-code](https://github.com/QwenLM/qwen-code) [🔗](https://qwenlm.github.io/qwen-code-docs/en/users/overview) | An open-source AI agent that lives in your terminal. |  |
+| [QwenLM/qwen-code](https://github.com/QwenLM/qwen-code) [🔗](https://qwenlm.github.io/qwen-code-docs/en/users/overview) | An open-source AI coding agent that lives in your terminal. |  |
 | [RA341/dockman](https://github.com/RA341/dockman) [🔗](https://dockman.radn.dev/) | Yet another docker compose manager for homelabs | docker, docker-compose |
 | [ReVanced/revanced-manager](https://github.com/ReVanced/revanced-manager) [🔗](https://revanced.app) | 💊 Application to use ReVanced on Android  | android, jetpack-compose, manager, modding, patching, revanced |
 | [RealOrangeOne/docker-db-auto-backup](https://github.com/RealOrangeOne/docker-db-auto-backup) [🔗](https://theorangeone.net/projects/docker-db-auto-backup/) | A script to automatically back up all databases running under docker on a host | backup, database, docker, mariadb, mysql, postgresql |
@@ -1781,7 +1781,7 @@ List of starred repositories.
 | [ZephrFish/WindowsHardeningScript](https://github.com/ZephrFish/WindowsHardeningScript) | Some settings stolen from multiple scripts @ZephrFish |  |
 | [ZeroQI/Absolute-Series-Scanner](https://github.com/ZeroQI/Absolute-Series-Scanner) | Seasons, absolute mode, Subfolders... |  |
 | [Zetaphor/whatcable-linux](https://github.com/Zetaphor/whatcable-linux) | A linux/KDE port of whatcable, a tool to tell you what each USB connected cable can do |  |
-| [Zipstack/unstract](https://github.com/Zipstack/unstract) [🔗](https://unstract.com) | LLM-Driven Extraction of Unstructured Data — Built for API Deployments & ETL Pipeline Workflows | api-deployments, data-extraction, document-processing, etl-pipelines, open-source-data-pipeline, unstructured-data-extraction |
+| [Zipstack/unstract](https://github.com/Zipstack/unstract) [🔗](https://unstract.com) | LLM-Driven Extraction of Unstructured Data — Built for API Deployments & ETL Pipeline Workflows | ai-agents, data-engineering, document-ai, generative-ai, idp, json-extraction, llm, mcp-server, ocr, pdf-extraction, prompt-engineering, structured-output |
 | [ZitaoTech/Hackberry-Pi_Zero](https://github.com/ZitaoTech/Hackberry-Pi_Zero) | A handheld Linux terminal using Raspberry pi Zero 2W as Core with 4" 720X720 TFT display |  |
 | [ZoneMinder/zoneminder](https://github.com/ZoneMinder/zoneminder) [🔗](http://www.zoneminder.com/) | ZoneMinder is a free, open source Closed-circuit television software application developed for Linux which supports IP, USB and Analog cameras.  | cctv, distributed, h264, h265, scalable, video, vms, zmninja, zoneminder |
 | [ZungBang/undbx](https://github.com/ZungBang/undbx) [🔗](http://undbx.sourceforge.net/) | Tool to extract e-mail messages from Outlook Express DBX files. |  |
@@ -2236,7 +2236,7 @@ List of starred repositories.
 | [flathub/flathub](https://github.com/flathub/flathub) [🔗](https://docs.flathub.org/docs/for-app-authors/submission) | Issue tracker and new submissions | flathub, flatpak |
 | [flatpak/flatpak-builder-tools](https://github.com/flatpak/flatpak-builder-tools) | Various helper tools for flatpak-builder | flatpak, flatpak-builder |
 | [flawiddsouza/Restfox](https://github.com/flawiddsouza/Restfox) [🔗](https://restfox.dev) | Offline-First Minimalistic HTTP & Socket Testing Client for the Web & Desktop | api-client, api-testing, developer-tools, graphql-client, hacktoberfest, http, http-client, pwa, rest-api, rest-client, testing-tools, vue, websocket |
-| [flipperdevices/flipperzero-firmware](https://github.com/flipperdevices/flipperzero-firmware) [🔗](https://flipperzero.one) | Flipper Zero firmware source code | armv7m, ble, firmware, flipper, flipperzero, infrared, nfc, onewire, rfid, stm32, subghz |
+| [flipperdevices/flipperzero-firmware](https://github.com/flipperdevices/flipperzero-firmware) [🔗](https://flipper.net) | Flipper Zero firmware source code | armv7m, ble, firmware, flipper, flipperzero, infrared, nfc, onewire, rfid, stm32, subghz |
 | [flipperdevices/flipperzero-good-faps](https://github.com/flipperdevices/flipperzero-good-faps) | Flipper Zero Official Apps maintained by Flipper Team and Friends |  |
 | [flipperdevices/flipperzero-sd-card-examples](https://github.com/flipperdevices/flipperzero-sd-card-examples) | Examples of all types of files stored on Flipper Zero SD card |  |
 | [flipperdevices/qFlipper](https://github.com/flipperdevices/qFlipper) [🔗](https://update.flipperzero.one) | qFlipper — desktop application for updating Flipper Zero firmware via PC |  |
@@ -2382,7 +2382,7 @@ List of starred repositories.
 | [henrygd/beszel](https://github.com/henrygd/beszel) [🔗](https://beszel.dev) | Lightweight server monitoring with historical data, docker stats, and alerts. | homelab, monitoring, self-hosted |
 | [herol3oy/austen](https://github.com/herol3oy/austen) [🔗](https://austenapp.xyz) | 📚 discover story relationships | nextjs, react, shadcn-ui, tailwindcss |
 | [hertzz/canopy](https://github.com/hertzz/canopy) | Amazon Web Services IAM key manager |  |
-| [hexclave/stack-auth](https://github.com/hexclave/stack-auth) [🔗](https://stack-auth.com) | Open-source Auth0/Clerk alternative | auth, auth0, authentication, clerk, cognito, email-password, firebase-auth, keycloak, login, magic-link, nextjs, oauth, password, react, session-management, shadcn, signin, social-login, supabase-auth, typescript |
+| [hexclave/hexclave](https://github.com/hexclave/hexclave) [🔗](https://stack-auth.com) | Open-source Auth0/Clerk alternative | auth, auth0, authentication, clerk, cognito, email-password, firebase-auth, keycloak, login, magic-link, nextjs, oauth, password, react, session-management, shadcn, signin, social-login, supabase-auth, typescript |
 | [hexgrad/kokoro](https://github.com/hexgrad/kokoro) | https://hf.co/hexgrad/Kokoro-82M |  |
 | [hhftechnology/Dock-Dploy](https://github.com/hhftechnology/Dock-Dploy) [🔗](https://docker-compose.hhf.technology) | A  web-based tool for building, managing, and converting Docker Compose files, configuration files, and schedulers. | compose-build, docker, docker-compose, newt, pangolin, tailscale |
 | [hickford/git-credential-oauth](https://github.com/hickford/git-credential-oauth) | A Git credential helper that securely authenticates to GitHub, GitLab and BitBucket using OAuth. | git, git-credential-helper, usable-security |
@@ -2798,7 +2798,7 @@ List of starred repositories.
 | [nostr-protocol/nostr](https://github.com/nostr-protocol/nostr) | a truly censorship-resistant alternative to Twitter that has a chance of working | nostr |
 | [notclickable-jordan/podcastdn](https://github.com/notclickable-jordan/podcastdn) | A self-hosted YouTube video/playlist to podcast generator that uploads to S3 and CloudFront |  |
 | [novitalabs/AnimateAnyone](https://github.com/novitalabs/AnimateAnyone) [🔗](https://novita.ai) | Unofficial Implementation of Animate Anyone by Novita AI | animateanyone, videogeneration |
-| [novuhq/novu](https://github.com/novuhq/novu) [🔗](https://go.novu.co/github) | The open-source notification infrastructure. In-app Inbox component, E-mail, SMS, Push and Slack Integrations. | agents, communication, email, inbox, infrastructure, nodejs, notification-center, notifications, novu, push-notifications, react, reactjs, sms, transactional, typescript |
+| [novuhq/novu](https://github.com/novuhq/novu) [🔗](https://go.novu.co/github) | The open-source communication infrastructure for agents and products | agents, communication, email, inbox, infrastructure, nodejs, notification-center, notifications, novu, push-notifications, react, reactjs, sms, transactional, typescript |
 | [npcnixel/genanki-go](https://github.com/npcnixel/genanki-go) | Go library for generating Anki notes, decks, packages (genanki port) |  |
 | [numediart/MBROLA](https://github.com/numediart/MBROLA) | MBROLA is a speech synthesizer based on the concatenation of diphones | numediart-speech, numediart-tools |
 | [numman-ali/codex-wrapped](https://github.com/numman-ali/codex-wrapped) | Generate a personalized Spotify Wrapped-style summary of your Codex usage |  |
@@ -2920,7 +2920,7 @@ List of starred repositories.
 | [refinedev/refine](https://github.com/refinedev/refine) [🔗](https://refine.dev) | A React Framework for building  internal tools, admin panels, dashboards & B2B apps with unmatched flexibility. | admin, admin-ui, ant-design, crud, developer-tools, frontend-framework, good-first-issue, graphql, hacktoberfest, headless, internal-tools, javascript, low-code, nestjs, nextjs, open-source-project, react, react-framework, react-hooks, typescript |
 | [remorses/kimaki](https://github.com/remorses/kimaki) [🔗](https://kimaki.dev) | all opencode features deeply integrated inside Discord. each project is a channel. each session a thread | clawdbot, discord, openclaw-alternative, opencode |
 | [replicate/cog-flux](https://github.com/replicate/cog-flux) [🔗](https://replicate.com/black-forest-labs/flux-dev) | Cog inference for flux models |  |
-| [requestly/requestly](https://github.com/requestly/requestly) [🔗](https://requestly.com/) | Open-Source HTTP Interceptor & Mocking Tool | api-mock, charles-proxy, chrome-extension, fiddler, firefox-extension, hacktoberfest, http-interceptor, mock-server, open-source |
+| [requestly/requestly](https://github.com/requestly/requestly) [🔗](https://requestly.com/) | Community hub for Requestly API Client — bugs, feature requests, and roadmap. The privacy-first Postman alternative. | api-client, api-testing, developer-tools, git-sync, graphql, grpc, open-source, postman-alternative, privacy-first, rest-api, websocket |
 | [resend/react-email](https://github.com/resend/react-email) [🔗](https://react.email) | 💌 Build and send emails using React | email, hacktoberfest |
 | [restic/others](https://github.com/restic/others) | Exhaustive list of backup solutions for Linux |  |
 | [revalo/iceberg](https://github.com/revalo/iceberg) | A compositional diagramming and animation library as an eDSL in Python |  |

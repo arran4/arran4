@@ -2,6 +2,13 @@ import sys
 import re
 import difflib
 
+def escape_md(text):
+    if not text: return ""
+    res = text.replace("\\", "\\\\")
+    for c in "_*`[]<>":
+        res = res.replace(c, "\\" + c)
+    return res
+
 def bold_difference(old_str, new_str):
     old_str = old_str or ""
     new_str = new_str or ""
@@ -13,15 +20,15 @@ def bold_difference(old_str, new_str):
     res_new = []
     for opcode, a0, a1, b0, b1 in sm.get_opcodes():
         if opcode == 'equal':
-            res_old.append(old_str[a0:a1])
-            res_new.append(new_str[b0:b1])
+            res_old.append(escape_md(old_str[a0:a1]))
+            res_new.append(escape_md(new_str[b0:b1]))
         elif opcode == 'insert':
-            res_new.append(f"**{new_str[b0:b1]}**")
+            res_new.append(f"**{escape_md(new_str[b0:b1])}**")
         elif opcode == 'delete':
-            res_old.append(f"**{old_str[a0:a1]}**")
+            res_old.append(f"**{escape_md(old_str[a0:a1])}**")
         elif opcode == 'replace':
-            res_old.append(f"**{old_str[a0:a1]}**")
-            res_new.append(f"**{new_str[b0:b1]}**")
+            res_old.append(f"**{escape_md(old_str[a0:a1])}**")
+            res_new.append(f"**{escape_md(new_str[b0:b1])}**")
 
     return "".join(res_old), "".join(res_new)
 
@@ -120,16 +127,16 @@ def main():
                     changes_list.append(f"Changed owner from `{d.owner}` to `{a.owner}`")
                 else:
                     changes_list.append(f"Renamed from `{d.name}` to `{a.name}`")
-            d_desc_clean = d.desc.replace('`', '') if d.desc else ''
-            a_desc_clean = a.desc.replace('`', '') if a.desc else ''
+            d_desc_clean = d.desc if d.desc else ''
+            a_desc_clean = a.desc if a.desc else ''
             if d_desc_clean != a_desc_clean:
                 if not d_desc_clean and a_desc_clean:
-                    changes_list.append(f"Added description:\n\n> {a_desc_clean}\n\n")
+                    changes_list.append(f"Added description:\n\n> {escape_md(a_desc_clean)}\n\n")
                 elif d_desc_clean and not a_desc_clean:
                     changes_list.append(f"Removed description")
                 else:
                     bold_old, bold_new = bold_difference(d_desc_clean, a_desc_clean)
-                    changes_list.append(f"Updated description from:\n\n> {bold_old}\n\nTo:\n\n> {bold_new}\n\n")
+                    changes_list.append(f"Updated description:\n\n> - {bold_old}\n> + {bold_new}\n\n")
             if d.homepage != a.homepage:
                 if d.homepage or a.homepage:
                     changes_list.append(f"Updated homepage from `{d.homepage}` to `{a.homepage}`")

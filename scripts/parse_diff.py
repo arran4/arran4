@@ -151,7 +151,16 @@ def main():
             if not changes_list:
                 changes_list.append("Row formatted or modified")
 
-            output.append(f"- **Updated** [{a.name}]({a.repo_url}): {'; '.join(changes_list)}")
+            if len(changes_list) == 1 and '\n' not in changes_list[0]:
+                output.append(f"- **Updated** [{a.name}]({a.repo_url}): {changes_list[0]}")
+            else:
+                output.append(f"- **Updated** [{a.name}]({a.repo_url}):")
+                for change in changes_list:
+                    if '\n' in change:
+                        formatted_change = change.strip().replace('\n', '\n    ')
+                        output.append(f"  - {formatted_change}")
+                    else:
+                        output.append(f"  - {change}")
 
         output.append("\n")
 

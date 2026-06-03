@@ -1641,7 +1641,7 @@ List of starred repositories.
 | [MiSTer-devel/VT52_MiSTer](https://github.com/MiSTer-devel/VT52_MiSTer) |  |  |
 | [MichiganTypeScript/typescript-types-only-wasm-runtime](https://github.com/MichiganTypeScript/typescript-types-only-wasm-runtime) | A WebAssembly runtime implemented in TypeScript types |  |
 | [Milad-Akarie/skeletonizer](https://github.com/Milad-Akarie/skeletonizer) |  |  |
-| [Mintplex-Labs/anything-llm](https://github.com/Mintplex-Labs/anything-llm) [🔗](https://anythingllm.com) | The all-in-one AI productivity accelerator. On device and privacy first with no annoying setup or configuration. | ai-agents, custom-ai-agents, deepseek, kimi, llama3, llm, lmstudio, local-llm, localai, mcp, mcp-servers, moonshot, multimodal, no-code, ollama, qwen3, rag, vector-database, web-scraping |
+| [Mintplex-Labs/anything-llm](https://github.com/Mintplex-Labs/anything-llm) [🔗](https://anythingllm.com) | Stop renting your intelligence. Own it with AnythingLLM. Everything you need for a powerful local-first agent experience  | agent-harness, agentic-ai, ai-agents, hermes-agent, image-classification, llm, local-ai, local-first, localai, multimodal, no-code, open-claw, rag, vector-database |
 | [Mobile-Artificial-Intelligence/maid](https://github.com/Mobile-Artificial-Intelligence/maid) | Maid is a free and open source application for interfacing with llama.cpp models locally, and with Anthropic, DeepSeek, Ollama, Mistral and OpenAI models remotely. | android, anthropic, chatbot, chatgpt, claude, deepseek, facebook, gguf, llama, llama-cpp, mistral, mobile-artificial-intelligence, ollama, openai |
 | [MoonWalker440/Music-Megathread](https://github.com/MoonWalker440/Music-Megathread) | A Comprehensive List For All Music 🎶 Lovers. It's a treasure trove of music resources to enhance your listening experience and discover new music. |  |
 | [Mozilla-Ocho/llamafile-rag-example](https://github.com/Mozilla-Ocho/llamafile-rag-example) |  |  |
@@ -2060,6 +2060,7 @@ List of starred repositories.
 | [cue-lang/cue](https://github.com/cue-lang/cue) [🔗](https://cuelang.org) | The home of the CUE language! Validate and define text-based and dynamic configuration | configuration, data, kubernetes, validation |
 | [cutiepi-io/cutiepi-drivers](https://github.com/cutiepi-io/cutiepi-drivers) [🔗](https://cutiepi.io) | Drivers for the CutiePi tablet  |  |
 | [cutiepi-io/pi-gen_stage4.5-cutiepi](https://github.com/cutiepi-io/pi-gen_stage4.5-cutiepi) | Stage folder for building CutiePi image with pi-gen |  |
+| [cyberpapiii/chipotlai-max](https://github.com/cyberpapiii/chipotlai-max) | The AI coding agent that runs on stolen Chipotle compute 🌯 Fork of OpenCode with Pepper AI as default model. Community project to add providers from Home Depot, Lowes, Target, Starbucks & more. |  |
 | [cznic/ql](https://github.com/cznic/ql) [🔗](https://godoc.org/modernc.org/ql) | github.com/cznic/ql has moved to modernc.org/ql |  |
 | [d07RiV/diabloweb](https://github.com/d07RiV/diabloweb) | Diablo 1 for web browsers |  |
 | [dagger/dagger](https://github.com/dagger/dagger) [🔗](https://dagger.io) | Automation engine to build, test and ship any codebase. Runs locally, in CI, or directly in the cloud | agents, caching, ci-cd, containers, continuous-deployment, continuous-integration, dag, dagger, devops, docker, graphql, workflows |
@@ -2382,7 +2383,7 @@ List of starred repositories.
 | [henrygd/beszel](https://github.com/henrygd/beszel) [🔗](https://beszel.dev) | Lightweight server monitoring with historical data, docker stats, and alerts. | homelab, monitoring, self-hosted |
 | [herol3oy/austen](https://github.com/herol3oy/austen) [🔗](https://austenapp.xyz) | 📚 discover story relationships | nextjs, react, shadcn-ui, tailwindcss |
 | [hertzz/canopy](https://github.com/hertzz/canopy) | Amazon Web Services IAM key manager |  |
-| [hexclave/hexclave](https://github.com/hexclave/hexclave) [🔗](https://stack-auth.com) | Open-source Auth0/Clerk alternative | auth, auth0, authentication, clerk, cognito, email-password, firebase-auth, keycloak, login, magic-link, nextjs, oauth, password, react, session-management, shadcn, signin, social-login, supabase-auth, typescript |
+| [hexclave/hexclave](https://github.com/hexclave/hexclave) [🔗](https://hexclave.com) | Open-source Auth0/Clerk alternative | analytics, api-keys, auth0, authentication, authorization, billing, clerk, emails, multi-tenancy, nextjs, oauth, passkeys, payments, posthog, rbac, self-hosted, subscriptions, supabase, teams |
 | [hexgrad/kokoro](https://github.com/hexgrad/kokoro) | https://hf.co/hexgrad/Kokoro-82M |  |
 | [hhftechnology/Dock-Dploy](https://github.com/hhftechnology/Dock-Dploy) [🔗](https://docker-compose.hhf.technology) | A  web-based tool for building, managing, and converting Docker Compose files, configuration files, and schedulers. | compose-build, docker, docker-compose, newt, pangolin, tailscale |
 | [hickford/git-credential-oauth](https://github.com/hickford/git-credential-oauth) | A Git credential helper that securely authenticates to GitHub, GitLab and BitBucket using OAuth. | git, git-credential-helper, usable-security |
@@ -3015,7 +3016,7 @@ List of starred repositories.
 | [sipeed/NanoKVM](https://github.com/sipeed/NanoKVM) [🔗](https://wiki.sipeed.com/nanokvm) | Affordable, Multifunctional, Nano RISC-V IP-KVM |  |
 | [sirupsen/napkin-math](https://github.com/sirupsen/napkin-math) [🔗](https://www.youtube.com/watch?v=IxkSlnrRFqc) | Techniques and numbers for estimating system's performance from first-principles |  |
 | [sismics/docs](https://github.com/sismics/docs) [🔗](https://teedy.io) | Lightweight document management system packed with all the features you can expect from big expensive solutions | cloud, dms, docker, document, enterprise, file-sharing, java, javascript, ocr, open-source, self-hosting, sharing, workflow |
-| [siyuan-note/siyuan](https://github.com/siyuan-note/siyuan) [🔗](https://b3log.org/siyuan) | A privacy-first, self-hosted, fully open source personal knowledge management software, written in typescript and golang. | anki, chatgpt, deepseek, electron, evernote, knowledge-base, local-first, markdown, note-taking, notes-app, notion, obsidian, ocr, ollama, openclaw, pdf, s3, self-hosted, webdav |
+| [siyuan-note/siyuan](https://github.com/siyuan-note/siyuan) [🔗](https://b3log.org/siyuan) | A privacy-first, self-hosted, fully open source personal knowledge management software, written in typescript and golang. | agent, anki, deepseek, electron, evernote, knowledge-base, local-first, markdown, note-taking, notes-app, notion, obsidian, ocr, ollama, openclaw, pdf, s3, self-hosted, webdav |
 | [sk22/megalodon](https://github.com/sk22/megalodon) [🔗](https://sk22.github.io/megalodon) | Abandoned. Pink modification of the official Mastodon for Android app | android, fork, mastodon, pink |
 | [skip2/go-qrcode](https://github.com/skip2/go-qrcode) | :sparkles: QR Code encoder (Go) |  |
 | [slackhq/nebula](https://github.com/slackhq/nebula) | A scalable overlay networking tool with a focus on performance, simplicity and security |  |
@@ -3246,6 +3247,7 @@ List of starred repositories.
 | [zaghaghi/openapi-tui](https://github.com/zaghaghi/openapi-tui) | Terminal UI to list, browse and run APIs defined with openapi spec. | openapi3, openapi31, ratatui-rs, rust-lang, tui |
 | [zai-org/CogVideo](https://github.com/zai-org/CogVideo) | text and image to video generation: CogVideoX (2024) and CogVideo (ICLR 2023) | cogvideox, image-to-video, llm, sora, text-to-video, video-generation |
 | [zakirullin/gpt-go](https://github.com/zakirullin/gpt-go) | Tiny GPT implemented from scratch in pure Go. Trained on Jules Verne books. Explained. |  |
+| [zed-industries/awesome-gpui](https://github.com/zed-industries/awesome-gpui) | Awesome projects, built with or for GPUI! |  |
 | [zed-industries/zed](https://github.com/zed-industries/zed) [🔗](https://zed.dev) | Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter. | gpui, rust-lang, text-editor, zed |
 | [zeichensatz/SynologyPhotosAPI](https://github.com/zeichensatz/SynologyPhotosAPI) | Unofficial documentation of Synology Photos API |  |
 | [zellij-org/zellij](https://github.com/zellij-org/zellij) [🔗](https://zellij.dev) | A terminal workspace with batteries included | multiplexer, terminal, workspace |

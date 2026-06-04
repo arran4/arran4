@@ -20,6 +20,7 @@ List of starred repositories.
 | [BuilderIO/micro-agent](https://github.com/BuilderIO/micro-agent) [🔗](https://www.builder.io/blog/micro-agent) | An AI agent that writes (actually useful) code for you | ai, agent, figma, javascript, react, typescript |
 | [CodeWithCJ/SparkyFitness](https://github.com/CodeWithCJ/SparkyFitness) [🔗](https://codewithcj.github.io/SparkyFitness/) | SparkyFitness: Built for Families. Powered by AI. Track food, fitness, water, and health — together. | ai, artificial-intelligence, fitness, fitness-app, fitness-tracker, health, health-coaching, healthcheck, self-hosted, selfhosted |
 | [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) [🔗](https://www.comfy.org/) | The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. | ai, comfy, comfyui, python, pytorch, stable-diffusion |
+| [Feyerabend/cc](https://github.com/Feyerabend/cc) | From Code to Computation: A Modern Guide to Programming and Theory | ai, book, c, code, comprehensive-computing, computation, large-language-models, ml, practice-code, programming-as-craft, project-based-learning, python, virtual-machine |
 | [FireCubeStudios/Clippy](https://github.com/FireCubeStudios/Clippy) [🔗](https://discord.gg/3WYcKat) | Bring back Clippy on Windows 10/11! | ai, chatgpt, clippy, fluent-design, gpt-3, openai, windows, windows-10, windows-11, winui3 |
 | [IliasHad/edit-mind](https://github.com/IliasHad/edit-mind) [🔗](https://edit-mind.com) | Local-first Video Knowledge Base. Index your video library with multi-modal analysis (YOLO, DeepFace, Whisper), search semantically via natural language, Docker-ready. | ai, computer-vision, deepface, face-recognition, ml, self-hosted, video-editing, video-indexing, video-processing, videos |
 | [LykosAI/StabilityMatrix](https://github.com/LykosAI/StabilityMatrix) [🔗](https://lykos.ai) | Multi-Platform Package Manager for Stable Diffusion | ai, automatic1111, avalonia, comfyui, dotnet, python, sd-webui, stable-diffusion, text2image |
@@ -80,6 +81,7 @@ List of starred repositories.
 | [vercel/chatbot](https://github.com/vercel/chatbot) [🔗](https://chatbot.ai-sdk.dev) | A full-featured, hackable Next.js AI chatbot built by Vercel | ai, chatgpt, nextjs, react, redis, shadcn-ui, vercel |
 | [x1xhlol/system-prompts-and-models-of-ai-tools](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools) | FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia & v0. (And other Open Sourced) System Prompts, Internal Tools & AI Models | ai, bolt, cluely, copilot, cursor, cursorai, devin, github-copilot, lovable, open-source, perplexity, replit, system-prompts, trae, trae-ai, trae-ide, v0, vscode, windsurf, windsurf-ai |
 | [zeroclaw-labs/zeroclaw](https://github.com/zeroclaw-labs/zeroclaw) [🔗](https://www.zeroclawlabs.ai/) | Fast, small, and fully autonomous AI personal assistant infrastructure, any OS, any platform — deploy anywhere, swap anything 🦀 | ai, agent, agentic, infra, ml, openclaw, os, zeroclaw |
+| [zylon-ai/private-gpt](https://github.com/zylon-ai/private-gpt) [🔗](https://www.zylon.ai/private-gpt) | Interact with your documents using the power of GPT, 100% privately, no data leaks | ai, ai-tools, on-premise |
 
 ### ai + awesome-list
 | Repository | Description | Tags |
@@ -1048,7 +1050,7 @@ List of starred repositories.
 | [objectbox/objectbox-go](https://github.com/objectbox/objectbox-go) [🔗](https://golang.objectbox.io/) | Embedded Go Database, the fast alternative to SQLite, gorm, etc. | go, database, edge, embedded, iot, nosql, offline-first, storage |
 | [olebedev/go-starter-kit](https://github.com/olebedev/go-starter-kit) | [abandoned] Golang isomorphic react/hot reloadable/redux/css-modules/SSR  starter kit | go, browser, components, isomorphic, react, redux, server-side-rendering, universal |
 | [olebedev/when](https://github.com/olebedev/when) | A natural language date/time parser with pluggable rules | go, date, datetime, natural-language, parser, time |
-| [ollama/ollama](https://github.com/ollama/ollama) [🔗](https://ollama.com) | Get up and running with Kimi-K2.5, GLM-5, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models. | go, deepseek, gemma, gemma3, glm, gpt-oss, llama, llama3, llm, llms, minimax, mistral, ollama, qwen |
+| [ollama/ollama](https://github.com/ollama/ollama) [🔗](https://ollama.com) | Get up and running with Kimi-K2.6, GLM-5.1, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models. | go, deepseek, gemma, gemma3, glm, gpt-oss, llama, llama3, llm, llms, minimax, mistral, ollama, qwen |
 | [ollelogdahl/concord](https://github.com/ollelogdahl/concord) | A resilient Chord implementation in Go | go, chord-protocol, distributed-systems |
 | [ondrajz/go-callvis](https://github.com/ondrajz/go-callvis) [🔗](https://ondrajz.github.io/go-callvis/) | Visualize call graph of a Go program using Graphviz | go, awesome-go, callgraph, golang-tools, graphviz, static-analysis, visualization |
 | [openfaas/faas](https://github.com/openfaas/faas) [🔗](https://www.openfaas.com) | OpenFaaS - Serverless Functions Made Simple | go, docker, faas, functions, functions-as-a-service, gitops, k8s, kubernetes, lambda, nodejs, paas, prometheus, serverless, serverless-functions |
@@ -1377,6 +1379,7 @@ List of starred repositories.
 | [lwindolf/liferea](https://github.com/lwindolf/liferea) [🔗](https://lzone.de/liferea) | Liferea (Linux Feed Reader), a news reader for GTK/GNOME | rss, atom, feed, gnome, hacktoberfest, news-aggregator, rss-reader |
 | [martinrotter/rssguard](https://github.com/martinrotter/rssguard) | Feed reader (podcast player, basic XMPP client and also Gemini protocol client) which supports RSS/ATOM/JSON and many web-based feed services. | rss, aggregator, atom, bazqux, c-plus-plus, feed-reader, feedly, freshrss, gmail, inoreader, json-feed, nextcloud, qt, rdf, rss-guard, rss-reader, theoldreader, tiny-tiny-rss |
 | [nicoan/kindly-rss-reader](https://github.com/nicoan/kindly-rss-reader) [🔗](https://kindlyrss.app) | RSS Aggregator optimized for e-ink devices | rss, rss-reader, self-hosted |
+| [usbpc/AudiblePodcastFeed](https://github.com/usbpc/AudiblePodcastFeed) | A tool to download audiobooks from audible and generate RSS feeds for podcast apps | rss, audible, audiobooks, docker, podcast |
 | [ymgyt/syndicationd](https://github.com/ymgyt/syndicationd) [🔗](https://docs.syndicationd.ymgyt.io) | A TUI Feed Viewer | rss, github-notifications, ratatui, tui |
 
 ### test
@@ -1502,7 +1505,7 @@ List of starred repositories.
 | [DMJC/vs_spredit](https://github.com/DMJC/vs_spredit) | Vegastrike Sprite Editor |  |
 | [DMJC/wc-iff-loader](https://github.com/DMJC/wc-iff-loader) | Wing Commander IFF Loader |  |
 | [Dacid99/Eonvelope](https://github.com/Dacid99/Eonvelope) [🔗](https://eonvelope.readthedocs.io/latest/) | Preserve your emails with this open-source self-hostable email archive! This repository is a read-only mirror, please go to the gitlab repo at https://gitlab.com/Dacid99/eonvelope to contribute code. | archiving, container, data-hoarding, email, mirrored-repository |
-| [David-Crty/databasement](https://github.com/David-Crty/databasement) [🔗](https://david-crty.github.io/databasement/) | Self-hosted database backup manager with a web UI. Schedule, backup, and restore MySQL, PostgreSQL, MariaDB, Microsoft SQL Server, MongoDB, SQLite & Redis to S3, SFTP, or local storage. SSH Tunnel support. | backup, backup-restore, database, database-backup, database-management, laravel, mariadb, microsoft-sql-server, mssql, mysql, postgres, postgressql, s3, self-hosted, sql, sqlite, ssh, ssh-tunnel, webui |
+| [David-Crty/databasement](https://github.com/David-Crty/databasement) [🔗](https://david-crty.github.io/databasement/) | Self-hosted database backup manager with a web UI. Schedule, backup, and restore MySQL, PostgreSQL, MariaDB, Microsoft SQL Server, MongoDB, SQLite & Redis to S3, SFTP, or local storage. SSH Tunnel support. | backup, backup-restore, database, database-backup, database-management, firebird, laravel, mariadb, microsoft-sql-server, mssql, mysql, postgres, postgressql, s3, self-hosted, sql, sqlite, ssh, ssh-tunnel, webui |
 | [DavidBrightSparc/Tenets-of-IT](https://github.com/DavidBrightSparc/Tenets-of-IT) | The Tenets of IT: an accumulation of IT advice, wisdom, and humour. |  |
 | [Debian/debiman](https://github.com/Debian/debiman) | debiman generates a static manpage HTML repository out of a Debian archive | debian, manpages |
 | [Debian/dh-make-golang](https://github.com/Debian/dh-make-golang) [🔗](https://tracker.debian.org/pkg/dh-make-golang) | Automatically creates Debian packaging for Go packages | debian, debian-packaging |
@@ -1606,6 +1609,7 @@ List of starred repositories.
 | [KDE/zanshin](https://github.com/KDE/zanshin) [🔗](https://invent.kde.org/pim/zanshin) | Getting Things Done application which aims at getting your mind like water |  |
 | [KRTirtho/flutter_desktop_tools](https://github.com/KRTirtho/flutter_desktop_tools) | Essential collection of tools for flutter desktop app development |  |
 | [KSXGitHub/parallel-disk-usage](https://github.com/KSXGitHub/parallel-disk-usage) [🔗](https://crates.io/crates/parallel-disk-usage) | Highly parallelized, blazing fast directory tree analyzer | chart, disk-usage, du, filesystem, graph, pdu, rust, size |
+| [Kikobeats/untracked](https://github.com/Kikobeats/untracked) | Universal way for ignoring unnecessary common files to fit your bundle | gitignore, prune |
 | [KlingAIResearch/LivePortrait](https://github.com/KlingAIResearch/LivePortrait) [🔗](https://liveportrait.github.io) | Bring portraits to life! | face-animation, image-animation, video-editing, video-generation |
 | [KrystianJonca/lnai](https://github.com/KrystianJonca/lnai) [🔗](https://lnai.sh/) | Unified AI configuration management CLI |  |
 | [Kwai-Kolors/Kolors](https://github.com/Kwai-Kolors/Kolors) | Kolors Team |  |
@@ -2013,7 +2017,7 @@ List of starred repositories.
 | [cjpais/whisperfile](https://github.com/cjpais/whisperfile) |  |  |
 | [claabs/epicgames-freegames-node](https://github.com/claabs/epicgames-freegames-node) [🔗](https://hub.docker.com/r/charlocharlie/epicgames-freegames) | Automatically login and find available free games the Epic Games Store. Sends you a prepopulated checkout link so you can complete the checkout after logging in. Supports multiple accounts, login sessions, and scheduled runs. | docker, epic-games, epic-games-client, epic-games-store, epicgames-freegames-node, free-games, reverse-engineering, self-hosted |
 | [clef/handbook](https://github.com/clef/handbook) | An employee handbook built for inclusion |  |
-| [cline/cline](https://github.com/cline/cline) [🔗](https://x.com/cline) | Autonomous coding agent as an SDK, IDE extension, or CLI assistant. |  |
+| [cline/cline](https://github.com/cline/cline) [🔗](https://cline.bot) | Autonomous coding agent as an SDK, IDE extension, or CLI assistant. |  |
 | [cloudandthings/terraform-aws-clickops-notifier](https://github.com/cloudandthings/terraform-aws-clickops-notifier) [🔗](https://registry.terraform.io/modules/cloudandthings/clickops-notifier/aws/latest) | Get notified when actions are taken in the AWS Console. | aws, clickops, terraform, terraform-modules |
 | [cloudevents/spec](https://github.com/cloudevents/spec) [🔗](https://cloudevents.io) | CloudEvents Specification | serverless, specification |
 | [cloudflare/vinext](https://github.com/cloudflare/vinext) [🔗](https://vinext.dev) | Vite plugin that reimplements the Next.js API surface — deploy anywhere |  |
@@ -3065,7 +3069,7 @@ List of starred repositories.
 | [streamich/json-joy](https://github.com/streamich/json-joy) [🔗](https://jsonjoy.com/libs/json-joy-js) | json-joy is a library that implements cutting-edge real-time and collaborative editing algorithms and utilities for JSON data models, with a focus on developing the JSON CRDT (Conflict-free Replicated Data Type) specification and implementation. | cbor, collaboration, collaborative, collaborative-editing, crdt, json, json-crdt-patch, json-random, local-first, messagepack, multiplayer, offline, operational-transformation, p2p, patch, reactive, realtime, rpc, schema, ubjson |
 | [stylearcade/zaw](https://github.com/stylearcade/zaw) | Zero Allocation WASM |  |
 | [subnub/myDrive](https://github.com/subnub/myDrive) | Node.js and mongoDB Google Drive Clone |  |
-| [suitenumerique/docs](https://github.com/suitenumerique/docs) [🔗](https://docs.la-suite.eu/) | A collaborative note taking, wiki and documentation platform that scales. Built with Django and React.  | blocknotejs, collaborative, django, documentation, g2g, government, knowledge, knowledge-base, mit, mit-license, opensource, reactjs, realtime-collaboration, self-hosted, wiki, yjs |
+| [suitenumerique/docs](https://github.com/suitenumerique/docs) | A collaborative note taking, wiki and documentation platform that scales. Built with Django and React.  | blocknotejs, collaborative, django, documentation, g2g, government, knowledge, knowledge-base, mit, mit-license, opensource, reactjs, realtime-collaboration, self-hosted, wiki, yjs |
 | [suitux/Tagr](https://github.com/suitux/Tagr) [🔗](https://tagr-demo.fly.dev/) | Self-hosted web app for browsing, playing, and editing    music file metadata. Features a three-panel UI to navigate       your library, listen to tracks, and write tag changes directly    back to audio files.                                                Built with Next.js, React, Prisma + SQLite, and                  node-taglib-sharp. | audio, docker, headless, jellyfin, metadata-management, music, music-player, self-hosted, tag |
 | [sultim-t/prboom-plus-rt](https://github.com/sultim-t/prboom-plus-rt) |  |  |
 | [suno-ai/bark](https://github.com/suno-ai/bark) | 🔊 Text-Prompted Generative Audio Model |  |
@@ -3169,7 +3173,6 @@ List of starred repositories.
 | [uowuo/abaddon](https://github.com/uowuo/abaddon) | An alternative Discord client with voice support made with C++ and GTK 3 | alternative, client, cpp, discord, discord-client, gtk, gtk3, gtkmm, voice, voice-chat |
 | [upper-up/meta-lobbying-and-other-findings](https://github.com/upper-up/meta-lobbying-and-other-findings) |  |  |
 | [usbarmory/tamago](https://github.com/usbarmory/tamago) | TamaGo - bare metal Go |  |
-| [usbpc/AudiblePodcastFeed](https://github.com/usbpc/AudiblePodcastFeed) | A tool to download audiobooks from audible and generate RSS feeds for podcast apps |  |
 | [valyala/fasthttp](https://github.com/valyala/fasthttp) | Fast HTTP package for Go. Tuned for high performance. Zero memory allocations in hot paths. Up to 10x faster than net/http |  |
 | [vankasteelj/trakt.tv](https://github.com/vankasteelj/trakt.tv) | A Trakt.tv API wrapper for Node.js | nodejs, trakt, wrapper-api |
 | [vdobler/chart](https://github.com/vdobler/chart) | Provide basic charts in go |  |
@@ -3263,6 +3266,5 @@ List of starred repositories.
 | [zonination/perceptions](https://github.com/zonination/perceptions) | Perceptions of Probability and Numbers |  |
 | [zveinn/parser](https://github.com/zveinn/parser) | Allows for SQL syntax like querying into golang []slice structures. Supports sub-slices, sup-struct and maps! |  |
 | [zyddnys/manga-image-translator](https://github.com/zyddnys/manga-image-translator) [🔗](https://cotrans.touhou.ai/) | Translate manga/image 一键翻译各类图片内文字 https://cotrans.touhou.ai/ (no longer working) | anime, auto-translation, chinese-translation, deep-learning, image-processing, inpainting, japanese-translations, machine-translation, manga, neural-network, ocr, pytorch-implementation, text-detection, text-detection-recognition, transformer |
-| [zylon-ai/private-gpt](https://github.com/zylon-ai/private-gpt) [🔗](https://privategpt.dev) | Interact with your documents using the power of GPT, 100% privately, no data leaks |  |
 
 <!--repos-end-->

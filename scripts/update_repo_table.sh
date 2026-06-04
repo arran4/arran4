@@ -309,6 +309,13 @@ while true; do
   sleep 1
 done
 
+STARRED_RELEASES="$TMP_DIR/starred_releases.json"
+python3 scripts/fetch_starred_releases.py "$ALL_STARRED" "$STARRED_RELEASES"
+
+ALL_STARRED_WITH_RELEASES="$TMP_DIR/all_starred_with_releases.json"
+jq -s '.[0] as $releases | .[1] | map(. + {latest_release_tag: $releases[.full_name | ascii_downcase]?.tagName, latest_release_date: $releases[.full_name | ascii_downcase]?.publishedAt})' "$STARRED_RELEASES" "$ALL_STARRED" > "$ALL_STARRED_WITH_RELEASES"
+mv "$ALL_STARRED_WITH_RELEASES" "$ALL_STARRED"
+
 SORTED_STARRED="$TMP_DIR/sorted_starred.json"
 jq 'sort_by(.full_name // .name)' "$ALL_STARRED" > "$SORTED_STARRED"
 
@@ -318,18 +325,19 @@ jq -r --argjson ext_interesting_tags "$INTERESTING_TAGS" --argjson ext_synonyms 
     "| [" + ($repo.full_name // $repo.name) + "](" + $repo.html_url + ")"
     + (if $repo.homepage != null and $repo.homepage != "" then " [🔗](" + $repo.homepage + ")" else "" end) + " | "
     + ($repo.description // "") + " | "
+    + (if $repo.latest_release_tag != null then $repo.latest_release_tag + (if $repo.latest_release_date != null then " (" + ($repo.latest_release_date[0:10]) + ")" else "" end) else "" end) + " | "
     + (grouped_tags($repo.topics; $repo.tags) | join(", ")) + " |";
   def table_for_starred($heading; $repos):
     if ($repos | length) == 0 then null
     else
       "### " + $heading + "\n"
-      + "| Repository | Description | Tags |\n"
-      + "|---|---|---|\n"
+      + "| Repository | Description | Latest Release | Tags |\n"
+      + "|---|---|---|---|\n"
       + ($repos | map(repo_row_starred(.)) | join("\n"))
       + "\n"
     end;
   {
-    items: [.[] | {name: .name, full_name: .full_name, description: .description, topics: .topics, homepage: .homepage, html_url: .html_url, tags: initial_tags(.topics)}],
+    items: [.[] | {name: .name, full_name: .full_name, description: .description, topics: .topics, homepage: .homepage, html_url: .html_url, tags: initial_tags(.topics), latest_release_tag: .latest_release_tag, latest_release_date: .latest_release_date}],
     iteration: 0,
     changed: true
   } | optimize_groups | map(.label = tag_label(.tags)) as $items

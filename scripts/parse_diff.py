@@ -55,9 +55,9 @@ class Row:
         self.desc = self.cols[1] if len(self.cols) > 1 else ""
         self.tags = self.cols[-1] if len(self.cols) > 2 else ""
         if len(self.cols) > 3:
-            self.license = self.cols[2]
+            self.extra_info = self.cols[2]
         else:
-            self.license = ""
+            self.extra_info = ""
 
     def get_tags_set(self):
         if not self.tags: return set()
@@ -140,8 +140,13 @@ def main():
             if d.homepage != a.homepage:
                 if d.homepage or a.homepage:
                     changes_list.append(f"Updated homepage from `{d.homepage}` to `{a.homepage}`")
-            if d.license != a.license:
-                changes_list.append(f"Changed license from `{d.license}` to `{a.license}`")
+            if d.extra_info != a.extra_info:
+                if 'licenses.md' in filename:
+                    changes_list.append(f"Changed license from `{d.extra_info}` to `{a.extra_info}`")
+                elif 'starred.md' in filename:
+                    changes_list.append(f"Changed latest release from `{d.extra_info}` to `{a.extra_info}`")
+                else:
+                    changes_list.append(f"Changed extra info from `{d.extra_info}` to `{a.extra_info}`")
 
             d_tags = d.get_tags_set()
             a_tags = a.get_tags_set()

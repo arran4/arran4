@@ -141,12 +141,18 @@ def main():
                 if d.homepage or a.homepage:
                     changes_list.append(f"Updated homepage from `{d.homepage}` to `{a.homepage}`")
             if d.extra_info != a.extra_info:
+                info_name = "extra info"
                 if 'licenses.md' in filename:
-                    changes_list.append(f"Changed license from `{d.extra_info}` to `{a.extra_info}`")
+                    info_name = "license"
                 elif 'starred.md' in filename:
-                    changes_list.append(f"Changed latest release from `{d.extra_info}` to `{a.extra_info}`")
+                    info_name = "latest release"
+
+                if not d.extra_info:
+                    changes_list.append(f"Added {info_name}: `{a.extra_info}`")
+                elif not a.extra_info:
+                    changes_list.append(f"Removed {info_name}: `{d.extra_info}`")
                 else:
-                    changes_list.append(f"Changed extra info from `{d.extra_info}` to `{a.extra_info}`")
+                    changes_list.append(f"Changed {info_name} from `{d.extra_info}` to `{a.extra_info}`")
 
             d_tags = d.get_tags_set()
             a_tags = a.get_tags_set()

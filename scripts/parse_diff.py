@@ -205,14 +205,15 @@ def main():
 
         details_str = "\n".join(output)
         if len(details_str) > 60000:
-            print(details_str[:60000])
+            truncate_index = details_str.rfind('\n', 0, 60000)
+            if truncate_index == -1:
+                truncate_index = 60000
+            print(details_str[:truncate_index])
             print("\n... (Detailed changes truncated due to GitHub limits) ...")
         else:
             print(details_str)
 
         print("\n</details>\n")
-    elif output:
-        print("\n".join(output))
 
 if __name__ == '__main__':
     main()

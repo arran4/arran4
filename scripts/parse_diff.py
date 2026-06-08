@@ -81,6 +81,7 @@ def main():
             if current_file and content.startswith('|') and '---|' not in content and '| Repository |' not in content:
                 files_changed[current_file]['del'].append(Row(content))
 
+    summary_output = []
     output = []
     for filename, changes in files_changed.items():
         adds = changes['add']
@@ -180,10 +181,39 @@ def main():
                     else:
                         output.append(f"  - {change}")
 
+        num_added = len(adds) - len(matched_adds)
+        num_removed = len(dels) - len(matched_dels)
+        num_updated = len(updates)
+
+        parts = []
+        if num_added > 0:
+            parts.append(f"{num_added} added")
+        if num_removed > 0:
+            parts.append(f"{num_removed} removed")
+        if num_updated > 0:
+            parts.append(f"{num_updated} updated")
+
+        if parts:
+            summary_output.append(f"- `{filename}`: {', '.join(parts)}")
+
         output.append("\n")
 
-    if output:
-        print("\n".join(output))
+    if summary_output:
+        print("**Repository Changes Summary:**\n")
+        print("\n".join(summary_output))
+        print("\n<details><summary>Detailed Repository Changes</summary>\n")
+
+        details_str = "\n".join(output)
+        if len(details_str) > 60000:
+            truncate_index = details_str.rfind('\n', 0, 60000)
+            if truncate_index == -1:
+                truncate_index = 60000
+            print(details_str[:truncate_index])
+            print("\n... (Detailed changes truncated due to GitHub limits) ...")
+        else:
+            print(details_str)
+
+        print("\n</details>\n")
 
 if __name__ == '__main__':
     main()

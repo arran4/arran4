@@ -25,9 +25,9 @@ def bold_difference(old_str, new_str):
         elif opcode == 'insert':
             res_new.append(f"**{escape_md(new_str[b0:b1])}**")
         elif opcode == 'delete':
-            res_old.append(f"**{escape_md(old_str[a0:a1])}**")
+            res_old.append(f"~~{escape_md(old_str[a0:a1])}~~")
         elif opcode == 'replace':
-            res_old.append(f"**{escape_md(old_str[a0:a1])}**")
+            res_old.append(f"~~{escape_md(old_str[a0:a1])}~~")
             res_new.append(f"**{escape_md(new_str[b0:b1])}**")
 
     return "".join(res_old), "".join(res_new)
@@ -90,7 +90,15 @@ def main():
         if not adds and not dels:
             continue
 
-        output.append(f"### Changes in `{filename}`\n")
+        file_title = filename.split('.')[0].capitalize()
+        if filename.lower() == 'readme.md':
+            file_title = 'README'
+        elif filename.lower() == 'licenses.md':
+            file_title = 'Licenses'
+        elif filename.lower() == 'starred.md':
+            file_title = 'Starred'
+
+        output.append(f"# {file_title}\n")
 
         matched_adds = set()
         matched_dels = set()
@@ -103,83 +111,92 @@ def main():
             lambda d, a: d.repo_only == a.repo_only
         ]
         for criteria in match_criteria:
-            for i, d in enumerate(dels):
-                if i in matched_dels: continue
-                for j, a in enumerate(adds):
-                    if j in matched_adds: continue
+            for d_idx, d in enumerate(dels):
+                if d_idx in matched_dels: continue
+                for a_idx, a in enumerate(adds):
+                    if a_idx in matched_adds: continue
                     if criteria(d, a):
                         updates.append((d, a))
-                        matched_dels.add(i)
-                        matched_adds.add(j)
+                        matched_dels.add(d_idx)
+                        matched_adds.add(a_idx)
                         break
 
-        for j, a in enumerate(adds):
-            if j not in matched_adds:
-                output.append(f"- **Added** [{a.name}]({a.repo_url}): {a.desc}")
+        unmatched_adds = [a for a_idx, a in enumerate(adds) if a_idx not in matched_adds]
+        if unmatched_adds:
+            output.append("## Added\n")
+            for a in unmatched_adds:
+                output.append(f"- [{a.name}]({a.repo_url}): {a.desc}")
+            output.append("")
 
-        for i, d in enumerate(dels):
-            if i not in matched_dels:
-                output.append(f"- **Removed** [{d.name}]({d.repo_url})")
-
-        for d, a in updates:
-            changes_list = []
-            if d.name != a.name:
-                if d.repo_only == a.repo_only and d.owner != a.owner:
-                    changes_list.append(f"Changed owner from `{d.owner}` to `{a.owner}`")
-                else:
-                    changes_list.append(f"Renamed from `{d.name}` to `{a.name}`")
-            d_desc_clean = d.desc if d.desc else ''
-            a_desc_clean = a.desc if a.desc else ''
-            if d_desc_clean != a_desc_clean:
-                if not d_desc_clean and a_desc_clean:
-                    changes_list.append(f"Added description:\n\n> {escape_md(a_desc_clean)}\n\n")
-                elif d_desc_clean and not a_desc_clean:
-                    changes_list.append(f"Removed description")
-                else:
-                    bold_old, bold_new = bold_difference(d_desc_clean, a_desc_clean)
-                    changes_list.append(f"Updated description:\n\n> - {bold_old}\n> + {bold_new}\n\n")
-            if d.homepage != a.homepage:
-                if d.homepage or a.homepage:
-                    changes_list.append(f"Updated homepage from `{d.homepage}` to `{a.homepage}`")
-            if d.extra_info != a.extra_info:
-                info_name = "extra info"
-                if 'licenses.md' in filename:
-                    info_name = "license"
-                elif 'starred.md' in filename:
-                    info_name = "latest release"
-
-                if not d.extra_info:
-                    changes_list.append(f"Added {info_name}: `{a.extra_info}`")
-                elif not a.extra_info:
-                    changes_list.append(f"Removed {info_name}: `{d.extra_info}`")
-                else:
-                    changes_list.append(f"Changed {info_name} from `{d.extra_info}` to `{a.extra_info}`")
-
-            d_tags = d.get_tags_set()
-            a_tags = a.get_tags_set()
-            if d_tags != a_tags:
-                added_tags = a_tags - d_tags
-                removed_tags = d_tags - a_tags
-                tag_changes = []
-                if removed_tags:
-                    tag_changes.append(f"removing `{', '.join(sorted(removed_tags))}`")
-                if added_tags:
-                    tag_changes.append(f"adding `{', '.join(sorted(added_tags))}`")
-                changes_list.append(f"Updated tags by {' and '.join(tag_changes)}")
-
-            if not changes_list:
-                changes_list.append("Row formatted or modified")
-
-            if len(changes_list) == 1 and '\n' not in changes_list[0]:
-                output.append(f"- **Updated** [{a.name}]({a.repo_url}): {changes_list[0]}")
-            else:
-                output.append(f"- **Updated** [{a.name}]({a.repo_url}):")
-                for change in changes_list:
-                    if '\n' in change:
-                        formatted_change = change.strip().replace('\n', '\n    ')
-                        output.append(f"  - {formatted_change}")
+        if updates:
+            output.append("## Modified\n")
+            for d, a in updates:
+                changes_list = []
+                if d.name != a.name:
+                    if d.repo_only == a.repo_only and d.owner != a.owner:
+                        changes_list.append(f"Changed owner from `{d.owner}` to `{a.owner}`")
                     else:
-                        output.append(f"  - {change}")
+                        changes_list.append(f"Renamed from `{d.name}` to `{a.name}`")
+                d_desc_clean = d.desc if d.desc else ''
+                a_desc_clean = a.desc if a.desc else ''
+                if d_desc_clean != a_desc_clean:
+                    if not d_desc_clean and a_desc_clean:
+                        changes_list.append(f"Added description:\n\n> {escape_md(a_desc_clean)}\n\n")
+                    elif d_desc_clean and not a_desc_clean:
+                        changes_list.append(f"Removed description")
+                    else:
+                        bold_old, bold_new = bold_difference(d_desc_clean, a_desc_clean)
+                        changes_list.append(f"Updated description:\n\n> - {bold_old}\n> + {bold_new}\n\n")
+                if d.homepage != a.homepage:
+                    if d.homepage or a.homepage:
+                        changes_list.append(f"Updated homepage from `{d.homepage}` to `{a.homepage}`")
+                if d.extra_info != a.extra_info:
+                    info_name = "extra info"
+                    if 'licenses.md' in filename:
+                        info_name = "license"
+                    elif 'starred.md' in filename:
+                        info_name = "latest release"
+
+                    if not d.extra_info:
+                        changes_list.append(f"Added {info_name}: `{a.extra_info}`")
+                    elif not a.extra_info:
+                        changes_list.append(f"Removed {info_name}: `{d.extra_info}`")
+                    else:
+                        changes_list.append(f"Changed {info_name} from `{d.extra_info}` to `{a.extra_info}`")
+
+                d_tags = d.get_tags_set()
+                a_tags = a.get_tags_set()
+                if d_tags != a_tags:
+                    added_tags = a_tags - d_tags
+                    removed_tags = d_tags - a_tags
+                    tag_changes = []
+                    if removed_tags:
+                        tag_changes.append(f"removing `{', '.join(sorted(removed_tags))}`")
+                    if added_tags:
+                        tag_changes.append(f"adding `{', '.join(sorted(added_tags))}`")
+                    changes_list.append(f"Updated tags by {' and '.join(tag_changes)}")
+
+                if not changes_list:
+                    changes_list.append("Row formatted or modified")
+
+                if len(changes_list) == 1 and '\n' not in changes_list[0]:
+                    output.append(f"- [{a.name}]({a.repo_url}): {changes_list[0]}")
+                else:
+                    output.append(f"- [{a.name}]({a.repo_url}):")
+                    for change in changes_list:
+                        if '\n' in change:
+                            formatted_change = change.strip().replace('\n', '\n    ')
+                            output.append(f"  - {formatted_change}")
+                        else:
+                            output.append(f"  - {change}")
+            output.append("")
+
+        unmatched_dels = [d for d_idx, d in enumerate(dels) if d_idx not in matched_dels]
+        if unmatched_dels:
+            output.append("## Removed\n")
+            for d in unmatched_dels:
+                output.append(f"- [{d.name}]({d.repo_url})")
+            output.append("")
 
         num_added = len(adds) - len(matched_adds)
         num_removed = len(dels) - len(matched_dels)
@@ -195,8 +212,6 @@ def main():
 
         if parts:
             summary_output.append(f"- `{filename}`: {', '.join(parts)}")
-
-        output.append("\n")
 
     if summary_output:
         print("**Repository Changes Summary:**\n")

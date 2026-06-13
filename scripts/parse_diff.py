@@ -90,12 +90,14 @@ def main():
         if not adds and not dels:
             continue
 
-        file_title = filename.split('.')[0].capitalize()
-        if filename.lower() == 'readme.md':
+        import os
+        base_name = os.path.basename(filename)
+        file_title = base_name.split('.')[0].capitalize()
+        if base_name.lower() == 'readme.md':
             file_title = 'README'
-        elif filename.lower() == 'licenses.md':
+        elif base_name.lower() == 'licenses.md':
             file_title = 'Licenses'
-        elif filename.lower() == 'starred.md':
+        elif base_name.lower() == 'starred.md':
             file_title = 'Starred'
 
         output.append(f"# {file_title}\n")
@@ -125,7 +127,10 @@ def main():
         if unmatched_adds:
             output.append("## Added\n")
             for a in unmatched_adds:
-                output.append(f"- [{a.name}]({a.repo_url}): {a.desc}")
+                if a.desc:
+                    output.append(f"- [{a.name}]({a.repo_url}): {a.desc}")
+                else:
+                    output.append(f"- [{a.name}]({a.repo_url})")
             output.append("")
 
         if updates:

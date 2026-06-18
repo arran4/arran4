@@ -138,9 +138,9 @@ def main():
             output.append("## Modified\n")
             change_groups = defaultdict(list)
             info_name = "extra info"
-            if 'licenses.md' in filename:
+            if base_name.lower() == 'licenses.md':
                 info_name = "license"
-            elif 'starred.md' in filename:
+            elif base_name.lower() == 'starred.md':
                 info_name = "latest release"
 
             for d, a in updates:

@@ -67,6 +67,26 @@ def filter_and_sort_repos(repos):
     filtered_repos.sort(key=lambda x: x['pushed_at'])
     return filtered_repos
 
+def group_repos_by_milestone(repos_list):
+    now = datetime.datetime.now(datetime.timezone.utc)
+    milestones = [
+        (730, "More than 2 years"),
+        (365, "More than 1 year"),
+        (182, "More than 6 months"),
+        (91, "More than 3 months"),
+        (0, "More than 1 month")
+    ]
+    groups = {label: [] for _, label in milestones}
+
+    for repo in repos_list:
+        delta_days = (now - repo['pushed_at']).days
+        for threshold, label in milestones:
+            if delta_days >= threshold:
+                groups[label].append(repo)
+                break
+
+    return groups
+
 def generate_markdown(repos):
     non_forks = [r for r in repos if not r['fork']]
     forks = [r for r in repos if r['fork']]
@@ -74,19 +94,25 @@ def generate_markdown(repos):
     lines = [f"Hi @{USER}, here is your monthly repository report!"]
     lines.append("\nThese public, non-archived repositories haven't seen activity in the last month.")
 
+    def add_repo_groups(repo_list, repo_type):
+        if not repo_list:
+            lines.append(f"No {repo_type} to report.")
+            return
+
+        groups = group_repos_by_milestone(repo_list)
+
+        for milestone, repos_in_group in groups.items():
+            if not repos_in_group:
+                continue
+            lines.append(f"- **{milestone}**")
+            for repo in repos_in_group:
+                lines.append(f"  - [{repo['name']}]({repo['url']}) - Last activity: {repo['pushed_at'].strftime('%Y-%m-%d')}")
+
     lines.append("\n## Non-Forks")
-    if non_forks:
-        for repo in non_forks:
-            lines.append(f"- [{repo['name']}]({repo['url']}) - Last activity: {repo['pushed_at'].strftime('%Y-%m-%d')}")
-    else:
-        lines.append("No non-forks to report.")
+    add_repo_groups(non_forks, "non-forks")
 
     lines.append("\n## Forks")
-    if forks:
-        for repo in forks:
-            lines.append(f"- [{repo['name']}]({repo['url']}) - Last activity: {repo['pushed_at'].strftime('%Y-%m-%d')}")
-    else:
-        lines.append("No forks to report.")
+    add_repo_groups(forks, "forks")
 
     return '\n'.join(lines)
 

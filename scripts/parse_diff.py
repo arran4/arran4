@@ -137,6 +137,11 @@ def main():
         if updates:
             output.append("## Modified\n")
             change_groups = defaultdict(list)
+            info_name = "extra info"
+            if 'licenses.md' in filename:
+                info_name = "license"
+            elif 'starred.md' in filename:
+                info_name = "latest release"
 
             for d, a in updates:
                 changes_list = []
@@ -159,12 +164,6 @@ def main():
                     if d.homepage or a.homepage:
                         changes_list.append(f"Updated homepage from `{d.homepage}` to `{a.homepage}`")
                 if d.extra_info != a.extra_info:
-                    info_name = "extra info"
-                    if 'licenses.md' in filename:
-                        info_name = "license"
-                    elif 'starred.md' in filename:
-                        info_name = "latest release"
-
                     if not d.extra_info:
                         changes_list.append(f"Added {info_name}: `{a.extra_info}`")
                     elif not a.extra_info:

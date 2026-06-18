@@ -1,6 +1,7 @@
 import sys
 import re
 import difflib
+from collections import defaultdict
 
 def escape_md(text):
     if not text: return ""
@@ -135,6 +136,8 @@ def main():
 
         if updates:
             output.append("## Modified\n")
+            change_groups = defaultdict(list)
+
             for d, a in updates:
                 changes_list = []
                 if d.name != a.name:
@@ -184,17 +187,67 @@ def main():
                 if not changes_list:
                     changes_list.append("Row formatted or modified")
 
-                if len(changes_list) == 1 and '\n' not in changes_list[0]:
-                    output.append(f"- [{a.name}]({a.repo_url}): {changes_list[0]}")
+                # Categorize the change
+                if len(changes_list) == 1:
+                    change_cat = changes_list[0]
+                    # To group by generic change categories, e.g. 'Removed latest release' instead of 'Removed latest release: v1.0.0'
+                    if change_cat.startswith(f"Removed {info_name}:"):
+                        change_groups[f"Removed {info_name}"].append((a, change_cat))
+                    elif change_cat.startswith(f"Added {info_name}:"):
+                        change_groups[f"Added {info_name}"].append((a, change_cat))
+                    elif change_cat.startswith(f"Changed {info_name}"):
+                        change_groups[f"Changed {info_name}"].append((a, change_cat))
+                    elif change_cat.startswith("Updated tags"):
+                        change_groups["Updated tags"].append((a, change_cat))
+                    elif change_cat.startswith("Updated description"):
+                        change_groups["Updated description"].append((a, change_cat))
+                    elif change_cat.startswith("Added description"):
+                        change_groups["Added description"].append((a, change_cat))
+                    elif change_cat.startswith("Removed description"):
+                        change_groups["Removed description"].append((a, change_cat))
+                    elif change_cat.startswith("Changed owner"):
+                        change_groups["Changed owner"].append((a, change_cat))
+                    elif change_cat.startswith("Renamed from"):
+                        change_groups["Renamed repository"].append((a, change_cat))
+                    elif change_cat.startswith("Updated homepage"):
+                        change_groups["Updated homepage"].append((a, change_cat))
+                    elif change_cat == "Row formatted or modified":
+                        change_groups["Row formatted or modified"].append((a, change_cat))
+                    else:
+                        change_groups["Other changes"].append((a, change_cat))
                 else:
-                    output.append(f"- [{a.name}]({a.repo_url}):")
-                    for change in changes_list:
+                    change_groups["Multiple changes"].append((a, changes_list))
+
+            # Now output grouped changes
+            for group_name, items in sorted(change_groups.items()):
+                output.append(f"### {group_name}\n")
+
+                wrap_in_details = len(items) > 15
+                if wrap_in_details:
+                    output.append(f"<details><summary>View {len(items)} repositories</summary>\n")
+
+                for a, change in items:
+                    if isinstance(change, list):
+                        output.append(f"- [{a.name}]({a.repo_url}):")
+                        for c in change:
+                            if '\n' in c:
+                                formatted_change = c.strip().replace('\n', '\n    ')
+                                output.append(f"  - {formatted_change}")
+                            else:
+                                output.append(f"  - {c}")
+                    else:
                         if '\n' in change:
-                            formatted_change = change.strip().replace('\n', '\n    ')
-                            output.append(f"  - {formatted_change}")
+                            # For single changes with newlines (like added/updated description)
+                            formatted_change = change.strip().replace('\n', '\n  ')
+                            output.append(f"- [{a.name}]({a.repo_url}):\n  - {formatted_change}")
                         else:
-                            output.append(f"  - {change}")
-            output.append("")
+                            # If we grouped by category, the full change message is still here
+                            output.append(f"- [{a.name}]({a.repo_url}): {change}")
+
+                if wrap_in_details:
+                    output.append("\n</details>\n")
+                else:
+                    output.append("")
 
         unmatched_dels = [d for d_idx, d in enumerate(dels) if d_idx not in matched_dels]
         if unmatched_dels:

@@ -69,26 +69,21 @@ def filter_and_sort_repos(repos):
 
 def group_repos_by_milestone(repos_list):
     now = datetime.datetime.now(datetime.timezone.utc)
-    groups = {
-        "More than 2 years": [],
-        "More than 1 year": [],
-        "More than 6 months": [],
-        "More than 3 months": [],
-        "More than 1 month": []
-    }
+    milestones = [
+        (730, "More than 2 years"),
+        (365, "More than 1 year"),
+        (182, "More than 6 months"),
+        (91, "More than 3 months"),
+        (0, "More than 1 month")
+    ]
+    groups = {label: [] for _, label in milestones}
 
     for repo in repos_list:
         delta_days = (now - repo['pushed_at']).days
-        if delta_days >= 730:
-            groups["More than 2 years"].append(repo)
-        elif delta_days >= 365:
-            groups["More than 1 year"].append(repo)
-        elif delta_days >= 182:
-            groups["More than 6 months"].append(repo)
-        elif delta_days >= 91:
-            groups["More than 3 months"].append(repo)
-        else:
-            groups["More than 1 month"].append(repo)
+        for threshold, label in milestones:
+            if delta_days >= threshold:
+                groups[label].append(repo)
+                break
 
     return groups
 
@@ -99,9 +94,9 @@ def generate_markdown(repos):
     lines = [f"Hi @{USER}, here is your monthly repository report!"]
     lines.append("\nThese public, non-archived repositories haven't seen activity in the last month.")
 
-    def add_repo_groups(repo_list):
+    def add_repo_groups(repo_list, repo_type):
         if not repo_list:
-            lines.append("No repositories to report.")
+            lines.append(f"No {repo_type} to report.")
             return
 
         groups = group_repos_by_milestone(repo_list)
@@ -114,10 +109,10 @@ def generate_markdown(repos):
                 lines.append(f"  - [{repo['name']}]({repo['url']}) - Last activity: {repo['pushed_at'].strftime('%Y-%m-%d')}")
 
     lines.append("\n## Non-Forks")
-    add_repo_groups(non_forks)
+    add_repo_groups(non_forks, "non-forks")
 
     lines.append("\n## Forks")
-    add_repo_groups(forks)
+    add_repo_groups(forks, "forks")
 
     return '\n'.join(lines)
 

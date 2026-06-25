@@ -2,7 +2,7 @@ name: Update README repo table
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '0 20 * * *'
 
 permissions:
   contents: write

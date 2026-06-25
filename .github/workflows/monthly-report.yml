@@ -4,6 +4,9 @@ on:
     - cron: '0 20 1 * *'
   workflow_dispatch:
   push:
+    branches:
+      - master
+      - main
     paths:
       - '.github/workflows/monthly-report.yml'
       - 'scripts/monthly_repo_report.py'
@@ -13,6 +16,7 @@ permissions:
 
 jobs:
   report:
+    if: github.ref == 'refs/heads/master' || github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4

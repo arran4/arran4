@@ -35,6 +35,8 @@ def bold_difference(old_str, new_str):
     return "".join(res_old), "".join(res_new)
 
 def parse_date(info_str):
+    if not isinstance(info_str, str):
+        return None
     m = re.search(r'\((\d{4}-\d{2}-\d{2})\)', info_str)
     if m:
         try:
@@ -188,20 +190,13 @@ def main():
                                 days_diff = (a_date - d_date).days
                                 days_diff_str = f"{days_diff} days"
 
-                            if days_diff >= 100:
-                                changes_list.append({
-                                    "type": "Changed latest release (>= 100 days)",
-                                    "prev": d.extra_info,
-                                    "curr": a.extra_info,
-                                    "days": days_diff_str
-                                })
-                            else:
-                                changes_list.append({
-                                    "type": "Changed latest release",
-                                    "prev": d.extra_info,
-                                    "curr": a.extra_info,
-                                    "days": days_diff_str
-                                })
+                            group_type = "Changed latest release (>= 100 days)" if days_diff >= 100 else "Changed latest release"
+                            changes_list.append({
+                                "type": group_type,
+                                "prev": d.extra_info,
+                                "curr": a.extra_info,
+                                "days": days_diff_str
+                            })
                         else:
                             changes_list.append(f"Changed {info_name} from `{d.extra_info}` to `{a.extra_info}`")
 

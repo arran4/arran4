@@ -2,6 +2,7 @@ import sys
 import re
 import difflib
 from collections import defaultdict
+from datetime import datetime
 
 def escape_md(text):
     if not text: return ""
@@ -32,6 +33,17 @@ def bold_difference(old_str, new_str):
             res_new.append(f"**{escape_md(new_str[b0:b1])}**")
 
     return "".join(res_old), "".join(res_new)
+
+def parse_date(info_str):
+    if not isinstance(info_str, str):
+        return None
+    m = re.search(r'\((\d{4}-\d{2}-\d{2})\)', info_str)
+    if m:
+        try:
+            return datetime.strptime(m.group(1), '%Y-%m-%d')
+        except ValueError:
+            pass
+    return None
 
 class Row:
     def __init__(self, line):
@@ -169,7 +181,24 @@ def main():
                     elif not a.extra_info:
                         changes_list.append(f"Removed {info_name}: `{d.extra_info}`")
                     else:
-                        changes_list.append(f"Changed {info_name} from `{d.extra_info}` to `{a.extra_info}`")
+                        if info_name == "latest release":
+                            d_date = parse_date(d.extra_info)
+                            a_date = parse_date(a.extra_info)
+                            days_diff_str = ""
+                            days_diff = -1
+                            if d_date and a_date:
+                                days_diff = (a_date - d_date).days
+                                days_diff_str = f"{days_diff} days"
+
+                            group_type = "Changed latest release (>= 100 days)" if days_diff >= 100 else "Changed latest release"
+                            changes_list.append({
+                                "type": group_type,
+                                "prev": d.extra_info,
+                                "curr": a.extra_info,
+                                "days": days_diff_str
+                            })
+                        else:
+                            changes_list.append(f"Changed {info_name} from `{d.extra_info}` to `{a.extra_info}`")
 
                 d_tags = d.get_tags_set()
                 a_tags = a.get_tags_set()
@@ -189,31 +218,34 @@ def main():
                 # Categorize the change
                 if len(changes_list) == 1:
                     change_cat = changes_list[0]
-                    # To group by generic change categories, e.g. 'Removed latest release' instead of 'Removed latest release: v1.0.0'
-                    if change_cat.startswith(f"Removed {info_name}:"):
-                        change_groups[f"Removed {info_name}"].append((a, change_cat))
-                    elif change_cat.startswith(f"Added {info_name}:"):
-                        change_groups[f"Added {info_name}"].append((a, change_cat))
-                    elif change_cat.startswith(f"Changed {info_name}"):
-                        change_groups[f"Changed {info_name}"].append((a, change_cat))
-                    elif change_cat.startswith("Updated tags"):
-                        change_groups["Updated tags"].append((a, change_cat))
-                    elif change_cat.startswith("Updated description"):
-                        change_groups["Updated description"].append((a, change_cat))
-                    elif change_cat.startswith("Added description"):
-                        change_groups["Added description"].append((a, change_cat))
-                    elif change_cat.startswith("Removed description"):
-                        change_groups["Removed description"].append((a, change_cat))
-                    elif change_cat.startswith("Changed owner"):
-                        change_groups["Changed owner"].append((a, change_cat))
-                    elif change_cat.startswith("Renamed from"):
-                        change_groups["Renamed repository"].append((a, change_cat))
-                    elif change_cat.startswith("Updated homepage"):
-                        change_groups["Updated homepage"].append((a, change_cat))
-                    elif change_cat == "Row formatted or modified":
-                        change_groups["Row formatted or modified"].append((a, change_cat))
+                    if isinstance(change_cat, dict):
+                        change_groups[change_cat["type"]].append((a, change_cat))
                     else:
-                        change_groups["Other changes"].append((a, change_cat))
+                        # To group by generic change categories
+                        if change_cat.startswith(f"Removed {info_name}:"):
+                            change_groups[f"Removed {info_name}"].append((a, change_cat))
+                        elif change_cat.startswith(f"Added {info_name}:"):
+                            change_groups[f"Added {info_name}"].append((a, change_cat))
+                        elif change_cat.startswith(f"Changed {info_name}"):
+                            change_groups[f"Changed {info_name}"].append((a, change_cat))
+                        elif change_cat.startswith("Updated tags"):
+                            change_groups["Updated tags"].append((a, change_cat))
+                        elif change_cat.startswith("Updated description"):
+                            change_groups["Updated description"].append((a, change_cat))
+                        elif change_cat.startswith("Added description"):
+                            change_groups["Added description"].append((a, change_cat))
+                        elif change_cat.startswith("Removed description"):
+                            change_groups["Removed description"].append((a, change_cat))
+                        elif change_cat.startswith("Changed owner"):
+                            change_groups["Changed owner"].append((a, change_cat))
+                        elif change_cat.startswith("Renamed from"):
+                            change_groups["Renamed repository"].append((a, change_cat))
+                        elif change_cat.startswith("Updated homepage"):
+                            change_groups["Updated homepage"].append((a, change_cat))
+                        elif change_cat == "Row formatted or modified":
+                            change_groups["Row formatted or modified"].append((a, change_cat))
+                        else:
+                            change_groups["Other changes"].append((a, change_cat))
                 else:
                     change_groups["Multiple changes"].append((a, changes_list))
 
@@ -225,23 +257,33 @@ def main():
                 if wrap_in_details:
                     output.append(f"<details><summary>View {len(items)} repositories</summary>\n")
 
-                for a, change in items:
-                    if isinstance(change, list):
-                        output.append(f"- [{a.name}]({a.repo_url}):")
-                        for c in change:
-                            if '\n' in c:
-                                formatted_change = c.strip().replace('\n', '\n    ')
-                                output.append(f"  - {formatted_change}")
-                            else:
-                                output.append(f"  - {c}")
-                    else:
-                        if '\n' in change:
-                            # For single changes with newlines (like added/updated description)
-                            formatted_change = change.strip().replace('\n', '\n  ')
-                            output.append(f"- [{a.name}]({a.repo_url}):\n  - {formatted_change}")
+                if group_name in ("Changed latest release", "Changed latest release (>= 100 days)"):
+                    output.append("| Repository | Previous | Current | Time Since Last |")
+                    output.append("|---|---|---|---|")
+                    for a, change in items:
+                        output.append(f"| [{a.name}]({a.repo_url}) | {change['prev']} | {change['curr']} | {change['days']} |")
+                else:
+                    for a, change in items:
+                        if isinstance(change, list):
+                            output.append(f"- [{a.name}]({a.repo_url}):")
+                            for c in change:
+                                if isinstance(c, dict):
+                                    c_str = f"Changed latest release from `{c['prev']}` to `{c['curr']}`"
+                                    if c.get('days'):
+                                        c_str += f" ({c['days']})"
+                                else:
+                                    c_str = c
+                                if '\n' in c_str:
+                                    formatted_change = c_str.strip().replace('\n', '\n    ')
+                                    output.append(f"  - {formatted_change}")
+                                else:
+                                    output.append(f"  - {c_str}")
                         else:
-                            # If we grouped by category, the full change message is still here
-                            output.append(f"- [{a.name}]({a.repo_url}): {change}")
+                            if '\n' in change:
+                                formatted_change = change.strip().replace('\n', '\n  ')
+                                output.append(f"- [{a.name}]({a.repo_url}):\n  - {formatted_change}")
+                            else:
+                                output.append(f"- [{a.name}]({a.repo_url}): {change}")
 
                 if wrap_in_details:
                     output.append("\n</details>\n")

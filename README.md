@@ -254,6 +254,7 @@ Have questions or feedback? [Open an issue](https://github.com/arran4/arran4/iss
 | [homebrew-tap](https://github.com/arran4/homebrew-tap) | My homebrew tap semiautomated.. maybe? | homebrew, homebrew-tap, tap |
 | [idea-txtar-support-plugin](https://github.com/arran4/idea-txtar-support-plugin) [🔗](https://plugins.jetbrains.com/plugin/30286-txtar-file-support) | Jetbrains Idea txtar support plugin | idea, java, jetbrains, plugin, txtar |
 | [lxa](https://github.com/arran4/lxa) | ls with extended attributes | fs-attr, linux, ls, xattr, xdp |
+| [pocketchip-apt-rescue](https://github.com/arran4/pocketchip-apt-rescue) | Pocketchip original firmware re-routing proxy for debian upgrades |  |
 | [resume](https://github.com/arran4/resume) | Arrans Resume | cv, resume, typst |
 | [scoop-bucket](https://github.com/arran4/scoop-bucket) | Scoop bucket | scoop-bucket |
 | [tex_recipes_template](https://github.com/arran4/tex_recipes_template) | A very simple tex engine for recipes helpful for an AI world | recipes, template, tex |

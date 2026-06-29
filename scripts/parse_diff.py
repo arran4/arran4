@@ -180,11 +180,13 @@ def main():
                     if not d.extra_info:
                         changes_list.append(f"Added {info_name}: `{a.extra_info}`")
                         if info_name == "license":
-                            license_changes_summary.append(f"- [{a.name}]({a.repo_url}): Added license `{a.extra_info}`")
+                            repo_link = f"[{a.name}]({a.repo_url})" if a.repo_url else a.name
+                            license_changes_summary.append(f"- {repo_link}: Added license `{a.extra_info}`")
                     elif not a.extra_info:
                         changes_list.append(f"Removed {info_name}: `{d.extra_info}`")
                         if info_name == "license":
-                            license_changes_summary.append(f"- [{a.name}]({a.repo_url}): Removed license `{d.extra_info}`")
+                            repo_link = f"[{a.name}]({a.repo_url})" if a.repo_url else a.name
+                            license_changes_summary.append(f"- {repo_link}: Removed license `{d.extra_info}`")
                     else:
                         if info_name == "latest release":
                             d_date = parse_date(d.extra_info)
@@ -205,7 +207,8 @@ def main():
                         else:
                             changes_list.append(f"Changed {info_name} from `{d.extra_info}` to `{a.extra_info}`")
                             if info_name == "license":
-                                license_changes_summary.append(f"- [{a.name}]({a.repo_url}): Changed license from `{d.extra_info}` to `{a.extra_info}`")
+                                repo_link = f"[{a.name}]({a.repo_url})" if a.repo_url else a.name
+                                license_changes_summary.append(f"- {repo_link}: Changed license from `{d.extra_info}` to `{a.extra_info}`")
 
                 d_tags = d.get_tags_set()
                 a_tags = a.get_tags_set()

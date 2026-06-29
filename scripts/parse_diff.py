@@ -78,6 +78,7 @@ class Row:
 
 def main():
     files_changed = {}
+    license_changes_summary = []
     current_file = None
 
     for line in sys.stdin:
@@ -178,8 +179,14 @@ def main():
                 if d.extra_info != a.extra_info:
                     if not d.extra_info:
                         changes_list.append(f"Added {info_name}: `{a.extra_info}`")
+                        if info_name == "license":
+                            repo_link = f"[{a.name}]({a.repo_url})" if a.repo_url else a.name
+                            license_changes_summary.append(f"- {repo_link}: Added license `{a.extra_info}`")
                     elif not a.extra_info:
                         changes_list.append(f"Removed {info_name}: `{d.extra_info}`")
+                        if info_name == "license":
+                            repo_link = f"[{a.name}]({a.repo_url})" if a.repo_url else a.name
+                            license_changes_summary.append(f"- {repo_link}: Removed license `{d.extra_info}`")
                     else:
                         if info_name == "latest release":
                             d_date = parse_date(d.extra_info)
@@ -199,6 +206,9 @@ def main():
                             })
                         else:
                             changes_list.append(f"Changed {info_name} from `{d.extra_info}` to `{a.extra_info}`")
+                            if info_name == "license":
+                                repo_link = f"[{a.name}]({a.repo_url})" if a.repo_url else a.name
+                                license_changes_summary.append(f"- {repo_link}: Changed license from `{d.extra_info}` to `{a.extra_info}`")
 
                 d_tags = d.get_tags_set()
                 a_tags = a.get_tags_set()
@@ -315,6 +325,11 @@ def main():
     if summary_output:
         print("**Repository Changes Summary:**\n")
         print("\n".join(summary_output))
+
+        if license_changes_summary:
+            print("\n**License Changes:**\n")
+            print("\n".join(license_changes_summary))
+
         print("\n<details><summary>Detailed Repository Changes</summary>\n")
 
         details_str = "\n".join(output)

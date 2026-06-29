@@ -247,6 +247,7 @@ Have questions or feedback? [Open an issue](https://github.com/arran4/arran4/iss
 |---|---|---|
 | [KMagMux](https://github.com/arran4/KMagMux) | Torrent and Magent file and protocol handler for routing to programs / services | handler, intent, kde, link, magnent, mux, torrent |
 | [arran4](https://github.com/arran4/arran4) [🔗](https://arran4.github.io/ ) | Github Profile landing page github repo | github, github-profile, github-profile-readme |
+| [awesome-pocketchip](https://github.com/arran4/awesome-pocketchip) | A list of pocketchip resources |  |
 | [dart-udt](https://github.com/arran4/dart-udt) [🔗](https://pub.dev/packages/dart_udt) | AI port of UDT library from source forge to Dart | dart, udt |
 | [dotfiles](https://github.com/arran4/dotfiles) | Just a collection of dotfiles managed by Chezmoi | chezmoi, dotfiles |
 | [git-tag-inc-action](https://github.com/arran4/git-tag-inc-action) [🔗](https://github.com/arran4/git-tag-inc) | An action for incrementing semantic git tags | git-tag-inc, github-actions, semantic-tagging, semantic-versions, tag-manager |

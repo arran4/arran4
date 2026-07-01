@@ -79,6 +79,12 @@ class Row:
 def main():
     files_changed = {}
     license_changes_summary = []
+    description_changes_summary = []
+    tag_changes_summary = []
+    homepage_changes_summary = []
+    owner_rename_changes_summary = []
+    latest_release_changes_summary = []
+    extra_info_changes_summary = []
     current_file = None
 
     for line in sys.stdin:
@@ -157,36 +163,49 @@ def main():
                 info_name = "latest release"
 
             for d, a in updates:
+                repo_link = f"[{a.name}]({a.repo_url})" if a.repo_url else a.name
                 changes_list = []
                 if d.name != a.name:
                     if d.repo_only == a.repo_only and d.owner != a.owner:
                         changes_list.append(f"Changed owner from `{d.owner}` to `{a.owner}`")
+                        owner_rename_changes_summary.append(f"- {repo_link}: Changed owner from `{d.owner}` to `{a.owner}`")
                     else:
                         changes_list.append(f"Renamed from `{d.name}` to `{a.name}`")
+                        owner_rename_changes_summary.append(f"- {repo_link}: Renamed from `{d.name}` to `{a.name}`")
                 d_desc_clean = d.desc if d.desc else ''
                 a_desc_clean = a.desc if a.desc else ''
                 if d_desc_clean != a_desc_clean:
                     if not d_desc_clean and a_desc_clean:
                         changes_list.append(f"Added description:\n\n> {escape_md(a_desc_clean)}\n\n")
+                        description_changes_summary.append(f"- {repo_link}: Added description:\n  > {escape_md(a_desc_clean).replace('\n', '\n  > ')}")
                     elif d_desc_clean and not a_desc_clean:
                         changes_list.append(f"Removed description")
+                        description_changes_summary.append(f"- {repo_link}: Removed description")
                     else:
                         bold_old, bold_new = bold_difference(d_desc_clean, a_desc_clean)
                         changes_list.append(f"Updated description:\n\n> - {bold_old}\n> + {bold_new}\n\n")
+                        description_changes_summary.append(f"- {repo_link}: Updated description:\n  > - {bold_old.replace('\n', '\n  > ')}\n  > + {bold_new.replace('\n', '\n  > ')}")
                 if d.homepage != a.homepage:
                     if d.homepage or a.homepage:
                         changes_list.append(f"Updated homepage from `{d.homepage}` to `{a.homepage}`")
+                        homepage_changes_summary.append(f"- {repo_link}: Updated homepage from `{d.homepage}` to `{a.homepage}`")
                 if d.extra_info != a.extra_info:
                     if not d.extra_info:
                         changes_list.append(f"Added {info_name}: `{a.extra_info}`")
                         if info_name == "license":
-                            repo_link = f"[{a.name}]({a.repo_url})" if a.repo_url else a.name
                             license_changes_summary.append(f"- {repo_link}: Added license `{a.extra_info}`")
+                        elif info_name == "latest release":
+                            latest_release_changes_summary.append(f"- {repo_link}: Added latest release `{a.extra_info}`")
+                        else:
+                            extra_info_changes_summary.append(f"- {repo_link}: Added {info_name} `{a.extra_info}`")
                     elif not a.extra_info:
                         changes_list.append(f"Removed {info_name}: `{d.extra_info}`")
                         if info_name == "license":
-                            repo_link = f"[{a.name}]({a.repo_url})" if a.repo_url else a.name
                             license_changes_summary.append(f"- {repo_link}: Removed license `{d.extra_info}`")
+                        elif info_name == "latest release":
+                            latest_release_changes_summary.append(f"- {repo_link}: Removed latest release `{d.extra_info}`")
+                        else:
+                            extra_info_changes_summary.append(f"- {repo_link}: Removed {info_name} `{d.extra_info}`")
                     else:
                         if info_name == "latest release":
                             d_date = parse_date(d.extra_info)
@@ -204,11 +223,16 @@ def main():
                                 "curr": a.extra_info,
                                 "days": days_diff_str
                             })
+                            if days_diff_str:
+                                latest_release_changes_summary.append(f"- {repo_link}: Changed latest release from `{d.extra_info}` to `{a.extra_info}` ({days_diff_str.strip()})")
+                            else:
+                                latest_release_changes_summary.append(f"- {repo_link}: Changed latest release from `{d.extra_info}` to `{a.extra_info}`")
                         else:
                             changes_list.append(f"Changed {info_name} from `{d.extra_info}` to `{a.extra_info}`")
                             if info_name == "license":
-                                repo_link = f"[{a.name}]({a.repo_url})" if a.repo_url else a.name
                                 license_changes_summary.append(f"- {repo_link}: Changed license from `{d.extra_info}` to `{a.extra_info}`")
+                            else:
+                                extra_info_changes_summary.append(f"- {repo_link}: Changed {info_name} from `{d.extra_info}` to `{a.extra_info}`")
 
                 d_tags = d.get_tags_set()
                 a_tags = a.get_tags_set()
@@ -220,7 +244,9 @@ def main():
                         tag_changes.append(f"removing `{', '.join(sorted(removed_tags))}`")
                     if added_tags:
                         tag_changes.append(f"adding `{', '.join(sorted(added_tags))}`")
-                    changes_list.append(f"Updated tags by {' and '.join(tag_changes)}")
+                    changes_str = f"Updated tags by {' and '.join(tag_changes)}"
+                    changes_list.append(changes_str)
+                    tag_changes_summary.append(f"- {repo_link}: {changes_str}")
 
                 if not changes_list:
                     changes_list.append("Row formatted or modified")
@@ -329,6 +355,30 @@ def main():
         if license_changes_summary:
             print("\n**License Changes:**\n")
             print("\n".join(license_changes_summary))
+
+        if description_changes_summary:
+            print("\n**Description Changes:**\n")
+            print("\n".join(description_changes_summary))
+
+        if tag_changes_summary:
+            print("\n**Tag Changes:**\n")
+            print("\n".join(tag_changes_summary))
+
+        if homepage_changes_summary:
+            print("\n**Homepage Changes:**\n")
+            print("\n".join(homepage_changes_summary))
+
+        if owner_rename_changes_summary:
+            print("\n**Owner/Rename Changes:**\n")
+            print("\n".join(owner_rename_changes_summary))
+
+        if latest_release_changes_summary:
+            print("\n**Latest Release Changes:**\n")
+            print("\n".join(latest_release_changes_summary))
+
+        if extra_info_changes_summary:
+            print("\n**Other Info Changes:**\n")
+            print("\n".join(extra_info_changes_summary))
 
         print("\n<details><summary>Detailed Repository Changes</summary>\n")
 

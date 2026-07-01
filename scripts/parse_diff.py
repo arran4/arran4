@@ -177,14 +177,14 @@ def main():
                 if d_desc_clean != a_desc_clean:
                     if not d_desc_clean and a_desc_clean:
                         changes_list.append(f"Added description:\n\n> {escape_md(a_desc_clean)}\n\n")
-                        description_changes_summary.append(f"- {repo_link}: Added description:\n  > {escape_md(a_desc_clean)}")
+                        description_changes_summary.append(f"- {repo_link}: Added description:\n  > {escape_md(a_desc_clean).replace('\n', '\n  > ')}")
                     elif d_desc_clean and not a_desc_clean:
                         changes_list.append(f"Removed description")
                         description_changes_summary.append(f"- {repo_link}: Removed description")
                     else:
                         bold_old, bold_new = bold_difference(d_desc_clean, a_desc_clean)
                         changes_list.append(f"Updated description:\n\n> - {bold_old}\n> + {bold_new}\n\n")
-                        description_changes_summary.append(f"- {repo_link}: Updated description:\n  > - {bold_old}\n  > + {bold_new}")
+                        description_changes_summary.append(f"- {repo_link}: Updated description:\n  > - {bold_old.replace('\n', '\n  > ')}\n  > + {bold_new.replace('\n', '\n  > ')}")
                 if d.homepage != a.homepage:
                     if d.homepage or a.homepage:
                         changes_list.append(f"Updated homepage from `{d.homepage}` to `{a.homepage}`")
@@ -224,7 +224,7 @@ def main():
                                 "days": days_diff_str
                             })
                             if days_diff_str:
-                                latest_release_changes_summary.append(f"- {repo_link}: Changed latest release from `{d.extra_info}` to `{a.extra_info}` ({days_diff_str})")
+                                latest_release_changes_summary.append(f"- {repo_link}: Changed latest release from `{d.extra_info}` to `{a.extra_info}` ({days_diff_str.strip()})")
                             else:
                                 latest_release_changes_summary.append(f"- {repo_link}: Changed latest release from `{d.extra_info}` to `{a.extra_info}`")
                         else:

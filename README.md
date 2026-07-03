@@ -23,16 +23,6 @@ Have questions or feedback? [Open an issue](https://github.com/arran4/arran4/iss
 | [abc-kohler-report-rss](https://github.com/arran4/abc-kohler-report-rss) | RSS generator for ABC's Kohler Report | abc + rss, abc-news |
 | [abc-mediawatch-rss](https://github.com/arran4/abc-mediawatch-rss) | RSS generator for ABC's Media Watch | abc + rss, abc-media-watch |
 
-### ai + chat + kde
-| Repository | Description | Tags |
-|---|---|---|
-| [kllamabooks](https://github.com/arran4/kllamabooks) | A KDE-styled QT application that interacts with local Ollama sessions and stores chat history locally via encrypted SQLite databases | ai + chat + kde, client, ollama |
-
-### ai + desktop + kde
-| Repository | Description | Tags |
-|---|---|---|
-| [kjules](https://github.com/arran4/kjules) | A C++ application built with KDE Frameworks that provides a desktop interface for interacting with the Google Jules API | ai + desktop + kde, google-jules, jules |
-
 ### ai + flutter + linux + utility
 | Repository | Description | Tags |
 |---|---|---|
@@ -43,6 +33,12 @@ Have questions or feedback? [Open an issue](https://github.com/arran4/arran4/iss
 |---|---|---|
 | [gorillas-react](https://github.com/arran4/gorillas-react) [🔗](https://ai.studio/apps/drive/1BOLZ6UAK9YYH8kl5eU8Ihn6J-fxugrk0) | Generated gorillas in react | ai + game + generated + test, react |
 
+### ai + kde
+| Repository | Description | Tags |
+|---|---|---|
+| [kjules](https://github.com/arran4/kjules) | A C++ application built with KDE Frameworks that provides a desktop interface for interacting with the Google Jules API | ai + kde, desktop, google-jules, jules |
+| [kllamabooks](https://github.com/arran4/kllamabooks) | A KDE-styled QT application that interacts with local Ollama sessions and stores chat history locally via encrypted SQLite databases | ai + kde, chat, client, ollama |
+
 ### awesome-list
 | Repository | Description | Tags |
 |---|---|---|
@@ -50,11 +46,6 @@ Have questions or feedback? [Open an issue](https://github.com/arran4/arran4/iss
 | [awesome-postserver](https://github.com/arran4/awesome-postserver) [🔗](https://arran4.github.io/awesome-postserver/) | Awesome Post-Cloud Post-NAS (True Serverless) Syncing | awesome-list, list, postnas, postserver, serverless, true-serverless |
 | [awesome-terminal-multiplexers](https://github.com/arran4/awesome-terminal-multiplexers) [🔗](https://arran4.github.io/awesome-terminal-multiplexers/) | Simple awesome list of terminal multiplexers | awesome-list, terminal, terminal-multiplexers |
 | [ux](https://github.com/arran4/ux) [🔗](https://arran4.github.io/ux/) | Some design links I refer to  | awesome-list, design, docs, links, list, references, ui, ui-design, ux, ux-design |
-
-### chat + desktop + flutter + linux + web
-| Repository | Description | Tags |
-|---|---|---|
-| [Dimension](https://github.com/arran4/Dimension) [🔗](https://arran4.github.io/Dimension/) | (Beta) Peer-to-peer group chat and file transfer. | chat + desktop + flutter + linux + web, android, fileshare, ios, macos, mobile, peer-to-peer, peer2peer, windows |
 
 ### cheatsheet
 | Repository | Description | Tags |
@@ -195,6 +186,8 @@ Have questions or feedback? [Open an issue](https://github.com/arran4/arran4/iss
 | [g2](https://github.com/arran4/g2) [🔗](https://pkg.go.dev/github.com/arran4/g2) | g2 Gentoo Tools | go, gentoo, gentoo-utils |
 | [go-template-functional-operations](https://github.com/arran4/go-template-functional-operations) | These functions enable a more functional programming style within template rendering, allowing you to easily perform operations like mapping, filtering, and finding indices directly within your templates. | go, functional-go-template, go-template, go-template-functions |
 | [goa4web](https://github.com/arran4/goa4web) | My everything website (server) from 2005 ported from C to GO. Ready for news, forums, link sharing, image sharing and more | go, cms, forum, image-sharing, link-sharing, news, personal, server, sql, webserver, website |
+| [gobookmarks](https://github.com/arran4/gobookmarks) | Landing page for when you open browsers / live bookmarks in go. | go, bookmarks, github, github-api, home-page, homepage, live-bookmarks, start-page, startpage, web |
+| [gorillamuxlogic](https://github.com/arran4/gorillamuxlogic) | Some very simple gorilla mux logic for `mux.MatcherFunc` | go, gorilla, gorilla-mux, http, web |
 | [goxresources](https://github.com/arran4/goxresources) | go parser for xresource files  | go, dotfiles, xresources |
 
 ### go + image
@@ -222,12 +215,6 @@ Have questions or feedback? [Open an issue](https://github.com/arran4/arran4/iss
 |---|---|---|
 | [phpbb2-rss](https://github.com/arran4/phpbb2-rss) | RSS generator for any phpbb2 forum | go + rss, phpbb, phpbb2 |
 | [rss-test-server-proof-of-issue](https://github.com/arran4/rss-test-server-proof-of-issue) | A test server for an rss issue | go + rss, issue, single-purpose-app, testing-code |
-
-### go + web
-| Repository | Description | Tags |
-|---|---|---|
-| [gobookmarks](https://github.com/arran4/gobookmarks) | Landing page for when you open browsers / live bookmarks in go. | go + web, bookmarks, github, github-api, home-page, homepage, live-bookmarks, start-page, startpage |
-| [gorillamuxlogic](https://github.com/arran4/gorillamuxlogic) | Some very simple gorilla mux logic for `mux.MatcherFunc` | go + web, gorilla, gorilla-mux, http |
 
 ### hugo
 | Repository | Description | Tags |

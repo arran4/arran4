@@ -310,6 +310,10 @@ while true; do
 done
 
 STARRED_RELEASES="$TMP_DIR/starred_releases.json"
+if [ -z "${GITHUB_TOKEN:-}" ]; then
+  echo "Error: GITHUB_TOKEN is not set. Aborting to prevent wiping out release history." >&2
+  exit 1
+fi
 python3 scripts/fetch_starred_releases.py "$ALL_STARRED" "$STARRED_RELEASES" || exit 1
 
 ALL_STARRED_WITH_RELEASES="$TMP_DIR/all_starred_with_releases.json"

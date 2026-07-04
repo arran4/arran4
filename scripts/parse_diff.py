@@ -74,7 +74,7 @@ class Row:
 
     def get_tags_set(self):
         if not self.tags: return set()
-        tags_str = self.tags.replace(' + ', ', ')
+        tags_str = re.sub(r'\s*\+\s*', ', ', self.tags)
         return set([t.strip() for t in tags_str.split(',') if t.strip()])
 
 def main():

@@ -74,7 +74,8 @@ class Row:
 
     def get_tags_set(self):
         if not self.tags: return set()
-        return set([t.strip() for t in self.tags.split(',') if t.strip()])
+        tags_str = self.tags.replace(' + ', ', ')
+        return set([t.strip() for t in tags_str.split(',') if t.strip()])
 
 def main():
     files_changed = {}

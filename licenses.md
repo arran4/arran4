@@ -15,7 +15,7 @@ List of repositories and their licenses.
 | [abc-kohler-report-rss](https://github.com/arran4/abc-kohler-report-rss) | RSS generator for ABC's Kohler Report | AGPL-3.0 | abc + rss, abc-news |
 | [flutter_google_datastore](https://github.com/arran4/flutter_google_datastore) | Google Datastore and Datastore emulator client for "easy" modification of values | AGPL-3.0 | dart + datastore + flutter + utility, google |
 | [goa4web](https://github.com/arran4/goa4web) | My everything website (server) from 2005 ported from C to GO. Ready for news, forums, link sharing, image sharing and more | AGPL-3.0 | go, cms, forum, image-sharing, link-sharing, news, personal, server, sql, webserver, website |
-| [gobookmarks](https://github.com/arran4/gobookmarks) | Landing page for when you open browsers / live bookmarks in go. | AGPL-3.0 | go + web, bookmarks, github, github-api, home-page, homepage, live-bookmarks, start-page, startpage |
+| [gobookmarks](https://github.com/arran4/gobookmarks) | Landing page for when you open browsers / live bookmarks in go. | AGPL-3.0 | go, bookmarks, github, github-api, home-page, homepage, live-bookmarks, start-page, startpage, web |
 | [lemmy_notify](https://github.com/arran4/lemmy_notify) | Lemmy Notification app - for desktop atm | AGPL-3.0 | flutter, desktop, lemmy |
 | [shineyshot](https://github.com/arran4/shineyshot) | A simple screenshotting tool with several user modes | AGPL-3.0 | cli + go + linux + ui + utility, annotation, hyprland, screencap, screendump, screenshot, wayland, x11 |
 
@@ -48,7 +48,7 @@ List of repositories and their licenses.
 | [golang-diff](https://github.com/arran4/golang-diff) | A multiline string comparsion library (and tool.) | BSD-3-Clause | cli + go + library + test, comparison, diff |
 | [idea-txtar-support-plugin](https://github.com/arran4/idea-txtar-support-plugin) [🔗](https://plugins.jetbrains.com/plugin/30286-txtar-file-support) | Jetbrains Idea txtar support plugin | BSD-3-Clause | idea, java, jetbrains, plugin, txtar |
 | [kgithub-notify](https://github.com/arran4/kgithub-notify) | A sleek GitHub notification system tray application written natively in C++ using Qt6 and KDE Frameworks 6 (KF6). It quietly monitors your GitHub account, notifying you when there are new notifications, and provides a rich desktop interface to manage themGithub notifier for KDE | BSD-3-Clause | github + kde + ui, api, notifier, qt |
-| [kjules](https://github.com/arran4/kjules) | A C++ application built with KDE Frameworks that provides a desktop interface for interacting with the Google Jules API | BSD-3-Clause | ai + desktop + kde, google-jules, jules |
+| [kjules](https://github.com/arran4/kjules) | A C++ application built with KDE Frameworks that provides a desktop interface for interacting with the Google Jules API | BSD-3-Clause | ai + kde, desktop, google-jules, jules |
 | [lookup](https://github.com/arran4/lookup) [🔗](https://pkg.go.dev/github.com/arran4/lookup) | A golang structure based element lookup library | BSD-3-Clause | cli + go + library + utility, jsonpath, lookup |
 | [mlocate_explorer](https://github.com/arran4/mlocate_explorer) [🔗](https://arran4.github.io/mlocate_explorer/) | A basic mlocate db file explorer | BSD-3-Clause | flutter, db, explorer, gui, mlocate |
 | [move-dups-script](https://github.com/arran4/move-dups-script) | Simple program to move dups nothing really interesting - Once off go project which could have been a shell script | BSD-3-Clause | cli + go, golang-cli, shell-script-as-go |
@@ -81,7 +81,7 @@ List of repositories and their licenses.
 | [abc-justin-rss](https://github.com/arran4/abc-justin-rss) | ABC news just-in to rss converter - generated | GPL-3.0 | abc + rss, abc-news |
 | [dirtools](https://github.com/arran4/dirtools) [🔗](https://pkg.go.dev/github.com/arran4/dirtools) | Some directory tools, such as separating out all of a file extension into mirror directories | GPL-3.0 | cli + go + utility, directory, organization |
 | [go-lojban-password-gen](https://github.com/arran4/go-lojban-password-gen) | Lojban password generator - Generate passwords that use lojban | GPL-3.0 | cli + go + utility, binary, generator, lojban, password, password-generator |
-| [kllamabooks](https://github.com/arran4/kllamabooks) | A KDE-styled QT application that interacts with local Ollama sessions and stores chat history locally via encrypted SQLite databases | GPL-3.0 | ai + chat + kde, client, ollama |
+| [kllamabooks](https://github.com/arran4/kllamabooks) | A KDE-styled QT application that interacts with local Ollama sessions and stores chat history locally via encrypted SQLite databases | GPL-3.0 | ai + kde, chat, client, ollama |
 | [mvcommon](https://github.com/arran4/mvcommon) | Tool for moving files into a folder where they have a common prefix | GPL-3.0 | cli, mv, smart-tools |
 | [phonenumber](https://github.com/arran4/phonenumber) | A generator for the nokia phone keyboard meme | GPL-3.0 | for-fun + generator + go, meme, nokia, nokia-keyboard, phone, phonenumber |
 | [phpbb2-rss](https://github.com/arran4/phpbb2-rss) | RSS generator for any phpbb2 forum | GPL-3.0 | go + rss, phpbb, phpbb2 |
@@ -92,7 +92,6 @@ List of repositories and their licenses.
 ### MIT
 | Repository | Description | License | Tags |
 |---|---|---|---|
-| [Dimension](https://github.com/arran4/Dimension) [🔗](https://arran4.github.io/Dimension/) | (Beta) Peer-to-peer group chat and file transfer. | MIT | chat + desktop + flutter + linux + web, android, fileshare, ios, macos, mobile, peer-to-peer, peer2peer, windows |
 | [abc-mediawatch-rss](https://github.com/arran4/abc-mediawatch-rss) | RSS generator for ABC's Media Watch | MIT | abc + rss, abc-media-watch |
 | [arrans_overlay](https://github.com/arran4/arrans_overlay) [🔗](https://arran4.github.io/arrans_overlay/) | Arrans Gentoo Overlay | MIT | gentoo, overlay |
 | [awesome-fodmap-resources](https://github.com/arran4/awesome-fodmap-resources) [🔗](https://arran4.github.io/awesome-fodmap-resources/) | Compilation of Low Fodmap resources | MIT | awesome-list, fodmap, fodmaps, low-fodmap |
@@ -112,7 +111,7 @@ List of repositories and their licenses.
 | [golang-frame](https://github.com/arran4/golang-frame) [🔗](https://pkg.go.dev/github.com/arran4/golang-frame) | A simple golang image frame drawing library (Draws a frame around something.) | MIT | go + image, library |
 | [golang-rcs](https://github.com/arran4/golang-rcs) [🔗](https://pkg.go.dev/github.com/arran4/golang-rcs) | golang rcs parser / generator, and utilities | MIT | go + library, rcs, vcs |
 | [golang-rpg-textbox](https://github.com/arran4/golang-rpg-textbox) [🔗](https://pkg.go.dev/github.com/arran4/golang-rpg-textbox#section-readme) | Golang image library to Renders a RPG style text box with word wrapped text of your choosing | MIT | go + image, game, rpg, rpg-game |
-| [gorillamuxlogic](https://github.com/arran4/gorillamuxlogic) | Some very simple gorilla mux logic for `mux.MatcherFunc` | MIT | go + web, gorilla, gorilla-mux, http |
+| [gorillamuxlogic](https://github.com/arran4/gorillamuxlogic) | Some very simple gorilla mux logic for `mux.MatcherFunc` | MIT | go, gorilla, gorilla-mux, http, web |
 | [gorillas-react](https://github.com/arran4/gorillas-react) [🔗](https://ai.studio/apps/drive/1BOLZ6UAK9YYH8kl5eU8Ihn6J-fxugrk0) | Generated gorillas in react | MIT | ai + game + generated + test, react |
 | [goxresources](https://github.com/arran4/goxresources) | go parser for xresource files  | MIT | go, dotfiles, xresources |
 | [homebrew-tap](https://github.com/arran4/homebrew-tap) | My homebrew tap semiautomated.. maybe? | MIT | homebrew, homebrew-tap, tap |

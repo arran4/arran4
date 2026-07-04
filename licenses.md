@@ -111,6 +111,7 @@ List of repositories and their licenses.
 | [golang-frame](https://github.com/arran4/golang-frame) [🔗](https://pkg.go.dev/github.com/arran4/golang-frame) | A simple golang image frame drawing library (Draws a frame around something.) | MIT | go + image, library |
 | [golang-rcs](https://github.com/arran4/golang-rcs) [🔗](https://pkg.go.dev/github.com/arran4/golang-rcs) | golang rcs parser / generator, and utilities | MIT | go + library, rcs, vcs |
 | [golang-rpg-textbox](https://github.com/arran4/golang-rpg-textbox) [🔗](https://pkg.go.dev/github.com/arran4/golang-rpg-textbox#section-readme) | Golang image library to Renders a RPG style text box with word wrapped text of your choosing | MIT | go + image, game, rpg, rpg-game |
+| [goreleaser-gentoo-smoke](https://github.com/arran4/goreleaser-gentoo-smoke) |  | MIT |  |
 | [gorillamuxlogic](https://github.com/arran4/gorillamuxlogic) | Some very simple gorilla mux logic for `mux.MatcherFunc` | MIT | go, gorilla, gorilla-mux, http, web |
 | [gorillas-react](https://github.com/arran4/gorillas-react) [🔗](https://ai.studio/apps/drive/1BOLZ6UAK9YYH8kl5eU8Ihn6J-fxugrk0) | Generated gorillas in react | MIT | ai + game + generated + test, react |
 | [goxresources](https://github.com/arran4/goxresources) | go parser for xresource files  | MIT | go, dotfiles, xresources |
@@ -141,6 +142,7 @@ List of repositories and their licenses.
 |---|---|---|---|
 | [awesome-pocketchip](https://github.com/arran4/awesome-pocketchip) | A list of pocketchip resources |  |  |
 | [flutter_jules](https://github.com/arran4/flutter_jules) | My flutter based google jules client  |  | ai + flutter + linux + utility, app, google-jules, jules, macos, windows |
+| [goreleaser-gentoo-smoke-overlay](https://github.com/arran4/goreleaser-gentoo-smoke-overlay) |  |  |  |
 | [personal-splitwise-helper-scripts](https://github.com/arran4/personal-splitwise-helper-scripts) | Splitwise TUI and CLI interface |  | cli, helper, splitwise, tui |
 | [pocketchip-apt-rescue](https://github.com/arran4/pocketchip-apt-rescue) | Pocketchip original firmware re-routing proxy for debian upgrades |  |  |
 | [rss-test-server-proof-of-issue](https://github.com/arran4/rss-test-server-proof-of-issue) | A test server for an rss issue |  | go + rss, issue, single-purpose-app, testing-code |

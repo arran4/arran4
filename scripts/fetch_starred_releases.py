@@ -55,6 +55,7 @@ def fetch_releases(repos, token):
                             results[repo_data['nameWithOwner'].lower()] = repo_data['latestRelease']
         except Exception as e:
             print(f"Error fetching GraphQL for releases: {e}", file=sys.stderr)
+            sys.exit(1)
 
     return results
 

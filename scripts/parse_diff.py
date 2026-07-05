@@ -34,6 +34,11 @@ def bold_difference(old_str, new_str):
 
     return "".join(res_old), "".join(res_new)
 
+def parse_release_tag(info_str):
+    if not isinstance(info_str, str) or not info_str:
+        return ""
+    return re.sub(r'\s*\(\d{4}-\d{2}-\d{2}\)\s*$', '', info_str).strip()
+
 def parse_date(info_str):
     if not isinstance(info_str, str):
         return None
@@ -191,24 +196,10 @@ def main():
                         changes_list.append(f"Updated homepage from `{d.homepage}` to `{a.homepage}`")
                         homepage_changes_summary.append(f"- {repo_link}: Updated homepage from `{d.homepage}` to `{a.homepage}`")
                 if d.extra_info != a.extra_info:
-                    if not d.extra_info:
-                        changes_list.append(f"Added {info_name}: `{a.extra_info}`")
-                        if info_name == "license":
-                            license_changes_summary.append(f"- {repo_link}: Added license `{a.extra_info}`")
-                        elif info_name == "latest release":
-                            latest_release_changes_summary.append(f"- {repo_link}: Added latest release `{a.extra_info}`")
-                        else:
-                            extra_info_changes_summary.append(f"- {repo_link}: Added {info_name} `{a.extra_info}`")
-                    elif not a.extra_info:
-                        changes_list.append(f"Removed {info_name}: `{d.extra_info}`")
-                        if info_name == "license":
-                            license_changes_summary.append(f"- {repo_link}: Removed license `{d.extra_info}`")
-                        elif info_name == "latest release":
-                            latest_release_changes_summary.append(f"- {repo_link}: Removed latest release `{d.extra_info}`")
-                        else:
-                            extra_info_changes_summary.append(f"- {repo_link}: Removed {info_name} `{d.extra_info}`")
-                    else:
-                        if info_name == "latest release":
+                    if info_name == "latest release":
+                        d_tag = parse_release_tag(d.extra_info)
+                        a_tag = parse_release_tag(a.extra_info)
+                        if d.extra_info and a.extra_info and d_tag != a_tag:
                             d_date = parse_date(d.extra_info)
                             a_date = parse_date(a.extra_info)
                             days_diff_str = ""
@@ -228,12 +219,30 @@ def main():
                                 latest_release_changes_summary.append(f"- {repo_link}: Changed latest release from `{d.extra_info}` to `{a.extra_info}` ({days_diff_str.strip()})")
                             else:
                                 latest_release_changes_summary.append(f"- {repo_link}: Changed latest release from `{d.extra_info}` to `{a.extra_info}`")
+                        elif d.extra_info and a.extra_info:
+                            changes_list.append(f"Updated latest release metadata from `{d.extra_info}` to `{a.extra_info}`")
+                        elif a.extra_info:
+                            changes_list.append(f"Added latest release metadata: `{a.extra_info}`")
+                        elif d.extra_info:
+                            changes_list.append(f"Removed latest release metadata: `{d.extra_info}`")
+                    elif not d.extra_info:
+                        changes_list.append(f"Added {info_name}: `{a.extra_info}`")
+                        if info_name == "license":
+                            license_changes_summary.append(f"- {repo_link}: Added license `{a.extra_info}`")
                         else:
-                            changes_list.append(f"Changed {info_name} from `{d.extra_info}` to `{a.extra_info}`")
-                            if info_name == "license":
-                                license_changes_summary.append(f"- {repo_link}: Changed license from `{d.extra_info}` to `{a.extra_info}`")
-                            else:
-                                extra_info_changes_summary.append(f"- {repo_link}: Changed {info_name} from `{d.extra_info}` to `{a.extra_info}`")
+                            extra_info_changes_summary.append(f"- {repo_link}: Added {info_name} `{a.extra_info}`")
+                    elif not a.extra_info:
+                        changes_list.append(f"Removed {info_name}: `{d.extra_info}`")
+                        if info_name == "license":
+                            license_changes_summary.append(f"- {repo_link}: Removed license `{d.extra_info}`")
+                        else:
+                            extra_info_changes_summary.append(f"- {repo_link}: Removed {info_name} `{d.extra_info}`")
+                    else:
+                        changes_list.append(f"Changed {info_name} from `{d.extra_info}` to `{a.extra_info}`")
+                        if info_name == "license":
+                            license_changes_summary.append(f"- {repo_link}: Changed license from `{d.extra_info}` to `{a.extra_info}`")
+                        else:
+                            extra_info_changes_summary.append(f"- {repo_link}: Changed {info_name} from `{d.extra_info}` to `{a.extra_info}`")
 
                 d_tags = d.get_tags_set()
                 a_tags = a.get_tags_set()
@@ -259,12 +268,14 @@ def main():
                         change_groups[change_cat["type"]].append((a, change_cat))
                     else:
                         # To group by generic change categories
-                        if change_cat.startswith(f"Removed {info_name}:"):
+                        if change_cat.startswith(f"Removed {info_name}:") or change_cat.startswith("Removed latest release metadata:"):
                             change_groups[f"Removed {info_name}"].append((a, change_cat))
-                        elif change_cat.startswith(f"Added {info_name}:"):
+                        elif change_cat.startswith(f"Added {info_name}:") or change_cat.startswith("Added latest release metadata:"):
                             change_groups[f"Added {info_name}"].append((a, change_cat))
                         elif change_cat.startswith(f"Changed {info_name}"):
                             change_groups[f"Changed {info_name}"].append((a, change_cat))
+                        elif change_cat.startswith("Updated latest release metadata"):
+                            change_groups["Updated latest release metadata"].append((a, change_cat))
                         elif change_cat.startswith("Updated tags"):
                             change_groups["Updated tags"].append((a, change_cat))
                         elif change_cat.startswith("Updated description"):

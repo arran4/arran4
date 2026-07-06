@@ -31,7 +31,7 @@ fetch_github_api() {
 
   while [ $attempt -lt $max_retries ]; do
     if ! http_code=$(curl "${curl_opts[@]}" -D "$headers_file" -o "$response_file" "$url"); then
-      local exit_code=$?
+      local exit_code=${PIPESTATUS[0]}
       echo "Error fetching $url (curl exit code $exit_code)" >&2
       if [ $attempt -eq $((max_retries-1)) ]; then
         return $exit_code
@@ -55,8 +55,8 @@ fetch_github_api() {
       fi
 
       local sleep_time=$((2 ** attempt))
-      local retry_after=$(grep -i '^Retry-After:' "$headers_file" | awk '{print $2}' | tr -d '\r' || true)
-      local reset_time=$(grep -i '^x-ratelimit-reset:' "$headers_file" | awk '{print $2}' | tr -d '\r' || true)
+      local retry_after=$(grep -i '^Retry-After:' "$headers_file" | tail -n 1 | awk '{print $2}' | tr -d '\r' || true)
+      local reset_time=$(grep -i '^x-ratelimit-reset:' "$headers_file" | tail -n 1 | awk '{print $2}' | tr -d '\r' || true)
 
       if [ -n "$retry_after" ] && [ "$retry_after" -eq "$retry_after" ] 2>/dev/null; then
         sleep_time=$retry_after

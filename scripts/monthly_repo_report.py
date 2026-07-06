@@ -9,13 +9,17 @@ import time
 USER = os.environ.get('GITHUB_REPOSITORY_OWNER', 'arran4')
 
 def fetch_with_backoff(req, max_retries=5):
+    method = req.method
+    if method is None:
+        method = 'POST' if req.data is not None else 'GET'
+    is_idempotent = method in ('GET', 'HEAD', 'PUT', 'DELETE', 'OPTIONS')
     for attempt in range(max_retries):
         try:
             with urllib.request.urlopen(req, timeout=10) as response:
                 return response.read().decode('utf-8')
         except urllib.error.HTTPError as e:
             status_code = e.code
-            if status_code in [403, 429] or 500 <= status_code < 600:
+            if status_code in [403, 429] or (is_idempotent and 500 <= status_code < 600):
                 retry_after = e.headers.get('Retry-After')
                 reset_time = e.headers.get('x-ratelimit-reset')
 

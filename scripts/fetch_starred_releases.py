@@ -3,6 +3,7 @@ import sys
 import json
 import urllib.request
 import urllib.error
+import time
 
 def fetch_releases(repos, token):
     if not token:
@@ -46,15 +47,56 @@ def fetch_releases(repos, token):
             "Content-Type": "application/json"
         })
 
-        try:
-            with urllib.request.urlopen(req, timeout=10) as response:
-                data = json.loads(response.read().decode())
-                if 'data' in data:
-                    for alias, repo_data in data['data'].items():
-                        if repo_data and repo_data.get('latestRelease'):
-                            results[repo_data['nameWithOwner'].lower()] = repo_data['latestRelease']
-        except Exception as e:
-            print(f"Error fetching GraphQL for releases: {e}", file=sys.stderr)
+        max_retries = 5
+        for attempt in range(max_retries):
+            try:
+                with urllib.request.urlopen(req, timeout=10) as response:
+                    data = json.loads(response.read().decode())
+                    if 'data' in data:
+                        for alias, repo_data in data['data'].items():
+                            if repo_data and repo_data.get('latestRelease'):
+                                results[repo_data['nameWithOwner'].lower()] = repo_data['latestRelease']
+                    break # Success, exit retry loop
+            except urllib.error.HTTPError as e:
+                status_code = e.code
+                if status_code in [403, 429] or 500 <= status_code < 600:
+                    retry_after = e.headers.get('Retry-After')
+                    reset_time = e.headers.get('x-ratelimit-reset')
+
+                    sleep_time = 2 ** attempt # Default exponential backoff
+
+                    if attempt == max_retries - 1:
+                        print(f"HTTP Error {status_code} fetching GraphQL for releases (Max retries reached)", file=sys.stderr)
+                        sys.exit(1)
+
+                    if retry_after:
+                        try:
+                            sleep_time = int(retry_after)
+                        except ValueError:
+                            pass
+                    elif reset_time:
+                        try:
+                            reset_timestamp = int(reset_time)
+                            current_timestamp = int(time.time())
+                            if reset_timestamp > current_timestamp:
+                                sleep_time = reset_timestamp - current_timestamp + 1
+                        except ValueError:
+                            pass
+
+                    print(f"HTTP Error {status_code} fetching GraphQL for releases. Retrying in {sleep_time} seconds (attempt {attempt + 1}/{max_retries})...", file=sys.stderr)
+                    time.sleep(sleep_time)
+                else:
+                    print(f"Error fetching GraphQL for releases: {e}", file=sys.stderr)
+                    sys.exit(1)
+            except Exception as e:
+                print(f"Error fetching GraphQL for releases: {e}", file=sys.stderr)
+                if attempt == max_retries - 1:
+                    sys.exit(1)
+                sleep_time = 2 ** attempt
+                print(f"Retrying in {sleep_time} seconds (attempt {attempt + 1}/{max_retries})...", file=sys.stderr)
+                time.sleep(sleep_time)
+        else:
+            print("Max retries exceeded for fetching releases.", file=sys.stderr)
             sys.exit(1)
 
     return results

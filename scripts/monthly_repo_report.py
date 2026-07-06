@@ -9,7 +9,7 @@ import time
 USER = os.environ.get('GITHUB_REPOSITORY_OWNER', 'arran4')
 
 def fetch_with_backoff(req, max_retries=5):
-    method = req.get_method()
+    method = req.get_method().upper()
     is_idempotent = method in ('GET', 'HEAD', 'PUT', 'DELETE', 'OPTIONS')
     for attempt in range(max_retries):
         try:

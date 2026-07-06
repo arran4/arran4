@@ -4,8 +4,58 @@ import json
 import datetime
 import os
 import sys
+import time
 
 USER = os.environ.get('GITHUB_REPOSITORY_OWNER', 'arran4')
+
+def fetch_with_backoff(req, max_retries=5):
+    for attempt in range(max_retries):
+        try:
+            with urllib.request.urlopen(req, timeout=10) as response:
+                return response.read().decode('utf-8')
+        except urllib.error.HTTPError as e:
+            status_code = e.code
+            if status_code in [403, 429] or 500 <= status_code < 600:
+                retry_after = e.headers.get('Retry-After')
+                reset_time = e.headers.get('x-ratelimit-reset')
+
+                sleep_time = 2 ** attempt
+
+                if attempt == max_retries - 1:
+                    print(f"HTTP Error {status_code} (Max retries reached)", file=sys.stderr)
+                    sys.exit(1)
+
+                if retry_after:
+                    try:
+                        sleep_time = int(retry_after)
+                    except ValueError:
+                        pass
+                elif reset_time:
+                    try:
+                        reset_timestamp = int(reset_time)
+                        current_timestamp = int(time.time())
+                        if reset_timestamp > current_timestamp:
+                            sleep_time = reset_timestamp - current_timestamp + 1
+                    except ValueError:
+                        pass
+
+                print(f"HTTP Error {status_code}. Retrying in {sleep_time} seconds (attempt {attempt + 1}/{max_retries})...", file=sys.stderr)
+                time.sleep(sleep_time)
+            else:
+                print(f"HTTP Error: {e}", file=sys.stderr)
+                if hasattr(e, 'read'):
+                    print(e.read().decode('utf-8'), file=sys.stderr)
+                sys.exit(1)
+        except Exception as e:
+            print(f"Error fetching data: {e}", file=sys.stderr)
+            if attempt == max_retries - 1:
+                sys.exit(1)
+            sleep_time = 2 ** attempt
+            print(f"Retrying in {sleep_time} seconds (attempt {attempt + 1}/{max_retries})...", file=sys.stderr)
+            time.sleep(sleep_time)
+
+    print("Max retries exceeded.", file=sys.stderr)
+    sys.exit(1)
 
 def fetch_repos():
     repos = []
@@ -18,20 +68,14 @@ def fetch_repos():
             req.add_header('Authorization', f'Bearer {token}')
         req.add_header('Accept', 'application/vnd.github.v3+json')
 
-        try:
-            with urllib.request.urlopen(req, timeout=10) as response:
-                data = json.loads(response.read().decode('utf-8'))
-                if not data:
-                    break
-                repos.extend(data)
-                if len(data) < 100:
-                    break
-                page += 1
-        except urllib.error.URLError as e:
-            print(f"Error fetching repos: {e}")
-            if hasattr(e, 'read'):
-                print(e.read().decode('utf-8'))
-            sys.exit(1)
+        response_data = fetch_with_backoff(req)
+        data = json.loads(response_data)
+        if not data:
+            break
+        repos.extend(data)
+        if len(data) < 100:
+            break
+        page += 1
 
     return repos
 
@@ -133,13 +177,11 @@ def create_issue(title, body):
     req.add_header('Content-Type', 'application/json')
 
     try:
-        with urllib.request.urlopen(req, timeout=10) as response:
-            result = json.loads(response.read().decode('utf-8'))
-            print(f"Issue created successfully: {result.get('html_url')}")
-    except urllib.error.URLError as e:
+        response_data = fetch_with_backoff(req)
+        result = json.loads(response_data)
+        print(f"Issue created successfully: {result.get('html_url')}")
+    except Exception as e:
         print(f"Error creating issue: {e}")
-        if hasattr(e, 'read'):
-            print(e.read().decode('utf-8'))
         sys.exit(1)
 
 def main():

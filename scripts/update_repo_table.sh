@@ -15,8 +15,6 @@ fetch_github_api() {
 
   local curl_opts=(
     -sSL
-    --retry 3
-    --retry-delay 5
     -H "Accept: $accept_header"
     -w "%{http_code}"
   )
@@ -26,22 +24,63 @@ fetch_github_api() {
   fi
 
   local response_file="$TMP_DIR/curl_response"
+  local headers_file="$TMP_DIR/curl_headers"
   local http_code
+  local max_retries=5
+  local attempt=0
 
-  if ! http_code=$(curl "${curl_opts[@]}" -o "$response_file" "$url"); then
-    local exit_code=$?
-    echo "Error fetching $url (curl exit code $exit_code)" >&2
-    return $exit_code
-  fi
+  while [ $attempt -lt $max_retries ]; do
+    if ! http_code=$(curl "${curl_opts[@]}" -D "$headers_file" -o "$response_file" "$url"); then
+      local exit_code=$?
+      echo "Error fetching $url (curl exit code $exit_code)" >&2
+      if [ $attempt -eq $((max_retries-1)) ]; then
+        return $exit_code
+      fi
+      local sleep_time=$((2 ** attempt))
+      echo "Retrying in $sleep_time seconds (attempt $((attempt+1))/$max_retries)..." >&2
+      sleep $sleep_time
+      attempt=$((attempt+1))
+      continue
+    fi
 
-  if [ "$http_code" -ne 200 ]; then
+    if [ "$http_code" -eq 200 ]; then
+      mv "$response_file" "$output_file"
+      return 0
+    fi
+
+    if [ "$http_code" -eq 403 ] || [ "$http_code" -eq 429 ] || [ "$http_code" -ge 500 ]; then
+      if [ $attempt -eq $((max_retries-1)) ]; then
+        echo "Error fetching $url: HTTP status $http_code (Max retries reached)" >&2
+        return 22
+      fi
+
+      local sleep_time=$((2 ** attempt))
+      local retry_after=$(grep -i '^Retry-After:' "$headers_file" | awk '{print $2}' | tr -d '\r' || true)
+      local reset_time=$(grep -i '^x-ratelimit-reset:' "$headers_file" | awk '{print $2}' | tr -d '\r' || true)
+
+      if [ -n "$retry_after" ] && [ "$retry_after" -eq "$retry_after" ] 2>/dev/null; then
+        sleep_time=$retry_after
+      elif [ -n "$reset_time" ] && [ "$reset_time" -eq "$reset_time" ] 2>/dev/null; then
+        local current_time=$(date +%s)
+        if [ "$reset_time" -gt "$current_time" ]; then
+          sleep_time=$((reset_time - current_time + 1))
+        fi
+      fi
+
+      echo "HTTP Error $http_code fetching $url. Retrying in $sleep_time seconds (attempt $((attempt+1))/$max_retries)..." >&2
+      sleep $sleep_time
+      attempt=$((attempt+1))
+      continue
+    fi
+
     echo "Error fetching $url: HTTP status $http_code" >&2
     echo "Response body:" >&2
     cat "$response_file" >&2
-    return 22 # Return 22 to match curl -f behavior
-  fi
+    return 22
+  done
 
-  mv "$response_file" "$output_file"
+  echo "Max retries exceeded for fetching $url" >&2
+  return 22
 }
 
 PAGE=1

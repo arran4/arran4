@@ -27,9 +27,9 @@ Have questions or feedback? [Open an issue](https://github.com/arran4/arran4/iss
 ### abc + rss
 | Repository | Description | Tags |
 |---|---|---|
-| [abc-justin-rss](https://github.com/arran4/abc-justin-rss) | ABC news just-in to rss converter - generated | abc + rss, abc-news |
-| [abc-kohler-report-rss](https://github.com/arran4/abc-kohler-report-rss) | RSS generator for ABC's Kohler Report | abc + rss, abc-news |
-| [abc-mediawatch-rss](https://github.com/arran4/abc-mediawatch-rss) | RSS generator for ABC's Media Watch | abc + rss, abc-media-watch |
+| [abc-justin-rss](https://github.com/arran4/abc-justin-rss) [🔗](https://arran4.github.io/abc-justin-rss/) | ABC news just-in to rss converter - generated | abc + rss, abc-news |
+| [abc-kohler-report-rss](https://github.com/arran4/abc-kohler-report-rss) [🔗](https://arran4.github.io/abc-kohler-report-rss/) | RSS generator for ABC's Kohler Report | abc + rss, abc-news |
+| [abc-mediawatch-rss](https://github.com/arran4/abc-mediawatch-rss) [🔗](https://arran4.github.io/abc-mediawatch-rss/) | RSS generator for ABC's Media Watch | abc + rss, abc-media-watch |
 
 ### ai + flutter + linux + utility
 | Repository | Description | Tags |

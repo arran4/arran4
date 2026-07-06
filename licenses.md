@@ -12,7 +12,7 @@ List of repositories and their licenses.
 ### AGPL-3.0
 | Repository | Description | License | Tags |
 |---|---|---|---|
-| [abc-kohler-report-rss](https://github.com/arran4/abc-kohler-report-rss) | RSS generator for ABC's Kohler Report | AGPL-3.0 | abc + rss, abc-news |
+| [abc-kohler-report-rss](https://github.com/arran4/abc-kohler-report-rss) [🔗](https://arran4.github.io/abc-kohler-report-rss/) | RSS generator for ABC's Kohler Report | AGPL-3.0 | abc + rss, abc-news |
 | [flutter_google_datastore](https://github.com/arran4/flutter_google_datastore) | Google Datastore and Datastore emulator client for "easy" modification of values | AGPL-3.0 | dart + datastore + flutter + utility, google |
 | [goa4web](https://github.com/arran4/goa4web) | My everything website (server) from 2005 ported from C to GO. Ready for news, forums, link sharing, image sharing and more | AGPL-3.0 | go, cms, forum, image-sharing, link-sharing, news, personal, server, sql, webserver, website |
 | [gobookmarks](https://github.com/arran4/gobookmarks) | Landing page for when you open browsers / live bookmarks in go. | AGPL-3.0 | go, bookmarks, github, github-api, home-page, homepage, live-bookmarks, start-page, startpage, web |
@@ -78,7 +78,7 @@ List of repositories and their licenses.
 | Repository | Description | License | Tags |
 |---|---|---|---|
 | [KMagMux](https://github.com/arran4/KMagMux) | Torrent and Magent file and protocol handler for routing to programs / services | GPL-3.0 | handler, intent, kde, link, magnent, mux, torrent |
-| [abc-justin-rss](https://github.com/arran4/abc-justin-rss) | ABC news just-in to rss converter - generated | GPL-3.0 | abc + rss, abc-news |
+| [abc-justin-rss](https://github.com/arran4/abc-justin-rss) [🔗](https://arran4.github.io/abc-justin-rss/) | ABC news just-in to rss converter - generated | GPL-3.0 | abc + rss, abc-news |
 | [dirtools](https://github.com/arran4/dirtools) [🔗](https://pkg.go.dev/github.com/arran4/dirtools) | Some directory tools, such as separating out all of a file extension into mirror directories | GPL-3.0 | cli + go + utility, directory, organization |
 | [go-lojban-password-gen](https://github.com/arran4/go-lojban-password-gen) | Lojban password generator - Generate passwords that use lojban | GPL-3.0 | cli + go + utility, binary, generator, lojban, password, password-generator |
 | [kllamabooks](https://github.com/arran4/kllamabooks) | A KDE-styled QT application that interacts with local Ollama sessions and stores chat history locally via encrypted SQLite databases | GPL-3.0 | ai + kde, chat, client, ollama |
@@ -92,7 +92,7 @@ List of repositories and their licenses.
 ### MIT
 | Repository | Description | License | Tags |
 |---|---|---|---|
-| [abc-mediawatch-rss](https://github.com/arran4/abc-mediawatch-rss) | RSS generator for ABC's Media Watch | MIT | abc + rss, abc-media-watch |
+| [abc-mediawatch-rss](https://github.com/arran4/abc-mediawatch-rss) [🔗](https://arran4.github.io/abc-mediawatch-rss/) | RSS generator for ABC's Media Watch | MIT | abc + rss, abc-media-watch |
 | [arrans_overlay](https://github.com/arran4/arrans_overlay) [🔗](https://arran4.github.io/arrans_overlay/) | Arrans Gentoo Overlay | MIT | gentoo, overlay |
 | [awesome-fodmap-resources](https://github.com/arran4/awesome-fodmap-resources) [🔗](https://arran4.github.io/awesome-fodmap-resources/) | Compilation of Low Fodmap resources | MIT | awesome-list, fodmap, fodmaps, low-fodmap |
 | [chat-barcodes](https://github.com/arran4/chat-barcodes) [🔗](https://arran4.github.io/barcode-cheatsheets) | Chat barcode cheatsheet | MIT | cheatsheet, barcodes, chat, chat-barcodes, chat-cheatsheet, chat-shortcuts |

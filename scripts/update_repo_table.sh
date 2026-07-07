@@ -231,7 +231,7 @@ COMMON_JQ='
 TABLE="$TMP_DIR/table.md"
 jq -r --arg user "$USER" --argjson ext_interesting_tags "$INTERESTING_TAGS" --argjson ext_synonyms "$SYNONYMS" "$COMMON_JQ"'
   def repo_row($repo):
-    "| [" + $repo.name + "](https://github.com/" + $user + "/" + $repo.name + ")"
+    "| [" + $user + "/" + $repo.name + "](https://github.com/" + $user + "/" + $repo.name + ")"
     + (if $repo.homepage != null and $repo.homepage != "" then " [🔗](" + $repo.homepage + ")" else "" end) + " | "
     + ($repo.description // "") + " | "
     + (grouped_tags($repo.topics; $repo.tags) | join(", ")) + " |";
@@ -269,7 +269,7 @@ jq -r --arg user "$USER" --argjson ext_interesting_tags "$INTERESTING_TAGS" --ar
 LICENSES_TABLE="$TMP_DIR/licenses_table.md"
 jq -r --arg user "$USER" --argjson ext_interesting_tags "$INTERESTING_TAGS" --argjson ext_synonyms "$SYNONYMS" "$COMMON_JQ"'
   def repo_row_license($repo):
-    "| [" + $repo.name + "](https://github.com/" + $user + "/" + $repo.name + ")"
+    "| [" + $user + "/" + $repo.name + "](https://github.com/" + $user + "/" + $repo.name + ")"
     + (if $repo.homepage != null and $repo.homepage != "" then " [🔗](" + $repo.homepage + ")" else "" end) + " | "
     + ($repo.description // "") + " | "
     + ($repo.license.spdx_id // $repo.license.name // "") + " | "

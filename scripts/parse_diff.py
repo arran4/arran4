@@ -215,10 +215,15 @@ def main():
                                 "curr": a.extra_info,
                                 "days": days_diff_str
                             })
+                            change_text = f"- {repo_link}: Changed latest release from `{d.extra_info}` to `{a.extra_info}`"
                             if days_diff_str:
-                                latest_release_changes_summary.append(f"- {repo_link}: Changed latest release from `{d.extra_info}` to `{a.extra_info}` ({days_diff_str.strip()})")
-                            else:
-                                latest_release_changes_summary.append(f"- {repo_link}: Changed latest release from `{d.extra_info}` to `{a.extra_info}`")
+                                change_text += f" ({days_diff_str.strip()})"
+
+                            latest_release_changes_summary.append({
+                                'date': a_date,
+                                'name': a.name,
+                                'text': change_text
+                            })
                         elif d.extra_info and a.extra_info:
                             changes_list.append(f"Updated latest release metadata from `{d.extra_info}` to `{a.extra_info}`")
                         elif a.extra_info:
@@ -386,7 +391,22 @@ def main():
 
         if latest_release_changes_summary:
             print("\n**Latest Release Changes:**\n")
-            print("\n".join(latest_release_changes_summary))
+            grouped_releases = defaultdict(list)
+            for item in latest_release_changes_summary:
+                d_str = item['date'].strftime('%Y-%m-%d') if item['date'] else "Unknown Date"
+                grouped_releases[d_str].append(item)
+
+            sorted_dates = sorted(
+                grouped_releases.keys(),
+                key=lambda x: (1, x) if x != "Unknown Date" else (0, ""),
+                reverse=True
+            )
+
+            for d_str in sorted_dates:
+                print(f"- **{d_str}**")
+                items = sorted(grouped_releases[d_str], key=lambda x: x['name'].lower())
+                for item in items:
+                    print(f"  {item['text']}")
 
         if extra_info_changes_summary:
             print("\n**Other Info Changes:**\n")

@@ -211,7 +211,7 @@ Have questions or feedback? [Open an issue](https://github.com/arran4/arran4/iss
 | [arran4/gaelogger](https://github.com/arran4/gaelogger) [🔗](https://pkg.go.dev/github.com/arran4/gaelogger) | Another google apps engine go logger this one is for the new go111+ world.. | go + library, google-app-engine, google-app-engine-logger, logger-abstraction |
 | [arran4/go-be-lazy](https://github.com/arran4/go-be-lazy) [🔗](https://pkg.go.dev/github.com/arran4/go-be-lazy) | Varidct based behavoural lazy evaluation | go + library, lazy, lazy-eval, lazy-evaluation |
 | [arran4/go-consume](https://github.com/arran4/go-consume) | String and slice consumption librareis | go + library, parser, parsing, string, tokenizer |
-| [arran4/go-dynamic-content](https://github.com/arran4/go-dynamic-content) | Lazy or weak file content | go + library, file-mapped-content, weak-pointer |
+| [arran4/go-dynamic-content](https://github.com/arran4/go-dynamic-content) | Lazy or weak content retrievers (stream, file, http, etc) | go + library, file-mapped-content, weak-pointer |
 | [arran4/go-objectutils](https://github.com/arran4/go-objectutils) [🔗](https://pkg.go.dev/github.com/arran4/go-objectutils) | Go objectutils for go.  | go + library, type-converstion |
 | [arran4/go-rfc5849-hmac](https://github.com/arran4/go-rfc5849-hmac) | Implementation of rfc5849 hmac wrapper | go + library, rfc5849, rfc5849-hmac |
 | [arran4/golang-ical](https://github.com/arran4/golang-ical) | A  ICS / ICal parser and serialiser for Golang. | go + library, ical, ics |

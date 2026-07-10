@@ -412,7 +412,7 @@ def main():
             print("\n**Other Info Changes:**\n")
             print("\n".join(extra_info_changes_summary))
 
-        print("\n<details><summary>Detailed Repository Changes</summary>\n")
+        print("\n### Detailed Repository Changes\n")
 
         details_str = "\n".join(output)
         if len(details_str) > 60000:
@@ -423,8 +423,6 @@ def main():
             print("\n... (Detailed changes truncated due to GitHub limits) ...")
         else:
             print(details_str)
-
-        print("\n</details>\n")
 
 if __name__ == '__main__':
     main()

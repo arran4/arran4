@@ -11,6 +11,17 @@ def escape_md(text):
         res = res.replace(c, "\\" + c)
     return res
 
+def format_change(text, tag_start, tag_end, escape_func):
+    if not text: return ""
+    match = re.match(r'^(\s*)(.*?)(\s*)$', text, re.DOTALL)
+    if match:
+        leading, core, trailing = match.groups()
+        if core:
+            return f"{leading}{tag_start}{escape_func(core)}{tag_end}{trailing}"
+        else:
+            return f"{leading}{trailing}"
+    return f"{tag_start}{escape_func(text)}{tag_end}"
+
 def bold_difference(old_str, new_str):
     old_str = old_str or ""
     new_str = new_str or ""
@@ -25,12 +36,12 @@ def bold_difference(old_str, new_str):
             res_old.append(escape_md(old_str[a0:a1]))
             res_new.append(escape_md(new_str[b0:b1]))
         elif opcode == 'insert':
-            res_new.append(f"**{escape_md(new_str[b0:b1])}**")
+            res_new.append(format_change(new_str[b0:b1], "**", "**", escape_md))
         elif opcode == 'delete':
-            res_old.append(f"~~{escape_md(old_str[a0:a1])}~~")
+            res_old.append(format_change(old_str[a0:a1], "~~", "~~", escape_md))
         elif opcode == 'replace':
-            res_old.append(f"~~{escape_md(old_str[a0:a1])}~~")
-            res_new.append(f"**{escape_md(new_str[b0:b1])}**")
+            res_old.append(format_change(old_str[a0:a1], "~~", "~~", escape_md))
+            res_new.append(format_change(new_str[b0:b1], "**", "**", escape_md))
 
     return "".join(res_old), "".join(res_new)
 
@@ -189,8 +200,8 @@ def main():
                         description_changes_summary.append(f"- {repo_link}: Removed description")
                     else:
                         bold_old, bold_new = bold_difference(d_desc_clean, a_desc_clean)
-                        changes_list.append(f"Updated description:\n\n> - {bold_old}\n> + {bold_new}\n\n")
-                        description_changes_summary.append(f"- {repo_link}: Updated description:\n  > - {bold_old.replace('\n', '\n  > ')}\n  > + {bold_new.replace('\n', '\n  > ')}")
+                        changes_list.append(f"Updated description:\n\n> \\- {bold_old}\n> \\+ {bold_new}\n\n")
+                        description_changes_summary.append(f"- {repo_link}: Updated description:\n  > \\- {bold_old.replace('\n', '\n  > ')}\n  > \\+ {bold_new.replace('\n', '\n  > ')}")
                 if d.homepage != a.homepage:
                     if d.homepage or a.homepage:
                         changes_list.append(f"Updated homepage from `{d.homepage}` to `{a.homepage}`")

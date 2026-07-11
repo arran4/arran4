@@ -28,7 +28,7 @@ class TestParseDiff(unittest.TestCase):
         new_str = "hello brave world"
         old_res, new_res = bold_difference(old_str, new_str)
         self.assertEqual(old_res, "hello world")
-        self.assertEqual(new_res, "hello **brave **world")
+        self.assertEqual(new_res, "hello **brave** world")
 
     def test_row_parsing(self):
         # A typical markdown table row

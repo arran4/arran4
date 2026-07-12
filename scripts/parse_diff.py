@@ -229,6 +229,12 @@ def main():
                             change_text = f"- {repo_link}: Changed latest release from `{d.extra_info}` to `{a.extra_info}`"
                             if days_diff_str:
                                 change_text += f" ({days_diff_str.strip()})"
+                            if a.desc:
+                                change_text += f"\n    - **Description:** {escape_md(a.desc)}"
+                            if a.tags:
+                                change_text += f"\n    - **Tags:** {escape_md(a.tags)}"
+                            if a.repo_url:
+                                change_text += f"\n    - **URL:** {a.repo_url}"
 
                             latest_release_changes_summary.append({
                                 'date': a_date,

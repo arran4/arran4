@@ -87,7 +87,7 @@ List of repositories and their licenses.
 | [arran4/phpbb2-rss](https://github.com/arran4/phpbb2-rss) | RSS generator for any phpbb2 forum | GPL-3.0 | go + rss, phpbb, phpbb2 |
 | [arran4/rntocase](https://github.com/arran4/rntocase) | Some utilities to rename files, to upper, lower, title, camel, kebab, darwin case and many more | GPL-3.0 | cli + go, case-changer, filename, filename-case-changer, golibrary |
 | [arran4/send_to_linkwarden](https://github.com/arran4/send_to_linkwarden) [🔗](https://arran4.github.io/send_to_linkwarden/) | Mobile version of Linkwarden | GPL-3.0 | flutter, android, archiving, link, linkwarden, mobile, utility |
-| [arran4/whirlpool-forum-rss](https://github.com/arran4/whirlpool-forum-rss) | An RSS Generator for the Whirlpool.net.au forums | GPL-3.0 | rss, whirlpool, whirlpool-forums |
+| [arran4/whirlpool-forum-rss](https://github.com/arran4/whirlpool-forum-rss) [🔗](https://arran4.github.io/whirlpool-forum-rss/) | An RSS Generator for the Whirlpool.net.au forums | GPL-3.0 | rss, whirlpool, whirlpool-forums |
 
 ### MIT
 | Repository | Description | License | Tags |

@@ -256,7 +256,7 @@ Have questions or feedback? [Open an issue](https://github.com/arran4/arran4/iss
 | [arran4/scoop-bucket](https://github.com/arran4/scoop-bucket) | Scoop bucket | scoop-bucket |
 | [arran4/tex_recipes_template](https://github.com/arran4/tex_recipes_template) | A very simple tex engine for recipes helpful for an AI world | recipes, template, tex |
 | [arran4/vlc-xattr-plugin](https://github.com/arran4/vlc-xattr-plugin) | A plugin for VLC to add "seen" to the `xdg.tags` list automatically when ever you watch anything | c, cmake, fs-attr, plugins, vlc, vlc-plugin, xattr |
-| [arran4/whirlpool-forum-rss](https://github.com/arran4/whirlpool-forum-rss) | An RSS Generator for the Whirlpool.net.au forums | rss, whirlpool, whirlpool-forums |
+| [arran4/whirlpool-forum-rss](https://github.com/arran4/whirlpool-forum-rss) [🔗](https://arran4.github.io/whirlpool-forum-rss/) | An RSS Generator for the Whirlpool.net.au forums | rss, whirlpool, whirlpool-forums |
 
 <!--repos-end-->
 

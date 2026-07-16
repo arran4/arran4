@@ -242,7 +242,7 @@ Have questions or feedback? [Open an issue](https://github.com/arran4/arran4/iss
 |---|---|---|
 | [arran4/KMagMux](https://github.com/arran4/KMagMux) | Torrent and Magent file and protocol handler for routing to programs / services | handler, intent, kde, link, magnent, mux, torrent |
 | [arran4/arran4](https://github.com/arran4/arran4) [🔗](https://arran4.github.io/ ) | Github Profile landing page github repo | github, github-profile, github-profile-readme |
-| [arran4/awesome-pocketchip](https://github.com/arran4/awesome-pocketchip) | A list of pocketchip resources |  |
+| [arran4/awesome-pocketchip](https://github.com/arran4/awesome-pocketchip) | A list of pocketchip resources | awesomelist, chip, pocketchip |
 | [arran4/dart-udt](https://github.com/arran4/dart-udt) [🔗](https://pub.dev/packages/dart_udt) | AI port of UDT library from source forge to Dart | dart, udt |
 | [arran4/dotfiles](https://github.com/arran4/dotfiles) | Just a collection of dotfiles managed by Chezmoi | chezmoi, dotfiles |
 | [arran4/git-tag-inc-action](https://github.com/arran4/git-tag-inc-action) [🔗](https://github.com/arran4/git-tag-inc) | An action for incrementing semantic git tags | git-tag-inc, github-actions, semantic-tagging, semantic-versions, tag-manager |
@@ -251,7 +251,7 @@ Have questions or feedback? [Open an issue](https://github.com/arran4/arran4/iss
 | [arran4/homebrew-tap](https://github.com/arran4/homebrew-tap) | My homebrew tap semiautomated.. maybe? | homebrew, homebrew-tap, tap |
 | [arran4/idea-txtar-support-plugin](https://github.com/arran4/idea-txtar-support-plugin) [🔗](https://plugins.jetbrains.com/plugin/30286-txtar-file-support) | Jetbrains Idea txtar support plugin | idea, java, jetbrains, plugin, txtar |
 | [arran4/lxa](https://github.com/arran4/lxa) | ls with extended attributes | fs-attr, linux, ls, xattr, xdp |
-| [arran4/pocketchip-apt-rescue](https://github.com/arran4/pocketchip-apt-rescue) | Pocketchip original firmware re-routing proxy for debian upgrades |  |
+| [arran4/pocketchip-apt-rescue](https://github.com/arran4/pocketchip-apt-rescue) | Pocketchip original firmware re-routing proxy for debian upgrades | chip, debian, frimware-update, pocketchpi |
 | [arran4/resume](https://github.com/arran4/resume) | Arrans Resume | cv, resume, typst |
 | [arran4/scoop-bucket](https://github.com/arran4/scoop-bucket) | Scoop bucket | scoop-bucket |
 | [arran4/tex_recipes_template](https://github.com/arran4/tex_recipes_template) | A very simple tex engine for recipes helpful for an AI world | recipes, template, tex |

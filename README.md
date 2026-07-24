@@ -250,6 +250,7 @@ Have questions or feedback? [Open an issue](https://github.com/arran4/arran4/iss
 | [arran4/goreleaser-gentoo-smoke-overlay](https://github.com/arran4/goreleaser-gentoo-smoke-overlay) |  |  |
 | [arran4/homebrew-tap](https://github.com/arran4/homebrew-tap) | My homebrew tap semiautomated.. maybe? | homebrew, homebrew-tap, tap |
 | [arran4/idea-txtar-support-plugin](https://github.com/arran4/idea-txtar-support-plugin) [🔗](https://plugins.jetbrains.com/plugin/30286-txtar-file-support) | Jetbrains Idea txtar support plugin | idea, java, jetbrains, plugin, txtar |
+| [arran4/issue-snooze](https://github.com/arran4/issue-snooze) |  |  |
 | [arran4/lxa](https://github.com/arran4/lxa) | ls with extended attributes | fs-attr, linux, ls, xattr, xdp |
 | [arran4/pocketchip-apt-rescue](https://github.com/arran4/pocketchip-apt-rescue) | Pocketchip original firmware re-routing proxy for debian upgrades | chip, debian, frimware-update, pocketchpi |
 | [arran4/resume](https://github.com/arran4/resume) | Arrans Resume | cv, resume, typst |

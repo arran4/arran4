@@ -93,18 +93,209 @@ class Row:
         tags_str = re.sub(r'\s*\+\s*', ', ', self.tags)
         return set([t.strip() for t in tags_str.split(',') if t.strip()])
 
-def main():
+class RepoChange:
+    def __init__(self):
+        self.name = None
+        self.old_name = None
+        self.repo_url = None
+        self.old_repo_url = None
+        self.homepage = None
+        self.old_homepage = None
+        self.desc = None
+        self.old_desc = None
+        self.tags = None
+        self.old_tags = None
+        self.license = None
+        self.old_license = None
+        self.release = None
+        self.old_release = None
+        self.has_old = False
+        self.has_new = False
+
+    def merge_row(self, row, is_new, info_name):
+        if not self.name and is_new:
+            self.name = row.name
+        if not self.old_name and not is_new:
+            self.old_name = row.name
+
+        if is_new:
+            self.has_new = True
+            self.repo_url = row.repo_url
+            self.homepage = row.homepage
+            self.desc = row.desc
+            self.tags = row.tags
+            if info_name == 'license':
+                self.license = row.extra_info
+            elif info_name == 'latest release':
+                self.release = row.extra_info
+        else:
+            self.has_old = True
+            self.old_repo_url = row.repo_url
+            self.old_homepage = row.homepage
+            self.old_desc = row.desc
+            self.old_tags = row.tags
+            if info_name == 'license':
+                self.old_license = row.extra_info
+            elif info_name == 'latest release':
+                self.old_release = row.extra_info
+
+    @property
+    def key(self):
+        return self.name or self.old_name
+
+    @property
+    def anchor(self):
+        # Create GitHub markdown anchor link
+        if self.has_old and self.has_new and self.old_name and self.old_name != self.name:
+            # Matches: ### {name_str} (Formerly: {old_name_str})
+            # where name_str = [{name}]({repo_url}) or just {name}
+            anchor_text = f"{self.name} formerly {self.old_name}"
+        elif self.has_old and not self.has_new:
+            # Matches: ### ~~{name_str}~~
+            anchor_text = self.old_name
+        else:
+            anchor_text = self.name
+
+        # GitHub generates anchors by lowercasing and removing non-alphanumeric except hyphens
+        anchor_text = anchor_text.lower()
+        import re
+        anchor_text = re.sub(r'[^a-z0-9\s-]', '', anchor_text)
+        anchor_text = anchor_text.replace(' ', '-')
+        return anchor_text
+
+    def get_tags_set(self, is_new):
+        tags = self.tags if is_new else self.old_tags
+        if not tags: return set()
+        tags_str = re.sub(r'\s*\+\s*', ', ', tags)
+        return set([t.strip() for t in tags_str.split(',') if t.strip()])
+
+
+def format_card(repo):
+    output = []
+
+    # Header
+    if repo.has_new:
+        name_str = f"[{repo.name}]({repo.repo_url})" if repo.repo_url else repo.name
+    else:
+        name_str = f"[{repo.old_name}]({repo.old_repo_url})" if repo.old_repo_url else repo.old_name
+
+    if repo.has_old and repo.has_new and repo.old_name and repo.old_name != repo.name:
+
+        old_name_str = f"[{repo.old_name}]({repo.old_repo_url})" if repo.old_repo_url else repo.old_name
+        output.append(f"### {name_str} (Formerly: {old_name_str})")
+    elif repo.has_old and not repo.has_new:
+        output.append(f"### ~~{name_str}~~")
+    else:
+        output.append(f"### {name_str}")
+
+    # Description
+    if repo.has_old and repo.has_new:
+        if repo.desc != repo.old_desc:
+            old_bold, new_bold = bold_difference(repo.old_desc, repo.desc)
+            if len(new_bold) > 50 or '\n' in new_bold:
+                output.append(f"**Description:** \n> \\- {old_bold}\n> \\+ {new_bold}")
+            else:
+                output.append(f"**Description:** {new_bold} (Formerly: {old_bold})")
+        else:
+            output.append(f"**Description:** {repo.desc}")
+    elif repo.has_new:
+        output.append(f"**Description:** {repo.desc}")
+    elif repo.has_old:
+        output.append(f"**Description:** ~~{repo.old_desc}~~")
+
+    # License
+    if (repo.has_new and repo.license) or (repo.has_old and repo.old_license):
+        if repo.has_old and repo.has_new:
+            if repo.license != repo.old_license:
+                if not repo.license:
+                    output.append(f"**License:** (Removed) (Formerly: `{repo.old_license}`)")
+                elif not repo.old_license:
+                    output.append(f"**License:** `{repo.license}` (Newly added)")
+                else:
+                    output.append(f"**License:** `{repo.license}` (Formerly: `{repo.old_license}`)")
+            else:
+                if repo.license:
+                    output.append(f"**License:** `{repo.license}`")
+        elif repo.has_new:
+            output.append(f"**License:** `{repo.license}`")
+        elif repo.has_old:
+            output.append(f"**License:** ~~`{repo.old_license}`~~")
+
+    # Tags
+    if repo.has_old and repo.has_new:
+        d_tags = repo.get_tags_set(False)
+        a_tags = repo.get_tags_set(True)
+        if d_tags != a_tags:
+            added = a_tags - d_tags
+            removed = d_tags - a_tags
+            kept = a_tags & d_tags
+
+            tag_strs = []
+            for t in sorted(kept):
+                tag_strs.append(t)
+            for t in sorted(added):
+                tag_strs.append(f"**+{t}**")
+            for t in sorted(removed):
+                tag_strs.append(f"~~-{t}~~")
+            output.append(f"**Tags:** {', '.join(tag_strs)}")
+        else:
+            if repo.tags:
+                output.append(f"**Tags:** {repo.tags}")
+    elif repo.has_new:
+        if repo.tags:
+            output.append(f"**Tags:** {repo.tags}")
+    elif repo.has_old:
+        if repo.old_tags:
+            output.append(f"**Tags:** ~~{repo.old_tags}~~")
+
+    # URL / Homepage
+    if (repo.has_new and repo.homepage) or (repo.has_old and repo.old_homepage):
+        if repo.has_old and repo.has_new:
+            if repo.homepage != repo.old_homepage:
+                hp = f"[{repo.homepage}]({repo.homepage})" if repo.homepage else "(None)"
+                old_hp = f"[{repo.old_homepage}]({repo.old_homepage})" if repo.old_homepage else "(None)"
+                output.append(f"**URL:** {hp} (Formerly: {old_hp})")
+            else:
+                if repo.homepage:
+                    output.append(f"**URL:** [{repo.homepage}]({repo.homepage})")
+        elif repo.has_new:
+            output.append(f"**URL:** [{repo.homepage}]({repo.homepage})")
+        elif repo.has_old:
+            output.append(f"**URL:** ~~[{repo.old_homepage}]({repo.old_homepage})~~")
+
+    # Latest Release
+    if (repo.has_new and repo.release) or (repo.has_old and repo.old_release):
+        if repo.has_old and repo.has_new:
+            if repo.release != repo.old_release:
+                rel_str = repo.release
+                if repo.old_release:
+                    rel_str += f" (Last: {repo.old_release})"
+
+                # Check for >100 days
+                d_date = parse_date(repo.old_release)
+                a_date = parse_date(repo.release)
+                if a_date and d_date:
+                    days = (a_date - d_date).days
+                    rel_str += f" ({days} days old)"
+                output.append(f"**Latest Release:** {rel_str}")
+            else:
+                if repo.release:
+                    output.append(f"**Latest Release:** {repo.release}")
+        elif repo.has_new:
+            output.append(f"**Latest Release:** {repo.release}")
+        elif repo.has_old:
+            output.append(f"**Latest Release:** ~~{repo.old_release}~~")
+
+    return "\n".join(output)
+
+def main(input_stream=None):
+    if input_stream is None:
+        input_stream = sys.stdin
+
     files_changed = {}
-    license_changes_summary = []
-    description_changes_summary = []
-    tag_changes_summary = []
-    homepage_changes_summary = []
-    owner_rename_changes_summary = []
-    latest_release_changes_summary = []
-    extra_info_changes_summary = []
     current_file = None
 
-    for line in sys.stdin:
+    for line in input_stream:
         line = line.rstrip('\n')
         if line.startswith('+++ b/'):
             current_file = line[6:]
@@ -118,32 +309,26 @@ def main():
             if current_file and content.startswith('|') and '---|' not in content and '| Repository |' not in content:
                 files_changed[current_file]['del'].append(Row(content))
 
-    summary_output = []
-    output = []
-    for filename, changes in files_changed.items():
-        adds = changes['add']
-        dels = changes['del']
+    repo_changes = {}
 
-        if not adds and not dels:
+    for filename, changes in files_changed.items():
+        base_name = filename.split('/')[-1]
+        if not base_name.endswith('.md'):
             continue
 
-        import os
-        base_name = os.path.basename(filename)
-        file_title = base_name.split('.')[0].capitalize()
-        if base_name.lower() == 'readme.md':
-            file_title = 'README'
-        elif base_name.lower() == 'licenses.md':
-            file_title = 'Licenses'
+        info_name = "extra info"
+        if base_name.lower() == 'licenses.md':
+            info_name = "license"
         elif base_name.lower() == 'starred.md':
-            file_title = 'Starred'
+            info_name = "latest release"
 
-        output.append(f"# {file_title}\n")
+        adds = changes['add']
+        dels = changes['del']
 
         matched_adds = set()
         matched_dels = set()
         updates = []
 
-        # Matching heuristics
         match_criteria = [
             lambda d, a: d.name == a.name,
             lambda d, a: d.repo_only == a.repo_only and d.desc == a.desc,
@@ -160,286 +345,155 @@ def main():
                         matched_adds.add(a_idx)
                         break
 
-        unmatched_adds = [a for a_idx, a in enumerate(adds) if a_idx not in matched_adds]
-        if unmatched_adds:
-            output.append("## Added\n")
-            for a in unmatched_adds:
-                if a.desc:
-                    output.append(f"- [{a.name}]({a.repo_url}): {a.desc}")
-                else:
-                    output.append(f"- [{a.name}]({a.repo_url})")
-            output.append("")
+        for a_idx, a in enumerate(adds):
+            if a_idx not in matched_adds:
+                key = a.name
+                if key not in repo_changes:
+                    repo_changes[key] = RepoChange()
+                repo_changes[key].merge_row(a, True, info_name)
 
-        if updates:
-            output.append("## Modified\n")
-            change_groups = defaultdict(list)
-            info_name = "extra info"
-            if base_name.lower() == 'licenses.md':
-                info_name = "license"
-            elif base_name.lower() == 'starred.md':
-                info_name = "latest release"
+        for d_idx, d in enumerate(dels):
+            if d_idx not in matched_dels:
+                key = d.name
+                if key not in repo_changes:
+                    repo_changes[key] = RepoChange()
+                repo_changes[key].merge_row(d, False, info_name)
 
-            for d, a in updates:
-                repo_link = f"[{a.name}]({a.repo_url})" if a.repo_url else a.name
-                changes_list = []
-                if d.name != a.name:
-                    if d.repo_only == a.repo_only and d.owner != a.owner:
-                        changes_list.append(f"Changed owner from `{d.owner}` to `{a.owner}`")
-                        owner_rename_changes_summary.append(f"- {repo_link}: Changed owner from `{d.owner}` to `{a.owner}`")
-                    else:
-                        changes_list.append(f"Renamed from `{d.name}` to `{a.name}`")
-                        owner_rename_changes_summary.append(f"- {repo_link}: Renamed from `{d.name}` to `{a.name}`")
-                d_desc_clean = d.desc if d.desc else ''
-                a_desc_clean = a.desc if a.desc else ''
-                if d_desc_clean != a_desc_clean:
-                    if not d_desc_clean and a_desc_clean:
-                        changes_list.append(f"Added description:\n\n> {escape_md(a_desc_clean)}\n\n")
-                        description_changes_summary.append(f"- {repo_link}: Added description:\n  > {escape_md(a_desc_clean).replace('\n', '\n  > ')}")
-                    elif d_desc_clean and not a_desc_clean:
-                        changes_list.append(f"Removed description")
-                        description_changes_summary.append(f"- {repo_link}: Removed description")
-                    else:
-                        bold_old, bold_new = bold_difference(d_desc_clean, a_desc_clean)
-                        changes_list.append(f"Updated description:\n\n> \\- {bold_old}\n> \\+ {bold_new}\n\n")
-                        description_changes_summary.append(f"- {repo_link}: Updated description:\n  > \\- {bold_old.replace('\n', '\n  > ')}\n  > \\+ {bold_new.replace('\n', '\n  > ')}")
-                if d.homepage != a.homepage:
-                    if d.homepage or a.homepage:
-                        changes_list.append(f"Updated homepage from `{d.homepage}` to `{a.homepage}`")
-                        homepage_changes_summary.append(f"- {repo_link}: Updated homepage from `{d.homepage}` to `{a.homepage}`")
-                if d.extra_info != a.extra_info:
-                    if info_name == "latest release":
-                        d_tag = parse_release_tag(d.extra_info)
-                        a_tag = parse_release_tag(a.extra_info)
-                        if d.extra_info and a.extra_info and d_tag != a_tag:
-                            d_date = parse_date(d.extra_info)
-                            a_date = parse_date(a.extra_info)
-                            days_diff_str = ""
-                            days_diff = -1
-                            if d_date and a_date:
-                                days_diff = (a_date - d_date).days
-                                days_diff_str = f"{days_diff} days"
+        for d, a in updates:
+            key = a.name
+            if key not in repo_changes:
+                repo_changes[key] = RepoChange()
+            repo_changes[key].merge_row(a, True, info_name)
+            repo_changes[key].merge_row(d, False, info_name)
+            if d.name != a.name:
+                repo_changes[key].old_name = d.name
 
-                            group_type = "Changed latest release (>= 100 days)" if days_diff >= 100 else "Changed latest release"
-                            changes_list.append({
-                                "type": group_type,
-                                "prev": d.extra_info,
-                                "curr": a.extra_info,
-                                "days": days_diff_str
-                            })
-                            change_text = f"- {repo_link}: Changed latest release from `{d.extra_info}` to `{a.extra_info}`"
-                            if days_diff_str:
-                                change_text += f" ({days_diff_str.strip()})"
-                            if a.desc:
-                                change_text += f"\n    - **Description:** {escape_md(a.desc)}"
-                            if a.tags:
-                                change_text += f"\n    - **Tags:** {escape_md(a.tags)}"
-                            if a.repo_url:
-                                change_text += f"\n    - **URL:** {a.repo_url}"
+    desc_updates = []
+    tag_updates = []
+    license_updates = []
+    url_updates = []
+    release_updates = []
+    removed_repos = []
+    added_repos = []
 
-                            latest_release_changes_summary.append({
-                                'date': a_date,
-                                'name': a.name,
-                                'text': change_text
-                            })
-                        elif d.extra_info and a.extra_info:
-                            changes_list.append(f"Updated latest release metadata from `{d.extra_info}` to `{a.extra_info}`")
-                        elif a.extra_info:
-                            changes_list.append(f"Added latest release metadata: `{a.extra_info}`")
-                        elif d.extra_info:
-                            changes_list.append(f"Removed latest release metadata: `{d.extra_info}`")
-                    elif not d.extra_info:
-                        changes_list.append(f"Added {info_name}: `{a.extra_info}`")
-                        if info_name == "license":
-                            license_changes_summary.append(f"- {repo_link}: Added license `{a.extra_info}`")
-                        else:
-                            extra_info_changes_summary.append(f"- {repo_link}: Added {info_name} `{a.extra_info}`")
-                    elif not a.extra_info:
-                        changes_list.append(f"Removed {info_name}: `{d.extra_info}`")
-                        if info_name == "license":
-                            license_changes_summary.append(f"- {repo_link}: Removed license `{d.extra_info}`")
-                        else:
-                            extra_info_changes_summary.append(f"- {repo_link}: Removed {info_name} `{d.extra_info}`")
-                    else:
-                        changes_list.append(f"Changed {info_name} from `{d.extra_info}` to `{a.extra_info}`")
-                        if info_name == "license":
-                            license_changes_summary.append(f"- {repo_link}: Changed license from `{d.extra_info}` to `{a.extra_info}`")
-                        else:
-                            extra_info_changes_summary.append(f"- {repo_link}: Changed {info_name} from `{d.extra_info}` to `{a.extra_info}`")
+    for repo in repo_changes.values():
+        link = f"[{repo.key}](#{repo.anchor})"
 
-                d_tags = d.get_tags_set()
-                a_tags = a.get_tags_set()
-                if d_tags != a_tags:
-                    added_tags = a_tags - d_tags
-                    removed_tags = d_tags - a_tags
-                    tag_changes = []
-                    if removed_tags:
-                        tag_changes.append(f"removing `{', '.join(sorted(removed_tags))}`")
-                    if added_tags:
-                        tag_changes.append(f"adding `{', '.join(sorted(added_tags))}`")
-                    changes_str = f"Updated tags by {' and '.join(tag_changes)}"
-                    changes_list.append(changes_str)
-                    tag_changes_summary.append(f"- {repo_link}: {changes_str}")
+        if not repo.has_new:
+            removed_repos.append(link)
+            continue
+        if not repo.has_old:
+            added_repos.append(link)
+            continue
 
-                if not changes_list:
-                    changes_list.append("Row formatted or modified")
+        if repo.desc != repo.old_desc:
+            desc_updates.append(link)
 
-                # Categorize the change
-                if len(changes_list) == 1:
-                    change_cat = changes_list[0]
-                    if isinstance(change_cat, dict):
-                        change_groups[change_cat["type"]].append((a, change_cat))
-                    else:
-                        # To group by generic change categories
-                        if change_cat.startswith(f"Removed {info_name}:") or change_cat.startswith("Removed latest release metadata:"):
-                            change_groups[f"Removed {info_name}"].append((a, change_cat))
-                        elif change_cat.startswith(f"Added {info_name}:") or change_cat.startswith("Added latest release metadata:"):
-                            change_groups[f"Added {info_name}"].append((a, change_cat))
-                        elif change_cat.startswith(f"Changed {info_name}"):
-                            change_groups[f"Changed {info_name}"].append((a, change_cat))
-                        elif change_cat.startswith("Updated latest release metadata"):
-                            change_groups["Updated latest release metadata"].append((a, change_cat))
-                        elif change_cat.startswith("Updated tags"):
-                            change_groups["Updated tags"].append((a, change_cat))
-                        elif change_cat.startswith("Updated description"):
-                            change_groups["Updated description"].append((a, change_cat))
-                        elif change_cat.startswith("Added description"):
-                            change_groups["Added description"].append((a, change_cat))
-                        elif change_cat.startswith("Removed description"):
-                            change_groups["Removed description"].append((a, change_cat))
-                        elif change_cat.startswith("Changed owner"):
-                            change_groups["Changed owner"].append((a, change_cat))
-                        elif change_cat.startswith("Renamed from"):
-                            change_groups["Renamed repository"].append((a, change_cat))
-                        elif change_cat.startswith("Updated homepage"):
-                            change_groups["Updated homepage"].append((a, change_cat))
-                        elif change_cat == "Row formatted or modified":
-                            change_groups["Row formatted or modified"].append((a, change_cat))
-                        else:
-                            change_groups["Other changes"].append((a, change_cat))
-                else:
-                    change_groups["Multiple changes"].append((a, changes_list))
+        d_tags = repo.get_tags_set(False)
+        a_tags = repo.get_tags_set(True)
+        if d_tags != a_tags:
+            tag_updates.append((link, d_tags, a_tags))
 
-            # Now output grouped changes
-            for group_name, items in sorted(change_groups.items()):
-                output.append(f"### {group_name}\n")
+        if repo.license != repo.old_license:
+            license_updates.append(link)
 
-                wrap_in_details = len(items) > 15
-                if wrap_in_details:
-                    output.append(f"<details><summary>View {len(items)} repositories</summary>\n")
+        if repo.homepage != repo.old_homepage:
+            url_updates.append(link)
 
-                if group_name in ("Changed latest release", "Changed latest release (>= 100 days)"):
-                    output.append("| Repository | Previous | Current | Time Since Last |")
-                    output.append("|---|---|---|---|")
-                    for a, change in items:
-                        output.append(f"| [{a.name}]({a.repo_url}) | {change['prev']} | {change['curr']} | {change['days']} |")
-                else:
-                    for a, change in items:
-                        if isinstance(change, list):
-                            output.append(f"- [{a.name}]({a.repo_url}):")
-                            for c in change:
-                                if isinstance(c, dict):
-                                    c_str = f"Changed latest release from `{c['prev']}` to `{c['curr']}`"
-                                    if c.get('days'):
-                                        c_str += f" ({c['days']})"
-                                else:
-                                    c_str = c
-                                if '\n' in c_str:
-                                    formatted_change = c_str.strip().replace('\n', '\n    ')
-                                    output.append(f"  - {formatted_change}")
-                                else:
-                                    output.append(f"  - {c_str}")
-                        else:
-                            if '\n' in change:
-                                formatted_change = change.strip().replace('\n', '\n  ')
-                                output.append(f"- [{a.name}]({a.repo_url}):\n  - {formatted_change}")
-                            else:
-                                output.append(f"- [{a.name}]({a.repo_url}): {change}")
+        if repo.release != repo.old_release:
+            release_updates.append(repo)
 
-                if wrap_in_details:
-                    output.append("\n</details>\n")
-                else:
-                    output.append("")
+    if not repo_changes:
+        return
 
-        unmatched_dels = [d for d_idx, d in enumerate(dels) if d_idx not in matched_dels]
-        if unmatched_dels:
-            output.append("## Removed\n")
-            for d in unmatched_dels:
-                output.append(f"- [{d.name}]({d.repo_url})")
-            output.append("")
+    print("## Summary")
 
-        num_added = len(adds) - len(matched_adds)
-        num_removed = len(dels) - len(matched_dels)
-        num_updated = len(updates)
+    if added_repos:
+        print(f"\n**{len(added_repos)} repos added:**")
+        print(", ".join(added_repos))
 
-        parts = []
-        if num_added > 0:
-            parts.append(f"{num_added} added")
-        if num_removed > 0:
-            parts.append(f"{num_removed} removed")
-        if num_updated > 0:
-            parts.append(f"{num_updated} updated")
+    if removed_repos:
+        print(f"\n**{len(removed_repos)} repos removed:**")
+        print(", ".join(removed_repos))
 
-        if parts:
-            summary_output.append(f"- `{filename}`: {', '.join(parts)}")
+    if desc_updates:
+        print(f"\n**{len(desc_updates)} repos had updated descriptions including:**")
+        print(", ".join(desc_updates))
 
-    if summary_output:
-        print("**Repository Changes Summary:**\n")
-        print("\n".join(summary_output))
+    if tag_updates:
+        print(f"\n**{len(tag_updates)} repos had updated tags:**")
+        all_added = set()
+        all_removed = set()
+        repos_added = []
+        repos_removed = []
+        repos_replaced = []
+        for link, old, new in tag_updates:
+            added = new - old
+            removed = old - new
+            all_added.update(added)
+            all_removed.update(removed)
+            if added and not removed:
+                repos_added.append(link)
+            elif removed and not added:
+                repos_removed.append(link)
+            else:
+                repos_replaced.append(link)
 
-        if license_changes_summary:
-            print("\n**License Changes:**\n")
-            print("\n".join(license_changes_summary))
+        if repos_added:
+            print(f"- Added: {len(repos_added)} repos added {len(all_added)} unique tags: {', '.join(repos_added)}")
+        if repos_replaced:
+            print(f"- Replaced: {len(repos_replaced)} repos modified tags: {', '.join(repos_replaced)}")
+        if repos_removed:
+            print(f"- Removed: {len(repos_removed)} repos removed {len(all_removed)} unique tags: {', '.join(repos_removed)}")
 
-        if description_changes_summary:
-            print("\n**Description Changes:**\n")
-            print("\n".join(description_changes_summary))
+        tag_counts = defaultdict(lambda: {'added': 0, 'replaced': 0, 'removed': 0})
+        for link, old, new in tag_updates:
+            added = new - old
+            removed = old - new
+            for t in added:
+                if removed: tag_counts[t]['replaced'] += 1
+                else: tag_counts[t]['added'] += 1
+            for t in removed:
+                if not added: tag_counts[t]['removed'] += 1
+                # If both, we count the removed ones under 'replaced' effectively, but let's just track removed specifically for the summary
 
-        if tag_changes_summary:
-            print("\n**Tag Changes:**\n")
-            print("\n".join(tag_changes_summary))
+        if tag_counts:
+            print("\n**The tags were:**")
+            for t, counts in sorted(tag_counts.items()):
+                print(f"- `{t}`: Added to {counts['added']}, replaced {counts['replaced']}, removed from {counts['removed']}")
 
-        if homepage_changes_summary:
-            print("\n**Homepage Changes:**\n")
-            print("\n".join(homepage_changes_summary))
+    if url_updates:
+        print(f"\n**{len(url_updates)} repos had updated URLs:**")
+        print(", ".join(url_updates))
 
-        if owner_rename_changes_summary:
-            print("\n**Owner/Rename Changes:**\n")
-            print("\n".join(owner_rename_changes_summary))
+    if license_updates:
+        print(f"\n**{len(license_updates)} repos had updated Licenses:**")
+        print(", ".join(license_updates))
 
-        if latest_release_changes_summary:
-            print("\n**Latest Release Changes:**\n")
-            grouped_releases = defaultdict(list)
-            for item in latest_release_changes_summary:
-                d_str = item['date'].strftime('%Y-%m-%d') if item['date'] else "Unknown Date"
-                grouped_releases[d_str].append(item)
+    if release_updates:
+        print(f"\n**Release summary:**")
+        print(f"There were {len(release_updates)} releases")
+        long_releases = []
+        for repo in release_updates:
+            d_date = parse_date(repo.old_release)
+            a_date = parse_date(repo.release)
+            if a_date and d_date:
+                days = (a_date - d_date).days
+                if days >= 100:
+                    link = f"[{repo.key}](#{repo.anchor})"
+                    long_releases.append(f"* {link} ({days} days {a_date.strftime('%Y-%m-%d')} {parse_release_tag(repo.old_release)} -> {parse_release_tag(repo.release)})")
 
-            sorted_dates = sorted(
-                grouped_releases.keys(),
-                key=lambda x: (1, x) if x != "Unknown Date" else (0, ""),
-                reverse=True
-            )
+        if long_releases:
+            print("Repos with >100 day releases:")
+            print("\n".join(long_releases))
 
-            for d_str in sorted_dates:
-                print(f"- **{d_str}**")
-                items = sorted(grouped_releases[d_str], key=lambda x: x['name'].lower())
-                for item in items:
-                    print(f"  {item['text']}")
+    print("\n## Detailed Repository Changes\n")
 
-        if extra_info_changes_summary:
-            print("\n**Other Info Changes:**\n")
-            print("\n".join(extra_info_changes_summary))
-
-        print("\n### Detailed Repository Changes\n")
-
-        details_str = "\n".join(output)
-        if len(details_str) > 60000:
-            truncate_index = details_str.rfind('\n', 0, 60000)
-            if truncate_index == -1:
-                truncate_index = 60000
-            print(details_str[:truncate_index])
-            print("\n... (Detailed changes truncated due to GitHub limits) ...")
-        else:
-            print(details_str)
+    # Sort repos alphabetically
+    sorted_repos = sorted(repo_changes.values(), key=lambda r: r.key.lower())
+    for repo in sorted_repos:
+        print(format_card(repo))
+        print()
 
 if __name__ == '__main__':
     main()

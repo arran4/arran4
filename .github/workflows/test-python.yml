@@ -1,0 +1,24 @@
+name: Test Python Scripts
+on:
+  push:
+    paths:
+      - 'scripts/**/*.py'
+      - 'tests/**/*.py'
+      - '.github/workflows/test-python.yml'
+  pull_request:
+    paths:
+      - 'scripts/**/*.py'
+      - 'tests/**/*.py'
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Run tests
+        run: |
+          python3 -W ignore -m unittest discover -s tests

@@ -111,8 +111,10 @@ class RepoChange:
         self.old_release = None
         self.has_old = False
         self.has_new = False
+        self.source_lists = set()
 
     def merge_row(self, row, is_new, info_name):
+        self.source_lists.add(info_name)
         if not self.name and is_new:
             self.name = row.name
         if not self.old_name and not is_new:
@@ -173,6 +175,14 @@ class RepoChange:
 def format_card(repo):
     output = []
 
+    # Icons
+    icons = []
+    if 'latest release' in repo.source_lists:
+        icons.append("⭐")
+    if 'license' in repo.source_lists:
+        icons.append("⚖️")
+    icon_str = " ".join(icons) + " " if icons else ""
+
     # Header
     if repo.has_new:
         name_str = f"[{repo.name}]({repo.repo_url})" if repo.repo_url else repo.name
@@ -180,48 +190,74 @@ def format_card(repo):
         name_str = f"[{repo.old_name}]({repo.old_repo_url})" if repo.old_repo_url else repo.old_name
 
     if repo.has_old and repo.has_new and repo.old_name and repo.old_name != repo.name:
-
         old_name_str = f"[{repo.old_name}]({repo.old_repo_url})" if repo.old_repo_url else repo.old_name
-        output.append(f"### {name_str} (Formerly: {old_name_str})")
+        output.append(f"### {icon_str}{name_str} (Formerly: {old_name_str})")
     elif repo.has_old and not repo.has_new:
-        output.append(f"### ~~{name_str}~~")
+        output.append(f"### {icon_str}~~{name_str}~~")
     else:
-        output.append(f"### {name_str}")
+        output.append(f"### {icon_str}{name_str}")
+
+    # Determine reasons
+    reasons = []
+    if not repo.has_old and repo.has_new:
+        reasons.append("New Repo")
+    elif repo.has_old and not repo.has_new:
+        reasons.append("Removed Repo")
+    else:
+        if repo.desc != repo.old_desc: reasons.append("Updated Description")
+        if repo.get_tags_set(False) != repo.get_tags_set(True): reasons.append("Updated Tags")
+        if repo.homepage != repo.old_homepage: reasons.append("Updated URL")
+        if repo.license != repo.old_license: reasons.append("Updated License")
+        if repo.release != repo.old_release: reasons.append("New Release")
+        if repo.name != repo.old_name or repo.repo_url != repo.old_repo_url:
+            reasons.append("Renamed/Moved")
+
+    if reasons:
+        output.append(f"**Reason:** {', '.join(reasons)}")
+
+    def format_label(label, has_changed):
+        return f"**{label}:**" if has_changed else f"{label}:"
 
     # Description
+    desc_changed = repo.has_old and repo.has_new and repo.desc != repo.old_desc
+    desc_label = format_label("Description", desc_changed)
     if repo.has_old and repo.has_new:
         if repo.desc != repo.old_desc:
             old_bold, new_bold = bold_difference(repo.old_desc, repo.desc)
             if len(new_bold) > 50 or '\n' in new_bold:
-                output.append(f"**Description:** \n> \\- {old_bold}\n> \\+ {new_bold}")
+                output.append(f"{desc_label} \n> \\- {old_bold}\n> \\+ {new_bold}")
             else:
-                output.append(f"**Description:** {new_bold} (Formerly: {old_bold})")
+                output.append(f"{desc_label} {new_bold} (Formerly: {old_bold})")
         else:
-            output.append(f"**Description:** {repo.desc}")
+            output.append(f"{desc_label} {repo.desc}")
     elif repo.has_new:
-        output.append(f"**Description:** {repo.desc}")
+        output.append(f"{desc_label} {repo.desc}")
     elif repo.has_old:
-        output.append(f"**Description:** ~~{repo.old_desc}~~")
+        output.append(f"{desc_label} ~~{repo.old_desc}~~")
 
     # License
+    lic_changed = repo.has_old and repo.has_new and repo.license != repo.old_license
+    lic_label = format_label("License", lic_changed)
     if (repo.has_new and repo.license) or (repo.has_old and repo.old_license):
         if repo.has_old and repo.has_new:
             if repo.license != repo.old_license:
                 if not repo.license:
-                    output.append(f"**License:** (Removed) (Formerly: `{repo.old_license}`)")
+                    output.append(f"{lic_label} (Removed) (Formerly: `{repo.old_license}`)")
                 elif not repo.old_license:
-                    output.append(f"**License:** `{repo.license}` (Newly added)")
+                    output.append(f"{lic_label} `{repo.license}` (Newly added)")
                 else:
-                    output.append(f"**License:** `{repo.license}` (Formerly: `{repo.old_license}`)")
+                    output.append(f"{lic_label} `{repo.license}` (Formerly: `{repo.old_license}`)")
             else:
                 if repo.license:
-                    output.append(f"**License:** `{repo.license}`")
+                    output.append(f"{lic_label} `{repo.license}`")
         elif repo.has_new:
-            output.append(f"**License:** `{repo.license}`")
+            output.append(f"{lic_label} `{repo.license}`")
         elif repo.has_old:
-            output.append(f"**License:** ~~`{repo.old_license}`~~")
+            output.append(f"{lic_label} ~~`{repo.old_license}`~~")
 
     # Tags
+    tags_changed = repo.has_old and repo.has_new and repo.get_tags_set(False) != repo.get_tags_set(True)
+    tags_label = format_label("Tags", tags_changed)
     if repo.has_old and repo.has_new:
         d_tags = repo.get_tags_set(False)
         a_tags = repo.get_tags_set(True)
@@ -237,54 +273,73 @@ def format_card(repo):
                 tag_strs.append(f"**+{t}**")
             for t in sorted(removed):
                 tag_strs.append(f"~~-{t}~~")
-            output.append(f"**Tags:** {', '.join(tag_strs)}")
+            output.append(f"{tags_label} {', '.join(tag_strs)}")
         else:
             if repo.tags:
-                output.append(f"**Tags:** {repo.tags}")
+                output.append(f"{tags_label} {repo.tags}")
     elif repo.has_new:
         if repo.tags:
-            output.append(f"**Tags:** {repo.tags}")
+            output.append(f"{tags_label} {repo.tags}")
     elif repo.has_old:
         if repo.old_tags:
-            output.append(f"**Tags:** ~~{repo.old_tags}~~")
+            output.append(f"{tags_label} ~~{repo.old_tags}~~")
 
     # URL / Homepage
+    url_changed = repo.has_old and repo.has_new and repo.homepage != repo.old_homepage
+    url_label = format_label("URL", url_changed)
     if (repo.has_new and repo.homepage) or (repo.has_old and repo.old_homepage):
         if repo.has_old and repo.has_new:
             if repo.homepage != repo.old_homepage:
                 hp = f"[{repo.homepage}]({repo.homepage})" if repo.homepage else "(None)"
                 old_hp = f"[{repo.old_homepage}]({repo.old_homepage})" if repo.old_homepage else "(None)"
-                output.append(f"**URL:** {hp} (Formerly: {old_hp})")
+                output.append(f"{url_label} {hp} (Formerly: {old_hp})")
             else:
                 if repo.homepage:
-                    output.append(f"**URL:** [{repo.homepage}]({repo.homepage})")
+                    output.append(f"{url_label} [{repo.homepage}]({repo.homepage})")
         elif repo.has_new:
-            output.append(f"**URL:** [{repo.homepage}]({repo.homepage})")
+            output.append(f"{url_label} [{repo.homepage}]({repo.homepage})")
         elif repo.has_old:
-            output.append(f"**URL:** ~~[{repo.old_homepage}]({repo.old_homepage})~~")
+            output.append(f"{url_label} ~~[{repo.old_homepage}]({repo.old_homepage})~~")
 
     # Latest Release
+    rel_changed = repo.has_old and repo.has_new and repo.release != repo.old_release
+    rel_label = format_label("Latest Release", rel_changed)
+
+    def format_single_release(release_str, repo_url):
+        if not release_str: return ""
+        tag = parse_release_tag(release_str)
+        date_m = re.search(r'\((.*?)\)', release_str)
+
+        if tag and repo_url and repo_url.startswith("https://github.com/"):
+            link = f"[{tag}]({repo_url}/releases/tag/{tag})"
+        else:
+            link = tag
+
+        if date_m:
+            return f"{link} ({date_m.group(1)})"
+        return link
+
     if (repo.has_new and repo.release) or (repo.has_old and repo.old_release):
         if repo.has_old and repo.has_new:
             if repo.release != repo.old_release:
-                rel_str = repo.release
+                rel_str = format_single_release(repo.release, repo.repo_url)
                 if repo.old_release:
-                    rel_str += f" (Last: {repo.old_release})"
+                    rel_str += f", Last: {format_single_release(repo.old_release, repo.old_repo_url or repo.repo_url)}"
 
                 # Check for >100 days
                 d_date = parse_date(repo.old_release)
                 a_date = parse_date(repo.release)
                 if a_date and d_date:
                     days = (a_date - d_date).days
-                    rel_str += f" ({days} days old)"
-                output.append(f"**Latest Release:** {rel_str}")
+                    rel_str += f", {days} days old"
+                output.append(f"{rel_label} {rel_str}")
             else:
                 if repo.release:
-                    output.append(f"**Latest Release:** {repo.release}")
+                    output.append(f"{rel_label} {format_single_release(repo.release, repo.repo_url)}")
         elif repo.has_new:
-            output.append(f"**Latest Release:** {repo.release}")
+            output.append(f"{rel_label} {format_single_release(repo.release, repo.repo_url)}")
         elif repo.has_old:
-            output.append(f"**Latest Release:** ~~{repo.old_release}~~")
+            output.append(f"{rel_label} ~~{format_single_release(repo.old_release, repo.old_repo_url)}~~")
 
     return "\n".join(output)
 

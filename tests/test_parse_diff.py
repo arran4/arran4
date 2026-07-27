@@ -44,7 +44,7 @@ class TestParseDiff(unittest.TestCase):
 
             # Check for repo output
             self.assertIn("### [user2/repo](https://github.com/user2/repo) (Formerly: [user/repo](https://github.com/user/repo))", output)
-            self.assertIn("**Description:** **new**\_desc (Formerly: ~~old~~\\_desc~~\\_with\\_chars \\*~~)", output)
+            self.assertIn("**Description:** **new**\\_desc (Formerly: ~~old~~\\_desc~~\\_with\\_chars \\*~~)", output)
             self.assertIn("**Tags:** tag5, **+tag6**", output)
         finally:
             sys.stdout = original_stdout

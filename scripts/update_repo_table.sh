@@ -417,3 +417,9 @@ $0==start{print;for(i=1;i<=length(lines);i++)print lines[i];skip=1;next}
 $0==end{skip=0;print;next}
 !skip{print}
 ' "$STARRED_TABLE" "$STARRED_MD" > "$STARRED_MD.tmp" && mv "$STARRED_MD.tmp" "$STARRED_MD"
+
+LANGUAGES_FILE="repo_languages.json"
+jq -s '
+  def get_name: .full_name // (if .owner.login? then .owner.login + "/" + .name else .name end);
+  [.[][] | select(get_name != null and .language != null)] | map({key: get_name, value: .language}) | from_entries
+' "$ALL" "$ALL_STARRED" > "$LANGUAGES_FILE"

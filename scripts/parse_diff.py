@@ -3,6 +3,8 @@ import re
 import difflib
 from collections import defaultdict
 from datetime import datetime
+import json
+import os
 
 def escape_md(text):
     if not text: return ""
@@ -172,7 +174,7 @@ class RepoChange:
         return set([t.strip() for t in tags_str.split(',') if t.strip()])
 
 
-def format_card(repo):
+def format_card(repo, languages):
     output = []
 
     # Icons
@@ -214,6 +216,11 @@ def format_card(repo):
 
     if reasons:
         output.append(f"**Reason:** {', '.join(reasons)}")
+
+    # Language
+    repo_key = repo.key
+    if repo_key in languages:
+        output.append(f"**Language:** {languages[repo_key]}")
 
     def format_label(label, has_changed):
         return f"**{label}:**" if has_changed else f"{label}:"
@@ -346,6 +353,14 @@ def format_card(repo):
 def main(input_stream=None):
     if input_stream is None:
         input_stream = sys.stdin
+
+    languages = {}
+    if os.path.exists("repo_languages.json"):
+        with open("repo_languages.json", "r") as f:
+            try:
+                languages = json.load(f)
+            except json.JSONDecodeError:
+                pass
 
     files_changed = {}
     current_file = None
@@ -547,7 +562,7 @@ def main(input_stream=None):
     # Sort repos alphabetically
     sorted_repos = sorted(repo_changes.values(), key=lambda r: r.key.lower())
     for repo in sorted_repos:
-        print(format_card(repo))
+        print(format_card(repo, languages))
         print()
 
 if __name__ == '__main__':

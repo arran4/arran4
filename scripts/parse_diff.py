@@ -50,7 +50,11 @@ def bold_difference(old_str, new_str):
 def parse_release_tag(info_str):
     if not isinstance(info_str, str) or not info_str:
         return ""
-    return re.sub(r'\s*\(\d{4}-\d{2}-\d{2}\)\s*$', '', info_str).strip()
+    tag_str = re.sub(r'\s*\(\d{4}-\d{2}-\d{2}\)\s*$', '', info_str).strip()
+    m = re.match(r'^\[(.*?)\]\(.*?\)$', tag_str)
+    if m:
+        return m.group(1)
+    return tag_str
 
 def parse_date(info_str):
     if not isinstance(info_str, str):
@@ -146,26 +150,6 @@ class RepoChange:
     @property
     def key(self):
         return self.name or self.old_name
-
-    @property
-    def anchor(self):
-        # Create GitHub markdown anchor link
-        if self.has_old and self.has_new and self.old_name and self.old_name != self.name:
-            # Matches: ### {name_str} (Formerly: {old_name_str})
-            # where name_str = [{name}]({repo_url}) or just {name}
-            anchor_text = f"{self.name} formerly {self.old_name}"
-        elif self.has_old and not self.has_new:
-            # Matches: ### ~~{name_str}~~
-            anchor_text = self.old_name
-        else:
-            anchor_text = self.name
-
-        # GitHub generates anchors by lowercasing and removing non-alphanumeric except hyphens
-        anchor_text = anchor_text.lower()
-        import re
-        anchor_text = re.sub(r'[^a-z0-9\s-]', '', anchor_text)
-        anchor_text = anchor_text.replace(' ', '-')
-        return anchor_text
 
     def get_tags_set(self, is_new):
         tags = self.tags if is_new else self.old_tags
@@ -314,13 +298,8 @@ def format_card(repo, languages):
 
     def format_single_release(release_str, repo_url):
         if not release_str: return ""
-        tag = parse_release_tag(release_str)
-        date_m = re.search(r'\((.*?)\)', release_str)
-
-        if tag and repo_url and repo_url.startswith("https://github.com/"):
-            link = f"[{tag}]({repo_url}/releases/tag/{tag})"
-        else:
-            link = tag
+        date_m = re.search(r'\s*\((\d{4}-\d{2}-\d{2})\)\s*$', release_str)
+        link = get_release_link(release_str, repo_url)
 
         if date_m:
             return f"{link} ({date_m.group(1)})"
@@ -349,6 +328,12 @@ def format_card(repo, languages):
             output.append(f"{rel_label} ~~{format_single_release(repo.old_release, repo.old_repo_url)}~~")
 
     return "\n".join(output)
+
+def get_release_link(release_str, repo_url):
+    tag = parse_release_tag(release_str)
+    if tag and repo_url and repo_url.startswith("https://github.com/"):
+        return f"[{tag}]({repo_url}/releases/tag/{tag})"
+    return tag
 
 def main(input_stream=None):
     if input_stream is None:
@@ -447,7 +432,12 @@ def main(input_stream=None):
     added_repos = []
 
     for repo in repo_changes.values():
-        link = f"[{repo.key}](#{repo.anchor})"
+        if repo.repo_url:
+            link = f"[{repo.key}]({repo.repo_url})"
+        elif repo.old_repo_url:
+            link = f"[{repo.key}]({repo.old_repo_url})"
+        else:
+            link = f"**{repo.key}**"
 
         if not repo.has_new:
             removed_repos.append(link)
@@ -530,7 +520,30 @@ def main(input_stream=None):
         if tag_counts:
             print("\n**The tags were:**")
             for t, counts in sorted(tag_counts.items()):
-                print(f"- `{t}`: Added to {counts['added']}, replaced {counts['replaced']}, removed from {counts['removed']}")
+                # Try to link if it's a version tag
+                repo_url = None
+                # Search all repo_changes to find a repo that has this tag
+                for repo in repo_changes.values():
+                    d_tags = repo.get_tags_set(False)
+                    a_tags = repo.get_tags_set(True)
+                    if t in d_tags or t in a_tags:
+                        repo_url = repo.repo_url or repo.old_repo_url
+                        if repo_url and repo_url.startswith("https://github.com/"):
+                            break
+                        else:
+                            repo_url = None
+
+                t_display = f"`{t}`"
+                if repo_url and (t.startswith('v') or re.match(r'^[0-9]', t)):
+                    link = get_release_link(t, repo_url)
+                    # If it actually turned into a link, don't wrap it in backticks,
+                    # otherwise it will break markdown link rendering
+                    if link.startswith('['):
+                        t_display = link
+                    else:
+                        t_display = f"`{link}`"
+
+                print(f"- {t_display}: Added to {counts['added']}, replaced {counts['replaced']}, removed from {counts['removed']}")
 
     if url_updates:
         print(f"\n**{len(url_updates)} repos had updated URLs:**")
@@ -550,8 +563,17 @@ def main(input_stream=None):
             if a_date and d_date:
                 days = (a_date - d_date).days
                 if days >= 100:
-                    link = f"[{repo.key}](#{repo.anchor})"
-                    long_releases.append(f"* {link} ({days} days {a_date.strftime('%Y-%m-%d')} {parse_release_tag(repo.old_release)} -> {parse_release_tag(repo.release)})")
+                    if repo.repo_url:
+                        link = f"[{repo.key}]({repo.repo_url})"
+                    elif repo.old_repo_url:
+                        link = f"[{repo.key}]({repo.old_repo_url})"
+                    else:
+                        link = f"**{repo.key}**"
+
+                    old_tag_link = get_release_link(repo.old_release, repo.old_repo_url or repo.repo_url)
+                    new_tag_link = get_release_link(repo.release, repo.repo_url)
+
+                    long_releases.append(f"* {link} ({days} days {a_date.strftime('%Y-%m-%d')} {old_tag_link} -> {new_tag_link})")
 
         if long_releases:
             print("Repos with >100 day releases:")

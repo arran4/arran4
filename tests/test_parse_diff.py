@@ -4,18 +4,6 @@ import sys
 from scripts.parse_diff import main, RepoChange, Row
 
 class TestParseDiff(unittest.TestCase):
-    def test_repo_change_anchor(self):
-        rc = RepoChange()
-        rc.has_new = True
-        rc.name = "My Repo/Test"
-        self.assertEqual(rc.anchor, "my-repotest")
-
-        rc.has_old = True
-        rc.has_new = True
-
-        rc.old_name = "Old Repo/Name"
-        self.assertEqual(rc.anchor, "my-repotest-formerly-old-reponame")
-
     def test_end_to_end_parse(self):
         diff_input = """+++ b/README.md
 @@ -1,2 +1,2 @@

@@ -118,6 +118,7 @@ class RepoChange:
         self.has_old = False
         self.has_new = False
         self.source_lists = set()
+        self.is_star = False
 
     def merge_row(self, row, is_new, info_name):
         self.source_lists.add(info_name)
@@ -136,6 +137,7 @@ class RepoChange:
                 self.license = row.extra_info
             elif info_name == 'latest release':
                 self.release = row.extra_info
+                self.is_star = True
         else:
             self.has_old = True
             self.old_repo_url = row.repo_url
@@ -146,6 +148,7 @@ class RepoChange:
                 self.old_license = row.extra_info
             elif info_name == 'latest release':
                 self.old_release = row.extra_info
+                self.is_star = True
 
     @property
     def key(self):
@@ -186,7 +189,10 @@ def format_card(repo, languages):
     # Determine reasons
     reasons = []
     if not repo.has_old and repo.has_new:
-        reasons.append("New Repo")
+        if repo.is_star and len(repo.source_lists) == 1:
+            reasons.append("New Star")
+        else:
+            reasons.append("New Repo")
     elif repo.has_old and not repo.has_new:
         reasons.append("Removed Repo")
     else:
@@ -430,6 +436,7 @@ def main(input_stream=None):
     release_updates = []
     removed_repos = []
     added_repos = []
+    added_stars = []
 
     for repo in repo_changes.values():
         if repo.repo_url:
@@ -443,7 +450,10 @@ def main(input_stream=None):
             removed_repos.append(link)
             continue
         if not repo.has_old:
-            added_repos.append(link)
+            if repo.is_star and len(repo.source_lists) == 1:
+                added_stars.append(link)
+            else:
+                added_repos.append(link)
             continue
 
         if repo.desc != repo.old_desc:
@@ -471,6 +481,10 @@ def main(input_stream=None):
     if added_repos:
         print(f"\n**{len(added_repos)} repos added:**")
         print(", ".join(added_repos))
+
+    if added_stars:
+        print(f"\n**{len(added_stars)} repos starred:**")
+        print(", ".join(added_stars))
 
     if removed_repos:
         print(f"\n**{len(removed_repos)} repos removed:**")

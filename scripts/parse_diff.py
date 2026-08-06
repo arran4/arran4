@@ -200,7 +200,11 @@ def format_card(repo, languages):
         if repo.get_tags_set(False) != repo.get_tags_set(True): reasons.append("Updated Tags")
         if repo.homepage != repo.old_homepage: reasons.append("Updated URL")
         if repo.license != repo.old_license: reasons.append("Updated License")
-        if repo.release != repo.old_release: reasons.append("New Release")
+        if repo.release != repo.old_release:
+            if not repo.release:
+                reasons.append("Removed Release")
+            else:
+                reasons.append("New Release")
         if repo.name != repo.old_name or repo.repo_url != repo.old_repo_url:
             reasons.append("Renamed/Moved")
 
@@ -315,8 +319,13 @@ def format_card(repo, languages):
         if repo.has_old and repo.has_new:
             if repo.release != repo.old_release:
                 rel_str = format_single_release(repo.release, repo.repo_url)
-                if repo.old_release:
-                    rel_str += f", Last: {format_single_release(repo.old_release, repo.old_repo_url or repo.repo_url)}"
+                if not repo.release:
+                    rel_str = f"(Removed) (Formerly: {format_single_release(repo.old_release, repo.old_repo_url or repo.repo_url)})"
+                elif not repo.old_release:
+                    rel_str = f"{format_single_release(repo.release, repo.repo_url)} (Newly added)"
+                else:
+                    if repo.old_release:
+                        rel_str += f", Last: {format_single_release(repo.old_release, repo.old_repo_url or repo.repo_url)}"
 
                 # Check for >100 days
                 d_date = parse_date(repo.old_release)

@@ -176,9 +176,35 @@ def fetch_commits_ahead(repos):
         ahead_by = comp_json.get('ahead_by')
 
         if ahead_by is not None and ahead_by > 0:
-            ahead_list.append((repo_name, repo_url, ahead_by, tag_name))
+            # Parse release date
+            release_date_str = rel_json.get('published_at') or rel_json.get('created_at')
+            try:
+                release_date = datetime.datetime.strptime(release_date_str, '%Y-%m-%dT%H:%M:%SZ').replace(tzinfo=datetime.timezone.utc)
+            except (ValueError, TypeError):
+                release_date = datetime.datetime.min.replace(tzinfo=datetime.timezone.utc)
 
-    ahead_list.sort(key=lambda x: x[2], reverse=True)
+            # Parse latest commit date
+            latest_commit_date = datetime.datetime.min.replace(tzinfo=datetime.timezone.utc)
+            commits = comp_json.get('commits', [])
+            if commits:
+                last_commit = commits[-1]
+                commit_info = last_commit.get('commit', {})
+                commit_date_str = commit_info.get('committer', {}).get('date') or commit_info.get('author', {}).get('date')
+                if commit_date_str:
+                    try:
+                        latest_commit_date = datetime.datetime.strptime(commit_date_str, '%Y-%m-%dT%H:%M:%SZ').replace(tzinfo=datetime.timezone.utc)
+                    except (ValueError, TypeError):
+                        pass
+
+            ahead_list.append({
+                'repo_name': repo_name,
+                'url': repo_url,
+                'ahead_by': ahead_by,
+                'tag_name': tag_name,
+                'release_date': release_date,
+                'latest_commit_date': latest_commit_date
+            })
+
     return ahead_list
 
 def filter_and_sort_repos(repos):
@@ -266,9 +292,25 @@ def generate_markdown(repos, prs, commits_ahead):
             lines.append(f"- [{repo_name}]({url}): {count} PR(s)")
 
     if commits_ahead:
-        lines.append("\n## Commits Ahead of Latest Release")
-        for repo_name, url, ahead_by, tag_name in commits_ahead:
-            lines.append(f"- [{repo_name}]({url}): {ahead_by} commits ahead of {tag_name}")
+        now = datetime.datetime.now(datetime.timezone.utc)
+
+        # 1. Longest distance between latest commit and release where release is older
+        older_releases = [c for c in commits_ahead if c['latest_commit_date'] > c['release_date'] and c['release_date'] > datetime.datetime.min.replace(tzinfo=datetime.timezone.utc)]
+        if older_releases:
+            older_releases.sort(key=lambda x: x['latest_commit_date'] - x['release_date'], reverse=True)
+            lines.append("\n## Longest distance between latest commit and release where release is older")
+            for c in older_releases:
+                days_diff = (c['latest_commit_date'] - c['release_date']).days
+                lines.append(f"- [{c['repo_name']}]({c['url']}): {c['ahead_by']} commits ahead of {c['tag_name']} ({days_diff} days after release)")
+
+        # 2. Longest distance between latest commit and now
+        valid_commits = [c for c in commits_ahead if c['latest_commit_date'] > datetime.datetime.min.replace(tzinfo=datetime.timezone.utc)]
+        if valid_commits:
+            valid_commits.sort(key=lambda x: now - x['latest_commit_date'], reverse=True)
+            lines.append("\n## Longest distance between latest commit and now")
+            for c in valid_commits:
+                days_diff = (now - c['latest_commit_date']).days
+                lines.append(f"- [{c['repo_name']}]({c['url']}): {c['ahead_by']} commits ahead of {c['tag_name']} ({days_diff} days ago)")
 
     return '\n'.join(lines)
 
@@ -301,7 +343,13 @@ def main():
     filtered_repos = filter_and_sort_repos(repos)
 
     prs = fetch_prs_for_month()
-    commits_ahead = fetch_commits_ahead(repos)
+
+    # Filter for public, non-forked, non-archived repos for commits ahead
+    commits_ahead_repos = [
+        r for r in repos
+        if not r.get('private') and not r.get('archived') and not r.get('fork')
+    ]
+    commits_ahead = fetch_commits_ahead(commits_ahead_repos)
 
     markdown_body = generate_markdown(filtered_repos, prs, commits_ahead)
 

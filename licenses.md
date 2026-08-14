@@ -77,7 +77,7 @@ List of repositories and their licenses.
 ### GPL-3.0
 | Repository | Description | License | Tags |
 |---|---|---|---|
-| [arran4/KMagMux](https://github.com/arran4/KMagMux) | Torrent and Magent file and protocol handler for routing to programs / services | GPL-3.0 | handler, intent, kde, link, magnent, mux, torrent |
+| [arran4/KMagMux](https://github.com/arran4/KMagMux) | Torrent and Magent file and protocol handler for routing to programs / services | GPL-3.0 | kde, handler, intent, link, magnent, mux, torrent |
 | [arran4/abc-justin-rss](https://github.com/arran4/abc-justin-rss) [🔗](https://arran4.github.io/abc-justin-rss/) | ABC news just-in to rss converter - generated | GPL-3.0 | abc + rss, abc-news |
 | [arran4/dirtools](https://github.com/arran4/dirtools) [🔗](https://pkg.go.dev/github.com/arran4/dirtools) | Some directory tools, such as separating out all of a file extension into mirror directories | GPL-3.0 | cli + go + utility, directory, organization |
 | [arran4/go-lojban-password-gen](https://github.com/arran4/go-lojban-password-gen) | Lojban password generator - Generate passwords that use lojban | GPL-3.0 | cli + go + utility, binary, generator, lojban, password, password-generator |
@@ -144,6 +144,7 @@ List of repositories and their licenses.
 | [arran4/flutter_jules](https://github.com/arran4/flutter_jules) | My flutter based google jules client  |  | ai + flutter + linux + utility, app, google-jules, jules, macos, windows |
 | [arran4/goreleaser-gentoo-smoke-overlay](https://github.com/arran4/goreleaser-gentoo-smoke-overlay) |  |  |  |
 | [arran4/issue-snooze](https://github.com/arran4/issue-snooze) |  |  |  |
+| [arran4/kde-dev-rootfs](https://github.com/arran4/kde-dev-rootfs) | Dev container |  | kde, build, container, dev |
 | [arran4/personal-splitwise-helper-scripts](https://github.com/arran4/personal-splitwise-helper-scripts) | Splitwise TUI and CLI interface |  | cli, helper, splitwise, tui |
 | [arran4/pocketchip-apt-rescue](https://github.com/arran4/pocketchip-apt-rescue) | Pocketchip original firmware re-routing proxy for debian upgrades |  | chip, debian, frimware-update, pocketchpi |
 | [arran4/rss-test-server-proof-of-issue](https://github.com/arran4/rss-test-server-proof-of-issue) | A test server for an rss issue |  | go + rss, issue, single-purpose-app, testing-code |

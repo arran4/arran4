@@ -231,6 +231,12 @@ Have questions or feedback? [Open an issue](https://github.com/arran4/arran4/iss
 | [arran4/blog](https://github.com/arran4/blog) [🔗](https://arran4.github.io/blog/) | Github pages blog | hugo, blog |
 | [arran4/githubpages](https://github.com/arran4/githubpages) | Example hugo and github pages with github actions page | hugo, github-actions, github-pages |
 
+### kde
+| Repository | Description | Tags |
+|---|---|---|
+| [arran4/KMagMux](https://github.com/arran4/KMagMux) | Torrent and Magent file and protocol handler for routing to programs / services | kde, handler, intent, link, magnent, mux, torrent |
+| [arran4/kde-dev-rootfs](https://github.com/arran4/kde-dev-rootfs) | Dev container | kde, build, container, dev |
+
 ### library
 | Repository | Description | Tags |
 |---|---|---|
@@ -240,7 +246,6 @@ Have questions or feedback? [Open an issue](https://github.com/arran4/arran4/iss
 ### Unmatched
 | Repository | Description | Tags |
 |---|---|---|
-| [arran4/KMagMux](https://github.com/arran4/KMagMux) | Torrent and Magent file and protocol handler for routing to programs / services | handler, intent, kde, link, magnent, mux, torrent |
 | [arran4/arran4](https://github.com/arran4/arran4) [🔗](https://arran4.github.io/ ) | Github Profile landing page github repo | github, github-profile, github-profile-readme |
 | [arran4/awesome-pocketchip](https://github.com/arran4/awesome-pocketchip) | A list of pocketchip resources | awesomelist, chip, pocketchip |
 | [arran4/dart-udt](https://github.com/arran4/dart-udt) [🔗](https://pub.dev/packages/dart_udt) | AI port of UDT library from source forge to Dart | dart, udt |

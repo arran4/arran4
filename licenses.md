@@ -147,6 +147,7 @@ List of repositories and their licenses.
 | [arran4/kde-dev-rootfs](https://github.com/arran4/kde-dev-rootfs) | Dev container |  | kde, build, container, dev |
 | [arran4/personal-splitwise-helper-scripts](https://github.com/arran4/personal-splitwise-helper-scripts) | Splitwise TUI and CLI interface |  | cli, helper, splitwise, tui |
 | [arran4/pocketchip-apt-rescue](https://github.com/arran4/pocketchip-apt-rescue) | Pocketchip original firmware re-routing proxy for debian upgrades |  | chip, debian, frimware-update, pocketchpi |
+| [arran4/qt-kde-lint](https://github.com/arran4/qt-kde-lint) |  |  |  |
 | [arran4/rss-test-server-proof-of-issue](https://github.com/arran4/rss-test-server-proof-of-issue) | A test server for an rss issue |  | go + rss, issue, single-purpose-app, testing-code |
 | [arran4/scoop-bucket](https://github.com/arran4/scoop-bucket) | Scoop bucket |  | scoop-bucket |
 

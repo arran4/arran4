@@ -182,6 +182,11 @@ Have questions or feedback? [Open an issue](https://github.com/arran4/arran4/iss
 | [arran4/arrans_overlay_workflow_builder](https://github.com/arran4/arrans_overlay_workflow_builder) | A gentoo overlay ebuild workflow builder generator for -bin with a special purpose handler for .appimage binary files | gentoo + github-actions, builder, ebuild, generator, overlay |
 | [arran4/g2-action](https://github.com/arran4/g2-action) | g2 github workflow action | gentoo + github-actions, ci, g2, workflows |
 
+### github + github-actions + go
+| Repository | Description | Tags |
+|---|---|---|
+| [arran4/issue-snooze](https://github.com/arran4/issue-snooze) | A GitHub bot that lets you snooze issues and pull requests using comments, automatically reminding you when they're due. | github + github-actions + go, automation, github-bot, github-issues, issue-tracker, reminders, snooze, webhooks |
+
 ### github + kde + ui
 | Repository | Description | Tags |
 |---|---|---|
@@ -255,7 +260,6 @@ Have questions or feedback? [Open an issue](https://github.com/arran4/arran4/iss
 | [arran4/goreleaser-gentoo-smoke-overlay](https://github.com/arran4/goreleaser-gentoo-smoke-overlay) |  |  |
 | [arran4/homebrew-tap](https://github.com/arran4/homebrew-tap) | My homebrew tap semiautomated.. maybe? | homebrew, homebrew-tap, tap |
 | [arran4/idea-txtar-support-plugin](https://github.com/arran4/idea-txtar-support-plugin) [🔗](https://plugins.jetbrains.com/plugin/30286-txtar-file-support) | Jetbrains Idea txtar support plugin | idea, java, jetbrains, plugin, txtar |
-| [arran4/issue-snooze](https://github.com/arran4/issue-snooze) |  |  |
 | [arran4/lxa](https://github.com/arran4/lxa) | ls with extended attributes | fs-attr, linux, ls, xattr, xdp |
 | [arran4/pocketchip-apt-rescue](https://github.com/arran4/pocketchip-apt-rescue) | Pocketchip original firmware re-routing proxy for debian upgrades | chip, debian, frimware-update, pocketchpi |
 | [arran4/qt-kde-lint](https://github.com/arran4/qt-kde-lint) |  |  |

@@ -143,7 +143,7 @@ List of repositories and their licenses.
 | [arran4/awesome-pocketchip](https://github.com/arran4/awesome-pocketchip) | A list of pocketchip resources |  | awesomelist, chip, pocketchip |
 | [arran4/flutter_jules](https://github.com/arran4/flutter_jules) | My flutter based google jules client  |  | ai + flutter + linux + utility, app, google-jules, jules, macos, windows |
 | [arran4/goreleaser-gentoo-smoke-overlay](https://github.com/arran4/goreleaser-gentoo-smoke-overlay) |  |  |  |
-| [arran4/issue-snooze](https://github.com/arran4/issue-snooze) |  |  |  |
+| [arran4/issue-snooze](https://github.com/arran4/issue-snooze) | A GitHub bot that lets you snooze issues and pull requests using comments, automatically reminding you when they're due. |  | github + github-actions + go, automation, github-bot, github-issues, issue-tracker, reminders, snooze, webhooks |
 | [arran4/kde-dev-rootfs](https://github.com/arran4/kde-dev-rootfs) | Dev container |  | kde, build, container, dev |
 | [arran4/personal-splitwise-helper-scripts](https://github.com/arran4/personal-splitwise-helper-scripts) | Splitwise TUI and CLI interface |  | cli, helper, splitwise, tui |
 | [arran4/pocketchip-apt-rescue](https://github.com/arran4/pocketchip-apt-rescue) | Pocketchip original firmware re-routing proxy for debian upgrades |  | chip, debian, frimware-update, pocketchpi |

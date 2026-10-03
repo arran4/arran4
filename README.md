@@ -55,13 +55,6 @@ Have questions or feedback? [Open an issue](https://github.com/arran4/arran4/iss
 | [arran4/awesome-terminal-multiplexers](https://github.com/arran4/awesome-terminal-multiplexers) [🔗](https://arran4.github.io/awesome-terminal-multiplexers/) | Simple awesome list of terminal multiplexers | awesome-list, terminal, terminal-multiplexers |
 | [arran4/ux](https://github.com/arran4/ux) [🔗](https://arran4.github.io/ux/) | Some design links I refer to  | awesome-list, design, docs, links, list, references, ui, ui-design, ux, ux-design |
 
-### cheatsheet
-| Repository | Description | Tags |
-|---|---|---|
-| [arran4/chat-barcodes](https://github.com/arran4/chat-barcodes) [🔗](https://arran4.github.io/barcode-cheatsheets) | Chat barcode cheatsheet | cheatsheet, barcodes, chat, chat-barcodes, chat-cheatsheet, chat-shortcuts |
-| [arran4/git-barcode-sheet](https://github.com/arran4/git-barcode-sheet) [🔗](https://arran4.github.io/barcode-cheatsheets) | Git barcode based cheat sheet | cheatsheet, barcode-cheatsheet, barcodes, git, git-barcodes, git-cheatsheet |
-| [arran4/vim-barcode-sheet](https://github.com/arran4/vim-barcode-sheet) [🔗](https://arran4.github.io/barcode-cheatsheets) | Vim Barcodes Cheat Sheet to help with vim  | cheatsheet, vim |
-
 ### cli
 | Repository | Description | Tags |
 |---|---|---|
@@ -200,6 +193,7 @@ Have questions or feedback? [Open an issue](https://github.com/arran4/arran4/iss
 | [arran4/go-template-functional-operations](https://github.com/arran4/go-template-functional-operations) | These functions enable a more functional programming style within template rendering, allowing you to easily perform operations like mapping, filtering, and finding indices directly within your templates. | go, functional-go-template, go-template, go-template-functions |
 | [arran4/goa4web](https://github.com/arran4/goa4web) | My everything website (server) from 2005 ported from C to GO. Ready for news, forums, link sharing, image sharing and more | go, cms, forum, image-sharing, link-sharing, news, personal, server, sql, webserver, website |
 | [arran4/gobookmarks](https://github.com/arran4/gobookmarks) | Landing page for when you open browsers / live bookmarks in go. | go, bookmarks, github, github-api, home-page, homepage, live-bookmarks, start-page, startpage, web |
+| [arran4/gogenconf](https://github.com/arran4/gogenconf) [🔗](https://arran4.github.io/gogenconf/) | Versioned declarative configuration language and schema system with generated strongly typed Go bindings. | go, code-generation, config, configuration, schema |
 | [arran4/gorillamuxlogic](https://github.com/arran4/gorillamuxlogic) | Some very simple gorilla mux logic for `mux.MatcherFunc` | go, gorilla, gorilla-mux, http, web |
 | [arran4/goxresources](https://github.com/arran4/goxresources) | go parser for xresource files  | go, dotfiles, xresources |
 
@@ -266,6 +260,7 @@ Have questions or feedback? [Open an issue](https://github.com/arran4/arran4/iss
 | [arran4/resume](https://github.com/arran4/resume) | Arrans Resume | cv, resume, typst |
 | [arran4/scoop-bucket](https://github.com/arran4/scoop-bucket) | Scoop bucket | scoop-bucket |
 | [arran4/tex_recipes_template](https://github.com/arran4/tex_recipes_template) | A very simple tex engine for recipes helpful for an AI world | recipes, template, tex |
+| [arran4/vim-barcode-sheet](https://github.com/arran4/vim-barcode-sheet) [🔗](https://arran4.github.io/barcode-cheatsheets) | Vim Barcodes Cheat Sheet to help with vim  | cheatsheet, vim |
 | [arran4/vlc-xattr-plugin](https://github.com/arran4/vlc-xattr-plugin) | A plugin for VLC to add "seen" to the `xdg.tags` list automatically when ever you watch anything | c, cmake, fs-attr, plugins, vlc, vlc-plugin, xattr |
 | [arran4/whirlpool-forum-rss](https://github.com/arran4/whirlpool-forum-rss) [🔗](https://arran4.github.io/whirlpool-forum-rss/) | An RSS Generator for the Whirlpool.net.au forums | rss, whirlpool, whirlpool-forums |
 

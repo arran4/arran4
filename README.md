@@ -81,7 +81,7 @@ Have questions or feedback? [Open an issue](https://github.com/arran4/arran4/iss
 | Repository | Description | Tags |
 |---|---|---|
 | [arran4/editorconfig-guesser](https://github.com/arran4/editorconfig-guesser) | Generates reasonable .editorconfig files for source files. | cli + go, detector, devtool, editorconfig, generator, generators |
-| [arran4/go-subcommand](https://github.com/arran4/go-subcommand) | Generates dependencyless go command line argument subcommand system | cli + go, cli-subcommands, flags, geneated-flags, go-generate, subcommands |
+| [arran4/go-subcommand](https://github.com/arran4/go-subcommand) [🔗](https://arran4.github.io/go-subcommand/) | Generates dependencyless go command line argument subcommand system | cli + go, cli-subcommands, flags, geneated-flags, go-generate, subcommands |
 | [arran4/mdsplit](https://github.com/arran4/mdsplit) | Splits markdown files into chunks suitable for processing with other tools or making into slides | cli + go, markdown |
 | [arran4/mostcomm](https://github.com/arran4/mostcomm) | A cli utility for finding the most common and sorting by length, lines-sets in a text file | cli + go, common, common-lines, diff, merge, multiple |
 | [arran4/move-dups-script](https://github.com/arran4/move-dups-script) | Simple program to move dups nothing really interesting - Once off go project which could have been a shell script | cli + go, golang-cli, shell-script-as-go |

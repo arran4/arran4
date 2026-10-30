@@ -235,6 +235,7 @@ Have questions or feedback? [Open an issue](https://github.com/arran4/arran4/iss
 |---|---|---|
 | [arran4/KMagMux](https://github.com/arran4/KMagMux) | Torrent and Magent file and protocol handler for routing to programs / services | kde, handler, intent, link, magnent, mux, torrent |
 | [arran4/kde-dev-rootfs](https://github.com/arran4/kde-dev-rootfs) | Dev container | kde, build, container, dev |
+| [arran4/klookup](https://github.com/arran4/klookup) | A KDE Plasma 6 lookup tool with extensible search providers, tabbed results, clipboard search and KRunner integration. | kde, cpp, desktop-application, kde-plasma, kf6, krunner, linux, lookup, plugin-system, qt6, search, wikipedia |
 
 ### library
 | Repository | Description | Tags |

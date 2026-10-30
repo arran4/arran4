@@ -82,6 +82,7 @@ Have questions or feedback? [Open an issue](https://github.com/arran4/arran4/iss
 |---|---|---|
 | [arran4/editorconfig-guesser](https://github.com/arran4/editorconfig-guesser) | Generates reasonable .editorconfig files for source files. | cli + go, detector, devtool, editorconfig, generator, generators |
 | [arran4/go-subcommand](https://github.com/arran4/go-subcommand) [🔗](https://arran4.github.io/go-subcommand/) | Generates dependencyless go command line argument subcommand system | cli + go, cli-subcommands, flags, geneated-flags, go-generate, subcommands |
+| [arran4/header](https://github.com/arran4/header) [🔗](https://arran4.github.io/header/) | Go CLI and library for extracting, validating, editing and visualizing website metadata, including Open Graph, Twitter Cards, JSON-LD and App Links. | cli + go, app-links, html-meta-tags, json-ld, link-preview, metadata-extraction, metadata-validation, opengraph, redirects, seo-tools, social-cards, twitter-cards, website-metadata |
 | [arran4/mdsplit](https://github.com/arran4/mdsplit) | Splits markdown files into chunks suitable for processing with other tools or making into slides | cli + go, markdown |
 | [arran4/mostcomm](https://github.com/arran4/mostcomm) | A cli utility for finding the most common and sorting by length, lines-sets in a text file | cli + go, common, common-lines, diff, merge, multiple |
 | [arran4/move-dups-script](https://github.com/arran4/move-dups-script) | Simple program to move dups nothing really interesting - Once off go project which could have been a shell script | cli + go, golang-cli, shell-script-as-go |
@@ -235,7 +236,7 @@ Have questions or feedback? [Open an issue](https://github.com/arran4/arran4/iss
 |---|---|---|
 | [arran4/KMagMux](https://github.com/arran4/KMagMux) | Torrent and Magent file and protocol handler for routing to programs / services | kde, handler, intent, link, magnent, mux, torrent |
 | [arran4/kde-dev-rootfs](https://github.com/arran4/kde-dev-rootfs) | Dev container | kde, build, container, dev |
-| [arran4/klookup](https://github.com/arran4/klookup) | A KDE Plasma 6 lookup tool with extensible search providers, tabbed results, clipboard search and KRunner integration. | kde, cpp, desktop-application, kde-plasma, kf6, krunner, linux, lookup, plugin-system, qt6, search, wikipedia |
+| [arran4/klookup](https://github.com/arran4/klookup) [🔗](https://arran4.github.io/klookup/) | A KDE Plasma 6 lookup tool with extensible search providers, tabbed results, clipboard search and KRunner integration. | kde, cpp, desktop-application, kde-plasma, kf6, krunner, linux, lookup, plugin-system, qt6, search, wikipedia |
 
 ### library
 | Repository | Description | Tags |

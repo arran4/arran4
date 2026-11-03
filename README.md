@@ -201,7 +201,6 @@ Have questions or feedback? [Open an issue](https://github.com/arran4/arran4/iss
 ### go + image
 | Repository | Description | Tags |
 |---|---|---|
-| [arran4/golang-frame](https://github.com/arran4/golang-frame) [🔗](https://pkg.go.dev/github.com/arran4/golang-frame) | A simple golang image frame drawing library (Draws a frame around something.) | go + image, library |
 | [arran4/golang-rpg-textbox](https://github.com/arran4/golang-rpg-textbox) [🔗](https://pkg.go.dev/github.com/arran4/golang-rpg-textbox#section-readme) | Golang image library to Renders a RPG style text box with word wrapped text of your choosing | go + image, game, rpg, rpg-game |
 | [arran4/golang-wordwrap](https://github.com/arran4/golang-wordwrap) [🔗](https://pkg.go.dev/github.com/arran4/golang-wordwrap) | Wordwrap library for golang images. | go + image, wordwrap |
 
@@ -213,7 +212,7 @@ Have questions or feedback? [Open an issue](https://github.com/arran4/arran4/iss
 | [arran4/go-consume](https://github.com/arran4/go-consume) | String and slice consumption librareis | go + library, parser, parsing, string, tokenizer |
 | [arran4/go-dynamic-content](https://github.com/arran4/go-dynamic-content) | Lazy or weak content retrievers (stream, file, http, etc) | go + library, file-mapped-content, weak-pointer |
 | [arran4/go-objectutils](https://github.com/arran4/go-objectutils) [🔗](https://pkg.go.dev/github.com/arran4/go-objectutils) | Go objectutils for go.  | go + library, type-converstion |
-| [arran4/go-rfc5849-hmac](https://github.com/arran4/go-rfc5849-hmac) | Implementation of rfc5849 hmac wrapper | go + library, rfc5849, rfc5849-hmac |
+| [arran4/golang-frame](https://github.com/arran4/golang-frame) [🔗](https://pkg.go.dev/github.com/arran4/golang-frame) | A simple golang image frame drawing library (Draws a frame around something.) | go + library, image |
 | [arran4/golang-ical](https://github.com/arran4/golang-ical) | A  ICS / ICal parser and serialiser for Golang. | go + library, ical, ics |
 | [arran4/golang-rcs](https://github.com/arran4/golang-rcs) [🔗](https://pkg.go.dev/github.com/arran4/golang-rcs) | golang rcs parser / generator, and utilities | go + library, rcs, vcs |
 | [arran4/spacemap](https://github.com/arran4/spacemap) [🔗](https://pkg.go.dev/github.com/arran4/spacemap) | 2d space mapper, using a couple different algorithms with an interchangable interface | go + library, image-mapper, location, location-lookup, space-mapping |

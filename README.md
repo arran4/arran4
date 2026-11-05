@@ -41,12 +41,6 @@ Have questions or feedback? [Open an issue](https://github.com/arran4/arran4/iss
 |---|---|---|
 | [arran4/gorillas-react](https://github.com/arran4/gorillas-react) [🔗](https://ai.studio/apps/drive/1BOLZ6UAK9YYH8kl5eU8Ihn6J-fxugrk0) | Generated gorillas in react | ai + game + generated + test, react |
 
-### ai + kde
-| Repository | Description | Tags |
-|---|---|---|
-| [arran4/kjules](https://github.com/arran4/kjules) | A C++ application built with KDE Frameworks that provides a desktop interface for interacting with the Google Jules API | ai + kde, desktop, google-jules, jules |
-| [arran4/kllamabooks](https://github.com/arran4/kllamabooks) | A KDE-styled QT application that interacts with local Ollama sessions and stores chat history locally via encrypted SQLite databases | ai + kde, chat, client, ollama |
-
 ### awesome-list
 | Repository | Description | Tags |
 |---|---|---|
@@ -82,6 +76,7 @@ Have questions or feedback? [Open an issue](https://github.com/arran4/arran4/iss
 |---|---|---|
 | [arran4/editorconfig-guesser](https://github.com/arran4/editorconfig-guesser) | Generates reasonable .editorconfig files for source files. | cli + go, detector, devtool, editorconfig, generator, generators |
 | [arran4/go-subcommand](https://github.com/arran4/go-subcommand) [🔗](https://arran4.github.io/go-subcommand/) | Generates dependencyless go command line argument subcommand system | cli + go, cli-subcommands, flags, geneated-flags, go-generate, subcommands |
+| [arran4/golang-gtroff](https://github.com/arran4/golang-gtroff) | pure-Go toolkit for parsing, inspecting, converting and rendering roff/man documents. | cli + go, ast, documentation, go-generate, groff, html, man-pages, parser, roff |
 | [arran4/header](https://github.com/arran4/header) [🔗](https://arran4.github.io/header/) | Go CLI and library for extracting, validating, editing and visualizing website metadata, including Open Graph, Twitter Cards, JSON-LD and App Links. | cli + go, app-links, html-meta-tags, json-ld, link-preview, metadata-extraction, metadata-validation, opengraph, redirects, seo-tools, social-cards, twitter-cards, website-metadata |
 | [arran4/mdsplit](https://github.com/arran4/mdsplit) | Splits markdown files into chunks suitable for processing with other tools or making into slides | cli + go, markdown |
 | [arran4/mostcomm](https://github.com/arran4/mostcomm) | A cli utility for finding the most common and sorting by length, lines-sets in a text file | cli + go, common, common-lines, diff, merge, multiple |
@@ -235,6 +230,7 @@ Have questions or feedback? [Open an issue](https://github.com/arran4/arran4/iss
 |---|---|---|
 | [arran4/KMagMux](https://github.com/arran4/KMagMux) | Torrent and Magent file and protocol handler for routing to programs / services | kde, handler, intent, link, magnent, mux, torrent |
 | [arran4/kde-dev-rootfs](https://github.com/arran4/kde-dev-rootfs) | Dev container | kde, build, container, dev |
+| [arran4/kllamabooks](https://github.com/arran4/kllamabooks) | A KDE-styled QT application that interacts with local Ollama sessions and stores chat history locally via encrypted SQLite databases | kde, ai, chat, client, ollama |
 | [arran4/klookup](https://github.com/arran4/klookup) [🔗](https://arran4.github.io/klookup/) | A KDE Plasma 6 lookup tool with extensible search providers, tabbed results, clipboard search and KRunner integration. | kde, cpp, desktop-application, kde-plasma, kf6, krunner, linux, lookup, plugin-system, qt6, search, wikipedia |
 
 ### library

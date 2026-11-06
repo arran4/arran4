@@ -2,7 +2,9 @@ name: Update README repo table
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 19 * * *'
+    # 05:07 AEST / 06:07 AEDT; off the hour to reduce schedule congestion.
+    # GitHub Actions scheduled runs are best-effort and may still start late.
+    - cron: '7 19 * * *'
 
 permissions:
   contents: write
@@ -12,6 +14,19 @@ jobs:
   update:
     runs-on: ubuntu-latest
     steps:
+      - name: Record actual schedule time
+        shell: bash
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          EVENT_SCHEDULE: ${{ github.event.schedule }}
+        run: |
+          {
+            echo '### README updater timing'
+            echo "- Trigger: ${EVENT_NAME}"
+            echo "- Scheduled cron (UTC): ${EVENT_SCHEDULE:-manual dispatch}"
+            echo "- Actual start (UTC): $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
+            echo "- Actual start (Melbourne): $(TZ=Australia/Melbourne date '+%Y-%m-%d %H:%M:%S %Z')"
+          } >> "$GITHUB_STEP_SUMMARY"
       - uses: actions/checkout@v4
       - name: Update table
         env:

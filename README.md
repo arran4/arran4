@@ -31,16 +31,6 @@ Have questions or feedback? [Open an issue](https://github.com/arran4/arran4/iss
 | [arran4/abc-kohler-report-rss](https://github.com/arran4/abc-kohler-report-rss) [🔗](https://arran4.github.io/abc-kohler-report-rss/) | RSS generator for ABC's Kohler Report | abc + rss, abc-news |
 | [arran4/abc-mediawatch-rss](https://github.com/arran4/abc-mediawatch-rss) [🔗](https://arran4.github.io/abc-mediawatch-rss/) | RSS generator for ABC's Media Watch | abc + rss, abc-media-watch |
 
-### ai + flutter + linux + utility
-| Repository | Description | Tags |
-|---|---|---|
-| [arran4/flutter_jules](https://github.com/arran4/flutter_jules) | My flutter based google jules client  | ai + flutter + linux + utility, app, google-jules, jules, macos, windows |
-
-### ai + game + generated + test
-| Repository | Description | Tags |
-|---|---|---|
-| [arran4/gorillas-react](https://github.com/arran4/gorillas-react) [🔗](https://ai.studio/apps/drive/1BOLZ6UAK9YYH8kl5eU8Ihn6J-fxugrk0) | Generated gorillas in react | ai + game + generated + test, react |
-
 ### awesome-list
 | Repository | Description | Tags |
 |---|---|---|
@@ -159,6 +149,11 @@ Have questions or feedback? [Open an issue](https://github.com/arran4/arran4/iss
 |---|---|---|
 | [arran4/phonenumber](https://github.com/arran4/phonenumber) | A generator for the nokia phone keyboard meme | for-fun + generator + go, meme, nokia, nokia-keyboard, phone, phonenumber |
 
+### game + generated + test
+| Repository | Description | Tags |
+|---|---|---|
+| [arran4/gorillas-react](https://github.com/arran4/gorillas-react) [🔗](https://ai.studio/apps/drive/1BOLZ6UAK9YYH8kl5eU8Ihn6J-fxugrk0) | Generated gorillas in react | game + generated + test, ai, react |
+
 ### gentoo
 | Repository | Description | Tags |
 |---|---|---|
@@ -170,6 +165,12 @@ Have questions or feedback? [Open an issue](https://github.com/arran4/arran4/iss
 |---|---|---|
 | [arran4/arrans_overlay_workflow_builder](https://github.com/arran4/arrans_overlay_workflow_builder) | A gentoo overlay ebuild workflow builder generator for -bin with a special purpose handler for .appimage binary files | gentoo + github-actions, builder, ebuild, generator, overlay |
 | [arran4/g2-action](https://github.com/arran4/g2-action) | g2 github workflow action | gentoo + github-actions, ci, g2, workflows |
+
+### gentoo + go
+| Repository | Description | Tags |
+|---|---|---|
+| [arran4/eselect-version-manager](https://github.com/arran4/eselect-version-manager) [🔗](https://arran4.github.io/eselect-version-manager/) | Gentoo-native project-aware toolchain version selection using eselect, Portage and user-local PATH shims. | gentoo + go, developer-tools, eselect, linux, portage, python, toolchain, version-manager, xdg |
+| [arran4/g2](https://github.com/arran4/g2) [🔗](https://pkg.go.dev/github.com/arran4/g2) | g2 Gentoo Tools | gentoo + go, gentoo-utils |
 
 ### github + github-actions + go
 | Repository | Description | Tags |
@@ -185,7 +186,6 @@ Have questions or feedback? [Open an issue](https://github.com/arran4/arran4/iss
 | Repository | Description | Tags |
 |---|---|---|
 | [arran4/fontlengths](https://github.com/arran4/fontlengths) | Font lengths tester by generating pngs of each font and sorting by length automatically | go, font-length, fonts, for-fun, png-generator |
-| [arran4/g2](https://github.com/arran4/g2) [🔗](https://pkg.go.dev/github.com/arran4/g2) | g2 Gentoo Tools | go, gentoo, gentoo-utils |
 | [arran4/go-template-functional-operations](https://github.com/arran4/go-template-functional-operations) | These functions enable a more functional programming style within template rendering, allowing you to easily perform operations like mapping, filtering, and finding indices directly within your templates. | go, functional-go-template, go-template, go-template-functions |
 | [arran4/goa4web](https://github.com/arran4/goa4web) | My everything website (server) from 2005 ported from C to GO. Ready for news, forums, link sharing, image sharing and more | go, cms, forum, image-sharing, link-sharing, news, personal, server, sql, webserver, website |
 | [arran4/gobookmarks](https://github.com/arran4/gobookmarks) | Landing page for when you open browsers / live bookmarks in go. | go, bookmarks, github, github-api, home-page, homepage, live-bookmarks, start-page, startpage, web |
@@ -246,6 +246,7 @@ Have questions or feedback? [Open an issue](https://github.com/arran4/arran4/iss
 | [arran4/awesome-pocketchip](https://github.com/arran4/awesome-pocketchip) | A list of pocketchip resources | awesomelist, chip, pocketchip |
 | [arran4/dart-udt](https://github.com/arran4/dart-udt) [🔗](https://pub.dev/packages/dart_udt) | AI port of UDT library from source forge to Dart | dart, udt |
 | [arran4/dotfiles](https://github.com/arran4/dotfiles) | Just a collection of dotfiles managed by Chezmoi | chezmoi, dotfiles |
+| [arran4/eselect-version-manager-overlay](https://github.com/arran4/eselect-version-manager-overlay) |  |  |
 | [arran4/git-tag-inc-action](https://github.com/arran4/git-tag-inc-action) [🔗](https://github.com/arran4/git-tag-inc) | An action for incrementing semantic git tags | git-tag-inc, github-actions, semantic-tagging, semantic-versions, tag-manager |
 | [arran4/goreleaser-gentoo-smoke](https://github.com/arran4/goreleaser-gentoo-smoke) |  |  |
 | [arran4/goreleaser-gentoo-smoke-overlay](https://github.com/arran4/goreleaser-gentoo-smoke-overlay) |  |  |

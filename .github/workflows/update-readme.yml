@@ -2,9 +2,12 @@ name: Update README repo table
 on:
   workflow_dispatch:
   schedule:
-    # 05:07 AEST / 06:07 AEDT; off the hour to reduce schedule congestion.
-    # GitHub Actions scheduled runs are best-effort and may still start late.
-    - cron: '7 19 * * *'
+    # Target completion: before 06:00 AEDT / 07:00 AEST the following morning.
+    # Start at 21:17 Melbourne time the preceding evening to allow for the
+    # multi-hour delays observed with GitHub Actions scheduled workflows.
+    # This is best-effort: GitHub may still delay or drop scheduled runs.
+    - cron: '17 21 * * *'
+      timezone: 'Australia/Melbourne'
 
 permissions:
   contents: write

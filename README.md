@@ -154,23 +154,28 @@ Have questions or feedback? [Open an issue](https://github.com/arran4/arran4/iss
 |---|---|---|
 | [arran4/gorillas-react](https://github.com/arran4/gorillas-react) [🔗](https://ai.studio/apps/drive/1BOLZ6UAK9YYH8kl5eU8Ihn6J-fxugrk0) | Generated gorillas in react | game + generated + test, ai, react |
 
+### generator + gentoo + github-actions + overlay
+| Repository | Description | Tags |
+|---|---|---|
+| [arran4/arrans_overlay_workflow_builder](https://github.com/arran4/arrans_overlay_workflow_builder) | A gentoo overlay ebuild workflow builder generator for -bin with a special purpose handler for .appimage binary files | generator + gentoo + github-actions + overlay, builder, ebuild |
+
 ### gentoo
 | Repository | Description | Tags |
 |---|---|---|
 | [arran4/arrans_overlay](https://github.com/arran4/arrans_overlay) [🔗](https://arran4.github.io/arrans_overlay/) | Arrans Gentoo Overlay | gentoo, overlay |
+| [arran4/g2-action](https://github.com/arran4/g2-action) | g2 github workflow action | gentoo, ci, g2, github-actions, workflows |
 | [arran4/gentoo-packages](https://github.com/arran4/gentoo-packages) [🔗](https://arran4.github.io/gentoo-packages/) | Gentoo packages | gentoo, generated-sites, gentoo-packages |
-
-### gentoo + github-actions
-| Repository | Description | Tags |
-|---|---|---|
-| [arran4/arrans_overlay_workflow_builder](https://github.com/arran4/arrans_overlay_workflow_builder) | A gentoo overlay ebuild workflow builder generator for -bin with a special purpose handler for .appimage binary files | gentoo + github-actions, builder, ebuild, generator, overlay |
-| [arran4/g2-action](https://github.com/arran4/g2-action) | g2 github workflow action | gentoo + github-actions, ci, g2, workflows |
 
 ### gentoo + go
 | Repository | Description | Tags |
 |---|---|---|
 | [arran4/eselect-version-manager](https://github.com/arran4/eselect-version-manager) [🔗](https://arran4.github.io/eselect-version-manager/) | Gentoo-native project-aware toolchain version selection using eselect, Portage and user-local PATH shims. | gentoo + go, developer-tools, eselect, linux, portage, python, toolchain, version-manager, xdg |
 | [arran4/g2](https://github.com/arran4/g2) [🔗](https://pkg.go.dev/github.com/arran4/g2) | g2 Gentoo Tools | gentoo + go, gentoo-utils |
+
+### gentoo + linux + overlay
+| Repository | Description | Tags |
+|---|---|---|
+| [arran4/eselect-version-manager-overlay](https://github.com/arran4/eselect-version-manager-overlay) [🔗](https://arran4.github.io/eselect-version-manager-overlay/) | Gentoo Portage overlay for eselect-version-manager, with package ebuilds, toolchain experiments and isolated integration fixtures. | gentoo + linux + overlay, developer-tools, ebuild, eselect, g2, portage, toolchain, version-manager |
 
 ### github + github-actions + go
 | Repository | Description | Tags |
@@ -246,7 +251,7 @@ Have questions or feedback? [Open an issue](https://github.com/arran4/arran4/iss
 | [arran4/awesome-pocketchip](https://github.com/arran4/awesome-pocketchip) | A list of pocketchip resources | awesomelist, chip, pocketchip |
 | [arran4/dart-udt](https://github.com/arran4/dart-udt) [🔗](https://pub.dev/packages/dart_udt) | AI port of UDT library from source forge to Dart | dart, udt |
 | [arran4/dotfiles](https://github.com/arran4/dotfiles) | Just a collection of dotfiles managed by Chezmoi | chezmoi, dotfiles |
-| [arran4/eselect-version-manager-overlay](https://github.com/arran4/eselect-version-manager-overlay) |  |  |
+| [arran4/gentoo-overlay-publisher](https://github.com/arran4/gentoo-overlay-publisher) |  |  |
 | [arran4/git-tag-inc-action](https://github.com/arran4/git-tag-inc-action) [🔗](https://github.com/arran4/git-tag-inc) | An action for incrementing semantic git tags | git-tag-inc, github-actions, semantic-tagging, semantic-versions, tag-manager |
 | [arran4/goreleaser-gentoo-smoke](https://github.com/arran4/goreleaser-gentoo-smoke) |  |  |
 | [arran4/goreleaser-gentoo-smoke-overlay](https://github.com/arran4/goreleaser-gentoo-smoke-overlay) |  |  |

@@ -68,9 +68,9 @@ List of repositories and their licenses.
 ### GPL-2.0
 | Repository | Description | License | Tags |
 |---|---|---|---|
-| [arran4/arrans_overlay_workflow_builder](https://github.com/arran4/arrans_overlay_workflow_builder) | A gentoo overlay ebuild workflow builder generator for -bin with a special purpose handler for .appimage binary files | GPL-2.0 | gentoo + github-actions, builder, ebuild, generator, overlay |
+| [arran4/arrans_overlay_workflow_builder](https://github.com/arran4/arrans_overlay_workflow_builder) | A gentoo overlay ebuild workflow builder generator for -bin with a special purpose handler for .appimage binary files | GPL-2.0 | generator + gentoo + github-actions + overlay, builder, ebuild |
 | [arran4/g2](https://github.com/arran4/g2) [🔗](https://pkg.go.dev/github.com/arran4/g2) | g2 Gentoo Tools | GPL-2.0 | gentoo + go, gentoo-utils |
-| [arran4/g2-action](https://github.com/arran4/g2-action) | g2 github workflow action | GPL-2.0 | gentoo + github-actions, ci, g2, workflows |
+| [arran4/g2-action](https://github.com/arran4/g2-action) | g2 github workflow action | GPL-2.0 | gentoo, ci, g2, github-actions, workflows |
 | [arran4/git-tag-inc-action](https://github.com/arran4/git-tag-inc-action) [🔗](https://github.com/arran4/git-tag-inc) | An action for incrementing semantic git tags | GPL-2.0 | git-tag-inc, github-actions, semantic-tagging, semantic-versions, tag-manager |
 
 ### GPL-3.0
@@ -142,7 +142,8 @@ List of repositories and their licenses.
 |---|---|---|---|
 | [arran4/awesome-pocketchip](https://github.com/arran4/awesome-pocketchip) | A list of pocketchip resources |  | awesomelist, chip, pocketchip |
 | [arran4/eselect-version-manager](https://github.com/arran4/eselect-version-manager) [🔗](https://arran4.github.io/eselect-version-manager/) | Gentoo-native project-aware toolchain version selection using eselect, Portage and user-local PATH shims. |  | gentoo + go, developer-tools, eselect, linux, portage, python, toolchain, version-manager, xdg |
-| [arran4/eselect-version-manager-overlay](https://github.com/arran4/eselect-version-manager-overlay) |  |  |  |
+| [arran4/eselect-version-manager-overlay](https://github.com/arran4/eselect-version-manager-overlay) [🔗](https://arran4.github.io/eselect-version-manager-overlay/) | Gentoo Portage overlay for eselect-version-manager, with package ebuilds, toolchain experiments and isolated integration fixtures. |  | gentoo + linux + overlay, developer-tools, ebuild, eselect, g2, portage, toolchain, version-manager |
+| [arran4/gentoo-overlay-publisher](https://github.com/arran4/gentoo-overlay-publisher) |  |  |  |
 | [arran4/goreleaser-gentoo-smoke-overlay](https://github.com/arran4/goreleaser-gentoo-smoke-overlay) |  |  |  |
 | [arran4/issue-snooze](https://github.com/arran4/issue-snooze) | A GitHub bot that lets you snooze issues and pull requests using comments, automatically reminding you when they're due. |  | github + github-actions + go, automation, github-bot, github-issues, issue-tracker, reminders, snooze, webhooks |
 | [arran4/kde-dev-rootfs](https://github.com/arran4/kde-dev-rootfs) | Dev container |  | kde, build, container, dev |

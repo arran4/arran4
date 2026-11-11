@@ -35,9 +35,25 @@ Have questions or feedback? [Open an issue](https://github.com/arran4/arran4/iss
 | Repository | Description | Tags |
 |---|---|---|
 | [arran4/awesome-fodmap-resources](https://github.com/arran4/awesome-fodmap-resources) [🔗](https://arran4.github.io/awesome-fodmap-resources/) | Compilation of Low Fodmap resources | awesome-list, fodmap, fodmaps, low-fodmap |
+| [arran4/awesome-pocketchip](https://github.com/arran4/awesome-pocketchip) [🔗](https://arran4.github.io/awesome-pocketchip/) | Curated resources, firmware links, repair guides, and community projects for PocketC.H.I.P. and C.H.I.P. | awesome-list, awesomelist, chip, firmware, hardware, linux, pocketchip, retro-computing, single-board-computer |
 | [arran4/awesome-postserver](https://github.com/arran4/awesome-postserver) [🔗](https://arran4.github.io/awesome-postserver/) | Awesome Post-Cloud Post-NAS (True Serverless) Syncing | awesome-list, list, postnas, postserver, serverless, true-serverless |
 | [arran4/awesome-terminal-multiplexers](https://github.com/arran4/awesome-terminal-multiplexers) [🔗](https://arran4.github.io/awesome-terminal-multiplexers/) | Simple awesome list of terminal multiplexers | awesome-list, terminal, terminal-multiplexers |
 | [arran4/ux](https://github.com/arran4/ux) [🔗](https://arran4.github.io/ux/) | Some design links I refer to  | awesome-list, design, docs, links, list, references, ui, ui-design, ux, ux-design |
+
+### ci + ebuild + gentoo + go
+| Repository | Description | Tags |
+|---|---|---|
+| [arran4/goreleaser-gentoo-smoke](https://github.com/arran4/goreleaser-gentoo-smoke) | Disposable GoReleaser smoke-test app for generating Gentoo binary ebuilds and publishing them to an overlay. | ci + ebuild + gentoo + go, goreleaser, release-automation, smoke-test |
+
+### ci + ebuild + gentoo + overlay
+| Repository | Description | Tags |
+|---|---|---|
+| [arran4/goreleaser-gentoo-smoke-overlay](https://github.com/arran4/goreleaser-gentoo-smoke-overlay) | Disposable Gentoo overlay receiving generated ebuilds from the GoReleaser smoke-test workflow. | ci + ebuild + gentoo + overlay, goreleaser, smoke-test |
+
+### ci + gentoo + github-actions
+| Repository | Description | Tags |
+|---|---|---|
+| [arran4/g2-action](https://github.com/arran4/g2-action) | g2 github workflow action | ci + gentoo + github-actions, g2, workflows |
 
 ### cli
 | Repository | Description | Tags |
@@ -78,7 +94,7 @@ Have questions or feedback? [Open an issue](https://github.com/arran4/arran4/iss
 ### cli + go + library + test
 | Repository | Description | Tags |
 |---|---|---|
-| [arran4/golang-diff](https://github.com/arran4/golang-diff) | A multiline string comparsion library (and tool.) | cli + go + library + test, comparison, diff |
+| [arran4/golang-diff](https://github.com/arran4/golang-diff) [🔗](https://pkg.go.dev/github.com/arran4/golang-diff) | Go library and CLI for side-by-side, character-level text diffs, recursive directory comparisons, and patching. | cli + go + library + test, comparison, diff, terminal, text-diff |
 
 ### cli + go + library + utility
 | Repository | Description | Tags |
@@ -102,7 +118,6 @@ Have questions or feedback? [Open an issue](https://github.com/arran4/arran4/iss
 | [arran4/git-tag-inc](https://github.com/arran4/git-tag-inc) | Yet another semantic version incrementor and tagger for git  | cli + go + utility, git, git-tag, git-tags, semantic, semantic-versioning |
 | [arran4/go-lojban-password-gen](https://github.com/arran4/go-lojban-password-gen) | Lojban password generator - Generate passwords that use lojban | cli + go + utility, binary, generator, lojban, password, password-generator |
 | [arran4/podcast-cdr-manager](https://github.com/arran4/podcast-cdr-manager) | CLI tool to help manage podcast subscriptions for burning to CDROMs / CDR / CDRW | cli + go + utility, iso, iso9660, podcasts |
-| [arran4/skillsmatrixkmeans](https://github.com/arran4/skillsmatrixkmeans) | k-means clustering of skills of people to identify weaknesses | cli + go + utility, employment, graphs, jobs, k-means, teams |
 
 ### dart + datastore + flutter + utility
 | Repository | Description | Tags |
@@ -113,13 +128,29 @@ Have questions or feedback? [Open an issue](https://github.com/arran4/arran4/iss
 | Repository | Description | Tags |
 |---|---|---|
 | [arran4/dart_unix_single_instance](https://github.com/arran4/dart_unix_single_instance) [🔗](https://pub.dev/packages/unix_single_instance) | A library which uses unix sockets to ensure a single instance | dart + flutter + library, single-instance, unix |
-| [arran4/flutter_nodelistview](https://github.com/arran4/flutter_nodelistview) | A flutter widget which uses an infinite list of double linked nodes | dart + flutter + library, listview |
+| [arran4/flutter_nodelistview](https://github.com/arran4/flutter_nodelistview) | Flutter widget for bidirectional infinite scrolling over doubly linked nodes with dynamic sizing and viewport controls. | dart + flutter + library, flutter-widget, infinite-scroll, linked-list, listview |
 
 ### datastore + go + google-app-engine + library
 | Repository | Description | Tags |
 |---|---|---|
 | [arran4/datastoreutils](https://github.com/arran4/datastoreutils) [🔗](https://pkg.go.dev/github.com/arran4/datastoreutils) | Basic google cloud datastore helpers | datastore + go + google-app-engine + library, google-datastore |
 | [arran4/dsquery](https://github.com/arran4/dsquery) [🔗](https://pkg.go.dev/github.com/arran4/dsquery) | A google datastore query aggregator and compiler with some minor enhancements | datastore + go + google-app-engine + library |
+
+### ebuild + generator + gentoo + github-actions + overlay
+| Repository | Description | Tags |
+|---|---|---|
+| [arran4/arrans_overlay_workflow_builder](https://github.com/arran4/arrans_overlay_workflow_builder) | A gentoo overlay ebuild workflow builder generator for -bin with a special purpose handler for .appimage binary files | ebuild + generator + gentoo + github-actions + overlay, builder |
+
+### ebuild + gentoo + github-actions + go + overlay + portage
+| Repository | Description | Tags |
+|---|---|---|
+| [arran4/gentoo-overlay-publisher](https://github.com/arran4/gentoo-overlay-publisher) [🔗](https://arran4.github.io/gentoo-overlay-publisher/) | Reusable Go library and GitHub Action for generating ebuilds and safely publishing Gentoo overlay updates. | ebuild + gentoo + github-actions + go + overlay + portage, gentoo-linux, package-management, release-automation |
+
+### ebuild + gentoo + overlay + portage
+| Repository | Description | Tags |
+|---|---|---|
+| [arran4/eselect-version-manager-overlay](https://github.com/arran4/eselect-version-manager-overlay) [🔗](https://arran4.github.io/eselect-version-manager-overlay/) | Gentoo Portage overlay for eselect-version-manager, with package ebuilds, toolchain experiments and isolated integration fixtures. | ebuild + gentoo + overlay + portage, developer-tools, eselect, g2, linux, toolchain, version-manager |
+| [arran4/gentoo-overlay-publisher-smoke-overlay](https://github.com/arran4/gentoo-overlay-publisher-smoke-overlay) | Dedicated disposable Gentoo overlay for end-to-end testing of Gentoo Overlay Publisher: ebuild and metadata reconciliation, Manifest generation, GitHub pull-request publication, and Portage installation. Not for production use. | ebuild + gentoo + overlay + portage, gentoo-linux, integration-testing, overlay-publisher, smoke-testing |
 
 ### experiment + for-fun + generated + generator + go + test
 | Repository | Description | Tags |
@@ -154,28 +185,16 @@ Have questions or feedback? [Open an issue](https://github.com/arran4/arran4/iss
 |---|---|---|
 | [arran4/gorillas-react](https://github.com/arran4/gorillas-react) [🔗](https://ai.studio/apps/drive/1BOLZ6UAK9YYH8kl5eU8Ihn6J-fxugrk0) | Generated gorillas in react | game + generated + test, ai, react |
 
-### generator + gentoo + github-actions + overlay
-| Repository | Description | Tags |
-|---|---|---|
-| [arran4/arrans_overlay_workflow_builder](https://github.com/arran4/arrans_overlay_workflow_builder) | A gentoo overlay ebuild workflow builder generator for -bin with a special purpose handler for .appimage binary files | generator + gentoo + github-actions + overlay, builder, ebuild |
-
 ### gentoo
 | Repository | Description | Tags |
 |---|---|---|
 | [arran4/arrans_overlay](https://github.com/arran4/arrans_overlay) [🔗](https://arran4.github.io/arrans_overlay/) | Arrans Gentoo Overlay | gentoo, overlay |
-| [arran4/g2-action](https://github.com/arran4/g2-action) | g2 github workflow action | gentoo, ci, g2, github-actions, workflows |
 | [arran4/gentoo-packages](https://github.com/arran4/gentoo-packages) [🔗](https://arran4.github.io/gentoo-packages/) | Gentoo packages | gentoo, generated-sites, gentoo-packages |
 
-### gentoo + go
+### gentoo + go + linux + portage
 | Repository | Description | Tags |
 |---|---|---|
-| [arran4/eselect-version-manager](https://github.com/arran4/eselect-version-manager) [🔗](https://arran4.github.io/eselect-version-manager/) | Gentoo-native project-aware toolchain version selection using eselect, Portage and user-local PATH shims. | gentoo + go, developer-tools, eselect, linux, portage, python, toolchain, version-manager, xdg |
-| [arran4/g2](https://github.com/arran4/g2) [🔗](https://pkg.go.dev/github.com/arran4/g2) | g2 Gentoo Tools | gentoo + go, gentoo-utils |
-
-### gentoo + linux + overlay
-| Repository | Description | Tags |
-|---|---|---|
-| [arran4/eselect-version-manager-overlay](https://github.com/arran4/eselect-version-manager-overlay) [🔗](https://arran4.github.io/eselect-version-manager-overlay/) | Gentoo Portage overlay for eselect-version-manager, with package ebuilds, toolchain experiments and isolated integration fixtures. | gentoo + linux + overlay, developer-tools, ebuild, eselect, g2, portage, toolchain, version-manager |
+| [arran4/eselect-version-manager](https://github.com/arran4/eselect-version-manager) [🔗](https://arran4.github.io/eselect-version-manager/) | Gentoo-native project-aware toolchain version selection using eselect, Portage and user-local PATH shims. | gentoo + go + linux + portage, developer-tools, eselect, python, toolchain, version-manager, xdg |
 
 ### github + github-actions + go
 | Repository | Description | Tags |
@@ -191,6 +210,7 @@ Have questions or feedback? [Open an issue](https://github.com/arran4/arran4/iss
 | Repository | Description | Tags |
 |---|---|---|
 | [arran4/fontlengths](https://github.com/arran4/fontlengths) | Font lengths tester by generating pngs of each font and sorting by length automatically | go, font-length, fonts, for-fun, png-generator |
+| [arran4/g2](https://github.com/arran4/g2) [🔗](https://pkg.go.dev/github.com/arran4/g2) | g2 Gentoo Tools | go, gentoo, gentoo-utils |
 | [arran4/go-template-functional-operations](https://github.com/arran4/go-template-functional-operations) | These functions enable a more functional programming style within template rendering, allowing you to easily perform operations like mapping, filtering, and finding indices directly within your templates. | go, functional-go-template, go-template, go-template-functions |
 | [arran4/goa4web](https://github.com/arran4/goa4web) | My everything website (server) from 2005 ported from C to GO. Ready for news, forums, link sharing, image sharing and more | go, cms, forum, image-sharing, link-sharing, news, personal, server, sql, webserver, website |
 | [arran4/gobookmarks](https://github.com/arran4/gobookmarks) | Landing page for when you open browsers / live bookmarks in go. | go, bookmarks, github, github-api, home-page, homepage, live-bookmarks, start-page, startpage, web |
@@ -220,7 +240,7 @@ Have questions or feedback? [Open an issue](https://github.com/arran4/arran4/iss
 ### go + rss
 | Repository | Description | Tags |
 |---|---|---|
-| [arran4/phpbb2-rss](https://github.com/arran4/phpbb2-rss) | RSS generator for any phpbb2 forum | go + rss, phpbb, phpbb2 |
+| [arran4/phpbb2-rss](https://github.com/arran4/phpbb2-rss) | Go CLI to convert phpBB2 forum topic listings into RSS feeds for scheduled publication. | go + rss, phpbb, phpbb2 |
 | [arran4/rss-test-server-proof-of-issue](https://github.com/arran4/rss-test-server-proof-of-issue) | A test server for an rss issue | go + rss, issue, single-purpose-app, testing-code |
 
 ### hugo
@@ -234,9 +254,14 @@ Have questions or feedback? [Open an issue](https://github.com/arran4/arran4/iss
 | Repository | Description | Tags |
 |---|---|---|
 | [arran4/KMagMux](https://github.com/arran4/KMagMux) | Torrent and Magent file and protocol handler for routing to programs / services | kde, handler, intent, link, magnent, mux, torrent |
-| [arran4/kde-dev-rootfs](https://github.com/arran4/kde-dev-rootfs) | Dev container | kde, build, container, dev |
 | [arran4/kllamabooks](https://github.com/arran4/kllamabooks) | A KDE-styled QT application that interacts with local Ollama sessions and stores chat history locally via encrypted SQLite databases | kde, ai, chat, client, ollama |
-| [arran4/klookup](https://github.com/arran4/klookup) [🔗](https://arran4.github.io/klookup/) | A KDE Plasma 6 lookup tool with extensible search providers, tabbed results, clipboard search and KRunner integration. | kde, cpp, desktop-application, kde-plasma, kf6, krunner, linux, lookup, plugin-system, qt6, search, wikipedia |
+
+### kde + qt6
+| Repository | Description | Tags |
+|---|---|---|
+| [arran4/kde-dev-rootfs](https://github.com/arran4/kde-dev-rootfs) | Reproducible Debian testing rootfs with Qt 6 and KDE Frameworks 6 for CI, chroots, and development agents. | kde + qt6, build, ci, container, debian, dev, development-environment, ghcr, kf6, rootfs |
+| [arran4/klookup](https://github.com/arran4/klookup) [🔗](https://arran4.github.io/klookup/) | A KDE Plasma 6 lookup tool with extensible search providers, tabbed results, clipboard search and KRunner integration. | kde + qt6, cpp, desktop-application, kde-plasma, kf6, krunner, linux, lookup, plugin-system, search, wikipedia |
+| [arran4/qt-kde-lint](https://github.com/arran4/qt-kde-lint) | Custom high-precision clang-tidy and QML lint rules for Qt 6 and KDE applications, with regression fixtures. | kde + qt6, clang-tidy, clazy, cpp, linting, python, qml, static-analysis |
 
 ### library
 | Repository | Description | Tags |
@@ -247,19 +272,14 @@ Have questions or feedback? [Open an issue](https://github.com/arran4/arran4/iss
 ### Unmatched
 | Repository | Description | Tags |
 |---|---|---|
-| [arran4/arran4](https://github.com/arran4/arran4) [🔗](https://arran4.github.io/ ) | Github Profile landing page github repo | github, github-profile, github-profile-readme |
-| [arran4/awesome-pocketchip](https://github.com/arran4/awesome-pocketchip) | A list of pocketchip resources | awesomelist, chip, pocketchip |
+| [arran4/arran4](https://github.com/arran4/arran4) [🔗](https://arran4.github.io/) | GitHub profile README and automatically maintained project index. | github, github-profile, github-profile-readme |
 | [arran4/dart-udt](https://github.com/arran4/dart-udt) [🔗](https://pub.dev/packages/dart_udt) | AI port of UDT library from source forge to Dart | dart, udt |
 | [arran4/dotfiles](https://github.com/arran4/dotfiles) | Just a collection of dotfiles managed by Chezmoi | chezmoi, dotfiles |
-| [arran4/gentoo-overlay-publisher](https://github.com/arran4/gentoo-overlay-publisher) |  |  |
 | [arran4/git-tag-inc-action](https://github.com/arran4/git-tag-inc-action) [🔗](https://github.com/arran4/git-tag-inc) | An action for incrementing semantic git tags | git-tag-inc, github-actions, semantic-tagging, semantic-versions, tag-manager |
-| [arran4/goreleaser-gentoo-smoke](https://github.com/arran4/goreleaser-gentoo-smoke) |  |  |
-| [arran4/goreleaser-gentoo-smoke-overlay](https://github.com/arran4/goreleaser-gentoo-smoke-overlay) |  |  |
 | [arran4/homebrew-tap](https://github.com/arran4/homebrew-tap) | My homebrew tap semiautomated.. maybe? | homebrew, homebrew-tap, tap |
 | [arran4/idea-txtar-support-plugin](https://github.com/arran4/idea-txtar-support-plugin) [🔗](https://plugins.jetbrains.com/plugin/30286-txtar-file-support) | Jetbrains Idea txtar support plugin | idea, java, jetbrains, plugin, txtar |
 | [arran4/lxa](https://github.com/arran4/lxa) | ls with extended attributes | fs-attr, linux, ls, xattr, xdp |
 | [arran4/pocketchip-apt-rescue](https://github.com/arran4/pocketchip-apt-rescue) | Pocketchip original firmware re-routing proxy for debian upgrades | chip, debian, frimware-update, pocketchpi |
-| [arran4/qt-kde-lint](https://github.com/arran4/qt-kde-lint) |  |  |
 | [arran4/resume](https://github.com/arran4/resume) | Arrans Resume | cv, resume, typst |
 | [arran4/scoop-bucket](https://github.com/arran4/scoop-bucket) | Scoop bucket | scoop-bucket |
 | [arran4/tex_recipes_template](https://github.com/arran4/tex_recipes_template) | A very simple tex engine for recipes helpful for an AI world | recipes, template, tex |

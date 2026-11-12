@@ -152,6 +152,7 @@ List of repositories and their licenses.
 | [arran4/qt-kde-lint](https://github.com/arran4/qt-kde-lint) | Custom high-precision clang-tidy and QML lint rules for Qt 6 and KDE applications, with regression fixtures. |  | kde + qt6, clang-tidy, clazy, cpp, linting, python, qml, static-analysis |
 | [arran4/rss-test-server-proof-of-issue](https://github.com/arran4/rss-test-server-proof-of-issue) | A test server for an rss issue |  | go + rss, issue, single-purpose-app, testing-code |
 | [arran4/scoop-bucket](https://github.com/arran4/scoop-bucket) | Scoop bucket |  | scoop-bucket |
+| [arran4/test3](https://github.com/arran4/test3) |  |  |  |
 
 ### Unlicense
 | Repository | Description | License | Tags |

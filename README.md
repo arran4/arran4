@@ -282,6 +282,7 @@ Have questions or feedback? [Open an issue](https://github.com/arran4/arran4/iss
 | [arran4/pocketchip-apt-rescue](https://github.com/arran4/pocketchip-apt-rescue) | Pocketchip original firmware re-routing proxy for debian upgrades | chip, debian, frimware-update, pocketchpi |
 | [arran4/resume](https://github.com/arran4/resume) | Arrans Resume | cv, resume, typst |
 | [arran4/scoop-bucket](https://github.com/arran4/scoop-bucket) | Scoop bucket | scoop-bucket |
+| [arran4/test3](https://github.com/arran4/test3) |  |  |
 | [arran4/tex_recipes_template](https://github.com/arran4/tex_recipes_template) | A very simple tex engine for recipes helpful for an AI world | recipes, template, tex |
 | [arran4/vim-barcode-sheet](https://github.com/arran4/vim-barcode-sheet) [🔗](https://arran4.github.io/barcode-cheatsheets) | Vim Barcodes Cheat Sheet to help with vim  | cheatsheet, vim |
 | [arran4/vlc-xattr-plugin](https://github.com/arran4/vlc-xattr-plugin) | A plugin for VLC to add "seen" to the `xdg.tags` list automatically when ever you watch anything | c, cmake, fs-attr, plugins, vlc, vlc-plugin, xattr |

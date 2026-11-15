@@ -482,133 +482,16 @@ def main(input_stream=None):
         if repo.release != repo.old_release:
             release_updates.append(repo)
 
-    if not repo_changes:
-        return
 
-    print("## Summary")
+    # Use the same parsed records for the overview and the complete appendix.
+    # Direct execution and package imports have different Python module paths.
+    if __package__:
+        from .weekly_digest import render_report
+    else:
+        from weekly_digest import render_report
+    render_report(repo_changes, languages, format_card, parse_date,
+                  get_release_link, escape_md)
 
-    if added_repos:
-        print(f"\n**{len(added_repos)} repos added:**")
-        print(", ".join(added_repos))
-
-    if added_stars:
-        print(f"\n**{len(added_stars)} repos starred:**")
-        print(", ".join(added_stars))
-
-    if removed_repos:
-        print(f"\n**{len(removed_repos)} repos removed:**")
-        print(", ".join(removed_repos))
-
-    if desc_updates:
-        print(f"\n**{len(desc_updates)} repos had updated descriptions including:**")
-        print(", ".join(desc_updates))
-
-    if tag_updates:
-        print(f"\n**{len(tag_updates)} repos had updated tags:**")
-        all_added = set()
-        all_removed = set()
-        repos_added = []
-        repos_removed = []
-        repos_replaced = []
-        for link, old, new in tag_updates:
-            added = new - old
-            removed = old - new
-            all_added.update(added)
-            all_removed.update(removed)
-            if added and not removed:
-                repos_added.append(link)
-            elif removed and not added:
-                repos_removed.append(link)
-            else:
-                repos_replaced.append(link)
-
-        if repos_added:
-            print(f"- Added: {len(repos_added)} repos added {len(all_added)} unique tags: {', '.join(repos_added)}")
-        if repos_replaced:
-            print(f"- Replaced: {len(repos_replaced)} repos modified tags: {', '.join(repos_replaced)}")
-        if repos_removed:
-            print(f"- Removed: {len(repos_removed)} repos removed {len(all_removed)} unique tags: {', '.join(repos_removed)}")
-
-        tag_counts = defaultdict(lambda: {'added': 0, 'replaced': 0, 'removed': 0})
-        for link, old, new in tag_updates:
-            added = new - old
-            removed = old - new
-            for t in added:
-                if removed: tag_counts[t]['replaced'] += 1
-                else: tag_counts[t]['added'] += 1
-            for t in removed:
-                if not added: tag_counts[t]['removed'] += 1
-                # If both, we count the removed ones under 'replaced' effectively, but let's just track removed specifically for the summary
-
-        if tag_counts:
-            print("\n**The tags were:**")
-            for t, counts in sorted(tag_counts.items()):
-                # Try to link if it's a version tag
-                repo_url = None
-                # Search all repo_changes to find a repo that has this tag
-                for repo in repo_changes.values():
-                    d_tags = repo.get_tags_set(False)
-                    a_tags = repo.get_tags_set(True)
-                    if t in d_tags or t in a_tags:
-                        repo_url = repo.repo_url or repo.old_repo_url
-                        if repo_url and repo_url.startswith("https://github.com/"):
-                            break
-                        else:
-                            repo_url = None
-
-                t_display = f"`{t}`"
-                if repo_url and (t.startswith('v') or re.match(r'^[0-9]', t)):
-                    link = get_release_link(t, repo_url)
-                    # If it actually turned into a link, don't wrap it in backticks,
-                    # otherwise it will break markdown link rendering
-                    if link.startswith('['):
-                        t_display = link
-                    else:
-                        t_display = f"`{link}`"
-
-                print(f"- {t_display}: Added to {counts['added']}, replaced {counts['replaced']}, removed from {counts['removed']}")
-
-    if url_updates:
-        print(f"\n**{len(url_updates)} repos had updated URLs:**")
-        print(", ".join(url_updates))
-
-    if license_updates:
-        print(f"\n**{len(license_updates)} repos had updated Licenses:**")
-        print(", ".join(license_updates))
-
-    if release_updates:
-        print(f"\n**Release summary:**")
-        print(f"There were {len(release_updates)} releases")
-        long_releases = []
-        for repo in release_updates:
-            d_date = parse_date(repo.old_release)
-            a_date = parse_date(repo.release)
-            if a_date and d_date:
-                days = (a_date - d_date).days
-                if days >= 100:
-                    if repo.repo_url:
-                        link = f"[{repo.key}]({repo.repo_url})"
-                    elif repo.old_repo_url:
-                        link = f"[{repo.key}]({repo.old_repo_url})"
-                    else:
-                        link = f"**{repo.key}**"
-
-                    old_tag_link = get_release_link(repo.old_release, repo.old_repo_url or repo.repo_url)
-                    new_tag_link = get_release_link(repo.release, repo.repo_url)
-
-                    long_releases.append(f"* {link} ({days} days {a_date.strftime('%Y-%m-%d')} {old_tag_link} -> {new_tag_link})")
-
-        if long_releases:
-            print("Repos with >100 day releases:")
-            print("\n".join(long_releases))
-
-    print("\n## Detailed Repository Changes\n")
-
-    # Sort repos alphabetically
-    sorted_repos = sorted(repo_changes.values(), key=lambda r: r.key.lower())
-    for repo in sorted_repos:
-        print(format_card(repo, languages))
-        print()
 
 if __name__ == '__main__':
     main()

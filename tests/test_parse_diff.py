@@ -26,9 +26,11 @@ class TestParseDiff(unittest.TestCase):
             output = sys.stdout.getvalue()
 
             # Check for header
-            self.assertIn("**1 repos had updated descriptions including:**", output)
-            self.assertIn("**1 repos had updated tags:**", output)
+            self.assertIn("| Description changes | 1 |", output)
+            self.assertIn("| Topic/tag changes | 1 |", output)
             self.assertIn("## Detailed Repository Changes", output)
+            self.assertIn("<details>", output)
+            self.assertIn("<summary>Expand all 1 repository records", output)
 
             # Check for repo output
             self.assertIn("### [user2/repo](https://github.com/user2/repo) (Formerly: [user/repo](https://github.com/user/repo))", output)

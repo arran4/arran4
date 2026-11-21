@@ -490,7 +490,7 @@ def main(input_stream=None):
     else:
         from weekly_digest import render_report
     render_report(repo_changes, languages, format_card, parse_date,
-                  get_release_link, escape_md)
+                  get_release_link, escape_md, bold_difference)
 
 
 if __name__ == '__main__':

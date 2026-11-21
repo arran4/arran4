@@ -28,14 +28,14 @@ class TestParseDiff(unittest.TestCase):
             # Check for header
             self.assertIn("| Description changes | 1 |", output)
             self.assertIn("| Topic/tag changes | 1 |", output)
-            self.assertIn("## Detailed Repository Changes", output)
-            self.assertIn("<details>", output)
-            self.assertIn("<summary>Expand all 1 repository records", output)
 
-            # Check for repo output
-            self.assertIn("### [user2/repo](https://github.com/user2/repo) (Formerly: [user/repo](https://github.com/user/repo))", output)
-            self.assertIn("**Description:** **new**\\_desc (Formerly: ~~old~~\\_desc~~\\_with\\_chars \\*~~)", output)
-            self.assertIn("**Tags:** tag5, **+tag6**", output)
+            # Check for change-only comparisons within the PR description
+            self.assertIn("**Descriptions (1)**", output)
+            self.assertIn("**Before:**", output)
+            self.assertIn("**After:**", output)
+            self.assertIn("+`tag6`", output)
+            self.assertNotIn("Detailed Repository Changes", output)
+            self.assertNotIn("weekly-repo-details.md", output)
         finally:
             sys.stdout = original_stdout
             sys.stdin = original_stdin

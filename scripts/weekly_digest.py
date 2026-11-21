@@ -1,14 +1,11 @@
 """Human-readable weekly PR digest for changes to repository tables.
 
 The diff parser supplies the canonical change records. This module renders a
-quick-to-scan report and retains the full records in a collapsed appendix.
+quick-to-scan, complete change-only report without a duplicated appendix.
 """
 
 import sys
-
-
-RELEASE_PREVIEW_LIMIT = 12
-METADATA_PREVIEW_LIMIT = 20
+import re
 
 
 def _repo_link(repo):
@@ -19,8 +16,6 @@ def _repo_link(repo):
 
 def _short(value, escape_md, limit=130):
     value = " ".join((value or "").split())
-    if len(value) > limit:
-        value = value[: limit - 1].rstrip() + "…"
     return escape_md(value) if value else "(none)"
 
 
@@ -40,26 +35,34 @@ def _gap_days(repo, parse_date):
 
 
 def _release_line(repo, parse_date, get_release_link):
-    old = _labelled_release(repo, repo.old_release, get_release_link, old=True)
-    new = _labelled_release(repo, repo.release, get_release_link)
+    def tag(value):
+        if not value:
+            return "(none)"
+        text = re.sub(r" \(\d{4}-\d{2}-\d{2}\)$", "", value.strip())
+        return text.replace('`', '\\`')
+
+    old = tag(repo.old_release)
+    new = tag(repo.release)
     days = _gap_days(repo, parse_date)
-    interval = f" ({days} days between release dates)" if days is not None and days >= 0 else ""
-    return f"- {_repo_link(repo)}: {old} → {new}{interval}"
+    interval = f" (+{days}d)" if days is not None and days >= 0 else ""
+    return f"- {_repo_link(repo)}: `{old}` → `{new}`{interval}"
 
 
-def _print_items(out, label, items, limit=METADATA_PREVIEW_LIMIT):
+def _print_items(out, label, items, *, collapsed=False):
     if not items:
         return
-    print(f"\n**{label} ({len(items)})**", file=out)
-    for item in items[:limit]:
+    if collapsed:
+        print(f"\n<details>\n<summary>{label} ({len(items)})</summary>\n", file=out)
+    else:
+        print(f"\n**{label} ({len(items)})**", file=out)
+    for item in items:
         print(f"- {item}", file=out)
-    if len(items) > limit:
-        print(f"- _{len(items) - limit} more in the detailed records below._", file=out)
-
+    if collapsed:
+        print("\n</details>", file=out)
 
 def render_report(repo_changes, languages, format_card, parse_date,
-                  get_release_link, escape_md, out=None):
-    """Print a substantive overview followed by the original complete cards."""
+                  get_release_link, escape_md, bold_difference=None, out=None):
+    """Print every tracked change once, with before/after comparisons."""
     if out is None:
         out = sys.stdout
     repos = sorted(repo_changes.values(), key=lambda r: (r.key or "").casefold())
@@ -89,7 +92,7 @@ def render_report(repo_changes, languages, format_card, parse_date,
         if repo.old_name != repo.name or repo.old_repo_url != repo.repo_url:
             renames.append(f"{link}: formerly `{repo.old_name or repo.key}`")
         if repo.desc != repo.old_desc:
-            descriptions.append(f"{link}: {_short(repo.desc, escape_md)} (was {_short(repo.old_desc, escape_md)})")
+            descriptions.append((link, repo.old_desc or "", repo.desc or ""))
         before, after = repo.get_tags_set(False), repo.get_tags_set(True)
         if before != after:
             changes = [f"+`{escape_md(t)}`" for t in sorted(after - before)]
@@ -132,7 +135,16 @@ def render_report(repo_changes, languages, format_card, parse_date,
 
     if descriptions or tags or homepages or licenses or renames:
         print("\n## Metadata changes", file=out)
-        _print_items(out, "Descriptions", descriptions)
+        if descriptions:
+            print(f"\n**Descriptions ({len(descriptions)})**", file=out)
+            for link, old, new in descriptions:
+                if bold_difference:
+                    before, after = bold_difference(old, new)
+                else:
+                    before, after = escape_md(old), escape_md(new)
+                print(f"- {link}", file=out)
+                print(f"  - **Before:** {before or '(none)'}", file=out)
+                print(f"  - **After:** {after or '(none)'}", file=out)
         _print_items(out, "Topics and tags (+added, −removed)", tags)
         _print_items(out, "Homepages", homepages)
         _print_items(out, "Licenses", licenses)
@@ -148,17 +160,7 @@ def render_report(repo_changes, languages, format_card, parse_date,
         other = [r for r in releases if r not in long_gap]
         other.sort(key=lambda r: (-(_gap_days(r, parse_date) or -1), r.key.casefold()))
         _print_items(out, "Long-gap releases (100+ days)",
-                     [_release_line(r, parse_date, get_release_link)[2:] for r in long_gap],
-                     limit=len(long_gap))
-        _print_items(out, "Other release highlights",
+                     [_release_line(r, parse_date, get_release_link)[2:] for r in long_gap])
+        _print_items(out, "Other latest-release changes",
                      [_release_line(r, parse_date, get_release_link)[2:] for r in other],
-                     limit=RELEASE_PREVIEW_LIMIT)
-
-    print("\n## Detailed Repository Changes\n", file=out)
-    print("<details>", file=out)
-    print(f"<summary>Expand all {len(repos)} repository records (reasons, languages, "
-          "descriptions, releases, licenses, topics and URLs)</summary>\n", file=out)
-    for repo in repos:
-        print(format_card(repo, languages), file=out)
-        print(file=out)
-    print("</details>", file=out)
+                     collapsed=True)

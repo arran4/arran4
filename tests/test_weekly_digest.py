@@ -42,20 +42,21 @@ def render(*repos):
 
 
 class TestWeeklyDigest(unittest.TestCase):
-    def test_release_summary_keeps_complete_details_collapsed(self):
+    def test_release_summary_keeps_comparisons_without_appendix(self):
         repo = Repo('example/repo', release='v2 (2026-11-14)',
                     old_release='v1 (2026-01-01)', desc='new description',
                     old_desc='old description', tags=('new',), old_tags=('old',))
         text = render(repo)
         self.assertIn('| Latest-release changes | 1 |', text)
         self.assertIn('Long-gap releases (100+ days)', text)
-        self.assertIn('v1 → v2 (317 days between release dates)', text)
+        self.assertIn('`v1` → `v2` (+317d)', text)
         self.assertIn('Topics and tags (+added, −removed)', text)
         self.assertIn('+`new`, −`old`', text)
-        self.assertIn('<details>', text)
-        self.assertIn('<summary>Expand all 1 repository records', text)
-        self.assertIn('Full description', text)
-        self.assertTrue(text.endswith('</details>\n'))
+        self.assertNotIn('## Detailed Repository Changes', text)
+        self.assertNotIn('Full description', text)
+        self.assertIn('**Before:** old description', text)
+        self.assertIn('**After:** new description', text)
+        self.assertTrue(text.rstrip().endswith('`v1` → `v2` (+317d)'))
 
     def test_new_star_has_description_and_release(self):
         star = Repo('example/star', star=True, added=True, desc='Useful tool',
@@ -65,12 +66,21 @@ class TestWeeklyDigest(unittest.TestCase):
         self.assertIn('Useful tool; latest v4', text)
         self.assertIn('| Latest-release changes | 0 |', text)
 
-    def test_release_previews_bounded_but_detail_preserved(self):
+    def test_all_release_comparisons_visible_without_truncation(self):
         repos = [Repo(f'example/r{i:02}', release='v2 (2026-11-14)',
                       old_release='v1 (2026-11-01)') for i in range(20)]
         text = render(*repos)
-        self.assertIn('8 more in the detailed records', text)
-        self.assertEqual(text.count('Full description'), 20)
+        self.assertNotIn('more in the detailed records', text)
+        self.assertEqual(text.count('`v1` → `v2`'), 20)
+        self.assertEqual(text.count('- [example/r'), 20)
+
+    def test_full_description_is_not_truncated(self):
+        old = 'Old version ' + 'a' * 250
+        new = 'New version ' + 'b' * 250
+        text = render(Repo('example/long', desc=new, old_desc=old))
+        self.assertIn(old, text)
+        self.assertIn(new, text)
+        self.assertNotIn('…', text)
 
     def test_empty_change_set(self):
         self.assertIn('No tracked repository changes', render())

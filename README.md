@@ -62,6 +62,11 @@ Have questions or feedback? [Open an issue](https://github.com/arran4/arran4/iss
 | [arran4/personal-splitwise-helper-scripts](https://github.com/arran4/personal-splitwise-helper-scripts) | Splitwise TUI and CLI interface | cli, helper, splitwise, tui |
 | [arran4/pimtrace](https://github.com/arran4/pimtrace) | A CLI tool for preforming queries on ical, maildir, mbox and csv files | cli, csv, ical, query, utility |
 
+### cli + developer-tools + go + linux
+| Repository | Description | Tags |
+|---|---|---|
+| [arran4/vifstab](https://github.com/arran4/vifstab) [🔗](https://arran4.github.io/vifstab/) | A Linux fstab verifier, linter and visudo-inspired editor with filesystem compatibility checks, configuration validation and versioned backups. | cli + developer-tools + go + linux, command-line-tool, configuration-management, filesystems, fstab, linter, mount, rcs, sysadmin, system-administration, systemd, validation |
+
 ### cli + experiment + go + library
 | Repository | Description | Tags |
 |---|---|---|
@@ -82,7 +87,7 @@ Have questions or feedback? [Open an issue](https://github.com/arran4/arran4/iss
 |---|---|---|
 | [arran4/editorconfig-guesser](https://github.com/arran4/editorconfig-guesser) | Generates reasonable .editorconfig files for source files. | cli + go, detector, devtool, editorconfig, generator, generators |
 | [arran4/go-subcommand](https://github.com/arran4/go-subcommand) [🔗](https://arran4.github.io/go-subcommand/) | Generates dependencyless go command line argument subcommand system | cli + go, cli-subcommands, flags, geneated-flags, go-generate, subcommands |
-| [arran4/golang-gtroff](https://github.com/arran4/golang-gtroff) | pure-Go toolkit for parsing, inspecting, converting and rendering roff/man documents. | cli + go, ast, documentation, go-generate, groff, html, man-pages, parser, roff |
+| [arran4/golang-gtroff](https://github.com/arran4/golang-gtroff) [🔗](https://arran4.github.io/golang-gtroff/) | pure-Go toolkit for parsing, inspecting, converting and rendering roff/man documents. | cli + go, ast, documentation, go-generate, groff, html, man-pages, parser, roff |
 | [arran4/header](https://github.com/arran4/header) [🔗](https://arran4.github.io/header/) | Go CLI and library for extracting, validating, editing and visualizing website metadata, including Open Graph, Twitter Cards, JSON-LD and App Links. | cli + go, app-links, html-meta-tags, json-ld, link-preview, metadata-extraction, metadata-validation, opengraph, redirects, seo-tools, social-cards, twitter-cards, website-metadata |
 | [arran4/mdsplit](https://github.com/arran4/mdsplit) | Splits markdown files into chunks suitable for processing with other tools or making into slides | cli + go, markdown |
 | [arran4/mostcomm](https://github.com/arran4/mostcomm) | A cli utility for finding the most common and sorting by length, lines-sets in a text file | cli + go, common, common-lines, diff, merge, multiple |
@@ -136,6 +141,16 @@ Have questions or feedback? [Open an issue](https://github.com/arran4/arran4/iss
 | [arran4/datastoreutils](https://github.com/arran4/datastoreutils) [🔗](https://pkg.go.dev/github.com/arran4/datastoreutils) | Basic google cloud datastore helpers | datastore + go + google-app-engine + library, google-datastore |
 | [arran4/dsquery](https://github.com/arran4/dsquery) [🔗](https://pkg.go.dev/github.com/arran4/dsquery) | A google datastore query aggregator and compiler with some minor enhancements | datastore + go + google-app-engine + library |
 
+### developer-tools + ebuild + gentoo + linux + overlay + portage
+| Repository | Description | Tags |
+|---|---|---|
+| [arran4/eselect-version-manager-overlay](https://github.com/arran4/eselect-version-manager-overlay) [🔗](https://arran4.github.io/eselect-version-manager-overlay/) | Gentoo Portage overlay for eselect-version-manager, with package ebuilds, toolchain experiments and isolated integration fixtures. | developer-tools + ebuild + gentoo + linux + overlay + portage, eselect, g2, toolchain, version-manager |
+
+### developer-tools + gentoo + go + linux + portage
+| Repository | Description | Tags |
+|---|---|---|
+| [arran4/eselect-version-manager](https://github.com/arran4/eselect-version-manager) [🔗](https://arran4.github.io/eselect-version-manager/) | Gentoo-native project-aware toolchain version selection using eselect, Portage and user-local PATH shims. | developer-tools + gentoo + go + linux + portage, eselect, python, toolchain, version-manager, xdg |
+
 ### ebuild + generator + gentoo + github-actions + overlay
 | Repository | Description | Tags |
 |---|---|---|
@@ -149,7 +164,6 @@ Have questions or feedback? [Open an issue](https://github.com/arran4/arran4/iss
 ### ebuild + gentoo + overlay + portage
 | Repository | Description | Tags |
 |---|---|---|
-| [arran4/eselect-version-manager-overlay](https://github.com/arran4/eselect-version-manager-overlay) [🔗](https://arran4.github.io/eselect-version-manager-overlay/) | Gentoo Portage overlay for eselect-version-manager, with package ebuilds, toolchain experiments and isolated integration fixtures. | ebuild + gentoo + overlay + portage, developer-tools, eselect, g2, linux, toolchain, version-manager |
 | [arran4/gentoo-overlay-publisher-smoke-overlay](https://github.com/arran4/gentoo-overlay-publisher-smoke-overlay) | Dedicated disposable Gentoo overlay for end-to-end testing of Gentoo Overlay Publisher: ebuild and metadata reconciliation, Manifest generation, GitHub pull-request publication, and Portage installation. Not for production use. | ebuild + gentoo + overlay + portage, gentoo-linux, integration-testing, overlay-publisher, smoke-testing |
 
 ### experiment + for-fun + generated + generator + go + test
@@ -190,11 +204,6 @@ Have questions or feedback? [Open an issue](https://github.com/arran4/arran4/iss
 |---|---|---|
 | [arran4/arrans_overlay](https://github.com/arran4/arrans_overlay) [🔗](https://arran4.github.io/arrans_overlay/) | Arrans Gentoo Overlay | gentoo, overlay |
 | [arran4/gentoo-packages](https://github.com/arran4/gentoo-packages) [🔗](https://arran4.github.io/gentoo-packages/) | Gentoo packages | gentoo, generated-sites, gentoo-packages |
-
-### gentoo + go + linux + portage
-| Repository | Description | Tags |
-|---|---|---|
-| [arran4/eselect-version-manager](https://github.com/arran4/eselect-version-manager) [🔗](https://arran4.github.io/eselect-version-manager/) | Gentoo-native project-aware toolchain version selection using eselect, Portage and user-local PATH shims. | gentoo + go + linux + portage, developer-tools, eselect, python, toolchain, version-manager, xdg |
 
 ### github + github-actions + go
 | Repository | Description | Tags |

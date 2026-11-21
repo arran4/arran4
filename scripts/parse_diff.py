@@ -30,20 +30,24 @@ def bold_difference(old_str, new_str):
     if not old_str and not new_str:
         return "", ""
 
-    sm = difflib.SequenceMatcher(None, old_str, new_str)
+    # Match complete words rather than individual characters to avoid noisy,
+    # hard-to-read strikethrough and bold fragments in the PR description.
+    old_tokens = re.findall(r"\s*\S+|\s+$", old_str)
+    new_tokens = re.findall(r"\s*\S+|\s+$", new_str)
+    sm = difflib.SequenceMatcher(None, old_tokens, new_tokens, autojunk=False)
     res_old = []
     res_new = []
     for opcode, a0, a1, b0, b1 in sm.get_opcodes():
         if opcode == 'equal':
-            res_old.append(escape_md(old_str[a0:a1]))
-            res_new.append(escape_md(new_str[b0:b1]))
+            res_old.append(escape_md("".join(old_tokens[a0:a1])))
+            res_new.append(escape_md("".join(new_tokens[b0:b1])))
         elif opcode == 'insert':
-            res_new.append(format_change(new_str[b0:b1], "**", "**", escape_md))
+            res_new.append(format_change("".join(new_tokens[b0:b1]), "**", "**", escape_md))
         elif opcode == 'delete':
-            res_old.append(format_change(old_str[a0:a1], "~~", "~~", escape_md))
+            res_old.append(format_change("".join(old_tokens[a0:a1]), "~~", "~~", escape_md))
         elif opcode == 'replace':
-            res_old.append(format_change(old_str[a0:a1], "~~", "~~", escape_md))
-            res_new.append(format_change(new_str[b0:b1], "**", "**", escape_md))
+            res_old.append(format_change("".join(old_tokens[a0:a1]), "~~", "~~", escape_md))
+            res_new.append(format_change("".join(new_tokens[b0:b1]), "**", "**", escape_md))
 
     return "".join(res_old), "".join(res_new)
 
@@ -483,7 +487,7 @@ def main(input_stream=None):
             release_updates.append(repo)
 
 
-    # Use the same parsed records for the overview and the complete appendix.
+    # Render the same canonical change records without duplicating unchanged fields.
     # Direct execution and package imports have different Python module paths.
     if __package__:
         from .weekly_digest import render_report

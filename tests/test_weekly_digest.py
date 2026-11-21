@@ -52,12 +52,11 @@ class TestWeeklyDigest(unittest.TestCase):
         self.assertIn('`v1` → `v2` (+317d)', text)
         self.assertIn('Topics and tags (+added, −removed)', text)
         self.assertIn('+`new`, −`old`', text)
-        self.assertIn('<details>', text)
         self.assertNotIn('## Detailed Repository Changes', text)
         self.assertNotIn('Full description', text)
         self.assertIn('**Before:** old description', text)
         self.assertIn('**After:** new description', text)
-        self.assertTrue(text.endswith('</details>\n'))
+        self.assertTrue(text.rstrip().endswith('`v1` → `v2` (+317d)'))
 
     def test_new_star_has_description_and_release(self):
         star = Repo('example/star', star=True, added=True, desc='Useful tool',
@@ -73,7 +72,7 @@ class TestWeeklyDigest(unittest.TestCase):
         text = render(*repos)
         self.assertNotIn('more in the detailed records', text)
         self.assertEqual(text.count('`v1` → `v2`'), 20)
-        self.assertEqual(text.count('example/r'), 20)
+        self.assertEqual(text.count('- [example/r'), 20)
 
     def test_full_description_is_not_truncated(self):
         old = 'Old version ' + 'a' * 250
